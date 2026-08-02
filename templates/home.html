@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block json_ld %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": {{ cfg.SITE_NAME | tojson }},
+  "url": {{ cfg.SITE_URL | tojson }},
+  "description": {{ cfg.SITE_DESCRIPTION | tojson }}
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <div class="wrap">
+    <h1>{{ cfg.SITE_TAGLINE }}</h1>
+    <p class="lead">{{ cfg.SITE_DESCRIPTION }}</p>
+  </div>
+</section>
+
+<section class="wrap course-grid">
+  {% for slug, course in courses.items() %}
+  <a class="course-card" href="{{ url_for(slug) }}">
+    <span class="course-icon">{{ course.icon }}</span>
+    <h2>{{ course.title }}</h2>
+    <p>{{ course.description }}</p>
+    <span class="course-count">{{ lessons_by_course[slug] | length }}강 · 전부 무료</span>
+  </a>
+  {% endfor %}
+</section>
+{% endblock %}

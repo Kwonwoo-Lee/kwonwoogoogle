@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block meta_title %}{{ course.title }} - {{ cfg.SITE_NAME }}{% endblock %}
+{% block meta_description %}{{ course.description }}{% endblock %}
+
+{% block json_ld %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": {{ course.title | tojson }},
+  "description": {{ course.description | tojson }},
+  "provider": {
+    "@type": "Organization",
+    "name": {{ cfg.SITE_NAME | tojson }},
+    "sameAs": {{ cfg.SITE_URL | tojson }}
+  },
+  "hasCourseInstance": [
+  {% for lesson in lessons %}
+    {
+      "@type": "CourseInstance",
+      "name": {{ lesson.title | tojson }},
+      "courseMode": "online"
+    }{{ "," if not loop.last }}
+  {% endfor %}
+  ]
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<nav class="breadcrumb wrap"><a href="/">홈</a> / {{ course.title }}</nav>
+
+<section class="wrap">
+  <h1>{{ course.icon }} {{ course.title }}</h1>
+  <p class="lead">{{ course.description }}</p>
+
+  <ol class="lesson-list">
+    {% for lesson in lessons %}
+    <li>
+      <a href="{{ url_for(course.slug, lesson.slug) }}">
+        <span class="lesson-num">{{ loop.index }}강</span>
+        <span class="lesson-title">{{ lesson.title }}</span>
+        <span class="lesson-meta">{{ lesson.reading_min }}분 읽기</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endblock %}

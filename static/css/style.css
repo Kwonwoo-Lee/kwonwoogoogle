@@ -1,0 +1,116 @@
+:root {
+  color-scheme: light;
+  --page: #f9f9f7; --surface: #ffffff; --border: rgba(11,11,11,.10);
+  --ink: #14140f; --ink-2: #52514e; --muted: #898781;
+  --accent: #1a5fb4; --accent-2: #eaf1fb;
+  --good: #006300; --bad: #d03b3b;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --page: #0d0d0c; --surface: #1a1a18; --border: rgba(255,255,255,.10);
+    --ink: #f5f5f0; --ink-2: #c3c2b7; --muted: #898781;
+    --accent: #6ea8e5; --accent-2: #17263a;
+    --good: #0ca30c; --bad: #e2685f;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0c; --surface: #1a1a18; --border: rgba(255,255,255,.10);
+  --ink: #f5f5f0; --ink-2: #c3c2b7; --muted: #898781;
+  --accent: #6ea8e5; --accent-2: #17263a;
+  --good: #0ca30c; --bad: #e2685f;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--page); color: var(--ink);
+  font-family: -apple-system, "Segoe UI", "Noto Sans KR", system-ui, sans-serif;
+  line-height: 1.7; font-size: 17px;
+}
+.wrap { max-width: 800px; margin: 0 auto; padding: 0 20px; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+img { max-width: 100%; height: auto; }
+
+/* header */
+.site-header { border-bottom: 1px solid var(--border); background: var(--surface); }
+.site-header .wrap { display: flex; align-items: center; justify-content: space-between; padding: 16px 20px; max-width: 900px; }
+.brand { font-weight: 800; font-size: 20px; color: var(--ink); }
+.main-nav a { margin-left: 20px; font-weight: 600; color: var(--ink-2); }
+.main-nav a:hover { color: var(--accent); }
+
+/* hero */
+.hero { padding: 56px 0 40px; text-align: center; }
+.hero h1 { font-size: 34px; margin: 0 0 12px; }
+.hero .lead { color: var(--ink-2); font-size: 18px; max-width: 560px; margin: 0 auto; }
+
+/* course grid */
+.course-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; padding-bottom: 60px; max-width: 900px; }
+.course-card {
+  display: block; background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+  padding: 28px; color: var(--ink);
+}
+.course-card:hover { border-color: var(--accent); text-decoration: none; }
+.course-icon { font-size: 32px; }
+.course-card h2 { margin: 10px 0 8px; font-size: 22px; }
+.course-card p { color: var(--ink-2); margin: 0 0 14px; }
+.course-count { font-size: 13px; color: var(--accent); font-weight: 700; }
+
+/* breadcrumb */
+.breadcrumb { padding: 18px 20px 0; font-size: 14px; color: var(--muted); }
+.breadcrumb a { color: var(--muted); }
+
+/* course index list */
+h1 { font-size: 28px; }
+.lead { color: var(--ink-2); }
+.lesson-list { list-style: none; margin: 28px 0 60px; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.lesson-list a {
+  display: flex; align-items: center; gap: 14px; background: var(--surface); border: 1px solid var(--border);
+  border-radius: 10px; padding: 16px 18px; color: var(--ink);
+}
+.lesson-list a:hover { border-color: var(--accent); text-decoration: none; }
+.lesson-num { font-weight: 700; color: var(--accent); font-size: 14px; flex-shrink: 0; }
+.lesson-title { flex: 1; font-weight: 600; }
+.lesson-meta { color: var(--muted); font-size: 13px; flex-shrink: 0; }
+
+/* lesson article */
+.lesson { padding: 24px 20px 80px; }
+.course-progress { color: var(--accent); font-weight: 700; font-size: 13px; letter-spacing: .02em; margin: 0 0 6px; }
+.lesson h1 { margin-top: 0; }
+.lesson-body h2 { margin-top: 40px; font-size: 22px; border-top: 1px solid var(--border); padding-top: 28px; }
+.lesson-body h3 { font-size: 18px; margin-top: 28px; }
+.lesson-body p { color: var(--ink); }
+.lesson-body ul, .lesson-body ol { padding-left: 22px; }
+.lesson-body li { margin: 6px 0; }
+.lesson-body code { background: var(--accent-2); padding: 2px 6px; border-radius: 4px; font-size: 15px; }
+.lesson-body pre { background: var(--accent-2); padding: 14px 16px; border-radius: 8px; overflow-x: auto; }
+.lesson-body table { border-collapse: collapse; width: 100%; margin: 20px 0; font-size: 15px; }
+.lesson-body th, .lesson-body td { border: 1px solid var(--border); padding: 8px 12px; text-align: left; }
+.lesson-body th { background: var(--accent-2); }
+.lesson-body blockquote {
+  margin: 20px 0; padding: 14px 18px; background: var(--accent-2); border-left: 4px solid var(--accent);
+  border-radius: 0 8px 8px 0; color: var(--ink-2);
+}
+.lesson-body blockquote p { margin: 0; }
+.lesson-body hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+.muted { color: var(--muted); font-size: 14px; }
+
+/* pager */
+.lesson-pager { display: flex; justify-content: space-between; gap: 16px; margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--border); }
+.pager-link { flex: 1; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; color: var(--ink); }
+.pager-link:hover { border-color: var(--accent); text-decoration: none; }
+.pager-link span { display: block; font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+.pager-link.next { text-align: right; margin-left: auto; }
+
+/* footer */
+.site-footer { border-top: 1px solid var(--border); margin-top: 40px; padding: 28px 0 40px; }
+.site-footer .wrap { max-width: 900px; }
+.site-footer p { color: var(--muted); font-size: 13px; margin: 4px 0; }
+
+@media (max-width: 560px) {
+  body { font-size: 16px; }
+  .hero h1 { font-size: 26px; }
+  .lesson-pager { flex-direction: column; }
+}

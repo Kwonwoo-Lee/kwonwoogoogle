@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block meta_title %}{{ cfg.SITE_NAME }} - {{ cfg.SITE_TAGLINE }}{% endblock %}</title>
+<meta name="description" content="{% block meta_description %}{{ cfg.SITE_DESCRIPTION }}{% endblock %}">
+<link rel="canonical" href="{{ cfg.SITE_URL }}{{ canonical }}">
+<link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/static/css/style.css">
+{% if cfg.GOOGLE_SITE_VERIFICATION %}
+<meta name="google-site-verification" content="{{ cfg.GOOGLE_SITE_VERIFICATION }}">
+{% endif %}
+
+<meta property="og:site_name" content="{{ cfg.SITE_NAME }}">
+<meta property="og:type" content="{% block og_type %}website{% endblock %}">
+<meta property="og:url" content="{{ cfg.SITE_URL }}{{ canonical }}">
+<meta property="og:title" content="{% block og_title %}{{ self.meta_title() }}{% endblock %}">
+<meta property="og:description" content="{% block og_description %}{{ self.meta_description() }}{% endblock %}">
+<meta property="og:image" content="{% block og_image_url %}{{ cfg.SITE_URL }}{{ cfg.DEFAULT_OG_IMAGE }}{% endblock %}">
+<meta property="og:locale" content="ko_KR">
+
+<meta name="twitter:card" content="summary_large_image">
+{% if cfg.TWITTER_HANDLE %}
+<meta name="twitter:site" content="{{ cfg.TWITTER_HANDLE }}">
+{% endif %}
+<meta name="twitter:title" content="{{ self.og_title() }}">
+<meta name="twitter:description" content="{{ self.og_description() }}">
+<meta name="twitter:image" content="{{ self.og_image_url() }}">
+
+{% block json_ld %}{% endblock %}
+
+{% if cfg.ADSENSE_CLIENT_ID %}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ cfg.ADSENSE_CLIENT_ID }}" crossorigin="anonymous"></script>
+{% endif %}
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">{{ cfg.SITE_NAME }}</a>
+    <nav class="main-nav">
+      {% for slug, course in courses.items() %}
+      <a href="{{ url_for(slug) }}">{{ course.short_title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
+
+<main>
+{% block content %}{% endblock %}
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; {{ "2026" }} {{ cfg.SITE_NAME }}. 이 사이트의 모든 콘텐츠는 정보 제공 목적이며 투자 권유가 아닙니다. 투자 판단과 책임은 본인에게 있습니다.</p>
+    <p><a href="/privacy/">개인정보처리방침</a> · <a href="mailto:{{ cfg.CONTACT_EMAIL }}">문의</a></p>
+  </div>
+</footer>
+</body>
+</html>

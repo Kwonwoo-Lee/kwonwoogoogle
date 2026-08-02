@@ -2,6 +2,7 @@
 
 {% block meta_title %}{{ course.title }} - {{ cfg.SITE_NAME }}{% endblock %}
 {% block meta_description %}{{ course.description }}{% endblock %}
+{% block meta_keywords %}{{ course.title }}, {{ lessons | map(attribute="title") | join(", ") }}{% endblock %}
 
 {% block json_ld %}
 <script type="application/ld+json">

@@ -11,8 +11,10 @@ GitHub Pages)에도 그대로 올릴 수 있습니다.
 """
 import re
 import shutil
-from datetime import date
+from datetime import date, datetime, timezone
+from email.utils import format_datetime
 from pathlib import Path
+from xml.sax.saxutils import escape as xml_escape
 
 import markdown as md
 import yaml
@@ -67,6 +69,7 @@ def load_lessons():
             raw = path.read_text(encoding="utf-8")
             meta, body = _parse_frontmatter(raw)
             html_body = md.markdown(body, extensions=MD_EXT)
+            keywords = meta.get("keywords", [])
             lessons.append({
                 "course": course_slug,
                 "slug": meta["slug"],
@@ -76,6 +79,7 @@ def load_lessons():
                 "updated": str(meta.get("updated", date.today().isoformat())),
                 "reading_min": meta.get("reading_min", estimate_reading_minutes(body)),
                 "html": html_body,
+                "keywords": ", ".join(keywords) if keywords else COURSES[course_slug]["title"],
             })
         lessons.sort(key=lambda x: x["order"])
         lessons_by_course[course_slug] = lessons
@@ -120,6 +124,7 @@ def build():
     lessons_by_course = load_lessons()
 
     all_pages = []  # sitemap용 (path, updated)
+    rss_items = []  # rss.xml용 (title, description, url, updated) - 네이버 서치어드바이저 수집용
 
     # 홈
     home_tpl = env.get_template("home.html")
@@ -151,6 +156,12 @@ def build():
                 lesson_index=i + 1, canonical=lesson_url,
             ))
             all_pages.append((lesson_url, lesson["updated"]))
+            rss_items.append({
+                "title": f"[{course['title']}] {lesson['title']}",
+                "description": lesson["description"],
+                "url": lesson_url,
+                "updated": lesson["updated"],
+            })
 
     # 개인정보처리방침
     privacy_tpl = env.get_template("privacy.html")
@@ -173,6 +184,32 @@ def build():
         "</urlset>\n"
     )
     write(DIST_DIR / "sitemap.xml", sitemap_xml)
+
+    # rss.xml - 네이버 서치어드바이저에 제출하면 새 강의를 훨씬 빨리 수집해갑니다
+    rss_items.sort(key=lambda x: x["updated"], reverse=True)
+    rss_entries = "\n".join(
+        "  <item>\n"
+        f"    <title>{xml_escape(item['title'])}</title>\n"
+        f"    <link>{cfg.SITE_URL}{item['url']}</link>\n"
+        f"    <guid>{cfg.SITE_URL}{item['url']}</guid>\n"
+        f"    <description>{xml_escape(item['description'])}</description>\n"
+        f"    <pubDate>{format_datetime(datetime.fromisoformat(item['updated']).replace(tzinfo=timezone.utc))}</pubDate>\n"
+        "  </item>"
+        for item in rss_items
+    )
+    rss_xml = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<rss version="2.0">\n'
+        "<channel>\n"
+        f"  <title>{xml_escape(cfg.SITE_NAME)}</title>\n"
+        f"  <link>{cfg.SITE_URL}</link>\n"
+        f"  <description>{xml_escape(cfg.SITE_DESCRIPTION)}</description>\n"
+        "  <language>ko</language>\n"
+        f"{rss_entries}\n"
+        "</channel>\n"
+        "</rss>\n"
+    )
+    write(DIST_DIR / "rss.xml", rss_xml)
 
     # robots.txt
     robots_txt = (

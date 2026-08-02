@@ -4,6 +4,7 @@ title: "ICT 스마트머니 컨셉 기초"
 description: "유동성(Liquidity), 페어밸류갭(FVG), 스윕 같은 ICT(Inner Circle Trader) 스마트머니 컨셉의 핵심 용어와 원리를 초보자 눈높이에서 정리합니다."
 order: 5
 updated: 2026-08-02
+keywords: ["ICT 트레이딩", "스마트머니 컨셉", "유동성 스윕", "FVG 뜻", "페어밸류갭"]
 ---
 
 ## ICT / 스마트머니 컨셉이란

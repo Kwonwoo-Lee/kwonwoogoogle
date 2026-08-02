@@ -4,6 +4,7 @@ title: "재무제표 기본 지표 (PER·PBR·ROE·EPS)"
 description: "PER, PBR, ROE, EPS가 각각 무엇을 의미하는지, 어떻게 계산되고 어떤 상황에서 주의해서 해석해야 하는지 실제 예시로 설명합니다."
 order: 5
 updated: 2026-08-02
+keywords: ["PER 뜻", "PBR 뜻", "ROE 뜻", "EPS 뜻", "재무제표 보는법"]
 ---
 
 ## 왜 숫자를 봐야 할까

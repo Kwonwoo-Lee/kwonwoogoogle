@@ -21,7 +21,7 @@ keywords: ["캔들차트 보는법", "양봉 음봉", "캔들패턴", "도지 �
 ## 캔들의 생김새: 몸통과 꼬리
 
 <figure class="diagram">
-  <img src="/static/img/charts/candle-anatomy.svg" alt="캔들 하나의 구조: 시가·고가·저가·종가와 몸통·꼬리" loading="lazy">
+  <img src="/static/img/charts/ko/candle-anatomy.svg" alt="캔들 하나의 구조: 시가·고가·저가·종가와 몸통·꼬리" loading="lazy">
   <figcaption>캔들 하나 = 시가·고가·저가·종가(OHLC) + 몸통·꼬리</figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ keywords: ["캔들차트 보는법", "양봉 음봉", "캔들패턴", "도지 �
 ## 자주 등장하는 캔들 패턴
 
 <figure class="diagram">
-  <img src="/static/img/charts/candle-patterns.svg" alt="도지, 망치형, 역망치형(슈팅스타), 장대양봉 캔들 패턴 비교" loading="lazy">
+  <img src="/static/img/charts/ko/candle-patterns.svg" alt="도지, 망치형, 역망치형(슈팅스타), 장대양봉 캔들 패턴 비교" loading="lazy">
   <figcaption>왼쪽부터 도지, 망치형, 역망치형(슈팅스타), 장대양봉</figcaption>
 </figure>
 

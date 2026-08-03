@@ -40,6 +40,7 @@ img { max-width: 100%; height: auto; }
 .brand { font-weight: 800; font-size: 20px; color: var(--ink); }
 .main-nav a { margin-left: 20px; font-weight: 600; color: var(--ink-2); }
 .main-nav a:hover { color: var(--accent); }
+.main-nav a.lang-switch { padding-left: 20px; border-left: 1px solid var(--border); font-weight: 500; }
 
 /* hero */
 .hero { padding: 56px 0 40px; text-align: center; }

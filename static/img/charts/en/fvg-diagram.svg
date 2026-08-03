@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 320" font-family="-apple-system, 'Segoe UI', sans-serif">
+<rect x="0" y="0" width="560" height="320" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="280" y="26" font-size="15" fill="#20201a" text-anchor="middle" font-weight="700">FVG (Fair Value Gap): a price gap across 3 candles</text>
+<line x1="110" y1="200" x2="110" y2="260" stroke="#1f9d55" stroke-width="2.5"/>
+<rect x="85.0" y="200" width="50" height="40" fill="#dcf3e4" stroke="#1f9d55" stroke-width="2.5"/>
+<text x="110" y="290" font-size="14" fill="#767568" text-anchor="middle" font-weight="400">Candle 1</text>
+<line x1="280" y1="60" x2="280" y2="220" stroke="#1f9d55" stroke-width="2.5"/>
+<rect x="255.0" y="65" width="50" height="145" fill="#dcf3e4" stroke="#1f9d55" stroke-width="2.5"/>
+<text x="280" y="290" font-size="14" fill="#767568" text-anchor="middle" font-weight="400">Candle 2 (strong move)</text>
+<line x1="450" y1="70" x2="450" y2="190" stroke="#1f9d55" stroke-width="2.5"/>
+<rect x="425.0" y="75" width="50" height="75" fill="#dcf3e4" stroke="#1f9d55" stroke-width="2.5"/>
+<text x="450" y="290" font-size="14" fill="#767568" text-anchor="middle" font-weight="400">Candle 3</text>
+<rect x="135" y="150" width="290" height="50" fill="#1a5fb4" opacity="0.16" stroke="#1a5fb4" stroke-width="1.5" stroke-dasharray="5,4"/>
+<text x="280" y="145" font-size="14" fill="#1a5fb4" text-anchor="middle" font-weight="700">FVG (price gap)</text>
+</svg>

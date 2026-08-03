@@ -1,15 +1,16 @@
 {% extends "base.html" %}
 
-{% block meta_title %}개인정보처리방침 - {{ cfg.SITE_NAME }}{% endblock %}
-{% block meta_description %}{{ cfg.SITE_NAME }}의 개인정보처리방침 및 쿠키/광고 정책 안내입니다.{% endblock %}
+{% block meta_title %}{{ ui.privacy }} - {{ site.name }}{% endblock %}
+{% block meta_description %}{{ site.name }}{{ "의 개인정보처리방침 및 쿠키/광고 정책 안내입니다." if lang == "ko" else " privacy policy and cookie/ads disclosure." }}{% endblock %}
 
 {% block content %}
-<nav class="breadcrumb wrap"><a href="/">홈</a> / 개인정보처리방침</nav>
+<nav class="breadcrumb wrap"><a href="{{ url_for(lang) }}">{{ ui.home }}</a> / {{ ui.privacy }}</nav>
 
 <article class="wrap lesson">
+{% if lang == "ko" %}
   <h1>개인정보처리방침</h1>
   <div class="lesson-body">
-    <p>{{ cfg.SITE_NAME }}(이하 "사이트")는 방문자의 개인정보를 소중히 다룹니다. 본 방침은 사이트 이용 시 수집되는 정보와 그 활용 방식을 설명합니다.</p>
+    <p>{{ site.name }}(이하 "사이트")는 방문자의 개인정보를 소중히 다룹니다. 본 방침은 사이트 이용 시 수집되는 정보와 그 활용 방식을 설명합니다.</p>
 
     <h2>1. 광고 및 쿠키</h2>
     <p>이 사이트는 Google AdSense를 통해 광고를 게재할 수 있습니다. Google 및 광고 파트너는 쿠키를 사용해 방문자의 이전 방문 기록을 바탕으로 광고를 게재합니다. Google의 광고 쿠키 사용에 대한 자세한 내용과 맞춤 광고를 원하지 않는 경우의 설정 방법은 <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google 광고 정책 페이지</a>에서 확인할 수 있습니다.</p>
@@ -28,5 +29,28 @@
 
     <p class="muted">최종 수정일: 2026-08-02</p>
   </div>
+{% else %}
+  <h1>Privacy Policy</h1>
+  <div class="lesson-body">
+    <p>{{ site.name }} ("the site") takes visitor privacy seriously. This policy explains what information is collected when you use the site and how it is used.</p>
+
+    <h2>1. Advertising and Cookies</h2>
+    <p>This site may display ads through Google AdSense. Google and its advertising partners use cookies to serve ads based on a visitor's prior visits. For details on how Google uses advertising cookies, and how to opt out of personalized advertising, see <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google's advertising policy page</a>.</p>
+
+    <h2>2. Information We Collect</h2>
+    <p>The site can be used without registration and does not itself collect personally identifiable information. However, if analytics tools (such as Google Analytics) are used, non-identifying statistical information such as browser type, access time, and pages visited may be collected automatically.</p>
+
+    <h2>3. How Information Is Used</h2>
+    <p>Any non-identifying information collected is used solely to improve content quality and analyze site usage.</p>
+
+    <h2>4. Investment Disclaimer</h2>
+    <p>All content on this site is provided for educational and informational purposes only and does not constitute a recommendation to buy or sell any security or strategy. You are solely responsible for the outcomes of your own investment decisions.</p>
+
+    <h2>5. Contact</h2>
+    <p>For privacy-related questions, contact <a href="mailto:{{ cfg.CONTACT_EMAIL }}">{{ cfg.CONTACT_EMAIL }}</a>.</p>
+
+    <p class="muted">Last updated: 2026-08-02</p>
+  </div>
+{% endif %}
 </article>
 {% endblock %}

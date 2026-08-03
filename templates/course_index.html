@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block meta_title %}{{ course.title }} - {{ cfg.SITE_NAME }}{% endblock %}
+{% block meta_title %}{{ course.title }} - {{ site.name }}{% endblock %}
 {% block meta_description %}{{ course.description }}{% endblock %}
 {% block meta_keywords %}{{ course.title }}, {{ lessons | map(attribute="title") | join(", ") }}{% endblock %}
 
@@ -13,7 +13,7 @@
   "description": {{ course.description | tojson }},
   "provider": {
     "@type": "Organization",
-    "name": {{ cfg.SITE_NAME | tojson }},
+    "name": {{ site.name | tojson }},
     "sameAs": {{ cfg.SITE_URL | tojson }}
   },
   "hasCourseInstance": [
@@ -30,7 +30,7 @@
 {% endblock %}
 
 {% block content %}
-<nav class="breadcrumb wrap"><a href="/">홈</a> / {{ course.title }}</nav>
+<nav class="breadcrumb wrap"><a href="{{ url_for(lang) }}">{{ ui.home }}</a> / {{ course.title }}</nav>
 
 <section class="wrap">
   <h1>{{ course.icon }} {{ course.title }}</h1>
@@ -39,10 +39,10 @@
   <ol class="lesson-list">
     {% for lesson in lessons %}
     <li>
-      <a href="{{ url_for(course.slug, lesson.slug) }}">
-        <span class="lesson-num">{{ loop.index }}강</span>
+      <a href="{{ url_for(lang, course.slug, lesson.slug) }}">
+        <span class="lesson-num">{{ lesson.badge }}</span>
         <span class="lesson-title">{{ lesson.title }}</span>
-        <span class="lesson-meta">{{ lesson.reading_min }}분 읽기</span>
+        <span class="lesson-meta">{{ lesson.reading_label }}</span>
       </a>
     </li>
     {% endfor %}

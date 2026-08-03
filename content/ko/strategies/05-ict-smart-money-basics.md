@@ -27,7 +27,7 @@ ICT(Inner Circle Trader)는 트레이더 마이클 헐(Michael J. Huddleston)이
 ICT 관점에서는, 대형 주문을 체결시키려는 참여자가 일부러 가격을 이 지점까지 밀어붙여서 쌓여있는 반대 주문들을 체결시키고, 그 유동성을 이용해 자기 물량을 채운다고 봅니다. 이렇게 직전 고점·저점을 살짝 뚫었다가 빠르게 되돌아오는 움직임을 **유동성 스윕(liquidity sweep)**이라고 부릅니다.
 
 <figure class="diagram">
-  <img src="/static/img/charts/liquidity-sweep.svg" alt="유동성 스윕: 직전 저점을 살짝 뚫고 빠르게 반전하는 모습" loading="lazy">
+  <img src="/static/img/charts/ko/liquidity-sweep.svg" alt="유동성 스윕: 직전 저점을 살짝 뚫고 빠르게 반전하는 모습" loading="lazy">
   <figcaption>직전 저점을 살짝 뚫었다가 빠르게 반전 — 유동성 스윕</figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ ICT 관점에서는, 대형 주문을 체결시키려는 참여자가 일부러 
 FVG는 가격이 한 방향으로 매우 빠르게 움직여서, **연속된 3개의 캔들 사이에 가격이 거래되지 않고 건너뛴 구간(공백)**을 말합니다. 구체적으로는 1번째 캔들의 고가와 3번째 캔들의 저가 사이에 틈이 생기는 경우(상승 FVG 기준)를 가리킵니다.
 
 <figure class="diagram">
-  <img src="/static/img/charts/fvg-diagram.svg" alt="FVG(페어밸류갭): 캔들1의 고가와 캔들3의 저가 사이에 생기는 가격 공백" loading="lazy">
+  <img src="/static/img/charts/ko/fvg-diagram.svg" alt="FVG(페어밸류갭): 캔들1의 고가와 캔들3의 저가 사이에 생기는 가격 공백" loading="lazy">
   <figcaption>캔들1 고가 ~ 캔들3 저가 사이의 가격 공백 = FVG</figcaption>
 </figure>
 

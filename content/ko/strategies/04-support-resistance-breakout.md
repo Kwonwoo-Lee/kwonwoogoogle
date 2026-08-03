@@ -32,7 +32,7 @@ keywords: ["지지선 저항선", "브레이크아웃 매매", "박스권 돌파
 **중요한 성질 하나**: 저항선을 강하게 뚫고 올라가면, 그 저항선이 이후에는 지지선 역할을 하는 경우가 많습니다 (반대도 마찬가지입니다). "예전엔 팔자는 사람이 몰렸던 자리인데, 이제는 그 가격을 뚫고 오른 걸 보고 사자는 사람이 몰리는" 심리 전환이 일어나기 때문입니다.
 
 <figure class="diagram">
-  <img src="/static/img/charts/support-resistance-breakout.svg" alt="저항선을 돌파한 뒤 지지선으로 역할이 바뀌고 재테스트가 나오는 모습" loading="lazy">
+  <img src="/static/img/charts/ko/support-resistance-breakout.svg" alt="저항선을 돌파한 뒤 지지선으로 역할이 바뀌고 재테스트가 나오는 모습" loading="lazy">
   <figcaption>저항선을 돌파한 뒤 재테스트를 거쳐 지지선으로 역할이 바뀝니다</figcaption>
 </figure>
 

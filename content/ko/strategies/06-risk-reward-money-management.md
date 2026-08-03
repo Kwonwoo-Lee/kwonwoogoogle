@@ -24,7 +24,7 @@ keywords: ["손익비 계산법", "R멀티플", "승률과 기대값", "주식 �
 "1:3"은 "1을 잃을 위험을 감수하고 3을 벌 기회를 노린다"는 뜻입니다. 이 개념이 앞선 모든 강의에서 배운 전략(이동평균선 크로스, 모멘텀, 평균회귀, 브레이크아웃, ICT)을 실제로 "돈이 되는 매매"로 연결해주는 마지막 퍼즐 조각입니다.
 
 <figure class="diagram">
-  <img src="/static/img/charts/risk-reward.svg" alt="손익비 1:3 예시 — 진입가, 손절가, 목표가와 리스크·보상 구간" loading="lazy">
+  <img src="/static/img/charts/ko/risk-reward.svg" alt="손익비 1:3 예시 — 진입가, 손절가, 목표가와 리스크·보상 구간" loading="lazy">
   <figcaption>리스크(1R)보다 기대 보상(3R)이 훨씬 큰 손익비 1:3 구조</figcaption>
 </figure>
 

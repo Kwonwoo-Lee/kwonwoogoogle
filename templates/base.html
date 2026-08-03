@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ko">
+<html lang="{{ lang }}">
 <head>
 {% if cfg.GA_MEASUREMENT_ID %}
 <!-- Google tag (gtag.js) -->
@@ -23,12 +23,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 {% endif %}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% block meta_title %}{{ cfg.SITE_NAME }} - {{ cfg.SITE_TAGLINE }}{% endblock %}</title>
-<meta name="description" content="{% block meta_description %}{{ cfg.SITE_DESCRIPTION }}{% endblock %}">
-<meta name="keywords" content="{% block meta_keywords %}{{ cfg.SITE_KEYWORDS }}{% endblock %}">
+<title>{% block meta_title %}{{ site.name }} - {{ site.tagline }}{% endblock %}</title>
+<meta name="description" content="{% block meta_description %}{{ site.description }}{% endblock %}">
+<meta name="keywords" content="{% block meta_keywords %}{{ site.keywords }}{% endblock %}">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="{{ cfg.SITE_URL }}{{ canonical }}">
-<link rel="alternate" type="application/rss+xml" title="{{ cfg.SITE_NAME }}" href="/rss.xml">
+{% for l, u in alternates.items() %}
+<link rel="alternate" hreflang="{{ l }}" href="{{ cfg.SITE_URL }}{{ u }}">
+{% endfor %}
+<link rel="alternate" hreflang="x-default" href="{{ cfg.SITE_URL }}{{ alternates[default_lang] }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="/rss.xml">
 <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/static/css/style.css">
 {% if cfg.GOOGLE_SITE_VERIFICATION %}
@@ -38,13 +42,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="naver-site-verification" content="{{ cfg.NAVER_SITE_VERIFICATION }}">
 {% endif %}
 
-<meta property="og:site_name" content="{{ cfg.SITE_NAME }}">
+<meta property="og:site_name" content="{{ site.name }}">
 <meta property="og:type" content="{% block og_type %}website{% endblock %}">
 <meta property="og:url" content="{{ cfg.SITE_URL }}{{ canonical }}">
 <meta property="og:title" content="{% block og_title %}{{ self.meta_title() }}{% endblock %}">
 <meta property="og:description" content="{% block og_description %}{{ self.meta_description() }}{% endblock %}">
 <meta property="og:image" content="{% block og_image_url %}{{ cfg.SITE_URL }}{{ cfg.DEFAULT_OG_IMAGE }}{% endblock %}">
-<meta property="og:locale" content="ko_KR">
+<meta property="og:locale" content="{{ og_locale[lang] }}">
 
 <meta name="twitter:card" content="summary_large_image">
 {% if cfg.TWITTER_HANDLE %}
@@ -69,10 +73,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 {% endif %}
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href="/">{{ cfg.SITE_NAME }}</a>
+    <a class="brand" href="{{ url_for(lang) }}">{{ site.name }}</a>
     <nav class="main-nav">
       {% for slug, course in courses.items() %}
-      <a href="{{ url_for(slug) }}">{{ course.short_title }}</a>
+      <a href="{{ url_for(lang, slug) }}">{{ course[lang].short_title }}</a>
+      {% endfor %}
+      {% for l in languages %}
+        {% if l != lang %}
+        <a href="{{ alternates[l] }}" class="lang-switch">{{ native_name[l] }}</a>
+        {% endif %}
       {% endfor %}
     </nav>
   </div>
@@ -84,8 +93,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <footer class="site-footer">
   <div class="wrap">
-    <p>&copy; {{ "2026" }} {{ cfg.SITE_NAME }}. 이 사이트의 모든 콘텐츠는 정보 제공 목적이며 투자 권유가 아닙니다. 투자 판단과 책임은 본인에게 있습니다.</p>
-    <p><a href="/privacy/">개인정보처리방침</a> · <a href="mailto:{{ cfg.CONTACT_EMAIL }}">문의</a></p>
+    <p>&copy; {{ "2026" }} {{ site.name }}. {{ ui.auto_update }}</p>
+    <p><a href="{{ url_for(lang, 'privacy') }}">{{ ui.privacy }}</a> · <a href="mailto:{{ cfg.CONTACT_EMAIL }}">{{ ui.contact }}</a></p>
   </div>
 </footer>
 </body>

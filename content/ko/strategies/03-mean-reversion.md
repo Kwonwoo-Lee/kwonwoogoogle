@@ -26,7 +26,7 @@ keywords: ["평균회귀 전략", "볼린저밴드 사용법", "RSI 과매도", 
 가격이 통계적으로 대부분(약 95%)의 시간 동안 상단·하단 밴드 안에서 움직인다는 전제 위에서, **가격이 하단밴드에 닿거나 뚫고 내려가면 "과도하게 빠졌다"**, **상단밴드에 닿거나 뚫고 올라가면 "과도하게 올랐다"**는 신호로 해석합니다.
 
 <figure class="diagram">
-  <img src="/static/img/charts/bollinger-bands.svg" alt="볼린저밴드 상단/하단 근접 시 과열·과매도 해석" loading="lazy">
+  <img src="/static/img/charts/ko/bollinger-bands.svg" alt="볼린저밴드 상단/하단 근접 시 과열·과매도 해석" loading="lazy">
   <figcaption>가격이 상단밴드에 닿으면 과열, 하단밴드에 닿으면 과매도로 해석</figcaption>
 </figure>
 

@@ -1,10 +1,11 @@
 """
-build.py - 정적 사이트 빌더
-=============================
-content/<course>/*.md (frontmatter + 마크다운)를 읽어서 templates/*.html로
-렌더링한 뒤 dist/ 아래에 순수 정적 HTML로 출력합니다. Node.js 없이 파이썬만
-으로 동작하고, 결과물은 어떤 정적 호스팅(Vercel/Netlify/Cloudflare Pages/
-GitHub Pages)에도 그대로 올릴 수 있습니다.
+build.py - 정적 사이트 빌더 (한국어 + 영어)
+=============================================
+content/<lang>/<course>/*.md (frontmatter + 마크다운)를 읽어서
+templates/*.html로 렌더링한 뒤 dist/ 아래에 순수 정적 HTML로 출력합니다.
+한국어는 기존 URL 그대로(/basics/...), 영어는 /en/ 접두어를 붙입니다
+(/en/basics/...). 같은 강의는 두 언어에서 slug가 동일하다는 전제로
+hreflang 대응 URL을 자동 계산합니다.
 
 실행: python build.py
 결과: dist/ 폴더가 곧 배포할 사이트 전체입니다.
@@ -28,22 +29,80 @@ TEMPLATES_DIR = ROOT / "templates"
 STATIC_DIR = ROOT / "static"
 DIST_DIR = ROOT / "dist"
 
+LANGUAGES = ["ko", "en"]
+DEFAULT_LANG = "ko"  # 기본 언어는 URL 접두어 없음 (/basics/...), 그 외는 /en/basics/... 처럼 접두어 붙음
+NATIVE_NAME = {"ko": "한국어", "en": "English"}
+OG_LOCALE = {"ko": "ko_KR", "en": "en_US"}
+READING_WPM = {"ko": 350, "en": 220}  # ko는 어절/분, en은 단어/분 기준 추정치
+
 COURSES = {
     "basics": {
         "slug": "basics",
-        "title": "주식 기초",
-        "short_title": "기초",
-        "description": "주식이 무엇인지부터 호가창, 캔들차트, 재무제표, 리스크 관리까지 "
-                       "투자를 시작하기 전 반드시 알아야 할 기본기를 순서대로 배웁니다.",
         "icon": "📘",
+        "ko": {
+            "title": "주식 기초",
+            "short_title": "기초",
+            "description": "주식이 무엇인지부터 호가창, 캔들차트, 재무제표, 리스크 관리까지 "
+                           "투자를 시작하기 전 반드시 알아야 할 기본기를 순서대로 배웁니다.",
+        },
+        "en": {
+            "title": "Stock Basics",
+            "short_title": "Basics",
+            "description": "From what a stock actually is to reading order books, candlestick "
+                           "charts, financial statements, and risk management — the fundamentals "
+                           "every beginner needs before investing a single dollar.",
+        },
     },
     "strategies": {
         "slug": "strategies",
-        "title": "매매기법",
-        "short_title": "매매기법",
-        "description": "이동평균선 크로스, 모멘텀, 평균회귀, ICT 스마트머니 기법 등 "
-                       "실제로 많이 쓰이는 매매 전략을 원리부터 단계별로 설명합니다.",
         "icon": "📈",
+        "ko": {
+            "title": "매매기법",
+            "short_title": "매매기법",
+            "description": "이동평균선 크로스, 모멘텀, 평균회귀, ICT 스마트머니 기법 등 "
+                           "실제로 많이 쓰이는 매매 전략을 원리부터 단계별로 설명합니다.",
+        },
+        "en": {
+            "title": "Trading Strategies",
+            "short_title": "Strategies",
+            "description": "Moving average crossovers, momentum, mean reversion, support/resistance "
+                           "breakouts, and ICT smart money concepts — widely used trading strategies "
+                           "explained step by step, from first principles.",
+        },
+    },
+}
+
+SITE_TEXT = {
+    "ko": {
+        "name": cfg.SITE_NAME,
+        "tagline": cfg.SITE_TAGLINE,
+        "description": cfg.SITE_DESCRIPTION,
+        "keywords": cfg.SITE_KEYWORDS,
+    },
+    "en": {
+        "name": "TradeSmrt",
+        "tagline": "Learn stock investing, one step at a time",
+        "description": "A free, step-by-step stock trading course covering everything from market "
+                        "basics to moving averages and ICT smart money concepts.",
+        "keywords": "learn stocks, stock trading for beginners, stock market basics, trading strategies, "
+                     "moving average crossover, candlestick patterns, ICT smart money concepts, "
+                     "risk reward ratio, technical analysis",
+    },
+}
+
+UI = {
+    "ko": {
+        "home": "홈", "privacy": "개인정보처리방침", "contact": "문의",
+        "free_all": "전부 무료", "auto_update": "이 사이트의 모든 콘텐츠는 정보 제공 목적이며 "
+            "투자 권유가 아닙니다. 투자 판단과 책임은 본인에게 있습니다.",
+        "prev_lesson": "← 이전 강의", "next_lesson": "다음 강의 →",
+    },
+    "en": {
+        "home": "Home", "privacy": "Privacy Policy", "contact": "Contact",
+        "free_all": "All free", "auto_update": "All content on this site is for informational "
+            "purposes only and is not investment advice. You are solely responsible for your own "
+            "investment decisions.",
+        "prev_lesson": "← Previous lesson", "next_lesson": "Next lesson →",
     },
 }
 
@@ -59,17 +118,31 @@ def _parse_frontmatter(text: str):
     return meta, body
 
 
-def load_lessons():
-    """course_slug -> 정렬된 lesson dict 리스트"""
+def estimate_reading_minutes(markdown_text: str, lang: str) -> int:
+    words = len(re.findall(r"\S+", markdown_text))
+    return max(1, round(words / READING_WPM[lang]))
+
+
+def _lesson_badge(lang: str, index: int) -> str:
+    return f"{index}강" if lang == "ko" else f"Lesson {index}"
+
+
+def _reading_label(lang: str, minutes: int) -> str:
+    return f"{minutes}분 읽기" if lang == "ko" else f"{minutes} min read"
+
+
+def load_lessons(lang: str):
+    """course_slug -> 정렬된 lesson dict 리스트 (해당 언어)"""
     lessons_by_course = {}
     for course_slug in COURSES:
-        course_dir = CONTENT_DIR / course_slug
+        course_dir = CONTENT_DIR / lang / course_slug
         lessons = []
         for path in sorted(course_dir.glob("*.md")):
             raw = path.read_text(encoding="utf-8")
             meta, body = _parse_frontmatter(raw)
             html_body = md.markdown(body, extensions=MD_EXT)
             keywords = meta.get("keywords", [])
+            reading_min = meta.get("reading_min", estimate_reading_minutes(body, lang))
             lessons.append({
                 "course": course_slug,
                 "slug": meta["slug"],
@@ -77,19 +150,16 @@ def load_lessons():
                 "description": meta["description"],
                 "order": int(meta["order"]),
                 "updated": str(meta.get("updated", date.today().isoformat())),
-                "reading_min": meta.get("reading_min", estimate_reading_minutes(body)),
+                "reading_min": reading_min,
+                "reading_label": _reading_label(lang, reading_min),
                 "html": html_body,
-                "keywords": ", ".join(keywords) if keywords else COURSES[course_slug]["title"],
+                "keywords": ", ".join(keywords) if keywords else COURSES[course_slug][lang]["title"],
             })
         lessons.sort(key=lambda x: x["order"])
+        for i, lesson in enumerate(lessons):
+            lesson["badge"] = _lesson_badge(lang, i + 1)
         lessons_by_course[course_slug] = lessons
     return lessons_by_course
-
-
-def estimate_reading_minutes(markdown_text: str) -> int:
-    words = len(re.findall(r"\S+", markdown_text))
-    # 한글은 어절 기준이라 평균 분당 350단어 정도로 추정
-    return max(1, round(words / 350))
 
 
 def make_env():
@@ -101,12 +171,24 @@ def make_env():
     )
     env.globals["cfg"] = cfg
     env.globals["courses"] = COURSES
+    env.globals["languages"] = LANGUAGES
+    env.globals["default_lang"] = DEFAULT_LANG
+    env.globals["native_name"] = NATIVE_NAME
+    env.globals["og_locale"] = OG_LOCALE
     return env
 
 
-def url_for(*parts) -> str:
+def url_for(lang: str, *parts) -> str:
     clean = "/".join(p.strip("/") for p in parts if p)
-    return f"/{clean}/" if clean else "/"
+    prefix = "" if lang == DEFAULT_LANG else f"/{lang}"
+    if clean:
+        return f"{prefix}/{clean}/"
+    return f"{prefix}/" if prefix else "/"
+
+
+def alternates_for(*parts) -> dict:
+    """같은 페이지의 언어별 URL 대응표 (hreflang / 언어 전환 링크용)"""
+    return {lang: url_for(lang, *parts) for lang in LANGUAGES}
 
 
 def write(path: Path, content: str):
@@ -121,58 +203,80 @@ def build():
 
     env = make_env()
     env.globals["url_for"] = url_for
-    lessons_by_course = load_lessons()
 
     all_pages = []  # sitemap용 (path, updated)
-    rss_items = []  # rss.xml용 (title, description, url, updated) - 네이버 서치어드바이저 수집용
+    rss_items = []  # rss.xml용 (한국어만 - 네이버 서치어드바이저 수집용)
 
-    # 홈
-    home_tpl = env.get_template("home.html")
-    write(DIST_DIR / "index.html", home_tpl.render(
-        lessons_by_course=lessons_by_course,
-        canonical=url_for(),
-    ))
-    all_pages.append((url_for(), date.today().isoformat()))
+    for lang in LANGUAGES:
+        ui = UI[lang]
+        site = SITE_TEXT[lang]
+        lessons_by_course = load_lessons(lang)
+        base_dir = DIST_DIR if lang == DEFAULT_LANG else DIST_DIR / lang
 
-    # 코스별 인덱스 + 레슨
-    for course_slug, course in COURSES.items():
-        lessons = lessons_by_course[course_slug]
-
-        idx_tpl = env.get_template("course_index.html")
-        course_url = url_for(course_slug)
-        write(DIST_DIR / course_slug / "index.html", idx_tpl.render(
-            course=course, lessons=lessons, canonical=course_url,
+        # 홈
+        home_tpl = env.get_template("home.html")
+        home_path = url_for(lang)
+        write(base_dir / "index.html", home_tpl.render(
+            lang=lang, ui=ui, site=site,
+            lessons_by_course=lessons_by_course,
+            canonical=home_path, alternates=alternates_for(),
         ))
-        all_pages.append((course_url, date.today().isoformat()))
+        all_pages.append((home_path, date.today().isoformat()))
 
-        lesson_tpl = env.get_template("lesson.html")
-        for i, lesson in enumerate(lessons):
-            prev_lesson = lessons[i - 1] if i > 0 else None
-            next_lesson = lessons[i + 1] if i < len(lessons) - 1 else None
-            lesson_url = url_for(course_slug, lesson["slug"])
-            write(DIST_DIR / course_slug / lesson["slug"] / "index.html", lesson_tpl.render(
-                course=course, lesson=lesson, lessons=lessons,
-                prev_lesson=prev_lesson, next_lesson=next_lesson,
-                lesson_index=i + 1, canonical=lesson_url,
+        # 코스별 인덱스 + 레슨
+        for course_slug, course_meta in COURSES.items():
+            lessons = lessons_by_course[course_slug]
+            course = {"slug": course_slug, "icon": course_meta["icon"], **course_meta[lang]}
+
+            idx_tpl = env.get_template("course_index.html")
+            course_url = url_for(lang, course_slug)
+            write(base_dir / course_slug / "index.html", idx_tpl.render(
+                lang=lang, ui=ui, site=site,
+                course=course, lessons=lessons, canonical=course_url,
+                alternates=alternates_for(course_slug),
             ))
-            all_pages.append((lesson_url, lesson["updated"]))
-            rss_items.append({
-                "title": f"[{course['title']}] {lesson['title']}",
-                "description": lesson["description"],
-                "url": lesson_url,
-                "updated": lesson["updated"],
-            })
+            all_pages.append((course_url, date.today().isoformat()))
 
-    # 개인정보처리방침
-    privacy_tpl = env.get_template("privacy.html")
-    write(DIST_DIR / "privacy" / "index.html", privacy_tpl.render(canonical=url_for("privacy")))
-    all_pages.append((url_for("privacy"), date.today().isoformat()))
+            lesson_tpl = env.get_template("lesson.html")
+            for i, lesson in enumerate(lessons):
+                prev_lesson = lessons[i - 1] if i > 0 else None
+                next_lesson = lessons[i + 1] if i < len(lessons) - 1 else None
+                lesson_url = url_for(lang, course_slug, lesson["slug"])
+                progress_label = (
+                    f"{course['title']} · {i + 1}/{len(lessons)}강 · {lesson['reading_label']}"
+                    if lang == "ko" else
+                    f"{course['title']} · Lesson {i + 1}/{len(lessons)} · {lesson['reading_label']}"
+                )
+                write(base_dir / course_slug / lesson["slug"] / "index.html", lesson_tpl.render(
+                    lang=lang, ui=ui, site=site,
+                    course=course, lesson=lesson, lessons=lessons,
+                    prev_lesson=prev_lesson, next_lesson=next_lesson,
+                    lesson_index=i + 1, progress_label=progress_label, canonical=lesson_url,
+                    alternates=alternates_for(course_slug, lesson["slug"]),
+                ))
+                all_pages.append((lesson_url, lesson["updated"]))
+                if lang == "ko":
+                    rss_items.append({
+                        "title": f"[{course['title']}] {lesson['title']}",
+                        "description": lesson["description"],
+                        "url": lesson_url,
+                        "updated": lesson["updated"],
+                    })
+
+        # 개인정보처리방침
+        privacy_tpl = env.get_template("privacy.html")
+        privacy_url = url_for(lang, "privacy")
+        write(base_dir / "privacy" / "index.html", privacy_tpl.render(
+            lang=lang, ui=ui, site=site,
+            canonical=privacy_url, alternates=alternates_for("privacy"),
+        ))
+        all_pages.append((privacy_url, date.today().isoformat()))
 
     # 정적 파일 복사
     if STATIC_DIR.exists():
         shutil.copytree(STATIC_DIR, DIST_DIR / "static")
 
-    # sitemap.xml
+    # sitemap.xml (모든 언어 페이지 포함)
     sitemap_entries = "\n".join(
         f"  <url><loc>{cfg.SITE_URL}{path}</loc><lastmod>{updated}</lastmod></url>"
         for path, updated in all_pages
@@ -185,7 +289,7 @@ def build():
     )
     write(DIST_DIR / "sitemap.xml", sitemap_xml)
 
-    # rss.xml - 네이버 서치어드바이저에 제출하면 새 강의를 훨씬 빨리 수집해갑니다
+    # rss.xml - 네이버 서치어드바이저 제출용 (한국어 콘텐츠만)
     rss_items.sort(key=lambda x: x["updated"], reverse=True)
     rss_entries = "\n".join(
         "  <item>\n"
@@ -230,9 +334,11 @@ def build():
         )
     write(DIST_DIR / "ads.txt", ads_txt)
 
-    total_lessons = sum(len(v) for v in lessons_by_course.values())
+    total_lessons = sum(
+        len(load_lessons(DEFAULT_LANG)[c]) for c in COURSES
+    )
     print(f"빌드 완료 -> {DIST_DIR}")
-    print(f"  페이지 {len(all_pages)}개 (강의 {total_lessons}개 포함)")
+    print(f"  언어 {len(LANGUAGES)}개({', '.join(LANGUAGES)}), 페이지 {len(all_pages)}개 (언어당 강의 {total_lessons}개)")
     print(f"  SITE_URL = {cfg.SITE_URL}  (실제 도메인으로 site_config.py에서 변경하세요)")
 
 

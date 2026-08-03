@@ -33,7 +33,7 @@ keywords: ["이동평균선 전략", "골든크로스", "데드크로스", "이�
 4. 단기선이 다시 장기선 아래로 내려오면(데드크로스) 청산을 검토합니다.
 
 <figure class="diagram">
-  <img src="/static/img/charts/golden-cross.svg" alt="골든크로스: 단기 이평선이 장기 이평선을 상향 돌파하는 지점" loading="lazy">
+  <img src="/static/img/charts/ko/golden-cross.svg" alt="골든크로스: 단기 이평선이 장기 이평선을 상향 돌파하는 지점" loading="lazy">
   <figcaption>단기 이평선이 장기 이평선을 아래에서 위로 뚫고 올라가는 지점 = 골든크로스</figcaption>
 </figure>
 

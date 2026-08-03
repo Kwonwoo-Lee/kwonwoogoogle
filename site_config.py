@@ -34,7 +34,7 @@ ADSENSE_CLIENT_ID = ""  # 예: "ca-pub-1234567890123456"
 GOOGLE_SITE_VERIFICATION = ""
 
 # 네이버 서치어드바이저(https://searchadvisor.naver.com)에서 사이트 등록 후 발급받는 값
-NAVER_SITE_VERIFICATION = ""
+NAVER_SITE_VERIFICATION = "214d3ba43e2bff390bddb5d801e4516346b957e6"
 
 # OG 이미지 기본값 (static/img/og-default.png)
 DEFAULT_OG_IMAGE = "/static/img/og-default.png"

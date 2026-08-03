@@ -21,7 +21,7 @@ SITE_KEYWORDS = (
 )
 
 # 배포 전에는 임시 도메인으로 두고, 실제 도메인을 사면 여기만 바꾸면 됩니다.
-SITE_URL = "https://example-stock-academy.com"
+SITE_URL = "https://tradesmrt.com"
 
 # 애드센스 승인 전에는 비워두세요 - 비어있으면 광고 슬롯이 렌더링되지 않습니다.
 ADSENSE_CLIENT_ID = ""  # 예: "ca-pub-1234567890123456"

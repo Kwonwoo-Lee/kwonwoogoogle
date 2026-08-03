@@ -35,5 +35,11 @@
     <p>{{ ui.practice_trading_desc }}</p>
     <span class="course-count">{{ ui.practice_trading_tag }}</span>
   </a>
+  <a class="course-card" href="{{ url_for(lang, 'news') }}">
+    <span class="course-icon">📰</span>
+    <h2>{{ ui.market_news }}</h2>
+    <p>{{ ui.market_news_desc }}</p>
+    <span class="course-count">{{ ui.market_news_tag }}</span>
+  </a>
 </section>
 {% endblock %}

@@ -21,6 +21,7 @@ import markdown as md
 import yaml
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+import news_source
 import site_config as cfg
 
 ROOT = Path(__file__).resolve().parent
@@ -100,6 +101,10 @@ UI = {
         "practice_trading": "실전 모의투자",
         "practice_trading_desc": "배운 내용을 실제 시세로 바로 연습해보세요. 가상 자금 1천만원으로 시작합니다.",
         "practice_trading_tag": "실시간 시세 · 무료",
+        "market_news": "시장 뉴스",
+        "market_news_desc": "한국경제 증권 뉴스 RSS에서 가져온 실제 최신 헤드라인입니다. 제목을 누르면 원문 기사로 이동합니다.",
+        "market_news_tag": "실시간 헤드라인 · 무료",
+        "market_news_empty": "지금은 뉴스를 불러오지 못했습니다. 잠시 후 다시 시도해주세요.",
     },
     "en": {
         "home": "Home", "privacy": "Privacy Policy", "contact": "Contact",
@@ -111,6 +116,10 @@ UI = {
         "practice_trading": "Paper Trading",
         "practice_trading_desc": "Put what you learned into practice with real-time prices — start with a virtual ₩10,000,000.",
         "practice_trading_tag": "Real-time prices · Free",
+        "market_news": "Market News",
+        "market_news_desc": "Real, current headlines pulled from the Yahoo Finance news RSS feed. Click a headline to read the original article.",
+        "market_news_tag": "Live headlines · Free",
+        "market_news_empty": "Couldn't load news right now. Please try again later.",
     },
 }
 
@@ -230,6 +239,15 @@ def build():
             canonical=home_path, alternates=alternates_for(),
         ))
         all_pages.append((home_path, date.today().isoformat()))
+
+        # 시장 뉴스 (빌드 시점에 실제 RSS를 가져와 정적으로 굽습니다)
+        news_tpl = env.get_template("news.html")
+        news_path = url_for(lang, "news")
+        write(base_dir / "news" / "index.html", news_tpl.render(
+            lang=lang, ui=ui, site=site, news_items=news_source.fetch_news(lang),
+            canonical=news_path, alternates=alternates_for("news"),
+        ))
+        all_pages.append((news_path, date.today().isoformat()))
 
         # 코스별 인덱스 + 레슨
         for course_slug, course_meta in COURSES.items():

@@ -39,7 +39,7 @@ COURSES = {
     },
     "strategies": {
         "slug": "strategies",
-        "title": "유명한 매매기법",
+        "title": "매매기법",
         "short_title": "매매기법",
         "description": "이동평균선 크로스, 모멘텀, 평균회귀, ICT 스마트머니 기법 등 "
                        "실제로 많이 쓰이는 매매 전략을 원리부터 단계별로 설명합니다.",

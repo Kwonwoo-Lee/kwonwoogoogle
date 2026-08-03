@@ -4,7 +4,7 @@ title: "Breakout Strategies in Practice: Donchian Channel and Opening Range Brea
 description: "Analyzes the exact rules and differing risk structures of two breakout strategies: the Donchian Channel, which breaks out of the recent N-bar range, and ORB, which breaks out of the first few minutes of the trading session."
 order: 11
 updated: 2026-08-03
-keywords: ["Donchian channel breakout", "opening range breakout", "ORB strategy", "turtle trading breakout"]
+keywords: ["Donchian channel strategy", "opening range breakout", "ORB strategy", "volatility breakout strategy", "turtle trading strategy"]
 ---
 
 ## Continuing From Lesson 4: How Do You Define "The Range"?

@@ -4,7 +4,7 @@ title: "Trend-Following Done Right: A Full Breakdown of the MA Pullback Re-Entry
 description: "A rules-based trend-following strategy that defines trend via EMA(9)/EMA(21) alignment and enters only when a pullback resumes in the trend direction — analyzed through the lens of win rate vs. R-multiple."
 order: 9
 updated: 2026-08-03
-keywords: ["moving average pullback", "trend following strategy", "EMA crossover re-entry", "R multiple risk reward"]
+keywords: ["moving average pullback strategy", "trend following strategy", "EMA crossover strategy", "trend pullback strategy", "R multiple"]
 ---
 
 ## How This Differs From the Golden Cross in Lesson 1

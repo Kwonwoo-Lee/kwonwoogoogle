@@ -4,7 +4,7 @@ title: "Four Flavors of Mean Reversion: RSI, RSI(2), Bollinger Bands, and VWAP C
 description: "Four pullback strategies that all sit under the 'mean reversion' umbrella but anchor to completely different baselines - trend EMA, long-term EMA, a band, and VWAP. Compares their exact entry rules and risk character."
 order: 10
 updated: 2026-08-03
-keywords: ["RSI oversold bounce", "Connors RSI2 strategy", "Bollinger band reversion", "VWAP deviation reversion"]
+keywords: ["RSI oversold strategy", "RSI2 strategy", "bollinger band strategy", "VWAP strategy", "mean reversion strategy"]
 ---
 
 ## One Step Further Than Lesson 3: Reverting "From What," Exactly?

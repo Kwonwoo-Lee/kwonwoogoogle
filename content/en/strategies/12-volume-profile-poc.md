@@ -4,7 +4,7 @@ title: "Volume Profile and POC Reversion: Reading the Market by Volume, Not Pric
 description: "Analyzes Volume Profile, a concept that defines support/resistance by 'which price level traded the most volume' rather than by price itself, and the POC reversion strategy built on it."
 order: 12
 updated: 2026-08-03
-keywords: ["volume profile analysis", "volume profile POC", "value area high low VAH VAL", "volume-based support resistance"]
+keywords: ["volume profile trading", "point of control trading", "volume profile POC", "value area high low VAH VAL"]
 ---
 
 ## A Different Question From Everything So Far: Not "How Often," But "How Much"

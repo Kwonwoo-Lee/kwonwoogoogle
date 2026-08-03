@@ -4,7 +4,7 @@ title: "Professionals Don't Generate Signals - They Filter Them: ATR Stops, Net-
 description: "Analyzes the triple risk filter that all 11 strategies must pass through in common: an ATR-based minimum stop distance, a net-profit filter that accounts for fees and slippage, and a Chaikin Money Flow (CMF) based order-flow confirmation."
 order: 13
 updated: 2026-08-03
-keywords: ["ATR stop distance", "Chaikin money flow CMF", "fees slippage net profit", "risk management filter"]
+keywords: ["ATR stop loss", "Chaikin money flow", "risk management strategy", "fees slippage net profit", "position sizing"]
 ---
 
 ## The Difference Between a Good Trader and a Professional Trader

@@ -3,8 +3,8 @@ slug: po3-confirm-dol
 title: "PO3 and Confirm DOL: A Practical Checklist Framework"
 description: "Turn the ICT concepts from the previous lesson into an actual trading checklist using the Accumulation-Manipulation-Distribution (PO3) cycle and the Confirm DOL model — HTF 4-step conditions plus LTF confirmation."
 order: 7
-updated: 2026-08-02
-keywords: ["PO3 power of three", "Confirm DOL", "low resistance high resistance liquidity", "premium discount", "killzone trading"]
+updated: 2026-08-03
+keywords: ["power of three trading", "kill zone trading", "ICT trading strategy", "Confirm DOL", "smart money concepts", "premium discount zones"]
 ---
 
 ## This Lesson Builds Directly on the Previous One

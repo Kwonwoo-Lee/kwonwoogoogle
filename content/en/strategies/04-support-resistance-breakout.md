@@ -3,8 +3,8 @@ slug: support-resistance-breakout
 title: "Support, Resistance, and Breakout Trading"
 description: "Why support and resistance levels form, the rules of range-breakout trading, and how to avoid getting caught by false breakouts."
 order: 4
-updated: 2026-08-02
-keywords: ["support and resistance", "breakout trading strategy", "range breakout", "false breakout"]
+updated: 2026-08-03
+keywords: ["support and resistance", "breakout trading strategy", "volatility breakout strategy", "range breakout", "false breakout"]
 ---
 
 ## What Are Support and Resistance

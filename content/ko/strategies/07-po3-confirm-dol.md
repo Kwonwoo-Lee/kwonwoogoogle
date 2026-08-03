@@ -3,8 +3,8 @@ slug: po3-confirm-dol
 title: "PO3와 Confirm DOL: 실전 체크리스트 프레임워크"
 description: "축적·조작·분산(PO3) 사이클과 HTF 4단계 조건 + LTF 확인이라는 Confirm DOL 모델로, 5강의 ICT 개념을 실제 매매 체크리스트로 완성합니다."
 order: 7
-updated: 2026-08-02
-keywords: ["PO3 파워오브쓰리", "Confirm DOL", "로우 레지스턴스 하이 레지스턴스 유동성", "디스카운트 프리미엄", "킬존 매매"]
+updated: 2026-08-03
+keywords: ["PO3 파워오브쓰리", "Confirm DOL", "킬존 트레이딩", "선물 트레이딩 전략", "단타 전략", "스마트머니 매매기법"]
 ---
 
 ## 이 강의는 5강의 후속편입니다

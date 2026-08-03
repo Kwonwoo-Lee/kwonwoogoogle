@@ -4,7 +4,7 @@ title: "Splitting IFVG+PO3 Into 3 Tiers Reveals What Actually Matters"
 description: "Break down a combined liquidity-sweep + inverted-FVG entry signal into three strength tiers, and dissect exactly which conditions actually drive win rate and R-multiple."
 order: 8
 updated: 2026-08-03
-keywords: ["IFVG PO3 strategy", "liquidity sweep signal strength", "resistance liquidity filter", "ICT scalping strategy"]
+keywords: ["fair value gap trading", "liquidity sweep strategy", "ICT scalping strategy", "IFVG PO3 strategy", "day trading strategy"]
 ---
 
 ## Not All Signals Carry Equal Weight

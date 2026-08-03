@@ -4,7 +4,7 @@ title: "매물대(Volume Profile)와 POC 회귀 전략: 가격보다 거래량�
 description: "가격이 아니라 '어느 가격대에서 거래가 가장 많이 터졌는가'를 기준으로 지지/저항을 정의하는 매물대(Volume Profile) 개념과 POC 회귀 전략을 분석합니다."
 order: 12
 updated: 2026-08-03
-keywords: ["매물대 분석", "Volume Profile POC", "밸류에어리어 VAH VAL", "거래량 지지저항"]
+keywords: ["매물대 분석", "Volume Profile POC", "거래량 매매법", "거래량 프로파일", "매물대 지지저항", "밸류에어리어 VAH VAL"]
 ---
 
 ## 지금까지와 다른 질문: "얼마나 자주"가 아니라 "얼마나 많이"

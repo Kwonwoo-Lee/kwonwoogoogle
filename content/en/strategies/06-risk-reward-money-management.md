@@ -3,8 +3,8 @@ slug: risk-reward-money-management
 title: "Risk/Reward Ratio and Money Management"
 description: "How to calculate risk/reward ratio (R:R), why it can matter more than win rate, and how to use R-multiples to compare trades on equal footing."
 order: 6
-updated: 2026-08-02
-keywords: ["risk reward ratio", "R multiple", "win rate vs expectancy", "money management trading"]
+updated: 2026-08-03
+keywords: ["risk reward ratio", "R multiple", "position sizing", "money management trading", "risk management strategy"]
 ---
 
 ## What Is Risk/Reward Ratio

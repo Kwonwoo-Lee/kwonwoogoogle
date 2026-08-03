@@ -96,4 +96,4 @@ This is why many traders in practice use half or a quarter of what the Kelly for
 - Diversify across stocks, sectors, and time — and manage risk at the account level too, not just per trade.
 - Deciding your rules before you trade is the single most reliable way to keep emotion from taking over in the moment.
 
-That wraps up the Stock Basics course. With these fundamentals in place, let's move on to the **Trading Strategies** course and learn some widely used strategies in practice.
+Before we move into the Trading Strategies course, the next lesson rounds up the terms you'll run into there.

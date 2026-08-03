@@ -98,6 +98,8 @@ UI = {
             "투자 권유가 아닙니다. 투자 판단과 책임은 본인에게 있습니다.",
         "prev_lesson": "← 이전 강의", "next_lesson": "다음 강의 →",
         "practice_trading": "실전 모의투자",
+        "practice_trading_desc": "배운 내용을 실제 시세로 바로 연습해보세요. 가상 자금 1천만원으로 시작합니다.",
+        "practice_trading_tag": "실시간 시세 · 무료",
     },
     "en": {
         "home": "Home", "privacy": "Privacy Policy", "contact": "Contact",
@@ -107,6 +109,8 @@ UI = {
             "investment decisions.",
         "prev_lesson": "← Previous lesson", "next_lesson": "Next lesson →",
         "practice_trading": "Paper Trading",
+        "practice_trading_desc": "Put what you learned into practice with real-time prices — start with a virtual ₩10,000,000.",
+        "practice_trading_tag": "Real-time prices · Free",
     },
 }
 

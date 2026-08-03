@@ -29,5 +29,11 @@
     <span class="course-count">{{ lessons_by_course[slug] | length }}{{ "강" if lang == "ko" else " lessons" }} · {{ ui.free_all }}</span>
   </a>
   {% endfor %}
+  <a class="course-card" href="{{ cfg.PAPERTRADE_URL }}" target="_blank" rel="noopener">
+    <span class="course-icon">💹</span>
+    <h2>{{ ui.practice_trading }}</h2>
+    <p>{{ ui.practice_trading_desc }}</p>
+    <span class="course-count">{{ ui.practice_trading_tag }}</span>
+  </a>
 </section>
 {% endblock %}

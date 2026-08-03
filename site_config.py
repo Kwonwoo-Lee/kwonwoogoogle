@@ -41,3 +41,7 @@ CONTACT_EMAIL = "kwonwoo4056@gmail.com"
 
 # Google Tag Manager 컨테이너 ID (예: "GTM-XXXXXXX"). 비워두면 삽입되지 않습니다.
 GTM_ID = "GTM-5DR5X9KC"
+
+# GA4 측정 ID (예: "G-XXXXXXXXX"). GTM 안에서 별도로 GA4 태그를 또 넣으면
+# 방문 집계가 중복되니, 이 직접 삽입 방식 하나만 사용하세요.
+GA_MEASUREMENT_ID = "G-WEEY667PPS"

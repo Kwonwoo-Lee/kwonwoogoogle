@@ -38,3 +38,6 @@ DEFAULT_OG_IMAGE = "/static/img/og-default.png"
 TWITTER_HANDLE = ""  # 예: "@your_handle" (없으면 빈 문자열)
 
 CONTACT_EMAIL = "kwonwoo4056@gmail.com"
+
+# Google Tag Manager 컨테이너 ID (예: "GTM-XXXXXXX"). 비워두면 삽입되지 않습니다.
+GTM_ID = "GTM-5DR5X9KC"

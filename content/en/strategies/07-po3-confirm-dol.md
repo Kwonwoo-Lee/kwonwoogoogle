@@ -119,4 +119,4 @@ Only when all five are "yes" is an entry considered. If even one is missing, the
 - **Deep premium/discount** and the **killzone time window** serve as the final time-and-price filters.
 - A target (DOL) is set using the **today's session → prior day → prior week** priority list, not gut feel.
 
-This wraps up the Trading Strategies course. Whichever strategy you use, what matters most in the end is being able to clearly explain to yourself *why* you trust a given signal — and having actually verified that against real data.
+Whichever strategy you use, what matters most in the end is being able to clearly explain to yourself *why* you trust a given signal — and having actually verified that against real data. Starting with the next lesson, we dissect eight concrete strategies one by one to see exactly how the concepts covered so far show up inside a real trading system.

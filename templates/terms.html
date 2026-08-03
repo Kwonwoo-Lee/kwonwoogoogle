@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+
+{% block meta_title %}{{ ui.terms }} - {{ site.name }}{% endblock %}
+{% block meta_description %}{{ site.name }}{{ "의 이용약관입니다." if lang == "ko" else " terms of use." }}{% endblock %}
+
+{% block content %}
+<nav class="breadcrumb wrap"><a href="{{ url_for(lang) }}">{{ ui.home }}</a> / {{ ui.terms }}</nav>
+
+<article class="wrap lesson">
+{% if lang == "ko" %}
+  <h1>이용약관</h1>
+  <div class="lesson-body">
+    <p>본 약관은 {{ site.name }}(이하 "사이트")가 제공하는 콘텐츠 이용에 관한 조건을 안내합니다. 사이트를 이용하면 아래 내용에 동의한 것으로 간주됩니다.</p>
+
+    <h2>1. 콘텐츠의 목적</h2>
+    <p>사이트의 모든 콘텐츠(강의, 도표, 설명 등)는 교육 및 정보 제공을 목적으로 제공되며, 특정 금융상품의 매수·매도를 권유하거나 투자자문을 제공하는 것이 아닙니다.</p>
+
+    <h2>2. 투자 책임</h2>
+    <p>사이트의 콘텐츠를 참고하여 이루어진 모든 투자 판단과 그 결과(이익 또는 손실)에 대한 책임은 전적으로 이용자 본인에게 있습니다. 사이트는 콘텐츠의 정확성을 위해 노력하지만, 정보의 완전성이나 특정 결과를 보장하지 않습니다.</p>
+
+    <h2>3. 지적 재산권</h2>
+    <p>사이트에 게재된 텍스트, 도표, 이미지 등은 별도 표시가 없는 한 사이트 운영자에게 저작권이 있습니다. 개인적인 학습 목적의 열람 외에, 사전 동의 없이 콘텐츠를 무단으로 복제·배포하는 것은 금지됩니다.</p>
+
+    <h2>4. 외부 링크</h2>
+    <p>사이트는 참고용으로 외부 사이트로 연결되는 링크를 포함할 수 있습니다. 외부 사이트의 콘텐츠나 정책에 대해서는 사이트가 책임지지 않습니다.</p>
+
+    <h2>5. 광고</h2>
+    <p>사이트는 Google AdSense 등을 통해 광고를 게재할 수 있습니다. 광고 클릭이나 광고를 통해 연결되는 외부 사이트의 이용은 이용자 본인의 판단과 책임 하에 이루어집니다.</p>
+
+    <h2>6. 약관의 변경</h2>
+    <p>본 약관은 사전 고지 없이 변경될 수 있으며, 변경된 약관은 사이트에 게시된 시점부터 효력을 가집니다.</p>
+
+    <h2>7. 문의</h2>
+    <p>이용약관 관련 문의는 <a href="mailto:{{ cfg.CONTACT_EMAIL }}">{{ cfg.CONTACT_EMAIL }}</a>로 연락해 주세요.</p>
+
+    <p class="muted">최종 수정일: 2026-08-03</p>
+  </div>
+{% else %}
+  <h1>Terms of Use</h1>
+  <div class="lesson-body">
+    <p>These terms describe the conditions for using the content provided by {{ site.name }} ("the site"). By using the site, you agree to the terms below.</p>
+
+    <h2>1. Purpose of the Content</h2>
+    <p>All content on the site (lessons, diagrams, explanations, and so on) is provided for educational and informational purposes only, and does not constitute a recommendation to buy or sell any financial product, nor investment advice.</p>
+
+    <h2>2. Investment Responsibility</h2>
+    <p>Any investment decisions made based on the site's content, and their outcomes (gains or losses), are entirely your own responsibility. The site strives for accuracy but does not guarantee the completeness of its information or any particular outcome.</p>
+
+    <h2>3. Intellectual Property</h2>
+    <p>Unless otherwise noted, the text, diagrams, and images on the site are owned by the site operator. Beyond personal, non-commercial reading, reproducing or redistributing content without prior consent is prohibited.</p>
+
+    <h2>4. External Links</h2>
+    <p>The site may include links to external sites for reference. The site is not responsible for the content or policies of external sites.</p>
+
+    <h2>5. Advertising</h2>
+    <p>The site may display ads through services such as Google AdSense. Clicking on ads or visiting external sites linked from ads is done at your own discretion and risk.</p>
+
+    <h2>6. Changes to These Terms</h2>
+    <p>These terms may be changed without prior notice, and changes take effect from the moment they are posted on the site.</p>
+
+    <h2>7. Contact</h2>
+    <p>For questions about these terms, contact <a href="mailto:{{ cfg.CONTACT_EMAIL }}">{{ cfg.CONTACT_EMAIL }}</a>.</p>
+
+    <p class="muted">Last updated: 2026-08-03</p>
+  </div>
+{% endif %}
+</article>
+{% endblock %}

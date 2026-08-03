@@ -93,12 +93,14 @@ SITE_TEXT = {
 UI = {
     "ko": {
         "home": "홈", "privacy": "개인정보처리방침", "contact": "문의",
+        "about": "소개", "terms": "이용약관",
         "free_all": "전부 무료", "auto_update": "이 사이트의 모든 콘텐츠는 정보 제공 목적이며 "
             "투자 권유가 아닙니다. 투자 판단과 책임은 본인에게 있습니다.",
         "prev_lesson": "← 이전 강의", "next_lesson": "다음 강의 →",
     },
     "en": {
         "home": "Home", "privacy": "Privacy Policy", "contact": "Contact",
+        "about": "About", "terms": "Terms of Use",
         "free_all": "All free", "auto_update": "All content on this site is for informational "
             "purposes only and is not investment advice. You are solely responsible for your own "
             "investment decisions.",
@@ -263,14 +265,19 @@ def build():
                         "updated": lesson["updated"],
                     })
 
-        # 개인정보처리방침
-        privacy_tpl = env.get_template("privacy.html")
-        privacy_url = url_for(lang, "privacy")
-        write(base_dir / "privacy" / "index.html", privacy_tpl.render(
-            lang=lang, ui=ui, site=site,
-            canonical=privacy_url, alternates=alternates_for("privacy"),
-        ))
-        all_pages.append((privacy_url, date.today().isoformat()))
+        # 개인정보처리방침 / 소개 / 이용약관 (강의가 아닌 정적 정책·소개 페이지)
+        for page_slug, template_name in (("privacy", "privacy.html"), ("about", "about.html"), ("terms", "terms.html")):
+            page_tpl = env.get_template(template_name)
+            page_url = url_for(lang, page_slug)
+            write(base_dir / page_slug / "index.html", page_tpl.render(
+                lang=lang, ui=ui, site=site,
+                canonical=page_url, alternates=alternates_for(page_slug),
+            ))
+            all_pages.append((page_url, date.today().isoformat()))
+
+    # 404 페이지 (Cloudflare Pages가 dist/404.html을 자동으로 인식해서 서빙)
+    not_found_tpl = env.get_template("404.html")
+    write(DIST_DIR / "404.html", not_found_tpl.render(site_name=SITE_TEXT["ko"]["name"]))
 
     # 정적 파일 복사
     if STATIC_DIR.exists():

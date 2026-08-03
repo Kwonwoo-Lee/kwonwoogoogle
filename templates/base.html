@@ -94,7 +94,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <footer class="site-footer">
   <div class="wrap">
     <p>&copy; {{ "2026" }} {{ site.name }}. {{ ui.auto_update }}</p>
-    <p><a href="{{ url_for(lang, 'privacy') }}">{{ ui.privacy }}</a> · <a href="mailto:{{ cfg.CONTACT_EMAIL }}">{{ ui.contact }}</a></p>
+    <p><a href="{{ url_for(lang, 'about') }}">{{ ui.about }}</a> · <a href="{{ url_for(lang, 'privacy') }}">{{ ui.privacy }}</a> · <a href="{{ url_for(lang, 'terms') }}">{{ ui.terms }}</a> · <a href="mailto:{{ cfg.CONTACT_EMAIL }}">{{ ui.contact }}</a></p>
   </div>
 </footer>
 </body>

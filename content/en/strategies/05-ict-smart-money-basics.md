@@ -56,6 +56,14 @@ Put together, this is a **top-down analysis structure**: set direction on the bi
 
 The ICT framework also places weight on **when** a move happens. Under the premise that institutional capital tends to flow in during specific windows of the day (like right after the New York open), some traders prioritize entry signals only during specific "killzone" windows. Whether the current price sits above (premium) or below (discount) the day's opening price is also commonly used as a reference for buy/sell decisions.
 
+## SMT Divergence: Comparing Two Related Assets
+
+The ICT framework also includes a concept called **SMT Divergence (Smart Money Divergence)**, which involves placing two related assets side by side — say, two large-cap stocks in the same sector, or the Nasdaq and S&P 500 indexes.
+
+If two assets that normally move together suddenly diverge — one makes a new high (or low) while the other fails to — that's called a divergence. The logic: "these two are supposed to move together, and one of them failing to keep up" is read as a sign the move's real underlying strength is weak, and gets used alongside liquidity sweeps or other reversal signals.
+
+> ⚠️ This can look similar to the pairs trading from Lesson 3, but the approach differs. Pairs trading buys one and shorts the other simultaneously on the statistical premise that "the spread reverts to its mean." SMT divergence instead treats the gap between the two as a hint about a potential direction change, and uses it as a reference while trading only one of the two assets.
+
 ## Summary
 
 - ICT / smart money concepts is a trading framework built around the idea of "reading the traces large institutional order flow leaves behind."

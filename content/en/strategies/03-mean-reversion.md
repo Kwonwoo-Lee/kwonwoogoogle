@@ -68,6 +68,22 @@ As this table shows, **no single strategy works in every market condition.** Fig
 - **Look for confluence**: Prioritize setups where a lower Bollinger Band touch, RSI oversold, and a nearby support level all line up at once
 - **Always pair with a stop**: The "it reverts eventually" premise doesn't always hold, so a stop for when it doesn't is essential
 
+## Z-Score: Putting a Number on Overbought/Oversold
+
+Where Bollinger Bands give you a rough read on "inside the bands or outside," the **Z-score** gives you an exact number for how many standard deviations away from the average the current price sits.
+
+```
+Z-score = (Current price - Moving average) ÷ Standard deviation
+```
+
+A Z-score of -2 means "2 standard deviations below the average" — statistically, a move that extreme isn't common (roughly 2.3% of the time, assuming a normal distribution). Setting a concrete numeric threshold like "consider buying when the Z-score drops to -2 or below" lets you trade with a more consistent rule than eyeballing whether price has touched a band.
+
+## Pairs Trading: Applying Mean Reversion to a Relationship Between Two Stocks
+
+Mean reversion doesn't have to apply to a single stock's price — it can also apply to **the price gap (spread) between two stocks that normally move together.** This is called pairs trading.
+
+For example, say Company A and Company B, in the same sector, normally move at a similar ratio to each other. One day, A jumps sharply with no news while B stays flat. A pairs trader might short A and buy B, on the premise that "this spread will eventually revert to its normal level." Because you're buying one and shorting the other simultaneously, this approach bets purely on the spread reverting, largely independent of the overall market direction. The risk is that if the structural relationship between the two stocks genuinely breaks (say, one company suffers a truly major setback), the spread may never revert and can keep widening instead.
+
 ## Summary
 
 - Mean reversion is based on the premise that price snaps back toward its average after moving too far away — the opposite philosophy from momentum.

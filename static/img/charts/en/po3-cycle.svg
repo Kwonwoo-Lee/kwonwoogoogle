@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" font-family="-apple-system, 'Segoe UI', sans-serif">
+<rect x="0" y="0" width="600" height="300" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="300" y="26" font-size="15" fill="#20201a" text-anchor="middle" font-weight="700">PO3 (Power of Three): Accumulation → Manipulation → Distribution</text>
+<rect x="30" y="45" width="170" height="230" fill="#767568" opacity="0.08"/>
+<rect x="200" y="45" width="90" height="230" fill="#d0453b" opacity="0.08"/>
+<rect x="290" y="45" width="270" height="230" fill="#1f9d55" opacity="0.08"/>
+<path d="M 40,150 L 80,142 L 120,158 L 160,145 L 200,155 L 230,205 L 260,195 L 290,150 L 340,120 L 400,95 L 460,75 L 520,60 L 560,55" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+<circle cx="230" cy="205" r="6" fill="#d0453b"/>
+<line x1="230" y1="205" x2="230" y2="250" stroke="#d0453b" stroke-width="1.5" stroke-dasharray="5,4"/>
+<text x="230" y="268" font-size="12" fill="#d0453b" text-anchor="middle" font-weight="700">Liquidity sweep</text>
+<text x="115" y="290" font-size="13" fill="#767568" text-anchor="middle" font-weight="700">Accumulation</text>
+<text x="245" y="40" font-size="13" fill="#d0453b" text-anchor="middle" font-weight="700">Manipulation</text>
+<text x="425" y="40" font-size="13" fill="#1f9d55" text-anchor="middle" font-weight="700">Distribution</text>
+</svg>

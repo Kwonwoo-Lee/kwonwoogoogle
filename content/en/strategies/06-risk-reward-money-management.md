@@ -76,8 +76,21 @@ Recording trades in R lets you compare and analyze trades across different stock
 
 A tighter stop improves your risk/reward, but it also tends to increase the odds of getting stopped out by noise (lowering your win rate). A wider stop can raise your win rate, but it worsens your risk/reward. **There's no single correct answer — you have to design your stop placement and target together, balanced to fit your strategy and current market conditions.**
 
-## Wrapping Up the Course
+## MAE/MFE: Re-Validating Your Stop and Target With Data
 
-Across this course, you've learned five strategies built on very different philosophies: moving average crossovers, momentum, mean reversion, support/resistance breakouts, and ICT smart money concepts. Whichever strategy you use, the risk/reward and money management principles from this lesson apply universally — **finding good entry signals matters, but asking "is this trade statistically worth taking" every single time is what determines long-term survival.**
+If you want to sharpen your risk/reward in practice, it's worth logging **Maximum Adverse Excursion (MAE)** and **Maximum Favorable Excursion (MFE)** alongside your R-multiples.
+
+- **MAE**: Regardless of how the trade eventually closed, the furthest it moved against you (in the losing direction) after entry
+- **MFE**: The furthest it moved in your favor after entry
+
+For example, say your stop is set at -2%, but looking back at the MAE of your winning trades, most of them never went past -0.5% before bouncing back. That could mean your stop is set too loosely, forcing you to take on more risk than necessary. Conversely, if trades you closed before reaching your target show an MFE that went well past your target before pulling back, that's a sign your target could have been set further out.
+
+Building the habit of **using your actual execution data to retroactively validate whether your stop and target placement were appropriate** is the most practical way to keep refining gut-feel stop and target levels into something grounded in statistics.
+
+## Summary
+
+Across this lesson and the ones before it, you've learned five strategies built on very different philosophies: moving average crossovers, momentum, mean reversion, support/resistance breakouts, and ICT smart money concepts. Whichever strategy you use, the risk/reward and money management principles from this lesson apply universally — **finding good entry signals matters, but asking "is this trade statistically worth taking" every single time is what determines long-term survival.**
 
 > 💡 Whatever strategy you choose, it's worth backtesting it against historical data — checking the actual win rate and average risk/reward yourself — before committing real money. Rather than taking someone's claimed "this strategy has an X% win rate" at face value, verifying it yourself is always the safer habit.
+
+In the next lesson, we'll turn the ICT concepts from the previous lesson into an actual trading checklist: the **PO3 and Confirm DOL practical framework**.

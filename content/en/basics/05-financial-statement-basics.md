@@ -68,6 +68,34 @@ Example: $1 trillion in equity generating $150 billion in net income → ROE = 1
 
 On the surface, Company A looks "cheap," but its low ROE means it's not very efficient at generating profit. Company B looks "expensive," but its very high ROE suggests the market is pricing in a legitimate premium for that profitability. This is why it's important to **look at several metrics together and understand why the numbers look the way they do**, rather than judging "cheap" or "expensive" from a single number.
 
+## Free Cash Flow (FCF): Sometimes More Important Than Net Income
+
+Net income can diverge from actual cash flow depending on accounting treatment. For example, revenue that's been recorded but not yet collected in cash (accounts receivable) still counts toward accounting profit. This is why many investors check **Free Cash Flow (FCF)** alongside net income.
+
+```
+FCF = Operating cash flow - Capital expenditures (CapEx)
+```
+
+FCF represents "the actual cash a company generated running its business, minus the capital spending needed to maintain and grow that business." A company with positive net income but persistently negative FCF can be a warning sign that reported profit and actual cash reality have diverged.
+
+## Debt-to-Equity: How Reliant a Company Is on Debt
+
+```
+Debt-to-Equity = Total debt ÷ Shareholders' equity × 100
+```
+
+A high debt-to-equity ratio means a company is funding its operations more with debt than with its own capital. Used well, debt can act as leverage that boosts ROE — but when the economy weakens or interest rates rise, the interest burden grows heavier and can put the company at real risk. "Normal" debt levels vary enormously by industry (banks and financial firms naturally run very high leverage, for instance), so like P/E, this metric is only meaningful compared within the same industry.
+
+## A Worked Example: Putting the Metrics Together
+
+Suppose you're evaluating a stock and see the following:
+
+```
+P/E 15x, P/B 2x, ROE 13%, Debt-to-Equity 60%, FCF positive for 3 straight years
+```
+
+From this alone, you can form a reasonable first impression: if P/E and P/B are in line with the industry average, the stock isn't at an extreme (cheap or expensive); ROE of 13% suggests decent profitability; a 60% debt-to-equity ratio isn't dangerously high; and consistently positive FCF suggests accounting profit is actually translating into real cash. This alone isn't enough to decide to buy — the standard next step is comparing against industry peers and checking whether the trend over the past few years is improving or deteriorating.
+
 ## Where to Find These Numbers
 
 - **US stocks**: Your brokerage app, or the company's 10-K (annual) and 10-Q (quarterly) filings with the SEC

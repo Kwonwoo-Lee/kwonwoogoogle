@@ -60,6 +60,18 @@ A candle with a noticeably longer body than usual, showing that strong buying (l
 
 > ⚠️ **Never make a trading decision based on a single candlestick pattern alone.** A hammer appearing doesn't guarantee a bounce, and a doji appearing doesn't guarantee a reversal. Treat candlestick patterns as hints that raise the probability of something happening — not standalone trading signals. Real decisions should combine them with trend, volume, and support/resistance levels. We'll cover these combinations in more depth in the strategies course.
 
+## Patterns That Span Two Candles, Not Just One
+
+Everything so far has been about judging a single candle. In practice, patterns that look at **the relationship between two consecutive candles** are just as widely used.
+
+### Engulfing
+A pattern where the next candle's body completely swallows the previous candle's body. If a small bearish candle at the end of a downtrend is followed by a much larger bullish candle whose body fully covers the previous one, it's called a **bullish engulfing** pattern, read as a sign buyers have overwhelmed sellers. The reverse — a large bearish candle fully covering the prior bullish candle at the top of an uptrend — is a **bearish engulfing** pattern.
+
+### Harami
+The mirror image of engulfing: a large candle followed by a small candle that sits entirely within the first candle's body. It suggests that strong momentum has suddenly stalled, hinting the trend may be pausing to catch its breath, or possibly reversing.
+
+> 💡 Two-candle patterns are often considered somewhat more reliable than single-candle patterns, because they let you observe a shift in strength across two points in time rather than one. Even so, as emphasized in the previous section, don't trade on these alone — combine them with trend and volume.
+
 ## Choosing a Chart Timeframe
 
 The same stock can look completely different depending on whether you're looking at a 1-minute, 5-minute, daily, or weekly chart.

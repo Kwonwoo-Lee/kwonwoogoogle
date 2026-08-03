@@ -62,6 +62,15 @@ Ways to reduce false-breakout risk:
 - **Judge by the close**: Instead of counting a brief intraday poke above resistance as a real breakout, require that period's close to be above the level.
 - **Wait for a retest**: Instead of buying immediately on the breakout, wait for price to pull back to the old resistance (now support) and confirm it holds before entering — though if price never comes back for a retest, you risk missing the trade entirely.
 
+## Volume Profile: Finding Support/Resistance From Volume, Not Just Price
+
+The support and resistance described so far are found visually — spotting price levels where price stalled repeatedly. A more quantitative tool for the same idea is the **Volume Profile**, which shows a sideways bar chart of **how much volume actually traded at each price level**, rather than price over time.
+
+- **HVN (High Volume Node)**: A price level where an unusually large amount of volume traded. Since a lot of investors actually transacted at this price, it's likely to act as support or resistance if price revisits it.
+- **LVN (Low Volume Node)**: A price level where very little volume traded. Price tended not to "linger" here and moved through quickly, so it tends to move through relatively fast again if revisited.
+
+Where traditional support/resistance counts "how many times price stalled," volume profile shows directly "how much actual money traded at that price" — making it a useful complementary tool.
+
 ## Summary
 
 - Support is a level where declines repeatedly stall; resistance is a level where rallies repeatedly stall.

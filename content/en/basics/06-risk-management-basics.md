@@ -68,6 +68,27 @@ Even a technically perfect set of risk rules gets broken in practice — and emo
 
 The most effective way to guard against these patterns is to **decide your rules before you trade, and follow them mechanically once you're in the trade.** Deciding your stop, target, and position size before you enter dramatically reduces the room for emotion to creep in.
 
+## The Diversification Illusion: Correlation Risk
+
+Spreading capital across 10 stocks doesn't automatically mean you're diversified. If all 10 are semiconductor stocks, you technically hold 10 positions, but you're really concentrated in a single risk: the semiconductor industry cycle. The degree to which different assets move together is called **correlation**, and grouping only highly correlated stocks together gives you more positions on paper but not much real diversification benefit.
+
+Genuine diversification comes from mixing **assets that normally move differently from one another.** Spreading across sectors is one way to do this; going further and mixing entirely different asset classes — stocks and bonds, for instance — is another common approach.
+
+## A Caution About Position-Sizing Formulas: The Kelly Criterion
+
+The most famous attempt to mathematically "optimize" position size is the **Kelly Criterion**.
+
+```
+Kelly fraction = Win rate - [(1 - Win rate) ÷ Risk/reward ratio]
+```
+
+Given your win rate and risk/reward ratio, this formula calculates "the betting fraction that grows your capital fastest over the long run." In practice, though, it has two traps:
+
+- Win rate and risk/reward are **estimates with no guarantee of holding steady in the future.** Even a small estimation error can swing the Kelly-suggested fraction dramatically.
+- The "optimal" fraction the Kelly Criterion suggests may be mathematically optimal, but the volatility along the way — the size of the drawdowns your account experiences — can be more than most people can actually stomach in practice.
+
+This is why many traders in practice use half or a quarter of what the Kelly formula suggests ("half-Kelly," "quarter-Kelly"), or stick to a more conservative fixed approach like the "risk 1–2%" rule from this lesson. **A formula existing doesn't automatically make it more precise or safer** — keep that in mind.
+
 ## Summary
 
 - Bigger losses require disproportionately bigger gains to recover from, so avoiding large losses should be your top priority.

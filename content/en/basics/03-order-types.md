@@ -69,6 +69,26 @@ One principle experienced traders consistently emphasize: **decide, before you c
 
 We'll go deeper into risk/reward in the final lesson of the strategies course.
 
+## Putting a Number on Slippage
+
+Slippage is the difference between the price you placed an order at and the price you actually got filled at. For example, say a stock is trading at $100 and you place a market order to buy 500 shares, but the order book only has 100 shares available at $99.95, with the next levels at $100.10 and $100.20:
+
+```
+100 shares × $99.95 + 400 shares × $100.10 = $9,995 + $40,040 = $50,035
+Average fill price = $50,035 ÷ 500 = $100.07
+```
+
+You thought you were buying a "$100 stock," but your actual average fill was $100.07. That $0.07 difference is slippage. For high-volume stocks, the order book is deep enough that slippage is negligible. For low-volume stocks, placing a large market order can make this gap noticeably larger.
+
+## Fill Conditions: IOC and FOK
+
+Limit orders also support options that specify "how immediately" and "how completely" they need to fill.
+
+- **IOC (Immediate or Cancel)**: Fills whatever quantity it can immediately, and cancels the rest.
+- **FOK (Fill or Kill)**: Cancels the entire order if it can't be filled completely, immediately. Used when you don't want a partial fill.
+
+These conditions are mostly used when large quantities need to be executed quickly (like in algorithmic trading), and retail investors don't typically need them day to day — but understanding them helps explain why an order sometimes fills partially and the rest gets canceled.
+
 ## Summary
 
 - **Market orders** are fast but the price is uncertain; **limit orders** guarantee price but fill is uncertain.

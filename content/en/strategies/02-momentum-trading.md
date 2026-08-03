@@ -58,6 +58,16 @@ Other notable risks:
 
 The moving average crossover strategy from the previous lesson is about confirming — belatedly — that a trend has reversed direction, and following it. Momentum trading is about riding the sheer strength of a move that's already underway. In practice, the two are often combined — for example, confirming direction with a golden cross, then narrowing down to only the stocks within that group showing the strongest relative strength and volume.
 
+## Worth Noting: Momentum Is Relatively Well-Validated Academically
+
+Throughout this lesson and Lesson 5 (ICT), you've been reminded repeatedly that certain concepts aren't academically validated. Momentum is a notable exception — it's **one of the more broadly validated phenomena in academic finance.** Starting with Narasimhan Jegadeesh and Sheridan Titman's 1993 study, researchers have repeatedly observed, across many markets and time periods, that stocks with strong returns over the past 3–12 months tend to keep outperforming the market average for some period afterward. This is what academics call the "momentum factor."
+
+> ⚠️ That doesn't mean "so it always works." The momentum factor has also been documented to break down sharply during specific periods — particularly sharp market crashes followed by sudden rebounds — a phenomenon known as a "momentum crash." Academic validation and "always safe to use" are two different things.
+
+## Sector Rotation and Momentum
+
+Momentum shows up not just in individual stocks but at the **sector level** too. Capital flowing into specific sectors (semiconductors, financials, healthcare, and so on) and then rotating into different sectors as the economic cycle shifts is called sector rotation. When you're assessing a stock's momentum, also checking whether its sector as a whole is currently attracting capital can raise your confidence in the signal by another notch.
+
 ## Summary
 
 - Momentum trading is based on the premise that "stocks already moving strongly tend to keep moving in that direction for a while."

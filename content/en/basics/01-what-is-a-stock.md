@@ -54,6 +54,23 @@ When you're new to investing, it's easy to mix up stocks, bonds, and savings acc
 
 > ⚠️ **Note**: Higher potential return means higher potential risk. If a company goes bankrupt, shareholders get paid after creditors, which means in the worst case, you could lose your entire investment.
 
+## Common Stock vs. Preferred Stock
+
+Browse listings on a brokerage app and you'll sometimes see two versions of the same company — one plain, one labeled "preferred." Everything we've discussed so far has been about common stock. Preferred stock is a different class entirely.
+
+- **Common stock**: Comes with voting rights; dividends can vary depending on how the company is doing.
+- **Preferred stock**: Usually has no voting rights, but receives dividends ahead of common stockholders (and often at a somewhat higher fixed rate).
+
+Preferred shares often trade at a lower price than common shares of the same company, for two overlapping reasons: no voting rights, and typically much lower trading volume (lower liquidity), which makes them less convenient to buy and sell. Some investors buy preferred stock purely for the dividend income, but as a beginner, it's best to first understand the market through common stock.
+
+## New Share Issuance and Dilution: When Your Stake Shrinks
+
+Even after the IPO described above, a company that needs more capital can issue additional new shares (a secondary offering). For existing shareholders, this creates something called **dilution**.
+
+For example, say a company has 1 million total shares outstanding, and you own 10,000 of them (1%). If the company issues 250,000 new shares, total shares outstanding become 1.25 million. You still own the same 10,000 shares, but your ownership stake drops from 1% to 0.8% (10,000 ÷ 1,250,000). If the company doesn't create an equivalent amount of real additional value with that new capital, your ownership percentage has simply been diluted.
+
+> 💡 This dilution concern is a big part of why stock prices often wobble in the short term on news of a secondary offering. Whether it's ultimately positive or negative long-term depends on what the company does with the money — paying down debt versus funding a new growth initiative can lead to very different outcomes.
+
 ## Summary
 
 - A stock is a **piece of ownership** in a company, split into small units.

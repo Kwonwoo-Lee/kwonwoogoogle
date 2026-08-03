@@ -47,17 +47,31 @@ This strategy is based on the observation that "once a trend starts, it tends to
 
 The biggest weakness is **repeated losses in a sideways (range-bound) market — known as whipsaw**. When price moves without a clear trend, chopping sideways in a tight range, the short- and long-term MAs keep grazing past each other, generating golden cross / death cross signals in rapid succession. Trading every one of these signals racks up small losses each time.
 
-```
-Whipsaw example in a range-bound market
-      up  up  up
-──────down─down─down──── repeated false crosses in quick succession
-```
+<figure class="diagram">
+  <img src="/static/img/charts/en/whipsaw.svg" alt="Whipsaw example: short- and long-term MAs repeatedly crossing in a range-bound market" loading="lazy">
+  <figcaption>The long-term MA barely moves while the short-term MA repeatedly grazes it, generating false signals</figcaption>
+</figure>
 
 ## Ways to Improve It in Practice
 
 - **Add a trend filter**: Check the slope of the long-term MA (is it actually rising?) and ignore golden cross signals when the long-term MA is flat or declining
 - **Confirm with volume**: Check whether volume increased at the crossover — a crossover without volume confirmation tends to be less reliable
 - **Check multiple timeframes**: Even if a crossover shows up on the daily chart, be cautious if the weekly trend is pointing the opposite direction
+
+## Simple Moving Average (SMA) vs. Exponential Moving Average (EMA)
+
+The "average of the last N days' closes" described so far is, precisely, a **Simple Moving Average (SMA)**. In practice, the **Exponential Moving Average (EMA)** is also widely used.
+
+- **SMA**: Weights every one of the N days' closes equally — today's data counts the same as data from 20 days ago.
+- **EMA**: Weights recent data more heavily — today's close moves the average more than a close from 20 days ago does.
+
+Because of this, EMA reacts to price changes faster than SMA. Many short-term traders prefer EMA for that responsiveness; others prefer SMA's relative stability, since it's less rattled by noise. Neither is objectively superior — it's **a choice that depends on your trading style.**
+
+## Using Three Moving Averages Together
+
+Instead of just a short/long pairing, some traders plot **three moving averages — short, medium, and long** — together. For example, plotting the 5-day, 20-day, and 60-day MAs, and only treating it as a confirmed uptrend when they're stacked in that exact order from top to bottom (5-day > 20-day > 60-day).
+
+Layering three MAs like this filters out weaker trend segments far more strictly than a two-MA pairing — at the cost of signals arriving later and less frequently. This is another place where you can see the general rule that **signal accuracy and signal frequency tend to trade off against each other.**
 
 ## Summary
 

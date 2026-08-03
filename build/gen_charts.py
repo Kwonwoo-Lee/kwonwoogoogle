@@ -32,6 +32,8 @@ TEXT = {
         "doji": "도지", "hammer": "망치형", "inverted_hammer": "역망치형(슈팅스타)", "long_bull": "장대양봉",
         "golden_cross_title": "골든크로스 (단기 이평선이 장기 이평선을 상향 돌파)",
         "golden_cross_point": "골든크로스 지점", "short_ma": "단기 이평선", "long_ma": "장기 이평선",
+        "whipsaw_title": "횡보장의 휩소: 단기·장기 이평선이 반복적으로 서로 교차",
+        "whipsaw_false_cross": "거짓 크로스 반복 → 매매마다 작은 손실",
         "bollinger_title": "볼린저밴드: 상단/하단 근접 시 과열·과매도로 해석",
         "oversold": "과매도(하단밴드)", "overbought": "과열(상단밴드)",
         "breakout_title": "저항선 돌파 후 지지선으로 역할 전환 + 재테스트",
@@ -43,6 +45,12 @@ TEXT = {
         "candle1": "캔들1", "candle2": "캔들2 (강한 상승)", "candle3": "캔들3", "fvg_area": "FVG (가격 공백)",
         "rr_title": "손익비 1:3 예시 (리스크 1 감수, 보상 3 기대)",
         "entry": "진입가", "stop": "손절가", "target": "목표가",
+        "po3_title": "PO3(Power of Three): 축적 → 조작 → 분산",
+        "accumulation": "축적(Accumulation)", "manipulation": "조작(Manipulation)", "distribution": "분산(Distribution)",
+        "po3_sweep": "유동성 스윕",
+        "killzone_title": "NY AM 킬존 (뉴욕시간 09:30~11:00)",
+        "killzone_label": "킬존 — 이 구간에서만 진입을 검토",
+        "market_open": "9:30 정규장 시작", "market_close": "16:00 정규장 마감",
     },
     "en": {
         "candle_anatomy_title": "Anatomy of a bullish candle",
@@ -53,6 +61,8 @@ TEXT = {
         "long_bull": "Long bullish candle",
         "golden_cross_title": "Golden Cross (short-term MA crosses above long-term MA)",
         "golden_cross_point": "Golden Cross point", "short_ma": "Short-term MA", "long_ma": "Long-term MA",
+        "whipsaw_title": "Whipsaw in a range-bound market: the MAs cross back and forth repeatedly",
+        "whipsaw_false_cross": "Repeated false crosses → a small loss on every trade",
         "bollinger_title": "Bollinger Bands: touching the bands signals overbought/oversold",
         "oversold": "Oversold (lower band)", "overbought": "Overbought (upper band)",
         "breakout_title": "Resistance breaks, flips into support, then gets retested",
@@ -65,6 +75,12 @@ TEXT = {
         "fvg_area": "FVG (price gap)",
         "rr_title": "1:3 risk/reward example (risk 1 to make 3)",
         "entry": "Entry", "stop": "Stop", "target": "Target",
+        "po3_title": "PO3 (Power of Three): Accumulation → Manipulation → Distribution",
+        "accumulation": "Accumulation", "manipulation": "Manipulation", "distribution": "Distribution",
+        "po3_sweep": "Liquidity sweep",
+        "killzone_title": "NY AM killzone (09:30–11:00 New York time)",
+        "killzone_label": "Killzone — entries only considered in this window",
+        "market_open": "9:30 Market open", "market_close": "16:00 Market close",
     },
 }
 
@@ -86,6 +102,18 @@ def _text(x, y, s, size=15, fill=INK, anchor="middle", weight="400"):
 def _dashed(x1, y1, x2, y2, color=MUTED, width=1.5):
     return (f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{color}" '
             f'stroke-width="{width}" stroke-dasharray="5,4"/>')
+
+
+def _intersect(p1, p2, p3, p4):
+    """두 선분의 실제 교차점을 계산합니다 (표시용 점을 눈대중으로 찍지 않기 위해)."""
+    x1, y1 = p1
+    x2, y2 = p2
+    x3, y3 = p3
+    x4, y4 = p4
+    denom = (x1 - x2) * (y3 - y4) - (y1 - y2) * (x3 - x4)
+    px = ((x1 * y2 - y1 * x2) * (x3 - x4) - (x1 - x2) * (x3 * y4 - y3 * x4)) / denom
+    py = ((x1 * y2 - y1 * x2) * (y3 - y4) - (y1 - y2) * (x3 * y4 - y3 * x4)) / denom
+    return (px, py)
 
 
 def _candle(cx, top, bottom, body_top, body_bottom, up=True, width=34):
@@ -142,27 +170,57 @@ def candle_patterns(lang):
 
 def golden_cross(lang):
     t = TEXT[lang]
-    short_pts = [(40, 230), (110, 245), (180, 220), (250, 190), (300, 165),
-                 (360, 120), (430, 90), (500, 75), (580, 65)]
-    long_pts = [(40, 150), (110, 165), (180, 178), (250, 185), (300, 188),
-                (360, 185), (430, 178), (500, 172), (580, 168)]
+    # 장기 이평선은 거의 평평하게(완만한 추세), 단기 이평선은 아래에서 시작해
+    # 뚜렷하게 뚫고 올라가도록 설계 - 교차 구간의 두 선분으로 실제 교차점을 계산합니다.
+    long_pts = [(40, 162), (150, 164), (260, 165), (370, 165), (480, 163), (580, 161)]
+    short_pts = [(40, 232), (120, 222), (200, 205), (260, 185), (370, 145), (460, 105), (580, 65)]
 
     def path(pts):
         return "M " + " L ".join(f"{x},{y}" for x, y in pts)
+
+    cross_x, cross_y = _intersect((260, 185), (370, 145), (260, 165), (370, 165))
 
     body = [_text(310, 28, t["golden_cross_title"], 16, INK, "middle", "700")]
     body.append(f'<path d="{path(long_pts)}" fill="none" stroke="{MUTED}" stroke-width="3"/>')
     body.append(f'<path d="{path(short_pts)}" fill="none" stroke="{ACCENT}" stroke-width="3"/>')
 
-    body.append(f'<circle cx="322" cy="176" r="7" fill="{UP}"/>')
-    body.append(_dashed(322, 176, 322, 260, UP))
-    body.append(_text(322, 278, t["golden_cross_point"], 14, UP, "middle", "700"))
+    body.append(f'<circle cx="{cross_x:.1f}" cy="{cross_y:.1f}" r="7" fill="{UP}"/>')
+    body.append(_dashed(cross_x, cross_y, cross_x, 255, UP))
+    body.append(_text(cross_x, 273, t["golden_cross_point"], 14, UP, "middle", "700"))
 
-    body.append(f'<line x1="420" y1="245" x2="450" y2="245" stroke="{ACCENT}" stroke-width="3"/>')
-    body.append(_text(458, 250, t["short_ma"], 14, INK, "start"))
-    body.append(f'<line x1="420" y1="265" x2="450" y2="265" stroke="{MUTED}" stroke-width="3"/>')
-    body.append(_text(458, 270, t["long_ma"], 14, INK, "start"))
+    body.append(f'<line x1="420" y1="220" x2="450" y2="220" stroke="{ACCENT}" stroke-width="3"/>')
+    body.append(_text(458, 225, t["short_ma"], 14, INK, "start"))
+    body.append(f'<line x1="420" y1="240" x2="450" y2="240" stroke="{MUTED}" stroke-width="3"/>')
+    body.append(_text(458, 245, t["long_ma"], 14, INK, "start"))
     return _svg(620, 300, "\n".join(body), FONT_KO if lang == "ko" else FONT_EN)
+
+
+def whipsaw(lang):
+    t = TEXT[lang]
+    # 장기 이평선은 거의 움직이지 않는 수평선으로 두고, 단기 이평선이 그 위아래를
+    # 반복해서 스치도록 설계해서 교차점들이 정확히 장기선 위에 놓이게 만듭니다.
+    long_y = 145
+    long_pts = [(40, long_y), (540, long_y)]
+    short_pts = [(40, 175), (110, long_y), (160, 105), (210, long_y), (260, 180),
+                 (310, long_y), (360, 110), (410, long_y), (460, 172), (510, long_y), (540, 128)]
+    crossings = [(110, long_y), (210, long_y), (310, long_y), (410, long_y), (510, long_y)]
+
+    def path(pts):
+        return "M " + " L ".join(f"{x},{y}" for x, y in pts)
+
+    body = [_text(300, 26, t["whipsaw_title"], 15, INK, "middle", "700")]
+    body.append(f'<path d="{path(long_pts)}" fill="none" stroke="{MUTED}" stroke-width="3"/>')
+    body.append(f'<path d="{path(short_pts)}" fill="none" stroke="{ACCENT}" stroke-width="3"/>')
+    for cx, cy in crossings:
+        body.append(f'<circle cx="{cx}" cy="{cy}" r="5.5" fill="{DOWN}"/>')
+    body.append(_dashed(310, long_y, 310, 225, DOWN))
+    body.append(_text(310, 243, t["whipsaw_false_cross"], 13, DOWN, "middle", "700"))
+
+    body.append(f'<line x1="420" y1="270" x2="450" y2="270" stroke="{ACCENT}" stroke-width="3"/>')
+    body.append(_text(458, 275, t["short_ma"], 13, INK, "start"))
+    body.append(f'<line x1="60" y1="270" x2="90" y2="270" stroke="{MUTED}" stroke-width="3"/>')
+    body.append(_text(98, 275, t["long_ma"], 13, INK, "start"))
+    return _svg(600, 290, "\n".join(body), FONT_KO if lang == "ko" else FONT_EN)
 
 
 def bollinger_bands(lang):
@@ -284,15 +342,73 @@ def risk_reward(lang):
     return _svg(660, 300, "\n".join(body), FONT_KO if lang == "ko" else FONT_EN)
 
 
+def po3_cycle(lang):
+    t = TEXT[lang]
+    price = [(40, 150), (80, 142), (120, 158), (160, 145), (200, 155),
+             (230, 205), (260, 195), (290, 150), (340, 120), (400, 95),
+             (460, 75), (520, 60), (560, 55)]
+
+    def path(pts):
+        return "M " + " L ".join(f"{x},{y}" for x, y in pts)
+
+    body = [_text(300, 26, t["po3_title"], 15, INK, "middle", "700")]
+
+    # 3구간 배경 음영
+    body.append(f'<rect x="30" y="45" width="170" height="230" fill="{MUTED}" opacity="0.08"/>')
+    body.append(f'<rect x="200" y="45" width="90" height="230" fill="{DOWN}" opacity="0.08"/>')
+    body.append(f'<rect x="290" y="45" width="270" height="230" fill="{UP}" opacity="0.08"/>')
+
+    body.append(f'<path d="{path(price)}" fill="none" stroke="{ACCENT}" stroke-width="3"/>')
+    body.append(f'<circle cx="230" cy="205" r="6" fill="{DOWN}"/>')
+    body.append(_dashed(230, 205, 230, 250, DOWN))
+    body.append(_text(230, 268, t["po3_sweep"], 12, DOWN, "middle", "700"))
+
+    body.append(_text(115, 290, t["accumulation"], 13, MUTED, "middle", "700"))
+    body.append(_text(245, 40, t["manipulation"], 13, DOWN, "middle", "700"))
+    body.append(_text(425, 40, t["distribution"], 13, UP, "middle", "700"))
+    return _svg(600, 300, "\n".join(body), FONT_KO if lang == "ko" else FONT_EN)
+
+
+def killzone_timeline(lang):
+    t = TEXT[lang]
+    x0, x1 = 40, 560  # 08:00 ~ 16:00, 65px/hour
+    axis_y = 150
+
+    def hx(hour, minute=0):
+        return x0 + (hour - 8 + minute / 60) * 65
+
+    kz_start, kz_end = hx(9, 30), hx(11, 0)
+
+    body = [_text(300, 26, t["killzone_title"], 15, INK, "middle", "700")]
+    body.append(f'<rect x="{kz_start:.1f}" y="110" width="{kz_end - kz_start:.1f}" height="80" '
+                f'fill="{ACCENT}" opacity="0.16" stroke="{ACCENT}" stroke-width="1.5" stroke-dasharray="5,4"/>')
+    body.append(_text((kz_start + kz_end) / 2, 100, t["killzone_label"], 12, ACCENT, "middle", "700"))
+
+    body.append(f'<line x1="{x0}" y1="{axis_y}" x2="{x1}" y2="{axis_y}" stroke="{MUTED}" stroke-width="2"/>')
+    for hour in (8, 9, 10, 11, 12, 13, 14, 15, 16):
+        x = hx(hour)
+        body.append(f'<line x1="{x:.1f}" y1="{axis_y - 6}" x2="{x:.1f}" y2="{axis_y + 6}" stroke="{MUTED}" stroke-width="1.5"/>')
+        body.append(_text(x, axis_y + 26, f"{hour:02d}:00", 11, MUTED, "middle"))
+
+    body.append(f'<circle cx="{hx(9, 30):.1f}" cy="{axis_y}" r="5" fill="{ACCENT}"/>')
+    body.append(_text(hx(9, 30), axis_y - 16, t["market_open"], 12, ACCENT, "middle", "700"))
+    body.append(f'<circle cx="{hx(16):.1f}" cy="{axis_y}" r="5" fill="{MUTED}"/>')
+    body.append(_text(hx(16) - 10, axis_y - 16, t["market_close"], 12, MUTED, "end", "700"))
+    return _svg(600, 220, "\n".join(body), FONT_KO if lang == "ko" else FONT_EN)
+
+
 DIAGRAMS = {
     "candle-anatomy.svg": candle_anatomy,
     "candle-patterns.svg": candle_patterns,
     "golden-cross.svg": golden_cross,
+    "whipsaw.svg": whipsaw,
     "bollinger-bands.svg": bollinger_bands,
     "support-resistance-breakout.svg": support_resistance_breakout,
     "liquidity-sweep.svg": liquidity_sweep,
     "fvg-diagram.svg": fvg_diagram,
     "risk-reward.svg": risk_reward,
+    "po3-cycle.svg": po3_cycle,
+    "killzone-timeline.svg": killzone_timeline,
 }
 
 if __name__ == "__main__":

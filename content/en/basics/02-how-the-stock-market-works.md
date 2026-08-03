@@ -73,6 +73,20 @@ When people talk about "the market" moving up or down, rather than a specific st
 
 Even a strong individual stock can get dragged down if the overall market (the index) is in a downtrend. That's why many investors check the broader index trend before diving into individual stock analysis.
 
+## The Spread Is a Hidden Trading Cost
+
+The gap between the highest bid and the lowest ask in the order book is called the spread. It never shows up on a statement like a commission does, but it's a real cost you pay as an investor.
+
+For example, if a stock's highest bid is $9.98 and lowest ask is $10.00, and you hypothetically bought at market and immediately sold back at market, you'd lose $0.02 (0.2%) for nothing. For large, liquid stocks, this spread is typically very tight — 0.01% to 0.1%. For thinly traded small caps, it can widen to 1–3% or more.
+
+> 💡 **The more frequently you trade short-term, the more this spread cost compounds and eats into your returns.** If your strategy involves trading multiple times a day, always check how tight a stock's typical spread actually is.
+
+## Why Do Market Makers Exist
+
+Participants who continuously post both bid and ask orders in the order book are called market makers, or liquidity providers. They're not betting on direction — **they profit from the spread itself**, buying at $9.98 and selling at $10.00 thousands of times a day and pocketing the accumulated difference.
+
+The more active the market makers on a stock, the tighter the spread and the smoother the execution. Conversely, small caps and low-liquidity stocks that draw less market maker interest tend to have wider spreads, where a single large order can move the price significantly. This is also the answer to "why does buying even a small amount of this stock move the price so much."
+
 ## Summary
 
 - Exchanges connect buyers and sellers; individuals place orders through a broker.

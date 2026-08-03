@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block meta_title %}{{ post.title }} - {{ ui.market_news }} | {{ site.name }}{% endblock %}
+{% block meta_description %}{{ post.description }}{% endblock %}
+{% block meta_keywords %}{{ post.keywords }}{% endblock %}
+{% block og_type %}article{% endblock %}
+
+{% block json_ld %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": {{ post.title | tojson }},
+  "description": {{ post.description | tojson }},
+  "datePublished": {{ post.published | tojson }},
+  "dateModified": {{ post.published | tojson }},
+  "inLanguage": {{ lang | tojson }},
+  "author": { "@type": "Organization", "name": {{ site.name | tojson }} },
+  "publisher": { "@type": "Organization", "name": {{ site.name | tojson }} },
+  "mainEntityOfPage": {{ (cfg.SITE_URL + canonical) | tojson }}
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<nav class="breadcrumb wrap">
+  <a href="{{ url_for(lang) }}">{{ ui.home }}</a> / <a href="{{ url_for(lang, 'news') }}">{{ ui.market_news }}</a>
+</nav>
+
+<article class="wrap lesson">
+  <p class="course-progress">{{ post.published }}</p>
+  <h1>{{ post.title }}</h1>
+
+  <div class="lesson-body">
+    {{ post.html | safe }}
+  </div>
+
+  <nav class="lesson-pager">
+    {% if prev_post %}
+    <a class="pager-link prev" href="{{ url_for(lang, 'news', prev_post.slug) }}">
+      <span>{{ ui.prev_lesson }}</span>{{ prev_post.title }}
+    </a>
+    {% else %}
+    <span></span>
+    {% endif %}
+    {% if next_post %}
+    <a class="pager-link next" href="{{ url_for(lang, 'news', next_post.slug) }}">
+      <span>{{ ui.next_lesson }}</span>{{ next_post.title }}
+    </a>
+    {% endif %}
+  </nav>
+</article>
+{% endblock %}

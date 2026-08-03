@@ -14,10 +14,9 @@
   <ol class="lesson-list news-list">
     {% for item in news_items %}
     <li>
-      <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
-        <span class="news-source">{{ item.source }}</span>
+      <a href="{{ url_for(lang, 'news', item.slug) }}">
+        <span class="news-source">{{ item.published }}</span>
         <span class="lesson-title">{{ item.title }}</span>
-        <span class="lesson-meta">{{ item.pub_date }}</span>
       </a>
     </li>
     {% endfor %}

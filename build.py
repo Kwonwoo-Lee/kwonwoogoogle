@@ -21,7 +21,6 @@ import markdown as md
 import yaml
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-import news_source
 import site_config as cfg
 
 ROOT = Path(__file__).resolve().parent
@@ -102,9 +101,9 @@ UI = {
         "practice_trading_desc": "배운 내용을 실제 시세로 바로 연습해보세요. 가상 자금 1천만원으로 시작합니다.",
         "practice_trading_tag": "실시간 시세 · 무료",
         "market_news": "시장 뉴스",
-        "market_news_desc": "한국경제 증권 뉴스 RSS에서 가져온 실제 최신 헤드라인입니다. 제목을 누르면 원문 기사로 이동합니다.",
-        "market_news_tag": "실시간 헤드라인 · 무료",
-        "market_news_empty": "지금은 뉴스를 불러오지 못했습니다. 잠시 후 다시 시도해주세요.",
+        "market_news_desc": "실제 보도를 근거로 직접 정리·분석한 시황 글입니다. 각 글 하단에서 참고한 원문 기사를 확인할 수 있습니다.",
+        "market_news_tag": "직접 분석 · 무료",
+        "market_news_empty": "아직 등록된 뉴스 분석이 없습니다.",
     },
     "en": {
         "home": "Home", "privacy": "Privacy Policy", "contact": "Contact",
@@ -117,9 +116,9 @@ UI = {
         "practice_trading_desc": "Put what you learned into practice with real-time prices — start with a virtual ₩10,000,000.",
         "practice_trading_tag": "Real-time prices · Free",
         "market_news": "Market News",
-        "market_news_desc": "Real, current headlines pulled from the Yahoo Finance news RSS feed. Click a headline to read the original article.",
-        "market_news_tag": "Live headlines · Free",
-        "market_news_empty": "Couldn't load news right now. Please try again later.",
+        "market_news_desc": "Original market analysis written from real reporting. Each article links its sources at the bottom.",
+        "market_news_tag": "Original analysis · Free",
+        "market_news_empty": "No news analysis has been published yet.",
     },
 }
 
@@ -177,6 +176,30 @@ def load_lessons(lang: str):
             lesson["badge"] = _lesson_badge(lang, i + 1)
         lessons_by_course[course_slug] = lessons
     return lessons_by_course
+
+
+def load_news(lang: str):
+    """news 글 목록 (최신순). 각 글은 실제 보도를 자체적으로 종합·분석해 쓴 것으로,
+    강의(lesson)와 달리 course/order 개념이 없고 published 날짜로만 정렬합니다."""
+    news_dir = CONTENT_DIR / lang / "news"
+    if not news_dir.exists():
+        return []
+    posts = []
+    for path in sorted(news_dir.glob("*.md")):
+        raw = path.read_text(encoding="utf-8")
+        meta, body = _parse_frontmatter(raw)
+        html_body = md.markdown(body, extensions=MD_EXT)
+        keywords = meta.get("keywords", [])
+        posts.append({
+            "slug": meta["slug"],
+            "title": meta["title"],
+            "description": meta["description"],
+            "published": str(meta["published"]),
+            "html": html_body,
+            "keywords": ", ".join(keywords) if keywords else "",
+        })
+    posts.sort(key=lambda x: x["published"], reverse=True)
+    return posts
 
 
 def make_env():
@@ -240,14 +263,34 @@ def build():
         ))
         all_pages.append((home_path, date.today().isoformat()))
 
-        # 시장 뉴스 (빌드 시점에 실제 RSS를 가져와 정적으로 굽습니다)
+        # 시장 뉴스 (RSS를 그대로 긁어오지 않고, 실제 보도를 근거로 직접 종합·분석해서 씁니다)
+        news_posts = load_news(lang)
         news_tpl = env.get_template("news.html")
         news_path = url_for(lang, "news")
         write(base_dir / "news" / "index.html", news_tpl.render(
-            lang=lang, ui=ui, site=site, news_items=news_source.fetch_news(lang),
+            lang=lang, ui=ui, site=site, news_items=news_posts,
             canonical=news_path, alternates=alternates_for("news"),
         ))
         all_pages.append((news_path, date.today().isoformat()))
+
+        news_post_tpl = env.get_template("news_post.html")
+        for i, post in enumerate(news_posts):
+            prev_post = news_posts[i + 1] if i + 1 < len(news_posts) else None  # 최신순 정렬이므로 다음 인덱스가 "이전 글"
+            next_post = news_posts[i - 1] if i > 0 else None
+            post_url = url_for(lang, "news", post["slug"])
+            write(base_dir / "news" / post["slug"] / "index.html", news_post_tpl.render(
+                lang=lang, ui=ui, site=site, post=post,
+                prev_post=prev_post, next_post=next_post, canonical=post_url,
+                alternates=alternates_for("news", post["slug"]),
+            ))
+            all_pages.append((post_url, post["published"]))
+            if lang == "ko":
+                rss_items.append({
+                    "title": f"[{ui['market_news']}] {post['title']}",
+                    "description": post["description"],
+                    "url": post_url,
+                    "updated": post["published"],
+                })
 
         # 코스별 인덱스 + 레슨
         for course_slug, course_meta in COURSES.items():

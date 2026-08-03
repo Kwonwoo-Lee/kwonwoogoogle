@@ -3,8 +3,8 @@ slug: what-is-a-stock
 title: "What Is a Stock?"
 description: "From the idea that a stock is partial ownership of a company to shareholder rights, dividends, and capital gains — the most fundamental concept to understand before you invest."
 order: 1
-updated: 2026-08-02
-keywords: ["what is a stock", "stock definition", "investing for beginners", "dividends", "capital gains", "shareholder rights"]
+updated: 2026-08-03
+keywords: ["what is a stock", "stock definition", "investing for beginners", "how to get rich investing in stocks", "dividends", "capital gains", "shareholder rights"]
 ---
 
 ## A Stock Is a Piece of Ownership in a Company

@@ -85,8 +85,9 @@ SITE_TEXT = {
         "description": "A free, step-by-step stock trading course covering everything from market "
                         "basics to moving averages and ICT smart money concepts.",
         "keywords": "learn stocks, stock trading for beginners, stock market basics, trading strategies, "
-                     "moving average crossover, candlestick patterns, ICT smart money concepts, "
-                     "risk reward ratio, technical analysis",
+                     "how to get rich investing in stocks, make money trading stocks, become a millionaire investing, "
+                     "how to become a successful trader, moving average crossover, ICT smart money concepts, "
+                     "risk reward ratio",
     },
 }
 

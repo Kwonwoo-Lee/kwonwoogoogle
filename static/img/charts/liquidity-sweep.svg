@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 330" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="560" height="330" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="280" y="26" font-size="15" fill="#20201a" text-anchor="middle" font-weight="700">유동성 스윕: 직전 저점을 살짝 뚫고 빠르게 반전</text>
+<line x1="30" y1="220" x2="530" y2="220" stroke="#767568" stroke-width="2" stroke-dasharray="5,4"/>
+<text x="45" y="210" font-size="13" fill="#767568" text-anchor="start" font-weight="400">직전 저점</text>
+<path d="M 40,120 L 90,160 L 140,150 L 190,190 L 230,210 L 260,236 L 290,205 L 330,140 L 380,90 L 430,70 L 490,55" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+<circle cx="260" cy="236" r="7" fill="#d0453b"/>
+<line x1="260" y1="236" x2="260" y2="290" stroke="#d0453b" stroke-width="1.5" stroke-dasharray="5,4"/>
+<text x="260" y="308" font-size="13" fill="#d0453b" text-anchor="middle" font-weight="700">스윕(가짜 이탈) 후 반전</text>
+</svg>

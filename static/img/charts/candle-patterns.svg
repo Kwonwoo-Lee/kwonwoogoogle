@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="640" height="300" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="360" y="28" font-size="17" fill="#20201a" text-anchor="middle" font-weight="700">자주 나오는 캔들 패턴</text>
+<line x1="110" y1="70" x2="110" y2="230" stroke="#1f9d55" stroke-width="2.5"/>
+<rect x="83.0" y="148" width="54" height="4" fill="#dcf3e4" stroke="#1f9d55" stroke-width="2.5"/>
+<line x1="250" y1="90" x2="250" y2="230" stroke="#1f9d55" stroke-width="2.5"/>
+<rect x="223.0" y="90" width="54" height="40" fill="#dcf3e4" stroke="#1f9d55" stroke-width="2.5"/>
+<line x1="390" y1="70" x2="390" y2="210" stroke="#d0453b" stroke-width="2.5"/>
+<rect x="363.0" y="170" width="54" height="40" fill="#fbe1df" stroke="#d0453b" stroke-width="2.5"/>
+<line x1="530" y1="65" x2="530" y2="235" stroke="#1f9d55" stroke-width="2.5"/>
+<rect x="503.0" y="75" width="54" height="150" fill="#dcf3e4" stroke="#1f9d55" stroke-width="2.5"/>
+<text x="110" y="265" font-size="15" fill="#767568" text-anchor="middle" font-weight="400">도지</text>
+<text x="250" y="265" font-size="15" fill="#767568" text-anchor="middle" font-weight="400">망치형</text>
+<text x="390" y="265" font-size="15" fill="#767568" text-anchor="middle" font-weight="400">역망치형(슈팅스타)</text>
+<text x="530" y="265" font-size="15" fill="#767568" text-anchor="middle" font-weight="400">장대양봉</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="600" height="320" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="300" y="26" font-size="15" fill="#20201a" text-anchor="middle" font-weight="700">저항선 돌파 후 지지선으로 역할 전환 + 재테스트</text>
+<line x1="30" y1="92" x2="380" y2="92" stroke="#767568" stroke-width="2" stroke-dasharray="5,4"/>
+<line x1="380" y1="92" x2="550" y2="92" stroke="#1a5fb4" stroke-width="2" stroke-dasharray="6,4"/>
+<text x="40" y="82" font-size="13" fill="#767568" text-anchor="start" font-weight="400">저항선</text>
+<text x="470" y="82" font-size="13" fill="#1a5fb4" text-anchor="start" font-weight="400">→ 지지선으로 전환</text>
+<path d="M 30,230 L 70,150 L 110,155 L 150,90 L 190,95 L 230,150 L 270,155 L 310,90 L 350,95 L 390,40 L 430,70 L 470,55 L 510,30 L 550,60" fill="none" stroke="#20201a" stroke-width="3"/>
+<circle cx="390" cy="40" r="6" fill="#1f9d55"/>
+<text x="390" y="285" font-size="13" fill="#1f9d55" text-anchor="middle" font-weight="700">돌파</text>
+<line x1="390" y1="40" x2="390" y2="270" stroke="#1f9d55" stroke-width="1.5" stroke-dasharray="5,4"/>
+<circle cx="430" cy="70" r="6" fill="#1a5fb4"/>
+<text x="430" y="300" font-size="13" fill="#1a5fb4" text-anchor="middle" font-weight="700">재테스트(지지 확인)</text>
+<line x1="430" y1="70" x2="430" y2="288" stroke="#1a5fb4" stroke-width="1.5" stroke-dasharray="5,4"/>
+</svg>

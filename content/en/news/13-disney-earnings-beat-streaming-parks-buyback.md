@@ -1,7 +1,7 @@
 ---
 slug: disney-earnings-beat-streaming-parks-buyback
-title: "Disney Stock Jumps 6% as Streaming Profit Doubles and Parks Revenue Grows 10% - Plus a $9 Billion Buyback"
-description: "Disney's adjusted EPS of $2.06 crushed estimates and shares jumped roughly 6% premarket. Streaming profit doubled, parks revenue rose 10%, and buybacks got a boost - here's why it added up to a rally."
+title: "Disney Stock Rises Roughly 4% as Streaming Profit Doubles and Parks Revenue Grows 10% - Plus a $9 Billion Buyback"
+description: "Disney's adjusted EPS of $2.06 crushed estimates and shares rose roughly 4% premarket. Streaming profit doubled, parks revenue rose 10%, and buybacks got a boost - here's why it added up to a rally."
 published: 2026-08-05
 keywords: ["Disney stock today", "Disney Q3 2026 earnings", "Disney+ Hulu profit", "Disney parks revenue", "DIS stock jump", "Disney share buyback", "Hearst A+E Global Media deal"]
 ---
@@ -16,7 +16,7 @@ Before the opening bell on August 5, **Walt Disney** (DIS) reported fiscal third
 - **Entertainment streaming revenue**: $5.5 billion, up 11%, driven by a 15% jump in subscription revenue
 - **Experiences segment (parks and cruises) revenue**: $9.97 billion, up 10% year-over-year, with US park attendance up 3% and total global guest visits up 4%
 
-Investors responded immediately. Shares, which closed the prior session at $100.48, jumped to around $106 in premarket trading - a roughly 5-6% move.
+Investors responded immediately. Shares rose roughly 4% in premarket trading (reports ranged from the high-3% area to as much as 4.9%).
 
 Two additional pieces of news, alongside the earnings quality itself, help explain why the stock rallied despite the revenue miss. First, Disney sold its 50% stake in A+E Global Media to Hearst for roughly $1.2 billion in cash. Second, Disney used that cash, among other funds, to raise its fiscal 2026 share buyback target to at least $9 billion.
 

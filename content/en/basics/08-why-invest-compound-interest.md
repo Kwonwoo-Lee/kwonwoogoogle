@@ -1,10 +1,10 @@
 ---
 slug: why-invest-compound-interest
 title: "Why Invest in Stocks? Compound Interest vs. Bank Savings, By the Numbers"
-description: "Bank savings pay 2.5-3.9% a year. Stock markets have historically averaged 8-10%. Run both through 30 years of compounding and the gap isn't small - it's almost 9x."
+description: "Bank savings pay 2.5-3.9% a year vs. 8-10% for stocks, compared over 30 years of compounding - plus how long it actually takes to reach $1 million investing $300 a month."
 order: 8
 updated: 2026-08-05
-keywords: ["why invest in stocks", "compound interest investing", "savings account vs stocks", "compound interest calculator", "long term investing returns", "power of compounding"]
+keywords: ["why invest in stocks", "compound interest investing", "savings account vs stocks", "dollar cost averaging calculator", "how to save a million dollars", "investing $300 a month"]
 ---
 
 ## "It's Only a Few Percent" Is the Most Expensive Mistake in Investing
@@ -31,6 +31,28 @@ As of 2026, South Korea's five major banks offer promotional 1-year time deposit
 | 10.2% (S&P 500 compound return, 1928-2024) | ₩26.42M | ₩69.78M | ₩184.35M |
 
 After 30 years, the bank deposit has roughly doubled your money (2.1x). At the S&P 500's historical rate, it's grown roughly 18.4x. The annual return gap was 7.7 percentage points - the final-result gap is nearly 9x. That's the entire point: in compounding, a "small" rate difference is never actually small once time is involved.
+
+## A More Realistic Scenario: $300 a Month, Not a Lump Sum
+
+Most people don't start with a 10-million-KRW lump sum sitting around. A far more realistic approach is **dollar-cost averaging (DCA)** - investing a fixed amount every month. Assume you invest $300 a month into the S&P 500 for 30 years (360 contributions, $108,000 total invested), compounded monthly:
+
+| Annual Return | Value After 30 Years | Total Contributed | Growth From Compounding |
+|---|---|---|---|
+| 2.5% (bank savings) | ~$159,800 | $108,000 | ~$51,800 |
+| 3.9% (savings bank average) | ~$202,100 | $108,000 | ~$94,100 |
+| 8% (KOSPI long-run average) | ~$422,600 | $108,000 | ~$314,600 |
+| 10.2% (S&P 500, 1928-2024) | ~$643,600 | $108,000 | ~$535,600 |
+
+Put in the same $300 a month, and a savings account grows your money to about 1.5x principal (roughly $52K in gains). At the S&P 500's historical rate, it grows to about 5.9x principal (roughly $536K in gains). That entire gap is purely the effect of interest earning interest.
+
+### So How Do You Actually Reach $1 Million?
+
+At $300/month and a 10.2% annual return over 30 years, you'd land around $643,600 - short of $1 million. There are two real levers to close that gap:
+
+- **Contribute more.** Under the same 30-year, 10.2% assumption, reaching $1 million requires roughly **$466 a month**.
+- **Invest longer.** Keeping contributions at $300/month, it takes roughly **34 years** to reach $1 million - about 4 years beyond the 30-year mark.
+
+In other words, "how much you contribute" and "how long you stay invested" are interchangeable levers. Rather than straining to hit $466/month from day one, a more sustainable plan is often to start at $300/month and increase contributions gradually as income grows. One important caveat: this entire calculation assumes the S&P 500's *historical* 10.2% average continues to hold going forward - and as the next section explains, that assumption doesn't always hold.
 
 ## But Not All "Stock Investing" Is the Same
 

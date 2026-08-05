@@ -198,8 +198,12 @@ def load_news(lang: str):
             "published": str(meta["published"]),
             "html": html_body,
             "keywords": ", ".join(keywords) if keywords else "",
+            "_filename": path.stem,
         })
-    posts.sort(key=lambda x: x["published"], reverse=True)
+    # published 날짜가 같은 글끼리는 파일명(번호) 역순으로 정렬해 최근에 추가된 글이 위로 오도록 함
+    posts.sort(key=lambda x: (x["published"], x["_filename"]), reverse=True)
+    for post in posts:
+        del post["_filename"]
     return posts
 
 

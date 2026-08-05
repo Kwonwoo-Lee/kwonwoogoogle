@@ -1,14 +1,14 @@
 ---
 slug: kospi-samsung-sk-hynix-rally-hormuz-deal
-title: "Kospi Jumps 3.85% as Samsung and SK Hynix Rally on Hormuz Deal Hopes"
-description: "Kospi surged 3.85% to reclaim 6,600 as Samsung Electronics rose 5% and SK Hynix jumped 6%, fueled by a Wall Street chip rally and hopes for a US-Iran Hormuz deal."
+title: "Kospi Jumps 3.85% as SK Hynix Surges Nearly 6% and Samsung Rallies on Hormuz Deal Hopes"
+description: "Kospi surged 3.85% to reclaim 6,600 as SK Hynix jumped nearly 6% and Samsung Electronics, up as much as 5% intraday, closed up about 2.5%, fueled by a Wall Street chip rally and hopes for a US-Iran Hormuz deal."
 published: 2026-08-05
 keywords: ["Kospi surge", "Samsung Electronics stock", "SK Hynix stock", "Strait of Hormuz deal", "semiconductor rally", "Kospi 6600", "Iran deal stock market reaction"]
 ---
 
 ## What Happened
 
-South Korea's Kospi opened sharply higher on August 5, jumping 244.53 points, or 3.85%, to 6,603.48 and reclaiming the 6,600 level. The individual stock moves were even bigger than the index gain: **Samsung Electronics** rose 5.21% to 252,500 won, while **SK Hynix** surged 6.02% to 1,672,000 won.
+South Korea's Kospi opened sharply higher on August 5, jumping 244.53 points, or 3.85%, to 6,603.48 and reclaiming the 6,600 level. **Samsung Electronics** was up as much as 5% shortly after the open but gave back most of that gain to close up 2.50% at 246,000 won, while **SK Hynix** held its rally through the close, finishing up 5.77% at 1,668,000 won.
 
 Two tailwinds converged to produce the move. First, semiconductor stocks rallied hard on Wall Street overnight. Second, Treasury Secretary Scott Bessent said a US-Iran deal to reopen the Strait of Hormuz to shipping could come "as soon as Tuesday or Wednesday," which sent oil prices sharply lower the day before (WTI crude fell 5.7%, Brent fell 5.3%). US Central Command added that the "southern route of the Strait of Hormuz remains free and open," noting it had already assisted more than 1,000 vessels through the waterway.
 
@@ -20,7 +20,7 @@ Understanding why Kospi moved so sharply requires looking at two things at once.
 
 - **Semiconductor sentiment snapped back.** The selloff triggered by fears over China's low-cost AI models was, at its core, a question of whether global AI infrastructure spending was slowing. When chip stocks rebounded on Wall Street, it signaled that doubt had eased, at least for now — and Samsung and SK Hynix, both deeply embedded in the global AI chip supply chain, rode that same wave.
 - **Geopolitical risk eased.** A meaningful share of the world's seaborne oil passes through the Strait of Hormuz. When fears of a disruption there recede, so does the inflation risk tied to a potential oil spike — which in turn tends to support both rate-cut expectations and risk appetite broadly.
-- **Index math amplified the move.** Because Kospi is a market-cap-weighted index, Samsung Electronics and SK Hynix alone carry outsized weight. When both jump 5-6% in a single session, the headline index has little choice but to follow. In other words, this 3.85% gain reflects two mega-cap stocks pulling the index up more than it reflects broad-based strength across the market.
+- **Index math amplified the move.** Because Kospi is a market-cap-weighted index, Samsung Electronics and SK Hynix alone carry outsized weight. SK Hynix holding onto a nearly 6% gain through the close was, on its own, enough to move the index sharply. In other words, this 3.85% gain reflects a handful of mega-cap stocks — SK Hynix chief among them — pulling the index up more than it reflects broad-based strength across the market.
 
 ## What to Take Away From This
 

@@ -1,14 +1,14 @@
 ---
 slug: dow-54000-record-caterpillar-earnings
 title: "Dow Jones Tops 54,000 for the First Time Ever, Powered by Caterpillar's Earnings Blowout"
-description: "The Dow surged 1,036 points (1.95%) to close above 54,000 for the first time, with the S&P 500 hitting a two-month high. Here's how one industrial stock's earnings drove a third of the gain."
+description: "The Dow rose 907 points (1.71%) to close above 54,000 for the first time, with the S&P 500 hitting a two-month high. Here's how one industrial stock's earnings drove a third of the gain."
 published: 2026-08-05
 keywords: ["Dow Jones record high", "Dow 54000", "Caterpillar earnings August 2026", "S&P 500 record close", "Caterpillar stock jump", "US stock market record high", "August 4 2026 stock market"]
 ---
 
 ## What Happened
 
-The Dow Jones Industrial Average surged 1,036.66 points, or 1.95%, to close at 54,215.07 on August 4, crossing 54,000 for the first time in its history and marking a second straight record close. The S&P 500 gained 1.79% to finish around 7,737, its first record high in two months, while the Nasdaq Composite jumped 2.59%.
+The Dow Jones Industrial Average rose 907.47 points, or 1.71%, to close at 54,085.88 on August 4, crossing 54,000 for the first time in its history and marking a second straight record close. The S&P 500 gained 1.79% to finish around 7,737, its first record high in two months, while the Nasdaq Composite jumped 2.59%.
 
 The surprise engine behind the rally wasn't a chipmaker or a Big Tech name — it was heavy-equipment maker **Caterpillar** (CAT). The company reported second-quarter revenue up 24% year-over-year to $20.5 billion, the first time in its history it topped $20 billion in quarterly sales. Earnings blew past estimates, and Caterpillar raised its full-year revenue growth outlook. Shares jumped more than 6% on the news, and that single stock accounted for roughly a third of the Dow's point gain — more than 300 points on its own. Cisco Systems (+5.11%) and IBM (+3.91%) added to the lift.
 

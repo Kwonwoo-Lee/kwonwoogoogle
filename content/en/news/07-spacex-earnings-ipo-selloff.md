@@ -8,7 +8,7 @@ keywords: ["SpaceX stock", "SPCX earnings", "SpaceX first earnings report", "Sta
 
 ## What Happened
 
-After the closing bell on August 4, SpaceX (SPCX) - which went public in an IPO this past June - released its first quarterly earnings report as a public company. On paper, the numbers looked strong. Revenue came in at $7.81 billion, up 92% year over year and well ahead of the roughly $6.81 billion analysts expected. Loss per share was 9 cents, far better than the 24-cent loss Wall Street had modeled. The connectivity segment, which houses Starlink, grew revenue 66% to $4.29 billion, with segment net income up 79% to $1.66 billion. Starlink subscribers reportedly doubled year over year to 12 million.
+After the closing bell on August 4, SpaceX (SPCX) - which went public in an IPO this past June - released its first quarterly earnings report as a public company. On paper, the numbers looked strong. Revenue came in at $7.81 billion, up 92% year over year and well ahead of the roughly $6.81 billion analysts expected. Loss per share was 9 cents, far better than the 26-cent loss Wall Street had modeled. The connectivity segment, which houses Starlink, grew revenue 66% to $4.29 billion, with segment net income up 79% to $1.66 billion. Starlink subscribers reportedly doubled year over year to 12 million.
 
 The stock's reaction was the opposite of what those headline numbers would suggest. Shares fell more than 8% in after-hours trading immediately following the report, and even after paring some of the decline, still traded down roughly 5-7% in the $116-$118 range - below the $135 IPO offer price from June. In other words, the company's first-ever earnings report as a public company pushed the stock below where it started.
 

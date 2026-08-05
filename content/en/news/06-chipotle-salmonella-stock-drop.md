@@ -8,7 +8,7 @@ keywords: ["Chipotle stock drop", "CMG salmonella outbreak", "Chipotle jalapeno 
 
 ## What Happened
 
-On August 4, the same day the S&P 500, Dow, and Nasdaq all closed at fresh record highs, one stock was moving in the opposite direction entirely. Shares of **Chipotle Mexican Grill (CMG)** fell roughly 9-10% to close in the low $34 range - its worst single-day decline in about nine months. A double-digit drop on a day when the broader market is celebrating new highs is a strong signal that the selling was driven by something specific to the company, not macro sentiment.
+On August 4, the same day the S&P 500, Dow, and Nasdaq all closed at fresh record highs, one stock was moving in the opposite direction entirely. Shares of **Chipotle Mexican Grill (CMG)** fell roughly 9-10% to close in the low $33 range - its worst single-day decline in about nine months. A double-digit drop on a day when the broader market is celebrating new highs is a strong signal that the selling was driven by something specific to the company, not macro sentiment.
 
 The trigger was an announcement from Minnesota's health department. State health officials identified around 110 cases of Salmonella Javiana, and of the 84 infected patients interviewed, 75 reported having eaten at a Chipotle location before falling ill. Reports indicated the outbreak had already spread to at least 15 states beyond Minnesota. Using its own ingredient-traceability system, Chipotle identified jalapeños from a specific supply lot as the likely contamination source, pulled that batch from affected restaurants, and replaced it with peppers sourced from different growers.
 

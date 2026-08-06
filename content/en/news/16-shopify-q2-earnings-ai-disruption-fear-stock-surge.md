@@ -48,7 +48,7 @@ It's also worth noting how isolated this move was relative to the broader tape. 
 - **Growth confirmed across multiple, independent metrics carries more weight than a single strong number.** GMV, revenue, gross profit, and free cash flow all grew by roughly 30% or more together, while B2B, offline, and international channels accelerated simultaneously. A "selective beat" driven by one metric and a "broad-based beat" confirmed across several tend to hold up differently in the weeks that follow.
 - **The valuation math after a 20%+ single-day move deserves its own separate check.** A jump this size pulls forward a meaningful amount of future optimism into the current price, which raises volatility risk going forward. Even with excellent results, chasing the stock right after a spike is a different decision than waiting to see whether the new guidance actually holds up next quarter.
 
-For related context on how AI-era earnings reactions can cut in opposite directions, see: [Palantir Surges Nearly 30% on Earnings as S&P 500 Hits Record High](/en/news/palantir-earnings-market-record-highs/), [Why SpaceX Fell in After-Hours Trading Despite a 92% Revenue Beat in Its First Earnings Report](/en/news/spacex-earnings-ipo-selloff/)
+For related context on how AI-era earnings reactions can cut in opposite directions, see: [AMD Beat Earnings But Fell 8% After Hours - So Why Did Palantir Jump 29%?](/en/news/amd-palantir-earnings-reaction/), [Why SpaceX Fell in After-Hours Trading Despite a 92% Revenue Beat in Its First Earnings Report](/en/news/spacex-earnings-ipo-selloff/)
 
 ## Sources
 

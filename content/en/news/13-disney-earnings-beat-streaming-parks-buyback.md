@@ -32,7 +32,7 @@ Two additional pieces of news, alongside the earnings quality itself, help expla
 - **Watch for inflection points where a chronically unprofitable segment turns the corner.** A business like streaming, where "when does it turn profitable" has long been the central investment question, tends to move a stock more sharply at the moment it visibly crosses that threshold than during ordinary revenue growth. Track these inflection points across earnings reports.
 - **When a company announces a bigger buyback, check where the money is coming from.** Disney funded its expanded buyback partly through a non-core asset sale, not new debt. Buybacks financed by asset sales or free cash flow carry a different financial-health signal than ones funded by borrowing, so it's worth checking the source.
 
-For related context, see: [Dow Tops 54,000 for the First Time on Caterpillar's Earnings Beat](/en/news/dow-54000-record-caterpillar-earnings/), [Palantir Surges Nearly 30% on Earnings as S&P 500 Hits Record High](/en/news/palantir-earnings-market-record-highs/)
+For related context, see: [Dow Tops 54,000 for the First Time on Caterpillar's Earnings Beat](/en/news/dow-54000-record-caterpillar-earnings/), [AMD Beat Earnings But Fell 8% After Hours - So Why Did Palantir Jump 29%?](/en/news/amd-palantir-earnings-reaction/)
 
 ## Sources
 

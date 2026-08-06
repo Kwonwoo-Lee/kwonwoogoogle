@@ -8,19 +8,18 @@ keywords: ["SpaceX stock lockup", "SPCX share unlock", "why is SpaceX stock fall
 
 ## What Happened
 
-SpaceX (Nasdaq: SPCX), which went public in June, is back in the headlines for a very different reason than its earnings report. We previously covered how the company's first quarterly report as a public company - released after the close on August 4 - triggered an 8%-plus after-hours drop even though revenue jumped 92% year over year. That shock hadn't even fully faded before a second, unrelated pressure point hit: on August 5, shares slid more than 10% in a single session, and by the August 6 premarket, the stock was down another roughly 2.3%.
+SpaceX (Nasdaq: SPCX), which went public in June, is back in the headlines for a very different reason than its earnings report. We previously covered how the company's first quarterly report as a public company - released after the close on August 4 - triggered an 8%-plus after-hours drop even though revenue jumped 92% year over year. That shock hadn't even fully faded before a second, unrelated pressure point hit: on August 5, shares slid more than 13% in a single session to close at $108.27, and by the August 6 premarket, the stock was seeing renewed weakness as the lockup expiration added fresh supply-side pressure.
 
 This second wave of selling has a different root cause: a share lockup expiration. August 6 marks only the second full Nasdaq trading day since SpaceX's listing, and it's the date on which up to 911.5 million Class A shares become eligible to be released from certain lock-up and market-standoff restrictions. At the most recent premarket price of roughly $111.50, that block of newly tradable shares carries a notional value of approximately $101.6 billion - a figure large enough, relative to the company's market capitalization, that even partial selling from insiders could meaningfully pressure the stock.
 
 Here's how the price action has unfolded:
 
 - **August 4, after earnings**: shares fell more than 8% in after-hours trading
-- **August 5, regular session**: the stock gave back most of a prior rally, sliding over 10% and closing near $114
+- **August 5, regular session**: the stock gave back most of a prior rally, sliding over 13% and closing at $108.27
 - **August 5, intraday range**: a wide swing between a high of $117.50 and a low of $106.66
-- **August 5, after-hours**: shares dropped to $115.75, down roughly 7.6% from the prior close
-- **August 6, premarket**: trading around $117.21, down about 2.3%
+- **August 6, premarket**: renewed weakness as the lockup expiration added to selling pressure
 
-Against the $135 IPO offer price, SPCX now sits roughly 12-15% below where it started trading. Measured from its post-IPO intraday high of $225.64, the stock has lost more than 40% of its value. In other words, this lockup event is landing on a stock that had already absorbed a substantial decline - which is a big part of why the market is watching it so closely.
+Against the $135 IPO offer price, SPCX now sits nearly 20% below where it started trading. Measured from its post-IPO intraday high of $225.64, the stock has lost more than 40% of its value. In other words, this lockup event is landing on a stock that had already absorbed a substantial decline - which is a big part of why the market is watching it so closely.
 
 ## Why a Lockup Expiration Moves the Stock - The Mechanics of Float and Supply
 

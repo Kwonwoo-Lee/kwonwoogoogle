@@ -57,7 +57,7 @@ The key point: **you can't tell which outcome you're looking at until you see ho
 
 ## A Worked Numeric Example
 
-Suppose a 5-minute candle on stock A opens at $100.70 and closes at $101.30.
+Suppose a 5-minute candle on stock A opens at $100.70 and closes at $101.20.
 
 | Price level | Sell volume | Buy volume | Ratio |
 |---|---|---|---|

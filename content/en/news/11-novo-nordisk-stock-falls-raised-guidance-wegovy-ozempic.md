@@ -26,7 +26,7 @@ This is a clear example of headline direction and stock direction decoupling, an
 - **Relative performance within a sector moves stocks.** Novo's results only make sense in context next to Eli Lilly's. When evaluating any stock in a competitive sector, always check how its numbers compare to its closest rival's - not just against its own guidance.
 - **A known future risk gets priced in gradually, not all at once.** Pre-announced events like Novo's 2027 price cuts weigh on sentiment every quarter leading up to them, not just on the day they take effect. If a stock you hold has a known headwind on the calendar, expect it to resurface at every earnings report until it's resolved.
 
-For related context, see: [Palantir (PLTR) Surges Nearly 30% on Earnings Beat](/en/news/palantir-earnings-market-record-highs/), [SpaceX's First Earnings Report Beats Estimates, Stock Falls 7-8%](/en/news/spacex-earnings-ipo-selloff/)
+For related context, see: [AMD Beat Earnings But Fell 8% After Hours - So Why Did Palantir Jump 29%?](/en/news/amd-palantir-earnings-reaction/), [SpaceX's First Earnings Report Beats Estimates, Stock Falls 7-8%](/en/news/spacex-earnings-ipo-selloff/)
 
 ## Sources
 

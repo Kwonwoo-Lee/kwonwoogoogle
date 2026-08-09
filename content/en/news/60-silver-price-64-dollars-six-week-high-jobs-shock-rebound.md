@@ -1,6 +1,6 @@
 ---
 slug: silver-price-64-dollars-six-week-high-jobs-shock-rebound
-title: "Silver Jumps 4.16% to $64.10, a Six-Week High - Still Down 46% From January's $121 Record"
+title: "Silver Jumps 4.16% to $64.10, a Six-Week High - Still Down 47% From January's $121 Record"
 description: "Silver spiked 4.16% to $64.10/oz on a shock July jobs report, its best level in six weeks. Here's why it's still nearly half January's record high and what's really driving the rebound."
 published: 2026-08-09
 keywords: ["silver price surge", "silver $64 an ounce", "silver six week high", "gold silver ratio", "silver supply deficit 2026", "China silver imports solar", "First Majestic Silver stock", "Pan American Silver earnings"]
@@ -38,7 +38,7 @@ It's also worth remembering silver's dual identity, which is part of why it swin
 
 ## What to Take Away From This
 
-- **"A multi-week high" and "an all-time high" are not the same claim.** Silver's current level is its best in six weeks but still 46% below January's record. Judging overheating purely off a short-term high can miss the bigger picture entirely.
+- **"A multi-week high" and "an all-time high" are not the same claim.** Silver's current level is its best in six weeks but still 47% below January's record. Judging overheating purely off a short-term high can miss the bigger picture entirely.
 - **In a heavily leveraged market, exchange margin policy is itself a risk factor.** January's 30% crash wasn't driven by a fundamental shock — it was triggered by a CME margin hike that forced liquidations. Anyone trading commodities or derivatives should track exchange rule changes as closely as price action.
 - **Separate a rally's cyclical drivers from its structural ones.** This week's bounce combines Fed rate expectations (which can reverse quickly) with solar-driven supply deficits (which move far more slowly). Which of those two forces gives way first will likely shape silver's next leg.
 - **Watch the gold-silver ratio for signals about where capital is rotating.** A falling ratio means silver is outperforming gold, often reflecting some mix of risk appetite and industrial-demand optimism layered on top of the macro trade.

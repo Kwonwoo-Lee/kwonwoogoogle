@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="640" height="400" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="320" y="24" font-size="14" fill="#20201a" text-anchor="middle" font-weight="700">스탠 웨인스타인 4단계 스테이지 분석: 30주 이동평균선과 상대강도선(RS)</text>
+
+<rect x="35" y="60" width="150" height="175" fill="#767568" opacity="0.06"/>
+<rect x="185" y="60" width="155" height="175" fill="#1f9d55" opacity="0.08"/>
+<rect x="340" y="60" width="125" height="175" fill="#767568" opacity="0.06"/>
+<rect x="465" y="60" width="140" height="175" fill="#d0453b" opacity="0.07"/>
+
+<line x1="185" y1="60" x2="185" y2="245" stroke="#c9c8bd" stroke-width="1" stroke-dasharray="3,2"/>
+<line x1="340" y1="60" x2="340" y2="245" stroke="#c9c8bd" stroke-width="1" stroke-dasharray="3,2"/>
+<line x1="465" y1="60" x2="465" y2="245" stroke="#c9c8bd" stroke-width="1" stroke-dasharray="3,2"/>
+
+<text x="110" y="74" font-size="10.5" fill="#5a5950" text-anchor="middle" font-weight="700">1단계: 바닥 다지기</text>
+<text x="262" y="74" font-size="10.5" fill="#1f9d55" text-anchor="middle" font-weight="700">2단계: 상승(진입 구간)</text>
+<text x="402" y="74" font-size="10.5" fill="#5a5950" text-anchor="middle" font-weight="700">3단계: 천장권</text>
+<text x="535" y="74" font-size="10.5" fill="#d0453b" text-anchor="middle" font-weight="700">4단계: 하락(청산 구간)</text>
+
+<path d="M 35,203 L 65,202 L 95,201 L 125,200 L 155,199 L 185,197 L 215,188 L 245,172 L 275,155 L 305,140 L 340,127 L 370,120 L 400,117 L 430,117 L 465,121 L 495,130 L 525,148 L 555,167 L 585,187 L 605,202" fill="none" stroke="#767568" stroke-width="2.5" stroke-dasharray="6,3"/>
+
+<path d="M 35,205 L 65,195 L 95,212 L 125,192 L 155,203 L 185,196 L 215,168 L 245,142 L 275,120 L 305,103 L 340,92 L 370,102 L 400,86 L 430,104 L 465,96 L 495,132 L 525,163 L 555,193 L 585,218 L 605,232" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+
+<circle cx="200" cy="182" r="5.5" fill="#1f9d55"/>
+<line x1="200" y1="182" x2="200" y2="255" stroke="#1f9d55" stroke-width="1.2" stroke-dasharray="3,2"/>
+<text x="200" y="266" font-size="9.5" fill="#1f9d55" text-anchor="middle" font-weight="700">돌파 매수: 저항 돌파+거래량 증가</text>
+
+<circle cx="495" cy="131" r="5.5" fill="#d0453b"/>
+<line x1="495" y1="131" x2="495" y2="255" stroke="#d0453b" stroke-width="1.2" stroke-dasharray="3,2"/>
+<text x="495" y="266" font-size="9.5" fill="#d0453b" text-anchor="middle" font-weight="700">청산 신호: 30주선 하향 이탈</text>
+
+<line x1="40" y1="285" x2="605" y2="285" stroke="#e1e0d9" stroke-width="1"/>
+<text x="40" y="300" font-size="11" fill="#5a5950" font-weight="700">상대강도선(RS Line, 지수 대비 비율)</text>
+
+<path d="M 35,325 L 95,330 L 155,327 L 185,320 L 215,300 L 245,278 L 275,262 L 305,250 L 340,245 L 370,248 L 400,244 L 430,250 L 465,248 L 495,268 L 525,290 L 555,308 L 585,322 L 605,330" fill="none" stroke="#8a4fd1" stroke-width="2.5"/>
+
+<text x="215" y="315" font-size="9" fill="#6a3aa8" font-weight="700">RS라인 선행 상승</text>
+<text x="465" y="240" font-size="9" fill="#6a3aa8" text-anchor="end" font-weight="700">RS라인 선행 하락</text>
+
+<line x1="40" y1="378" x2="65" y2="378" stroke="#1a5fb4" stroke-width="3"/>
+<text x="72" y="382" font-size="10.5" fill="#20201a">주가(주봉)</text>
+<line x1="150" y1="378" x2="175" y2="378" stroke="#767568" stroke-width="2.5" stroke-dasharray="6,3"/>
+<text x="182" y="382" font-size="10.5" fill="#20201a">30주 이동평균선</text>
+<line x1="320" y1="378" x2="345" y2="378" stroke="#8a4fd1" stroke-width="2.5"/>
+<text x="352" y="382" font-size="10.5" fill="#20201a">상대강도선(RS)</text>
+</svg>

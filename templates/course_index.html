@@ -41,6 +41,7 @@
     <li>
       <a href="{{ url_for(lang, course.slug, lesson.slug) }}">
         <span class="lesson-num">{{ lesson.badge }}</span>
+        {% if lesson.level %}<span class="lesson-level">{{ lesson.level }}</span>{% endif %}
         <span class="lesson-title">{{ lesson.title }}</span>
         <span class="lesson-meta">{{ lesson.reading_label }}</span>
       </a>

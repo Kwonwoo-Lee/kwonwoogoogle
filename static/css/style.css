@@ -73,6 +73,10 @@ h1 { font-size: 28px; }
 }
 .lesson-list a:hover { border-color: var(--accent); text-decoration: none; }
 .lesson-num { font-weight: 700; color: var(--accent); font-size: 14px; flex-shrink: 0; }
+.lesson-level {
+  flex-shrink: 0; font-size: 11px; font-weight: 700; color: var(--accent); background: var(--accent-2);
+  border-radius: 20px; padding: 2px 9px;
+}
 .lesson-title { flex: 1; font-weight: 600; }
 .lesson-meta { color: var(--muted); font-size: 13px; flex-shrink: 0; }
 .news-source { font-weight: 700; color: var(--accent); font-size: 12px; flex-shrink: 0; white-space: nowrap; }

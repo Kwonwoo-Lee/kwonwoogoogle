@@ -154,6 +154,20 @@ def _reading_label(lang: str, minutes: int) -> str:
     return f"{minutes}분 읽기" if lang == "ko" else f"{minutes} min read"
 
 
+BASICS_LEVEL_THRESHOLDS = {
+    "ko": [(15, "기초"), (25, "중급")],
+    "en": [(15, "Beginner"), (25, "Intermediate")],
+}
+
+
+def _basics_level(lang: str, order: int) -> str:
+    """주식기초 코스 전용: 15강까지 기초, 16~25강 중급, 26강부터 고급으로 자동 분류."""
+    for max_order, label in BASICS_LEVEL_THRESHOLDS[lang]:
+        if order <= max_order:
+            return label
+    return "고급" if lang == "ko" else "Advanced"
+
+
 def load_lessons(lang: str):
     """course_slug -> 정렬된 lesson dict 리스트 (해당 언어)"""
     lessons_by_course = {}
@@ -181,6 +195,8 @@ def load_lessons(lang: str):
         lessons.sort(key=lambda x: x["order"])
         for i, lesson in enumerate(lessons):
             lesson["badge"] = _lesson_badge(lang, i + 1)
+            if course_slug == "basics":
+                lesson["level"] = _basics_level(lang, lesson["order"])
         lessons_by_course[course_slug] = lessons
     return lessons_by_course
 
@@ -325,10 +341,11 @@ def build():
                 next_lesson = lessons[i + 1] if i < len(lessons) - 1 else None
                 related_lessons = (lessons[i + 1:] + lessons[:i])[:3]
                 lesson_url = url_for(lang, course_slug, lesson["slug"])
+                level_part = f" · {lesson['level']}" if lesson.get("level") else ""
                 progress_label = (
-                    f"{course['title']} · {i + 1}/{len(lessons)}강 · {lesson['reading_label']}"
+                    f"{course['title']} · {i + 1}/{len(lessons)}강{level_part} · {lesson['reading_label']}"
                     if lang == "ko" else
-                    f"{course['title']} · Lesson {i + 1}/{len(lessons)} · {lesson['reading_label']}"
+                    f"{course['title']} · Lesson {i + 1}/{len(lessons)}{level_part} · {lesson['reading_label']}"
                 )
                 write(base_dir / course_slug / lesson["slug"] / "index.html", lesson_tpl.render(
                     lang=lang, ui=ui, site=site,

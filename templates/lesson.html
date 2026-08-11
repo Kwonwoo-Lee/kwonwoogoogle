@@ -41,10 +41,33 @@
 <article class="wrap lesson">
   <p class="course-progress">{{ progress_label }}</p>
   <h1>{{ lesson.title }}</h1>
+  <p class="byline">{{ ui.reviewed_by }} · {{ lesson.updated }}</p>
 
   <div class="lesson-body">
     {{ lesson.html | safe }}
   </div>
+
+  <div class="share-row">
+    <span class="share-label">{{ ui.share }}</span>
+    <a class="share-btn" href="https://twitter.com/intent/tweet?text={{ lesson.title | urlencode }}&amp;url={{ (cfg.SITE_URL + canonical) | urlencode }}" target="_blank" rel="noopener">X</a>
+    <button type="button" class="share-btn copy-link-btn" data-url="{{ cfg.SITE_URL }}{{ canonical }}" data-copied-label="{{ ui.link_copied }}">{{ ui.copy_link }}</button>
+  </div>
+
+  {% if related_lessons %}
+  <div class="related-block">
+    <h2>{{ ui.related_lessons }}</h2>
+    <ol class="lesson-list">
+      {% for rl in related_lessons %}
+      <li>
+        <a href="{{ url_for(lang, course.slug, rl.slug) }}">
+          <span class="lesson-num">{{ rl.badge }}</span>
+          <span class="lesson-title">{{ rl.title }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+  {% endif %}
 
   <nav class="lesson-pager">
     {% if prev_lesson %}

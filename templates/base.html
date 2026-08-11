@@ -98,5 +98,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p><a href="{{ url_for(lang, 'about') }}">{{ ui.about }}</a> · <a href="{{ url_for(lang, 'privacy') }}">{{ ui.privacy }}</a> · <a href="{{ url_for(lang, 'terms') }}">{{ ui.terms }}</a> · <a href="mailto:{{ cfg.CONTACT_EMAIL }}">{{ ui.contact }}</a></p>
   </div>
 </footer>
+
+<script>
+document.addEventListener('click', function (event) {
+  var btn = event.target.closest('.copy-link-btn');
+  if (!btn) return;
+  navigator.clipboard.writeText(btn.dataset.url).then(function () {
+    var original = btn.textContent;
+    btn.textContent = btn.dataset.copiedLabel;
+    setTimeout(function () { btn.textContent = original; }, 1500);
+  });
+});
+</script>
 </body>
 </html>

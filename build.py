@@ -105,6 +105,9 @@ UI = {
         "market_news_desc": "실제 보도를 근거로 직접 정리·분석한 시황 글입니다. 각 글 하단에서 참고한 원문 기사를 확인할 수 있습니다.",
         "market_news_tag": "직접 분석 · 무료",
         "market_news_empty": "아직 등록된 뉴스 분석이 없습니다.",
+        "reviewed_by": "TradeSmrt 편집팀 작성·검수",
+        "share": "공유하기", "copy_link": "링크 복사", "link_copied": "복사됨!",
+        "related_lessons": "관련 강의", "related_news": "관련 뉴스",
     },
     "en": {
         "home": "Home", "privacy": "Privacy Policy", "contact": "Contact",
@@ -120,6 +123,9 @@ UI = {
         "market_news_desc": "Original market analysis written from real reporting. Each article links its sources at the bottom.",
         "market_news_tag": "Original analysis · Free",
         "market_news_empty": "No news analysis has been published yet.",
+        "reviewed_by": "Written & reviewed by the TradeSmrt editorial team",
+        "share": "Share", "copy_link": "Copy link", "link_copied": "Copied!",
+        "related_lessons": "Related lessons", "related_news": "Related news",
     },
 }
 
@@ -282,10 +288,12 @@ def build():
         for i, post in enumerate(news_posts):
             prev_post = news_posts[i + 1] if i + 1 < len(news_posts) else None  # 최신순 정렬이므로 다음 인덱스가 "이전 글"
             next_post = news_posts[i - 1] if i > 0 else None
+            related_news = [p for p in news_posts if p["slug"] != post["slug"]][:3]
             post_url = url_for(lang, "news", post["slug"])
             write(base_dir / "news" / post["slug"] / "index.html", news_post_tpl.render(
                 lang=lang, ui=ui, site=site, post=post,
-                prev_post=prev_post, next_post=next_post, canonical=post_url,
+                prev_post=prev_post, next_post=next_post, related_news=related_news,
+                canonical=post_url,
                 alternates=alternates_for("news", post["slug"]),
             ))
             all_pages.append((post_url, post["published"]))
@@ -315,6 +323,7 @@ def build():
             for i, lesson in enumerate(lessons):
                 prev_lesson = lessons[i - 1] if i > 0 else None
                 next_lesson = lessons[i + 1] if i < len(lessons) - 1 else None
+                related_lessons = (lessons[i + 1:] + lessons[:i])[:3]
                 lesson_url = url_for(lang, course_slug, lesson["slug"])
                 progress_label = (
                     f"{course['title']} · {i + 1}/{len(lessons)}강 · {lesson['reading_label']}"
@@ -324,7 +333,7 @@ def build():
                 write(base_dir / course_slug / lesson["slug"] / "index.html", lesson_tpl.render(
                     lang=lang, ui=ui, site=site,
                     course=course, lesson=lesson, lessons=lessons,
-                    prev_lesson=prev_lesson, next_lesson=next_lesson,
+                    prev_lesson=prev_lesson, next_lesson=next_lesson, related_lessons=related_lessons,
                     lesson_index=i + 1, progress_label=progress_label, canonical=lesson_url,
                     alternates=alternates_for(course_slug, lesson["slug"]),
                 ))

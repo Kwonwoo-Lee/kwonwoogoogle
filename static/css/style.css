@@ -101,6 +101,21 @@ h1 { font-size: 28px; }
 .lesson-body figure.diagram img { max-width: 100%; height: auto; border-radius: 12px; }
 .lesson-body figure.diagram figcaption { margin-top: 8px; font-size: 13px; color: var(--muted); }
 .muted { color: var(--muted); font-size: 14px; }
+.byline { color: var(--muted); font-size: 13px; margin: 0 0 24px; }
+
+/* share row */
+.share-row { display: flex; align-items: center; gap: 10px; margin-top: 40px; }
+.share-label { font-size: 13px; color: var(--muted); font-weight: 600; }
+.share-btn {
+  display: inline-block; background: var(--surface); border: 1px solid var(--border); border-radius: 20px;
+  padding: 6px 14px; font-size: 13px; font-weight: 600; color: var(--ink); cursor: pointer;
+}
+.share-btn:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+
+/* related content */
+.related-block { margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--border); }
+.related-block h2 { font-size: 18px; margin: 0 0 14px; border-top: none; padding-top: 0; }
+.related-block .lesson-list { margin: 0; }
 
 /* pager */
 .lesson-pager { display: flex; justify-content: space-between; gap: 16px; margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--border); }

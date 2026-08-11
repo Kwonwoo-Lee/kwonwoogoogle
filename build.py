@@ -108,6 +108,9 @@ UI = {
         "reviewed_by": "TradeSmrt 편집팀 작성·검수",
         "share": "공유하기", "copy_link": "링크 복사", "link_copied": "복사됨!",
         "related_lessons": "관련 강의", "related_news": "관련 뉴스",
+        "toc": "이 글의 목차",
+        "tools": "투자 계산기", "tools_nav": "계산기",
+        "continue_reading": "이어보기",
     },
     "en": {
         "home": "Home", "privacy": "Privacy Policy", "contact": "Contact",
@@ -126,6 +129,9 @@ UI = {
         "reviewed_by": "Written & reviewed by the TradeSmrt editorial team",
         "share": "Share", "copy_link": "Copy link", "link_copied": "Copied!",
         "related_lessons": "Related lessons", "related_news": "Related news",
+        "toc": "In this article",
+        "tools": "Investing Calculators", "tools_nav": "Calculators",
+        "continue_reading": "Continue reading",
     },
 }
 
@@ -168,6 +174,61 @@ def _basics_level(lang: str, order: int) -> str:
     return "고급" if lang == "ko" else "Advanced"
 
 
+FAQ_HEADING = {"ko": "자주 묻는 질문", "en": "FAQ"}
+
+
+def _faq_plain_text(lines) -> str:
+    """FAQ 답변 본문(마크다운)을 JSON-LD용 평문으로 변환"""
+    text = "\n".join(lines).strip()
+    if not text:
+        return ""
+    html_fragment = md.markdown(text)
+    plain = re.sub(r"<[^>]+>", "", html_fragment)
+    return re.sub(r"\s+", " ", plain).strip()
+
+
+def _extract_faq(body: str, lang: str):
+    """본문에 '## 자주 묻는 질문'/'## FAQ' 섹션이 있으면 그 아래 '### 질문' 단위로 Q&A를 추출.
+    글쓴이(자동화 루틴 포함)가 자연스러운 경우에만 넣는 선택적 섹션으로, FAQPage 구조화 데이터에 쓰인다."""
+    heading = FAQ_HEADING[lang]
+    lines = body.splitlines()
+    start = None
+    for i, line in enumerate(lines):
+        if line.strip() == f"## {heading}":
+            start = i + 1
+            break
+    if start is None:
+        return []
+    end = len(lines)
+    for i in range(start, len(lines)):
+        if lines[i].startswith("## "):
+            end = i
+            break
+    faqs = []
+    question, answer_lines = None, []
+    for line in lines[start:end]:
+        if line.startswith("### "):
+            if question:
+                faqs.append({"question": question, "answer": _faq_plain_text(answer_lines)})
+            question, answer_lines = line[4:].strip(), []
+        elif question is not None:
+            answer_lines.append(line)
+    if question:
+        faqs.append({"question": question, "answer": _faq_plain_text(answer_lines)})
+    return [f for f in faqs if f["answer"]]
+
+
+def _render_markdown(body: str, lang: str):
+    """마크다운 본문을 HTML로 변환하면서, 목차(H2 3개 이상일 때)와 FAQ 섹션을 함께 추출."""
+    converter = md.Markdown(extensions=MD_EXT)
+    html_body = converter.convert(body)
+    toc = [{"title": t["name"], "id": t["id"]} for t in converter.toc_tokens if t["level"] == 2]
+    if len(toc) < 3:
+        toc = []
+    faq = _extract_faq(body, lang)
+    return html_body, toc, faq
+
+
 def load_lessons(lang: str):
     """course_slug -> 정렬된 lesson dict 리스트 (해당 언어)"""
     lessons_by_course = {}
@@ -177,7 +238,7 @@ def load_lessons(lang: str):
         for path in sorted(course_dir.glob("*.md")):
             raw = path.read_text(encoding="utf-8")
             meta, body = _parse_frontmatter(raw)
-            html_body = md.markdown(body, extensions=MD_EXT)
+            html_body, toc, faq = _render_markdown(body, lang)
             keywords = meta.get("keywords", [])
             reading_min = meta.get("reading_min", estimate_reading_minutes(body, lang))
             lessons.append({
@@ -190,6 +251,8 @@ def load_lessons(lang: str):
                 "reading_min": reading_min,
                 "reading_label": _reading_label(lang, reading_min),
                 "html": html_body,
+                "toc": toc,
+                "faq": faq,
                 "keywords": ", ".join(keywords) if keywords else COURSES[course_slug][lang]["title"],
             })
         lessons.sort(key=lambda x: x["order"])
@@ -211,7 +274,7 @@ def load_news(lang: str):
     for path in sorted(news_dir.glob("*.md")):
         raw = path.read_text(encoding="utf-8")
         meta, body = _parse_frontmatter(raw)
-        html_body = md.markdown(body, extensions=MD_EXT)
+        html_body, toc, faq = _render_markdown(body, lang)
         keywords = meta.get("keywords", [])
         posts.append({
             "slug": meta["slug"],
@@ -219,6 +282,8 @@ def load_news(lang: str):
             "description": meta["description"],
             "published": str(meta["published"]),
             "html": html_body,
+            "toc": toc,
+            "faq": faq,
             "keywords": ", ".join(keywords) if keywords else "",
             "_filename": path.stem,
         })
@@ -364,7 +429,7 @@ def build():
                     })
 
         # 개인정보처리방침 / 소개 / 이용약관 (강의가 아닌 정적 정책·소개 페이지)
-        for page_slug, template_name in (("privacy", "privacy.html"), ("about", "about.html"), ("terms", "terms.html")):
+        for page_slug, template_name in (("privacy", "privacy.html"), ("about", "about.html"), ("terms", "terms.html"), ("tools", "tools.html")):
             page_tpl = env.get_template(template_name)
             page_url = url_for(lang, page_slug)
             write(base_dir / page_slug / "index.html", page_tpl.render(

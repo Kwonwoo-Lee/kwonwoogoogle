@@ -36,6 +36,10 @@
   <h1>{{ course.icon }} {{ course.title }}</h1>
   <p class="lead">{{ course.description }}</p>
 
+  <div class="continue-banner" data-course="{{ course.slug }}">
+    <span>{{ ui.continue_reading }}: <a href="#"></a></span>
+  </div>
+
   <ol class="lesson-list">
     {% for lesson in lessons %}
     <li>

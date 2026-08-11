@@ -78,6 +78,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       {% for slug, course in courses.items() %}
       <a href="{{ url_for(lang, slug) }}">{{ course[lang].short_title }}</a>
       {% endfor %}
+      <a href="{{ url_for(lang, 'tools') }}">{{ ui.tools_nav }}</a>
       <a href="{{ cfg.PAPERTRADE_URL }}" target="_blank" rel="noopener">{{ ui.practice_trading }}</a>
       {% for l in languages %}
         {% if l != lang %}
@@ -108,6 +109,33 @@ document.addEventListener('click', function (event) {
     btn.textContent = btn.dataset.copiedLabel;
     setTimeout(function () { btn.textContent = original; }, 1500);
   });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  var lessonEl = document.querySelector('article.lesson[data-course]');
+  if (lessonEl) {
+    try {
+      var store = JSON.parse(localStorage.getItem('ts_progress') || '{}');
+      store[lessonEl.dataset.course] = {
+        slug: lessonEl.dataset.slug,
+        title: lessonEl.dataset.title,
+        url: lessonEl.dataset.url
+      };
+      localStorage.setItem('ts_progress', JSON.stringify(store));
+    } catch (e) {}
+  }
+  var banner = document.querySelector('.continue-banner[data-course]');
+  if (banner) {
+    try {
+      var saved = JSON.parse(localStorage.getItem('ts_progress') || '{}')[banner.dataset.course];
+      if (saved) {
+        var link = banner.querySelector('a');
+        link.href = saved.url;
+        link.textContent = saved.title;
+        banner.classList.add('show');
+      }
+    } catch (e) {}
+  }
 });
 </script>
 </body>

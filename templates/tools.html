@@ -1,0 +1,188 @@
+{% extends "base.html" %}
+
+{% block meta_title %}{{ ui.tools }} - {{ site.name }}{% endblock %}
+{% block meta_description %}{{ site.name }}{{ "의 무료 투자 계산기 - 복리 계산기, 포지션 사이징 계산기, PER/PBR 비교 계산기를 바로 사용해보세요." if lang == "ko" else "'s free investing calculators - compound interest, position sizing, and PER/PBR comparison, all in your browser." }}{% endblock %}
+
+{% block content %}
+<nav class="breadcrumb wrap"><a href="{{ url_for(lang) }}">{{ ui.home }}</a> / {{ ui.tools }}</nav>
+
+<article class="wrap lesson">
+{% if lang == "ko" %}
+  <h1>🧮 투자 계산기</h1>
+  <p class="lead">서버로 데이터를 전송하지 않고 브라우저에서 바로 계산됩니다. 투자 판단의 참고용이며 투자 권유가 아닙니다.</p>
+
+  <div class="calc-card">
+    <h2>복리 계산기</h2>
+    <p class="muted">초기 투자금과 매월 추가 적립액이 목표 수익률로 몇 년 뒤 얼마가 되는지 계산합니다.</p>
+    <div class="calc-grid">
+      <label>초기 투자금 (원)<input type="number" id="ci-initial" value="10000000" min="0"></label>
+      <label>매월 적립액 (원)<input type="number" id="ci-monthly" value="300000" min="0"></label>
+      <label>연 수익률 (%)<input type="number" id="ci-rate" value="7" step="0.1"></label>
+      <label>투자 기간 (년)<input type="number" id="ci-years" value="10" min="1" max="60"></label>
+    </div>
+    <div class="calc-result" id="ci-result"></div>
+  </div>
+
+  <div class="calc-card">
+    <h2>포지션 사이징(리스크 관리) 계산기</h2>
+    <p class="muted">계좌에서 이번 매매에 걸 수 있는 리스크 한도를 기준으로 적정 매수 수량을 계산합니다.</p>
+    <div class="calc-grid">
+      <label>계좌 총 잔고 (원)<input type="number" id="ps-balance" value="10000000" min="0"></label>
+      <label>1회 매매 리스크 허용 (%)<input type="number" id="ps-risk" value="1" step="0.1" min="0.1" max="100"></label>
+      <label>진입 가격 (원)<input type="number" id="ps-entry" value="50000" min="0"></label>
+      <label>손절 가격 (원)<input type="number" id="ps-stop" value="47500" min="0"></label>
+    </div>
+    <div class="calc-result" id="ps-result"></div>
+  </div>
+
+  <div class="calc-card">
+    <h2>PER · PBR 비교 계산기</h2>
+    <p class="muted">두 종목의 밸류에이션 배수를 나란히 계산해 비교합니다. 낮다고 무조건 저평가는 아니며, 업종·성장성에 따라 다르게 해석해야 합니다.</p>
+    <div class="calc-grid calc-grid-2col">
+      <div>
+        <h3>종목 A</h3>
+        <label>주가 (원)<input type="number" id="pp-a-price" value="70000" min="0"></label>
+        <label>주당순이익 EPS (원)<input type="number" id="pp-a-eps" value="5000" min="0"></label>
+        <label>주당순자산 BPS (원)<input type="number" id="pp-a-bps" value="45000" min="0"></label>
+      </div>
+      <div>
+        <h3>종목 B</h3>
+        <label>주가 (원)<input type="number" id="pp-b-price" value="30000" min="0"></label>
+        <label>주당순이익 EPS (원)<input type="number" id="pp-b-eps" value="1500" min="0"></label>
+        <label>주당순자산 BPS (원)<input type="number" id="pp-b-bps" value="12000" min="0"></label>
+      </div>
+    </div>
+    <div class="calc-result" id="pp-result"></div>
+  </div>
+
+  <p class="muted" style="margin-top:32px;">더 자세한 개념 설명은 <a href="{{ url_for(lang, 'basics') }}">주식기초</a> 코스와 <a href="{{ url_for(lang, 'strategies') }}">매매기법</a> 코스를 참고하세요.</p>
+{% else %}
+  <h1>🧮 Investing Calculators</h1>
+  <p class="lead">Everything runs in your browser - nothing is sent to a server. For educational reference only, not investment advice.</p>
+
+  <div class="calc-card">
+    <h2>Compound Interest Calculator</h2>
+    <p class="muted">See how an initial investment plus monthly contributions grows over time at a target rate of return.</p>
+    <div class="calc-grid">
+      <label>Initial investment ($)<input type="number" id="ci-initial" value="10000" min="0"></label>
+      <label>Monthly contribution ($)<input type="number" id="ci-monthly" value="300" min="0"></label>
+      <label>Annual return (%)<input type="number" id="ci-rate" value="7" step="0.1"></label>
+      <label>Years<input type="number" id="ci-years" value="10" min="1" max="60"></label>
+    </div>
+    <div class="calc-result" id="ci-result"></div>
+  </div>
+
+  <div class="calc-card">
+    <h2>Position Size (Risk Management) Calculator</h2>
+    <p class="muted">Calculate how many shares to buy based on how much of your account you're willing to risk on this trade.</p>
+    <div class="calc-grid">
+      <label>Account balance ($)<input type="number" id="ps-balance" value="10000" min="0"></label>
+      <label>Risk per trade (%)<input type="number" id="ps-risk" value="1" step="0.1" min="0.1" max="100"></label>
+      <label>Entry price ($)<input type="number" id="ps-entry" value="50" min="0"></label>
+      <label>Stop-loss price ($)<input type="number" id="ps-stop" value="47.5" min="0"></label>
+    </div>
+    <div class="calc-result" id="ps-result"></div>
+  </div>
+
+  <div class="calc-card">
+    <h2>P/E · P/B Comparison Calculator</h2>
+    <p class="muted">Compare valuation multiples for two stocks side by side. A lower multiple isn't automatically "cheap" - sector and growth rate matter.</p>
+    <div class="calc-grid calc-grid-2col">
+      <div>
+        <h3>Stock A</h3>
+        <label>Share price ($)<input type="number" id="pp-a-price" value="70" min="0"></label>
+        <label>EPS ($)<input type="number" id="pp-a-eps" value="5" min="0"></label>
+        <label>Book value per share ($)<input type="number" id="pp-a-bps" value="45" min="0"></label>
+      </div>
+      <div>
+        <h3>Stock B</h3>
+        <label>Share price ($)<input type="number" id="pp-b-price" value="30" min="0"></label>
+        <label>EPS ($)<input type="number" id="pp-b-eps" value="1.5" min="0"></label>
+        <label>Book value per share ($)<input type="number" id="pp-b-bps" value="12" min="0"></label>
+      </div>
+    </div>
+    <div class="calc-result" id="pp-result"></div>
+  </div>
+
+  <p class="muted" style="margin-top:32px;">For the concepts behind these numbers, see the <a href="{{ url_for(lang, 'basics') }}">Stock Basics</a> and <a href="{{ url_for(lang, 'strategies') }}">Trading Strategies</a> courses.</p>
+{% endif %}
+</article>
+
+<script>
+(function () {
+  var fmt = function (n) {
+    return Math.round(n).toLocaleString();
+  };
+
+  function calcCompound() {
+    var initial = parseFloat(document.getElementById('ci-initial').value) || 0;
+    var monthly = parseFloat(document.getElementById('ci-monthly').value) || 0;
+    var rate = (parseFloat(document.getElementById('ci-rate').value) || 0) / 100;
+    var years = parseInt(document.getElementById('ci-years').value, 10) || 0;
+    var monthlyRate = rate / 12;
+    var months = years * 12;
+    var balance = initial;
+    for (var i = 0; i < months; i++) {
+      balance = balance * (1 + monthlyRate) + monthly;
+    }
+    var contributed = initial + monthly * months;
+    var profit = balance - contributed;
+    var isKo = document.documentElement.lang === 'ko';
+    document.getElementById('ci-result').innerHTML = isKo
+      ? '<strong>' + years + '년 후 예상 자산: ' + fmt(balance) + '원</strong><br>총 납입 원금: ' + fmt(contributed) + '원 · 예상 수익: ' + fmt(profit) + '원'
+      : '<strong>Projected value after ' + years + ' years: $' + fmt(balance) + '</strong><br>Total contributed: $' + fmt(contributed) + ' · Projected profit: $' + fmt(profit);
+  }
+
+  function calcPosition() {
+    var balance = parseFloat(document.getElementById('ps-balance').value) || 0;
+    var riskPct = (parseFloat(document.getElementById('ps-risk').value) || 0) / 100;
+    var entry = parseFloat(document.getElementById('ps-entry').value) || 0;
+    var stop = parseFloat(document.getElementById('ps-stop').value) || 0;
+    var riskAmount = balance * riskPct;
+    var perShareRisk = Math.abs(entry - stop);
+    var isKo = document.documentElement.lang === 'ko';
+    var el = document.getElementById('ps-result');
+    if (perShareRisk <= 0) {
+      el.innerHTML = isKo ? '진입가와 손절가가 같으면 계산할 수 없습니다.' : 'Entry and stop-loss price must differ.';
+      return;
+    }
+    var shares = Math.floor(riskAmount / perShareRisk);
+    var positionValue = shares * entry;
+    el.innerHTML = isKo
+      ? '<strong>매수 가능 수량: ' + fmt(shares) + '주</strong><br>리스크 금액: ' + fmt(riskAmount) + '원 · 총 매수 금액: ' + fmt(positionValue) + '원'
+      : '<strong>Position size: ' + fmt(shares) + ' shares</strong><br>Risk amount: $' + fmt(riskAmount) + ' · Total position value: $' + fmt(positionValue);
+  }
+
+  function calcPerPbr() {
+    var isKo = document.documentElement.lang === 'ko';
+    var aPrice = parseFloat(document.getElementById('pp-a-price').value) || 0;
+    var aEps = parseFloat(document.getElementById('pp-a-eps').value) || 0;
+    var aBps = parseFloat(document.getElementById('pp-a-bps').value) || 0;
+    var bPrice = parseFloat(document.getElementById('pp-b-price').value) || 0;
+    var bEps = parseFloat(document.getElementById('pp-b-eps').value) || 0;
+    var bBps = parseFloat(document.getElementById('pp-b-bps').value) || 0;
+    var aPer = aEps > 0 ? (aPrice / aEps).toFixed(1) : '-';
+    var aPbr = aBps > 0 ? (aPrice / aBps).toFixed(2) : '-';
+    var bPer = bEps > 0 ? (bPrice / bEps).toFixed(1) : '-';
+    var bPbr = bBps > 0 ? (bPrice / bBps).toFixed(2) : '-';
+    document.getElementById('pp-result').innerHTML = isKo
+      ? '<strong>종목 A</strong> - PER ' + aPer + '배 · PBR ' + aPbr + '배<br><strong>종목 B</strong> - PER ' + bPer + '배 · PBR ' + bPbr + '배'
+      : '<strong>Stock A</strong> - P/E ' + aPer + 'x · P/B ' + aPbr + 'x<br><strong>Stock B</strong> - P/E ' + bPer + 'x · P/B ' + bPbr + 'x';
+  }
+
+  ['ci-initial', 'ci-monthly', 'ci-rate', 'ci-years'].forEach(function (id) {
+    document.getElementById(id).addEventListener('input', calcCompound);
+  });
+  ['ps-balance', 'ps-risk', 'ps-entry', 'ps-stop'].forEach(function (id) {
+    document.getElementById(id).addEventListener('input', calcPosition);
+  });
+  ['pp-a-price', 'pp-a-eps', 'pp-a-bps', 'pp-b-price', 'pp-b-eps', 'pp-b-bps'].forEach(function (id) {
+    document.getElementById(id).addEventListener('input', calcPerPbr);
+  });
+
+  calcCompound();
+  calcPosition();
+  calcPerPbr();
+})();
+</script>
+{% endblock %}

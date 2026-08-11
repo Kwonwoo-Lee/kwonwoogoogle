@@ -31,6 +31,19 @@
   ]
 }
 </script>
+{% if lesson.faq %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in lesson.faq %}
+    {"@type": "Question", "name": {{ item.question | tojson }}, "acceptedAnswer": {"@type": "Answer", "text": {{ item.answer | tojson }}}}{{ "," if not loop.last }}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
 {% endblock %}
 
 {% block content %}
@@ -38,10 +51,21 @@
   <a href="{{ url_for(lang) }}">{{ ui.home }}</a> / <a href="{{ url_for(lang, course.slug) }}">{{ course.title }}</a> / {{ lesson.badge }}
 </nav>
 
-<article class="wrap lesson">
+<article class="wrap lesson" data-course="{{ course.slug }}" data-slug="{{ lesson.slug }}" data-title="{{ lesson.title }}" data-url="{{ canonical }}">
   <p class="course-progress">{{ progress_label }}</p>
   <h1>{{ lesson.title }}</h1>
-  <p class="byline">{{ ui.reviewed_by }} · {{ lesson.updated }}</p>
+  <p class="byline"><a href="{{ url_for(lang, 'about') }}">{{ ui.reviewed_by }}</a> · {{ lesson.updated }}</p>
+
+  {% if lesson.toc %}
+  <div class="toc-box">
+    <p>{{ ui.toc }}</p>
+    <ol>
+      {% for item in lesson.toc %}
+      <li><a href="#{{ item.id }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ol>
+  </div>
+  {% endif %}
 
   <div class="lesson-body">
     {{ lesson.html | safe }}

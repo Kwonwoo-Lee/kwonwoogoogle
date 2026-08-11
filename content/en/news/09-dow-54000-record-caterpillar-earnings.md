@@ -26,7 +26,7 @@ What matters more than the mechanics, though, is what was actually inside Caterp
 - **The list of "AI beneficiaries" keeps expanding.** Semiconductors and Big Tech aren't the only names riding this cycle. Industrial suppliers of data center power infrastructure are becoming another leg of the same trade — worth watching if you're only tracking one sector.
 - **Backlog and forward orders often say more than a single quarter's beat.** A 92% jump in backlog is a better signal of durability than one strong earnings print, since it points to revenue that's already effectively locked in for future quarters.
 
-For related context, see: [AMD Beat Earnings But Fell 8% After Hours - So Why Did Palantir Jump 29%?](/en/news/amd-palantir-earnings-reaction/), [Kospi Jumps 3.85% as Samsung and SK Hynix Rally on Hormuz Deal Hopes](/en/news/kospi-samsung-sk-hynix-rally-hormuz-deal/)
+For related context, see: [AMD Beat Earnings But Fell 8% After Hours - So Why Did Palantir Jump 29%?](/en/news/amd-palantir-earnings-reaction/)
 
 ## Sources
 

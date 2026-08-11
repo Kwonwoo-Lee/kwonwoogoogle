@@ -28,7 +28,7 @@ This is a textbook example of how the same headline can pull different parts of 
 - **Understand what actually drives the stocks you own.** If you hold energy stocks for their dividend or as an inflation hedge, their price is largely a bet on the direction of oil - not on the broader economy. Know which lever is actually moving your position before you react to a headline.
 - **A geopolitical "win" isn't universally bullish.** Good news for global growth and consumers (lower fuel costs) can simultaneously be bad news for a specific sector (producers). Before trading on a geopolitical headline, ask who benefits and who loses from the underlying commodity move, not just whether the news sounds positive.
 
-For related context, see: [Kospi Jumps 3.85% as Samsung and SK Hynix Rally on Hormuz Deal Hopes](/en/news/kospi-samsung-sk-hynix-rally-hormuz-deal/), [Dow Jones Tops 54,000 for the First Time Ever](/en/news/dow-54000-record-caterpillar-earnings/)
+For related context, see: [Dow Jones Tops 54,000 for the First Time Ever](/en/news/dow-54000-record-caterpillar-earnings/)
 
 ## Sources
 

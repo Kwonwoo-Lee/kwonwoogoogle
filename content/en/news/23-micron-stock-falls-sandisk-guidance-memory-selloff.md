@@ -37,7 +37,7 @@ What's especially worth noting in this case is that Micron's sold-out HBM backlo
 - **Premarket drops can reverse once the regular session opens.** Sharp price swings during low-liquidity hours are frequently overreactions. Rather than reacting to a premarket move alone, it's generally safer to confirm direction once regular-session volume kicks in.
 - **Elevated sector valuations make even decent news dangerous.** When an entire sector has run up on AI-demand optimism, news that isn't actually bad can still trigger selling simply because it falls short of an already-elevated bar of expectations.
 
-For related context, see: [SanDisk (SNDK) Stock Falls Nearly 8% After Hours Despite Beating on Revenue and EPS](/en/news/sandisk-earnings-beat-stock-falls-memory-chip-selloff/), [KOSPI Plunges 5% Intraday, Triggers Sell-Side Circuit Breaker](/en/news/kospi-sidecar-samsung-sk-hynix-selloff/)
+For related context, see: [SanDisk (SNDK) Stock Falls Nearly 8% After Hours Despite Beating on Revenue and EPS](/en/news/sandisk-earnings-beat-stock-falls-memory-chip-selloff/)
 
 ## Sources
 

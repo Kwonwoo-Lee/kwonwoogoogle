@@ -31,8 +31,6 @@ The Dow's pullback fits the same mechanism, one step removed. Rising oil raises 
 - **Oil, bond yields, and equities are linked through a single transmission mechanism.** This episode traced a clean path from rising crude to inflation concern to higher Treasury yields to equity pressure - a reminder that commodity moves ripple well beyond the energy sector into broad market valuations.
 - **Don't attribute an index move to a single headline cause without checking the components.** Some of the Dow's decline traced back to Salesforce's company-specific leadership news, not just the macro oil story. When a major index moves, breaking down which constituents actually drove it helps avoid drawing the wrong conclusion from the headline number alone.
 
-See also: [Kospi Jumps 3.85% as SK Hynix Surges Nearly 6% and Samsung Rallies on Hormuz Deal Hopes](/en/news/kospi-samsung-sk-hynix-rally-hormuz-deal/)
-
 ## Sources
 
 This article synthesizes and analyzes the reporting below in our own words rather than reproducing it; consult the original sources for real-time figures and full context.

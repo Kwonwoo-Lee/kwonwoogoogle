@@ -36,7 +36,7 @@ For markets, this isn't just diplomatic noise — it's a live variable that coul
 - **Multiparty negotiations rarely resolve in a single announcement.** This situation involves three separate parties — the US, Iran, and Oman — and at least two distinct tracks: transit management and toll fees. Betting heavily on one headline resolving the whole picture tends to be a mistake; following each track separately is the safer approach.
 - **Remember that chokepoint risk radiates outward to adjacent sectors, not just the underlying commodity.** A toll regime would hit tanker operators, marine insurers, and logistics companies alongside oil prices themselves. It's worth checking geopolitical exposure across an entire supply chain, not just the headline commodity.
 
-You may also find these related articles useful: [Oil Rebounds to $83.55 Brent as Hormuz Ship Traffic Plunges 33% in a Day - Bessent's 'Wednesday Deal' Still Hasn't Landed](/en/news/oil-hormuz-traffic-plunge-bessent-wednesday-deal-hopes/), [Kospi Jumps 3.85% as SK Hynix Surges 6% and Samsung Rallies - Strait of Hormuz Deal Hopes Fuel the Rebound](/en/news/kospi-samsung-sk-hynix-rally-hormuz-deal/)
+You may also find this related article useful: [Oil Rebounds to $83.55 Brent as Hormuz Ship Traffic Plunges 33% in a Day - Bessent's 'Wednesday Deal' Still Hasn't Landed](/en/news/oil-hormuz-traffic-plunge-bessent-wednesday-deal-hopes/)
 
 ## Sources
 

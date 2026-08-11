@@ -38,7 +38,7 @@ One detail worth noting in this whipsaw is that the size of each move has been s
 - **Understand how commodity-driven inflation can ripple into rate expectations and equities.** A rise in oil prices isn't just a cost problem for airlines and shippers — it can also shape the Fed's calculus on rates. It's worth tracking energy prices alongside other macro indicators rather than in isolation.
 - **Remember that commodities passing through irreplaceable geographic chokepoints carry structurally higher volatility.** With no viable alternate route through the Strait of Hormuz, prices can swing sharply on the mere possibility of disruption, well before any disruption is confirmed. If you hold energy-related stocks or ETFs, it's worth periodically checking how exposed that portfolio is to this kind of geopolitical bottleneck risk.
 
-You may also find these related articles useful: [Oil Jumps as WTI Gains 2.8%, Brent 3.8% on Iran's Hormuz Draft Plan - Dow Falls 464 Points, Snaps Win Streak](/en/news/oil-surges-hormuz-iran-draft-dow-snaps-streak/), [Kospi Jumps 3.85% as SK Hynix Surges 6% and Samsung Rallies - Strait of Hormuz Deal Hopes Fuel the Rebound](/en/news/kospi-samsung-sk-hynix-rally-hormuz-deal/)
+You may also find this related article useful: [Oil Jumps as WTI Gains 2.8%, Brent 3.8% on Iran's Hormuz Draft Plan - Dow Falls 464 Points, Snaps Win Streak](/en/news/oil-surges-hormuz-iran-draft-dow-snaps-streak/)
 
 ## Sources
 

@@ -43,7 +43,7 @@ Looking at the memory industry's history helps explain why this "beat but sell o
 - **A growing share of long-term supply contracts can be a structural signal of reduced volatility.** Memory has historically been one of the most cyclical corners of the market, so a shift toward multi-year agreements suggests improved earnings visibility going forward. That's a separate question from the stock's next few days of price action, but it matters more for long-term positioning.
 - **One company's earnings can move sentiment for an entire sector - including overseas peers.** As a pure-play NAND producer, SanDisk's results function as a leading indicator for the broader memory cycle. Investors holding Korean chip stocks have good reason to track US memory-sector earnings dates alongside their own market's calendar.
 
-For related context, see: [KOSPI Plunges 5% Intraday, Triggers Sell-Side Circuit Breaker](/en/news/kospi-sidecar-samsung-sk-hynix-selloff/), [Nvidia Jumps 3.43% on SpaceX Exclusive Chip Deal, Dow Hits Record](/en/news/nvidia-spacex-exclusive-chip-deal-dow-record/)
+For related context, see: [Nvidia Jumps 3.43% on SpaceX Exclusive Chip Deal, Dow Hits Record](/en/news/nvidia-spacex-exclusive-chip-deal-dow-record/)
 
 ## Sources
 

@@ -5,6 +5,7 @@ description: "The role of exchanges and brokers, how buy and sell orders get mat
 order: 2
 updated: 2026-08-02
 keywords: ["how the stock market works", "stock exchange", "order book", "market hours", "stock index"]
+seo_audited: 2026-08-12
 ---
 
 ## An Exchange Is Just a Marketplace Where Stocks Change Hands

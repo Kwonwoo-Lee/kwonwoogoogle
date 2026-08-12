@@ -5,6 +5,7 @@ description: "How the golden cross and death cross work, and how to trade trend-
 order: 1
 updated: 2026-08-02
 keywords: ["moving average crossover", "golden cross", "death cross", "moving average trading strategy"]
+seo_audited: 2026-08-12
 ---
 
 ## What Is a Moving Average (MA)

@@ -4,6 +4,7 @@ title: "The Fed Held Rates and Stocks Rallied - So Why Did Apple Crash?"
 description: "The Fed's decision to hold rates steady sent all three major U.S. indices higher, but Apple lost roughly $358 billion in value in a single day after earnings. Reading the market's real message by looking at both events together."
 published: 2026-08-03
 keywords: ["Fed rate hold", "Apple earnings shock", "tariff refunds", "gross margin guidance"]
+seo_audited: 2026-08-12
 ---
 
 ## Indices Up, Apple Down

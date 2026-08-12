@@ -4,6 +4,7 @@ title: "Semiconductor Stocks Slide Across the Board - China's AI Push Lights the
 description: "The Philadelphia Semiconductor Index fell 2% and Micron and SK Hynix (ADR) both dropped nearly 4%. We break down the day Alibaba's new AI model and DeepSeek's 'cheap AI' shock rattled the entire U.S. chip sector."
 published: 2026-08-03
 keywords: ["semiconductor stocks fall", "Philadelphia Semiconductor Index", "AI infrastructure spending", "China AI competition"]
+seo_audited: 2026-08-12
 ---
 
 ## What Happened

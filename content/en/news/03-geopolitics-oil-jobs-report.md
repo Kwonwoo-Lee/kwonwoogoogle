@@ -4,6 +4,7 @@ title: "Oil Crashed on News Iran Attack Was Called Off - So Why Did Stocks Cheer
 description: "Oil futures fell 6.9% and all three major indices rose after President Trump said he called off an attack on Iran to pursue negotiations. We look at how geopolitical news moves markets - and why this week's jobs report and PMI data matter more."
 published: 2026-08-03
 keywords: ["geopolitical risk stock market", "oil price crash", "nonfarm payrolls report", "ISM PMI"]
+seo_audited: 2026-08-12
 ---
 
 ## What Happened

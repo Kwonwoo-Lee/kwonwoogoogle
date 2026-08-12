@@ -5,6 +5,7 @@ description: "From the idea that a stock is partial ownership of a company to sh
 order: 1
 updated: 2026-08-03
 keywords: ["what is a stock", "stock definition", "investing for beginners", "how to get rich investing in stocks", "dividends", "capital gains", "shareholder rights"]
+seo_audited: 2026-08-12
 ---
 
 ## A Stock Is a Piece of Ownership in a Company

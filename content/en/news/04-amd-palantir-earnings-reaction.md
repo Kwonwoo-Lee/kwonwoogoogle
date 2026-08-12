@@ -4,6 +4,7 @@ title: "AMD Beat Earnings But Fell 8% After Hours - So Why Did Palantir Jump 29%
 description: "AMD topped estimates on revenue and EPS yet dropped about 8% in after-hours trading. Palantir, reporting the same day, soared 29% on 93% revenue growth. Here's why two AI earnings beats produced opposite stock reactions."
 published: 2026-08-04
 keywords: ["AMD stock drop after earnings", "why did Palantir stock jump", "AMD Q3 guidance", "AI chip earnings season", "Palantir Q2 2026 earnings"]
+seo_audited: 2026-08-12
 ---
 
 ## What Happened

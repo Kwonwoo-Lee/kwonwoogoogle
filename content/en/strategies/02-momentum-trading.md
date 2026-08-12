@@ -5,6 +5,7 @@ description: "How to use momentum indicators like RSI and volume surges to ride 
 order: 2
 updated: 2026-08-02
 keywords: ["momentum trading strategy", "RSI indicator", "relative strength index", "volume surge trading"]
+seo_audited: 2026-08-12
 ---
 
 ## Momentum: Riding the Horse That's Already Running

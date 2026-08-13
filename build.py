@@ -304,6 +304,16 @@ def load_news(lang: str):
     return posts
 
 
+CATEGORY_HUES = {
+    "리스크관리": "red", "Risk Management": "red",
+    "세금": "green", "Taxes": "green",
+    "밸류에이션": "purple", "Valuation": "purple",
+    "분산투자": "cyan", "Diversification": "cyan",
+    "투자심리": "amber", "Investor Psychology": "amber",
+    "시장구조": "blue", "Market Structure": "blue",
+}
+
+
 def load_quizzes(lang: str):
     """주식 퀴즈 목록 (order 순). 본문(마크다운)은 문제 시나리오, 프런트매터에
     보기(options)/정답(answer)/해설(explanation)/카테고리/난이도를 둡니다."""
@@ -320,6 +330,7 @@ def load_quizzes(lang: str):
             "slug": meta["slug"],
             "title": meta["title"],
             "category": meta["category"],
+            "category_hue": CATEGORY_HUES.get(meta["category"], "blue"),
             "difficulty": int(meta["difficulty"]),
             "order": int(meta.get("order", 0)),
             "updated": str(meta.get("updated", date.today().isoformat())),

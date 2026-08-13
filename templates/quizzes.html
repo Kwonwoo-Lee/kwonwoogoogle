@@ -15,11 +15,15 @@
     {% for q in quizzes %}
     <a class="quiz-card hover-lift" href="{{ url_for(lang, 'quizzes', q.slug) }}">
       {% if q.is_new %}<span class="new-badge">NEW</span>{% endif %}
-      <div class="quiz-card-meta">
-        <span class="pill-badge accent">{{ q.category }}</span>
-        <span class="difficulty-stars" aria-hidden="true">{{ "★" * q.difficulty }}{{ "☆" * (5 - q.difficulty) }}</span>
+      <span class="quiz-card-index pill-badge cat-{{ q.category_hue }}">{{ loop.index }}</span>
+      <div class="quiz-card-body">
+        <h3 class="quiz-card-title">{{ q.title }}</h3>
+        <div class="quiz-card-meta">
+          <span class="pill-badge cat-{{ q.category_hue }}">{{ q.category }}</span>
+          <span class="difficulty-badge" aria-hidden="true">{{ "★" * q.difficulty }}{{ "☆" * (5 - q.difficulty) }}</span>
+        </div>
       </div>
-      <h3 class="quiz-card-title">{{ q.title }}</h3>
+      <span class="quiz-card-chevron" aria-hidden="true">›</span>
     </a>
     {% endfor %}
   </div>

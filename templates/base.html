@@ -34,9 +34,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="alternate" hreflang="x-default" href="{{ cfg.SITE_URL }}{{ alternates[default_lang] }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="/rss.xml">
 <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/static/css/style.css">
 {% if cfg.GOOGLE_SITE_VERIFICATION %}
 <meta name="google-site-verification" content="{{ cfg.GOOGLE_SITE_VERIFICATION }}">
@@ -82,7 +79,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <a href="{{ url_for(lang, slug) }}">{{ course[lang].short_title }}</a>
       {% endfor %}
       <a href="{{ url_for(lang, 'tools') }}">{{ ui.tools_nav }}</a>
-      <a href="{{ url_for(lang, 'quizzes') }}">{{ ui.quizzes_nav }}</a>
       <a href="{{ cfg.PAPERTRADE_URL }}" target="_blank" rel="noopener">{{ ui.practice_trading }}</a>
       {% for l in languages %}
         {% if l != lang %}

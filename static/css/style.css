@@ -339,26 +339,10 @@ h1 { font-size: 28px; }
 }
 .quiz-option.selected { border-color: var(--warm); background: var(--warm-2); }
 .quiz-option.selected .quiz-option-key { background: var(--warm); color: #fff; }
-.quiz-option.correct { border-color: var(--good); background: var(--good-2); font-weight: 700; animation: quiz-bounce .5s ease; }
+.quiz-option.correct { border-color: var(--good); background: rgba(0,99,0,.08); font-weight: 700; }
 .quiz-option.correct .quiz-option-key { background: var(--good); color: #fff; }
-.quiz-option.wrong { border-color: var(--bad); background: var(--bad-2); animation: quiz-shake .5s ease; }
+.quiz-option.wrong { border-color: var(--bad); background: rgba(208,59,59,.08); }
 .quiz-option.wrong .quiz-option-key { background: var(--bad); color: #fff; }
-
-/* 즉각적인 피드백 마이크로인터랙션 - 정답은 바운스, 오답은 흔들림 */
-@keyframes quiz-bounce {
-  0% { transform: scale(1); }
-  35% { transform: scale(1.035); }
-  55% { transform: scale(.985); }
-  75% { transform: scale(1.01); }
-  100% { transform: scale(1); }
-}
-@keyframes quiz-shake {
-  0%, 100% { transform: translateX(0); }
-  20% { transform: translateX(-7px); }
-  40% { transform: translateX(6px); }
-  60% { transform: translateX(-4px); }
-  80% { transform: translateX(3px); }
-}
 
 .quiz-submit-area { display: flex; flex-direction: column; align-items: center; gap: 12px; margin-top: 24px; }
 .quiz-hint { font-size: 13px; color: var(--muted); text-align: center; margin: 0; }
@@ -372,12 +356,8 @@ h1 { font-size: 28px; }
 .btn-submit:disabled { background: var(--border); color: var(--muted); cursor: not-allowed; box-shadow: none; }
 @media (max-width: 560px) { .btn-submit { width: 100%; min-width: 0; } }
 
-/* 해설 아코디언 - 정답을 고르기 전엔 접혀 숨어있다가, 제출 순간 부드럽게 펼쳐짐 */
-.quiz-result-box {
-  max-height: 0; opacity: 0; overflow: hidden; margin-top: 0; transform: translateY(-6px);
-  transition: max-height .5s ease, opacity .4s ease .05s, margin-top .5s ease, transform .4s ease .05s;
-}
-.quiz-result-box.show { max-height: 1200px; opacity: 1; margin-top: 20px; transform: translateY(0); }
+.quiz-result-box { display: none; margin-top: 20px; }
+.quiz-result-box.show { display: block; }
 .quiz-result-text { font-weight: 800; font-size: 17px; font-family: var(--font-heading); }
 .quiz-result-text.is-correct { color: var(--good); }
 .quiz-result-text.is-wrong { color: var(--bad); }

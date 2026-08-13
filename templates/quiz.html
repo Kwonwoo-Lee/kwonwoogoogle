@@ -127,8 +127,7 @@
 
     resultText.textContent = correct ? correctMsg : wrongMsg;
     resultText.className = 'quiz-result-text ' + (correct ? 'is-correct' : 'is-wrong');
-    // 바운스/흔들림 애니메이션이 먼저 눈에 들어온 뒤 해설이 펼쳐지도록 살짝 지연
-    setTimeout(function () { resultBox.classList.add('show'); }, 350);
+    resultBox.classList.add('show');
   });
 })();
 </script>

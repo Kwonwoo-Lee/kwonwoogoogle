@@ -31,8 +31,8 @@
 
 <article class="wrap lesson">
   <div class="quiz-card-meta" style="margin-bottom:10px;">
-    <span class="pill-badge cat-{{ quiz.category_hue }}">{{ quiz.category }}</span>
-    <span class="difficulty-badge" aria-hidden="true">{{ "★" * quiz.difficulty }}{{ "☆" * (5 - quiz.difficulty) }}</span>
+    <span class="pill-badge accent">{{ quiz.category }}</span>
+    <span class="difficulty-stars" aria-hidden="true">{{ "★" * quiz.difficulty }}{{ "☆" * (5 - quiz.difficulty) }}</span>
   </div>
   <h1>{{ quiz.title }}</h1>
   <p class="byline"><a href="{{ url_for(lang, 'about') }}">{{ ui.reviewed_by }}</a> · {{ quiz.updated }}</p>

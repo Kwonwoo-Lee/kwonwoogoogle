@@ -40,46 +40,29 @@ body {
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 img { max-width: 100%; height: auto; }
-h1, h2, h3, .brand, .quiz-card-title, .quiz-result-text { font-family: var(--font-heading); }
-h1 { font-weight: 800; letter-spacing: -.03em; }
-.hero h1 { font-weight: 800; letter-spacing: -.04em; }
+h1, h2, h3, .brand, .hero h1 { font-family: var(--font-heading); }
 
-/* pill badges (카테고리/난이도 등, 404vibe 실제 배지 색상 공식 참고:
-   배경 10% 불투명, 글자는 진하게, 테두리 30% 불투명 - 카테고리별로 다른 색조) */
+/* pill badges (카테고리/난이도 등, 404vibe 스타일 참고) */
 .pill-badge {
   display: inline-flex; align-items: center; gap: 4px; padding: 3px 10px;
-  border-radius: 6px; font-size: 11px; font-weight: 700; white-space: nowrap;
-  border: 1px solid transparent;
+  border-radius: 999px; font-size: 12px; font-weight: 700; white-space: nowrap;
 }
 .pill-badge.warm { background: var(--warm-2); color: var(--warm); }
 .pill-badge.mint { background: var(--mint-2); color: var(--mint); }
 .pill-badge.accent { background: var(--accent-2); color: var(--accent); }
-.pill-badge.cat-red { background: hsla(350,85%,55%,.1); color: hsl(350,75%,42%); border-color: hsla(350,85%,55%,.3); }
-.pill-badge.cat-green { background: hsla(155,70%,40%,.1); color: hsl(155,70%,28%); border-color: hsla(155,70%,40%,.3); }
-.pill-badge.cat-purple { background: hsla(258,90%,65%,.1); color: hsl(258,70%,48%); border-color: hsla(258,90%,65%,.3); }
-.pill-badge.cat-cyan { background: hsla(185,90%,42%,.1); color: hsl(185,80%,32%); border-color: hsla(185,90%,42%,.3); }
-.pill-badge.cat-amber { background: hsla(38,95%,52%,.1); color: hsl(38,85%,38%); border-color: hsla(38,95%,52%,.3); }
-.pill-badge.cat-blue { background: hsla(215,85%,52%,.1); color: hsl(215,75%,42%); border-color: hsla(215,85%,52%,.3); }
-
-/* 난이도 뱃지 (별을 테두리 있는 박스 안에) */
-.difficulty-badge {
-  display: inline-flex; align-items: center; gap: 1px; padding: 3px 8px; border-radius: 6px;
-  border: 1px solid hsla(38,95%,52%,.3); background: hsla(38,95%,52%,.08); color: var(--warm);
-  font-size: 12px; letter-spacing: 1px;
-}
 
 /* NEW 리본 뱃지 */
 .new-badge {
   position: absolute; top: -8px; right: -8px; background: var(--warm); color: #fff;
   font-size: 10px; font-weight: 800; padding: 3px 8px; border-radius: 999px;
-  box-shadow: 0 2px 6px rgba(245,158,11,.4); letter-spacing: .03em; z-index: 1;
+  box-shadow: 0 2px 6px rgba(245,158,11,.4); letter-spacing: .03em;
 }
 
-/* 카드 호버 - 살짝 떠오르며 은은한 그림자 (404vibe 카드 그림자 공식 참고) */
-.hover-lift { transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
+/* 카드 호버 살짝 떠오르는 효과 */
+.hover-lift { transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease; }
 .hover-lift:hover {
-  transform: translateY(-3px); border-color: var(--accent);
-  box-shadow: 0 8px 24px rgba(15,23,42,.10);
+  transform: translateY(-2px); border-color: var(--accent);
+  box-shadow: 0 8px 20px rgba(11,11,11,.08);
 }
 
 /* header */
@@ -215,23 +198,15 @@ h1 { font-size: 28px; }
 .continue-banner.show { display: flex; }
 .continue-banner a { font-weight: 700; }
 
-/* quizzes - 404vibe.app의 quiz-card-premium 레이아웃(번호박스+내용+화살표) 참고 */
-.quiz-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 14px; margin: 28px 0 60px; }
+/* quizzes */
+.quiz-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin: 28px 0 60px; }
 .quiz-card {
-  position: relative; display: flex; align-items: center; gap: 14px;
-  background: var(--surface); border: 1px solid var(--border); border-radius: 18px;
-  padding: 16px 18px; color: var(--ink); box-shadow: 0 8px 24px rgba(15,23,42,.06);
+  position: relative; display: block; background: var(--surface); border: 1px solid var(--border);
+  border-radius: 14px; padding: 20px; color: var(--ink);
 }
-.quiz-card-index {
-  width: 44px; height: 44px; border-radius: 12px; flex-shrink: 0;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 18px; font-weight: 800; font-family: var(--font-heading);
-}
-.quiz-card-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 7px; }
-.quiz-card-meta { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
-.quiz-card-title { margin: 0; font-size: 15px; line-height: 1.45; font-weight: 800; }
-.quiz-card-chevron { color: var(--muted); font-size: 22px; flex-shrink: 0; font-weight: 300; }
-.difficulty-stars { color: var(--warm); letter-spacing: 1px; font-size: 12px; }
+.quiz-card-meta { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 10px; }
+.quiz-card-title { margin: 0; font-size: 16px; line-height: 1.5; font-family: var(--font-heading); }
+.difficulty-stars { color: var(--warm); letter-spacing: 1px; font-size: 13px; }
 
 .quiz-question-body { margin: 20px 0; }
 .quiz-options { display: flex; flex-direction: column; gap: 10px; margin-top: 24px; }

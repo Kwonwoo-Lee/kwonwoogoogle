@@ -111,6 +111,11 @@ UI = {
         "toc": "이 글의 목차",
         "tools": "투자 계산기", "tools_nav": "계산기",
         "continue_reading": "이어보기",
+        "quizzes": "주식 퀴즈", "quizzes_nav": "퀴즈",
+        "quizzes_desc": "실제 상황을 가정한 판단력 문제로 배운 개념을 점검해보세요. 정답을 고르면 바로 해설이 나옵니다.",
+        "quiz_check": "정답 선택하기", "quiz_correct": "정답입니다!", "quiz_wrong": "아쉽지만 오답입니다.",
+        "quiz_explanation": "해설", "quiz_next": "다음 문제 →", "quiz_back": "← 퀴즈 목록",
+        "quizzes_empty": "아직 등록된 퀴즈가 없습니다.",
     },
     "en": {
         "home": "Home", "privacy": "Privacy Policy", "contact": "Contact",
@@ -132,6 +137,11 @@ UI = {
         "toc": "In this article",
         "tools": "Investing Calculators", "tools_nav": "Calculators",
         "continue_reading": "Continue reading",
+        "quizzes": "Stock Quizzes", "quizzes_nav": "Quizzes",
+        "quizzes_desc": "Test what you've learned with realistic judgment-call scenarios. Pick an answer to see the explanation instantly.",
+        "quiz_check": "Choose an answer", "quiz_correct": "Correct!", "quiz_wrong": "Not quite — that's incorrect.",
+        "quiz_explanation": "Explanation", "quiz_next": "Next quiz →", "quiz_back": "← Back to quizzes",
+        "quizzes_empty": "No quizzes have been published yet.",
     },
 }
 
@@ -294,6 +304,35 @@ def load_news(lang: str):
     return posts
 
 
+def load_quizzes(lang: str):
+    """주식 퀴즈 목록 (order 순). 본문(마크다운)은 문제 시나리오, 프런트매터에
+    보기(options)/정답(answer)/해설(explanation)/카테고리/난이도를 둡니다."""
+    quiz_dir = CONTENT_DIR / lang / "quizzes"
+    if not quiz_dir.exists():
+        return []
+    quizzes = []
+    for path in sorted(quiz_dir.glob("*.md")):
+        raw = path.read_text(encoding="utf-8")
+        meta, body = _parse_frontmatter(raw)
+        html_body, _, _ = _render_markdown(body, lang)
+        keywords = meta.get("keywords", [])
+        quizzes.append({
+            "slug": meta["slug"],
+            "title": meta["title"],
+            "category": meta["category"],
+            "difficulty": int(meta["difficulty"]),
+            "order": int(meta.get("order", 0)),
+            "updated": str(meta.get("updated", date.today().isoformat())),
+            "question_html": html_body,
+            "options": list(meta["options"]),
+            "answer": int(meta["answer"]),
+            "explanation": str(meta["explanation"]).strip(),
+            "keywords": ", ".join(keywords) if keywords else meta["category"],
+        })
+    quizzes.sort(key=lambda x: x["order"])
+    return quizzes
+
+
 def make_env():
     env = Environment(
         loader=FileSystemLoader(str(TEMPLATES_DIR)),
@@ -343,6 +382,9 @@ def build():
         ui = UI[lang]
         site = SITE_TEXT[lang]
         lessons_by_course = load_lessons(lang)
+        quizzes = load_quizzes(lang)
+        for quiz in quizzes:
+            quiz["is_new"] = (date.today() - date.fromisoformat(quiz["updated"])).days <= 5
         base_dir = DIST_DIR if lang == DEFAULT_LANG else DIST_DIR / lang
 
         # 홈
@@ -350,7 +392,7 @@ def build():
         home_path = url_for(lang)
         write(base_dir / "index.html", home_tpl.render(
             lang=lang, ui=ui, site=site,
-            lessons_by_course=lessons_by_course,
+            lessons_by_course=lessons_by_course, quiz_count=len(quizzes),
             canonical=home_path, alternates=alternates_for(),
         ))
         all_pages.append((home_path, date.today().isoformat()))
@@ -385,6 +427,27 @@ def build():
                     "url": post_url,
                     "updated": post["published"],
                 })
+
+        # 주식 퀴즈 (실전 판단력 문제 - 시나리오 + 4지선다 + 즉시 해설)
+        quiz_tpl = env.get_template("quizzes.html")
+        quiz_index_path = url_for(lang, "quizzes")
+        write(base_dir / "quizzes" / "index.html", quiz_tpl.render(
+            lang=lang, ui=ui, site=site, quizzes=quizzes,
+            canonical=quiz_index_path, alternates=alternates_for("quizzes"),
+        ))
+        all_pages.append((quiz_index_path, date.today().isoformat()))
+
+        quiz_detail_tpl = env.get_template("quiz.html")
+        for i, quiz in enumerate(quizzes):
+            prev_quiz = quizzes[i - 1] if i > 0 else None
+            next_quiz = quizzes[i + 1] if i + 1 < len(quizzes) else None
+            quiz_url = url_for(lang, "quizzes", quiz["slug"])
+            write(base_dir / "quizzes" / quiz["slug"] / "index.html", quiz_detail_tpl.render(
+                lang=lang, ui=ui, site=site, quiz=quiz,
+                prev_quiz=prev_quiz, next_quiz=next_quiz,
+                canonical=quiz_url, alternates=alternates_for("quizzes", quiz["slug"]),
+            ))
+            all_pages.append((quiz_url, quiz["updated"]))
 
         # 코스별 인덱스 + 레슨
         for course_slug, course_meta in COURSES.items():

@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+
+{% block meta_title %}{{ quiz.title }} - {{ ui.quizzes }} | {{ site.name }}{% endblock %}
+{% block meta_description %}{{ quiz.title }} - {{ quiz.category }} {{ ui.quizzes }}{% endblock %}
+{% block meta_keywords %}{{ quiz.keywords }}{% endblock %}
+{% block og_type %}article{% endblock %}
+
+{% block json_ld %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "QAPage",
+  "mainEntity": {
+    "@type": "Question",
+    "name": {{ quiz.title | tojson }},
+    "text": {{ quiz.title | tojson }},
+    "answerCount": 1,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": {{ (quiz.options[quiz.answer] + " - " + quiz.explanation) | tojson }}
+    }
+  }
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<nav class="breadcrumb wrap">
+  <a href="{{ url_for(lang) }}">{{ ui.home }}</a> / <a href="{{ url_for(lang, 'quizzes') }}">{{ ui.quizzes }}</a>
+</nav>
+
+<article class="wrap lesson">
+  <div class="quiz-card-meta" style="margin-bottom:10px;">
+    <span class="pill-badge accent">{{ quiz.category }}</span>
+    <span class="difficulty-stars" aria-hidden="true">{{ "★" * quiz.difficulty }}{{ "☆" * (5 - quiz.difficulty) }}</span>
+  </div>
+  <h1>{{ quiz.title }}</h1>
+  <p class="byline"><a href="{{ url_for(lang, 'about') }}">{{ ui.reviewed_by }}</a> · {{ quiz.updated }}</p>
+
+  <div class="lesson-body quiz-question-body">
+    {{ quiz.question_html | safe }}
+  </div>
+
+  <div class="quiz-options" data-answer="{{ quiz.answer }}">
+    {% for opt in quiz.options %}
+    <button type="button" class="quiz-option" data-index="{{ loop.index0 }}">{{ opt }}</button>
+    {% endfor %}
+  </div>
+  <p class="quiz-hint muted">{{ ui.quiz_check }}</p>
+
+  <div class="quiz-result-box">
+    <p class="quiz-result-text"></p>
+    <div class="quiz-explanation-box">
+      <p class="quiz-explanation-label">{{ ui.quiz_explanation }}</p>
+      <p class="quiz-explanation-text">{{ quiz.explanation }}</p>
+    </div>
+  </div>
+
+  <div class="share-row">
+    <span class="share-label">{{ ui.share }}</span>
+    <a class="share-btn" href="https://twitter.com/intent/tweet?text={{ quiz.title | urlencode }}&amp;url={{ (cfg.SITE_URL + canonical) | urlencode }}" target="_blank" rel="noopener">X</a>
+    <button type="button" class="share-btn copy-link-btn" data-url="{{ cfg.SITE_URL }}{{ canonical }}" data-copied-label="{{ ui.link_copied }}">{{ ui.copy_link }}</button>
+  </div>
+
+  <nav class="lesson-pager">
+    {% if prev_quiz %}
+    <a class="pager-link prev" href="{{ url_for(lang, 'quizzes', prev_quiz.slug) }}">
+      <span>{{ ui.quiz_back }}</span>{{ prev_quiz.title }}
+    </a>
+    {% else %}
+    <a class="pager-link prev" href="{{ url_for(lang, 'quizzes') }}"><span>{{ ui.quiz_back }}</span></a>
+    {% endif %}
+    {% if next_quiz %}
+    <a class="pager-link next" href="{{ url_for(lang, 'quizzes', next_quiz.slug) }}">
+      <span>{{ ui.quiz_next }}</span>{{ next_quiz.title }}
+    </a>
+    {% endif %}
+  </nav>
+</article>
+
+<script>
+(function () {
+  var box = document.querySelector('.quiz-options');
+  if (!box) return;
+  var answerIdx = parseInt(box.dataset.answer, 10);
+  var resultBox = document.querySelector('.quiz-result-box');
+  var resultText = document.querySelector('.quiz-result-text');
+  var isKo = document.documentElement.lang === 'ko';
+  var correctMsg = {{ ui.quiz_correct | tojson }};
+  var wrongMsg = {{ ui.quiz_wrong | tojson }};
+
+  box.addEventListener('click', function (event) {
+    var btn = event.target.closest('.quiz-option');
+    if (!btn || box.classList.contains('answered')) return;
+    box.classList.add('answered');
+    var picked = parseInt(btn.dataset.index, 10);
+    var correct = picked === answerIdx;
+
+    box.querySelectorAll('.quiz-option').forEach(function (b) {
+      var idx = parseInt(b.dataset.index, 10);
+      if (idx === answerIdx) b.classList.add('correct');
+      else if (idx === picked) b.classList.add('wrong');
+    });
+
+    resultText.textContent = correct ? correctMsg : wrongMsg;
+    resultText.className = 'quiz-result-text ' + (correct ? 'is-correct' : 'is-wrong');
+    resultBox.classList.add('show');
+  });
+})();
+</script>
+{% endblock %}

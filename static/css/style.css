@@ -4,6 +4,9 @@
   --ink: #14140f; --ink-2: #52514e; --muted: #898781;
   --accent: #1a5fb4; --accent-2: #eaf1fb;
   --good: #006300; --bad: #d03b3b;
+  --warm: #F59E0B; --warm-2: rgba(245,158,11,.12);
+  --mint: #0891B2; --mint-2: rgba(8,145,178,.12);
+  --font-heading: "Outfit", -apple-system, "Segoe UI", "Noto Sans KR", system-ui, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   :root:where(:not([data-theme="light"])) {
@@ -12,6 +15,8 @@
     --ink: #f5f5f0; --ink-2: #c3c2b7; --muted: #898781;
     --accent: #6ea8e5; --accent-2: #17263a;
     --good: #0ca30c; --bad: #e2685f;
+    --warm: #fbbf5c; --warm-2: rgba(251,191,92,.14);
+    --mint: #22b8d8; --mint-2: rgba(34,184,216,.14);
   }
 }
 :root[data-theme="dark"] {
@@ -20,6 +25,8 @@
   --ink: #f5f5f0; --ink-2: #c3c2b7; --muted: #898781;
   --accent: #6ea8e5; --accent-2: #17263a;
   --good: #0ca30c; --bad: #e2685f;
+  --warm: #fbbf5c; --warm-2: rgba(251,191,92,.14);
+  --mint: #22b8d8; --mint-2: rgba(34,184,216,.14);
 }
 
 * { box-sizing: border-box; }
@@ -33,6 +40,30 @@ body {
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 img { max-width: 100%; height: auto; }
+h1, h2, h3, .brand, .hero h1 { font-family: var(--font-heading); }
+
+/* pill badges (카테고리/난이도 등, 404vibe 스타일 참고) */
+.pill-badge {
+  display: inline-flex; align-items: center; gap: 4px; padding: 3px 10px;
+  border-radius: 999px; font-size: 12px; font-weight: 700; white-space: nowrap;
+}
+.pill-badge.warm { background: var(--warm-2); color: var(--warm); }
+.pill-badge.mint { background: var(--mint-2); color: var(--mint); }
+.pill-badge.accent { background: var(--accent-2); color: var(--accent); }
+
+/* NEW 리본 뱃지 */
+.new-badge {
+  position: absolute; top: -8px; right: -8px; background: var(--warm); color: #fff;
+  font-size: 10px; font-weight: 800; padding: 3px 8px; border-radius: 999px;
+  box-shadow: 0 2px 6px rgba(245,158,11,.4); letter-spacing: .03em;
+}
+
+/* 카드 호버 살짝 떠오르는 효과 */
+.hover-lift { transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease; }
+.hover-lift:hover {
+  transform: translateY(-2px); border-color: var(--accent);
+  box-shadow: 0 8px 20px rgba(11,11,11,.08);
+}
 
 /* header */
 .site-header { border-bottom: 1px solid var(--border); background: var(--surface); }
@@ -51,9 +82,13 @@ img { max-width: 100%; height: auto; }
 .course-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; padding-bottom: 60px; max-width: 900px; }
 .course-card {
   display: block; background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
-  padding: 28px; color: var(--ink);
+  padding: 28px; color: var(--ink); position: relative;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
 }
-.course-card:hover { border-color: var(--accent); text-decoration: none; }
+.course-card:hover {
+  border-color: var(--accent); text-decoration: none;
+  transform: translateY(-2px); box-shadow: 0 8px 20px rgba(11,11,11,.08);
+}
 .course-icon { font-size: 32px; }
 .course-card h2 { margin: 10px 0 8px; font-size: 22px; }
 .course-card p { color: var(--ink-2); margin: 0 0 14px; }
@@ -69,9 +104,13 @@ h1 { font-size: 28px; }
 .lesson-list { list-style: none; margin: 28px 0 60px; padding: 0; display: flex; flex-direction: column; gap: 10px; }
 .lesson-list a {
   display: flex; align-items: center; gap: 14px; background: var(--surface); border: 1px solid var(--border);
-  border-radius: 10px; padding: 16px 18px; color: var(--ink);
+  border-radius: 10px; padding: 16px 18px; color: var(--ink); position: relative;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
 }
-.lesson-list a:hover { border-color: var(--accent); text-decoration: none; }
+.lesson-list a:hover {
+  border-color: var(--accent); text-decoration: none;
+  transform: translateY(-2px); box-shadow: 0 6px 16px rgba(11,11,11,.08);
+}
 .lesson-num { font-weight: 700; color: var(--accent); font-size: 14px; flex-shrink: 0; }
 .lesson-level {
   flex-shrink: 0; font-size: 11px; font-weight: 700; color: var(--accent); background: var(--accent-2);
@@ -158,6 +197,38 @@ h1 { font-size: 28px; }
 }
 .continue-banner.show { display: flex; }
 .continue-banner a { font-weight: 700; }
+
+/* quizzes */
+.quiz-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin: 28px 0 60px; }
+.quiz-card {
+  position: relative; display: block; background: var(--surface); border: 1px solid var(--border);
+  border-radius: 14px; padding: 20px; color: var(--ink);
+}
+.quiz-card-meta { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 10px; }
+.quiz-card-title { margin: 0; font-size: 16px; line-height: 1.5; font-family: var(--font-heading); }
+.difficulty-stars { color: var(--warm); letter-spacing: 1px; font-size: 13px; }
+
+.quiz-question-body { margin: 20px 0; }
+.quiz-options { display: flex; flex-direction: column; gap: 10px; margin-top: 24px; }
+.quiz-option {
+  text-align: left; font: inherit; font-size: 16px; padding: 14px 18px; border-radius: 10px;
+  border: 1px solid var(--border); background: var(--surface); color: var(--ink); cursor: pointer;
+  transition: border-color .15s ease, background .15s ease;
+}
+.quiz-options:not(.answered) .quiz-option:hover { border-color: var(--accent); background: var(--accent-2); }
+.quiz-options.answered .quiz-option { cursor: default; }
+.quiz-option.correct { border-color: var(--good); background: rgba(0,99,0,.08); font-weight: 700; }
+.quiz-option.wrong { border-color: var(--bad); background: rgba(208,59,59,.08); }
+.quiz-hint { margin-top: 10px; font-size: 13px; }
+
+.quiz-result-box { display: none; margin-top: 20px; }
+.quiz-result-box.show { display: block; }
+.quiz-result-text { font-weight: 800; font-size: 17px; font-family: var(--font-heading); }
+.quiz-result-text.is-correct { color: var(--good); }
+.quiz-result-text.is-wrong { color: var(--bad); }
+.quiz-explanation-box { margin-top: 10px; padding: 14px 18px; background: var(--accent-2); border-radius: 10px; }
+.quiz-explanation-label { margin: 0 0 6px; font-size: 12px; font-weight: 800; color: var(--accent); text-transform: uppercase; letter-spacing: .04em; }
+.quiz-explanation-text { margin: 0; color: var(--ink-2); }
 
 /* footer */
 .site-footer { border-top: 1px solid var(--border); margin-top: 40px; padding: 28px 0 40px; }

@@ -1,15 +1,15 @@
 /* 퀴즈 풀이 전용 아레나 스타일 - 사이트 기본 테마와 분리된 독립 네임스페이스 */
 .qz-arena {
-  --qz-bg: #ffffff;
-  --qz-card: #f6f8fb;
-  --qz-card-2: #eef1f6;
-  --qz-border: rgba(15, 23, 42, .09);
+  --qz-bg: #f9f9f7;
+  --qz-card: #ffffff;
+  --qz-card-2: #f1f1ee;
+  --qz-border: rgba(11, 11, 11, .10);
   --qz-mint: #12b981;
   --qz-mint-2: #0e9c6e;
   --qz-red: #e0433f;
-  --qz-ink: #0f172a;
-  --qz-ink-2: #4b5568;
-  --qz-muted: #8792a3;
+  --qz-ink: #14140f;
+  --qz-ink-2: #52514e;
+  --qz-muted: #898781;
   background: var(--qz-bg);
   color: var(--qz-ink);
   min-height: 100vh;
@@ -49,7 +49,7 @@
 .qz-progress-wrap { max-width: 760px; margin: 0 auto; padding: 0 28px 26px; }
 .qz-progress-label { font-size: 13px; font-weight: 700; color: var(--qz-ink-2); margin: 0 0 10px; }
 .qz-progress-track { display: flex; gap: 6px; }
-.qz-progress-seg { flex: 1; height: 6px; border-radius: 999px; background: rgba(15, 23, 42, .08); }
+.qz-progress-seg { flex: 1; height: 6px; border-radius: 999px; background: rgba(11, 11, 11, .08); }
 .qz-progress-seg.filled {
   background: linear-gradient(90deg, var(--qz-mint-2), var(--qz-mint));
   box-shadow: 0 0 10px rgba(18, 185, 129, .45);
@@ -62,7 +62,7 @@
 .qz-card {
   background: var(--qz-card); border: 1px solid rgba(18, 185, 129, .25); border-radius: 20px;
   padding: 40px 36px; text-align: center;
-  box-shadow: 0 0 0 1px rgba(18, 185, 129, .06), 0 16px 40px rgba(15, 23, 42, .08), 0 0 32px rgba(18, 185, 129, .06);
+  box-shadow: 0 0 0 1px rgba(18, 185, 129, .06), 0 16px 40px rgba(11, 11, 11, .08), 0 0 32px rgba(18, 185, 129, .06);
 }
 .qz-q-text { font-size: 21px; font-weight: 700; line-height: 1.65; margin: 0; }
 
@@ -76,7 +76,7 @@
 }
 .qz-option:hover:not([data-state]) { border-color: rgba(18, 185, 129, .4); transform: translateY(-2px); }
 .qz-option-icon {
-  flex-shrink: 0; width: 36px; height: 36px; border-radius: 10px; background: rgba(15, 23, 42, .06);
+  flex-shrink: 0; width: 36px; height: 36px; border-radius: 10px; background: rgba(11, 11, 11, .06);
   display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 14px; color: var(--qz-ink-2);
 }
 .qz-option-text { font-size: 14.5px; font-weight: 600; line-height: 1.5; }
@@ -119,8 +119,8 @@
 /* bottom bar */
 .qz-bottom-nav {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 40;
-  background: rgba(255, 255, 255, .92); backdrop-filter: blur(16px); border-top: 1px solid var(--qz-border);
-  box-shadow: 0 -4px 16px rgba(15, 23, 42, .06);
+  background: rgba(249, 249, 247, .92); backdrop-filter: blur(16px); border-top: 1px solid var(--qz-border);
+  box-shadow: 0 -4px 16px rgba(11, 11, 11, .06);
   display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 10px 24px;
 }
 .qz-nav-links { display: flex; gap: 26px; }

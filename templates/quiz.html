@@ -1,0 +1,201 @@
+{% extends "base.html" %}
+
+{% block meta_title %}{{ quiz.title }} - {{ ui.quizzes }} | {{ site.name }}{% endblock %}
+{% block meta_description %}{{ quiz.title }} - {{ quiz.category }} {{ ui.quizzes }}{% endblock %}
+{% block meta_keywords %}{{ quiz.keywords }}{% endblock %}
+{% block og_type %}article{% endblock %}
+
+{% block extra_head %}
+<link rel="stylesheet" href="/static/css/quiz.css">
+{% endblock %}
+
+{% block json_ld %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "QAPage",
+  "mainEntity": {
+    "@type": "Question",
+    "name": {{ quiz.title | tojson }},
+    "text": {{ quiz.title | tojson }},
+    "answerCount": 1,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": {{ (quiz.options[quiz.answer] + " - " + quiz.explanation) | tojson }}
+    }
+  }
+}
+</script>
+{% endblock %}
+
+{% block content %}
+{% set next_quiz = quizzes[quiz_index + 1] if quiz_index + 1 < quizzes | length else None %}
+<div class="qz-arena" data-quiz-slug="{{ quiz.slug }}">
+
+  <header class="qz-header">
+    <a class="qz-brand" href="{{ url_for(lang) }}">
+      <span class="qz-brand-icon">📈</span>{{ site.name }}
+    </a>
+    <div class="qz-header-right">
+      <div class="qz-level-badge">
+        <span class="qz-level-icon">🏅</span>
+        <span class="qz-level-text">
+          <strong class="qz-level-num">Lv. 1</strong>
+          <span>{{ ui.quiz_student_label }}</span>
+        </span>
+      </div>
+      <span class="qz-xp"><span class="qz-xp-num">0</span> XP</span>
+      <span class="qz-avatar" aria-hidden="true">👤</span>
+    </div>
+  </header>
+
+  <div class="qz-progress-wrap">
+    <p class="qz-progress-label">{{ ui.quiz_question_label }} {{ quiz_index + 1 }} / {{ quizzes | length }}</p>
+    <div class="qz-progress-track">
+      {% for q in quizzes %}
+      <span class="qz-progress-seg{{ ' filled' if loop.index0 <= quiz_index else '' }}"></span>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="qz-main">
+    <div class="qz-float qz-float-a" aria-hidden="true">
+      <svg viewBox="0 0 100 28" preserveAspectRatio="none"><polyline points="0,22 15,18 30,20 45,10 60,14 75,4 100,8" fill="none" stroke="#2be6a5" stroke-width="2"/></svg>
+    </div>
+    <div class="qz-float qz-float-b" aria-hidden="true">
+      <svg viewBox="0 0 100 28" preserveAspectRatio="none"><polyline points="0,6 15,12 30,8 45,18 60,14 75,24 100,20" fill="none" stroke="#ef5b5b" stroke-width="2"/></svg>
+    </div>
+
+    <article>
+      <div class="qz-card">
+        <p class="qz-q-text">{{ quiz.title }}</p>
+      </div>
+
+      <div class="qz-options" data-answer="{{ quiz.answer }}">
+        {% for opt in quiz.options %}
+        <button type="button" class="qz-option" data-index="{{ loop.index0 }}">
+          <span class="qz-option-icon">{{ loop.index }}</span>
+          <span class="qz-option-text">{{ opt }}</span>
+        </button>
+        {% endfor %}
+      </div>
+
+      <div class="qz-explain">
+        <div class="qz-explain-inner">
+          <p class="qz-explain-label"></p>
+          <p class="qz-explain-text">{{ quiz.explanation }}</p>
+        </div>
+      </div>
+    </article>
+
+    <aside class="qz-side">
+      <h3>📊 {{ ui.quiz_chart_preview }}</h3>
+      <div class="qz-chart-box">
+        <p class="qz-chart-label">{{ ui.quiz_chart_preview_label }}</p>
+        <svg class="qz-chart-svg" viewBox="0 0 220 110" preserveAspectRatio="none" aria-hidden="true">
+          <polyline points="0,90 20,70 40,78 60,55 80,62 100,38 120,46 140,25 160,32 180,15 200,20 220,8" fill="none" stroke="#2be6a5" stroke-width="2" opacity="0.7"/>
+          <g stroke="#3a4257" stroke-width="1">
+            <line x1="14" y1="60" x2="14" y2="86"/><line x1="34" y1="55" x2="34" y2="80"/>
+            <line x1="54" y1="45" x2="54" y2="70"/><line x1="74" y1="40" x2="74" y2="65"/>
+            <line x1="94" y1="30" x2="94" y2="55"/><line x1="114" y1="25" x2="114" y2="50"/>
+            <line x1="134" y1="18" x2="134" y2="42"/><line x1="154" y1="15" x2="154" y2="38"/>
+            <line x1="174" y1="10" x2="174" y2="32"/><line x1="194" y1="8" x2="194" y2="28"/>
+          </g>
+          <g>
+            <rect x="9" y="65" width="10" height="16" fill="#ef5b5b"/><rect x="29" y="58" width="10" height="18" fill="#2be6a5"/>
+            <rect x="49" y="50" width="10" height="16" fill="#2be6a5"/><rect x="69" y="44" width="10" height="17" fill="#ef5b5b"/>
+            <rect x="89" y="34" width="10" height="16" fill="#2be6a5"/><rect x="109" y="28" width="10" height="17" fill="#2be6a5"/>
+            <rect x="129" y="21" width="10" height="16" fill="#2be6a5"/><rect x="149" y="17" width="10" height="16" fill="#ef5b5b"/>
+            <rect x="169" y="12" width="10" height="15" fill="#2be6a5"/><rect x="189" y="10" width="10" height="14" fill="#2be6a5"/>
+          </g>
+        </svg>
+      </div>
+    </aside>
+  </div>
+
+  <nav class="qz-bottom-nav">
+    <div class="qz-nav-links">
+      <a class="qz-nav-link" href="{{ url_for(lang) }}"><span class="icon">🏠</span>{{ ui.nav_home }}</a>
+      <a class="qz-nav-link" href="{{ url_for(lang, 'basics') }}"><span class="icon">📘</span>{{ ui.nav_courses }}</a>
+      <a class="qz-nav-link active" href="{{ url_for(lang, 'quizzes') }}"><span class="icon">🧠</span>{{ ui.nav_quizzes }}</a>
+      <a class="qz-nav-link" href="{{ url_for(lang, 'about') }}"><span class="icon">👤</span>{{ ui.nav_profile }}</a>
+    </div>
+    {% if next_quiz %}
+    <a class="qz-next-btn" id="qzNextBtn" href="{{ url_for(lang, 'quizzes', next_quiz.slug) }}">{{ ui.quiz_next }} →</a>
+    {% else %}
+    <a class="qz-next-btn" id="qzNextBtn" href="{{ url_for(lang, 'quizzes') }}">{{ ui.quiz_done_title }} →</a>
+    {% endif %}
+  </nav>
+</div>
+
+<script>
+(function () {
+  var box = document.querySelector('.qz-options');
+  if (!box) return;
+  var answerIdx = parseInt(box.dataset.answer, 10);
+  var explainBox = document.querySelector('.qz-explain');
+  var explainInner = document.querySelector('.qz-explain-inner');
+  var explainLabel = document.querySelector('.qz-explain-label');
+  var nextBtn = document.getElementById('qzNextBtn');
+  var arena = document.querySelector('.qz-arena');
+  var correctMsg = {{ ui.quiz_correct | tojson }};
+  var wrongMsg = {{ ui.quiz_wrong | tojson }};
+  var explanationLabel = {{ ui.quiz_explanation | tojson }};
+
+  var STORE_KEY = 'ts_quiz_progress';
+  function loadProgress() {
+    try { return JSON.parse(localStorage.getItem(STORE_KEY) || '{}'); } catch (e) { return {}; }
+  }
+  function saveProgress(p) {
+    try { localStorage.setItem(STORE_KEY, JSON.stringify(p)); } catch (e) {}
+  }
+  function renderHeader(p) {
+    var xp = p.xp || 0;
+    var level = Math.floor(xp / 300) + 1;
+    document.querySelector('.qz-xp-num').textContent = xp.toLocaleString();
+    document.querySelector('.qz-level-num').textContent = 'Lv. ' + level;
+  }
+
+  var progress = loadProgress();
+  progress.solved = progress.solved || [];
+  renderHeader(progress);
+
+  box.addEventListener('click', function (event) {
+    var btn = event.target.closest('.qz-option');
+    if (!btn || box.classList.contains('is-locked')) return;
+    box.classList.add('is-locked');
+
+    var selected = parseInt(btn.dataset.index, 10);
+    var correct = selected === answerIdx;
+
+    box.querySelectorAll('.qz-option').forEach(function (b) {
+      var idx = parseInt(b.dataset.index, 10);
+      if (idx === answerIdx) {
+        b.dataset.state = 'correct';
+        var tag = document.createElement('span');
+        tag.className = 'qz-correct-tag';
+        tag.textContent = {{ ui.quiz_correct_badge | tojson }};
+        b.appendChild(tag);
+      } else if (idx === selected) {
+        b.dataset.state = 'wrong';
+      } else {
+        b.dataset.state = 'dim';
+      }
+    });
+
+    explainLabel.textContent = (correct ? correctMsg : wrongMsg) + ' · ' + explanationLabel;
+    explainInner.classList.toggle('is-wrong', !correct);
+    explainBox.classList.add('show');
+
+    if (correct && arena && progress.solved.indexOf(arena.dataset.quizSlug) === -1) {
+      progress.solved.push(arena.dataset.quizSlug);
+      progress.xp = (progress.xp || 0) + 50;
+      saveProgress(progress);
+      renderHeader(progress);
+    }
+
+    if (nextBtn) nextBtn.classList.add('unlocked');
+  });
+})();
+</script>
+{% endblock %}

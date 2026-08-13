@@ -35,6 +35,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="/rss.xml">
 <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/static/css/style.css">
+{% block extra_head %}{% endblock %}
 {% if cfg.GOOGLE_SITE_VERIFICATION %}
 <meta name="google-site-verification" content="{{ cfg.GOOGLE_SITE_VERIFICATION }}">
 {% endif %}
@@ -71,6 +72,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 {% endif %}
+{% if not hide_chrome %}
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="{{ url_for(lang) }}">{{ site.name }}</a>
@@ -79,6 +81,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <a href="{{ url_for(lang, slug) }}">{{ course[lang].short_title }}</a>
       {% endfor %}
       <a href="{{ url_for(lang, 'tools') }}">{{ ui.tools_nav }}</a>
+      <a href="{{ url_for(lang, 'quizzes') }}">{{ ui.quizzes_nav }}</a>
       <a href="{{ cfg.PAPERTRADE_URL }}" target="_blank" rel="noopener">{{ ui.practice_trading }}</a>
       {% for l in languages %}
         {% if l != lang %}
@@ -88,17 +91,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </nav>
   </div>
 </header>
+{% endif %}
 
 <main>
 {% block content %}{% endblock %}
 </main>
 
+{% if not hide_chrome %}
 <footer class="site-footer">
   <div class="wrap">
     <p>&copy; {{ "2026" }} {{ site.name }}. {{ ui.auto_update }}</p>
     <p><a href="{{ url_for(lang, 'about') }}">{{ ui.about }}</a> · <a href="{{ url_for(lang, 'privacy') }}">{{ ui.privacy }}</a> · <a href="{{ url_for(lang, 'terms') }}">{{ ui.terms }}</a> · <a href="mailto:{{ cfg.CONTACT_EMAIL }}">{{ ui.contact }}</a></p>
   </div>
 </footer>
+{% endif %}
 
 <script>
 document.addEventListener('click', function (event) {

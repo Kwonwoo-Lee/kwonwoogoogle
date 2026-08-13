@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block meta_title %}{{ ui.quizzes }} - {{ site.name }}{% endblock %}
+{% block meta_description %}{{ ui.quizzes_desc }}{% endblock %}
+{% block meta_keywords %}{{ ui.quizzes }}, {{ quizzes | map(attribute="title") | join(", ") }}{% endblock %}
+
+{% block content %}
+<nav class="breadcrumb wrap"><a href="{{ url_for(lang) }}">{{ ui.home }}</a> / {{ ui.quizzes }}</nav>
+
+<section class="wrap">
+  <h1>🧠 {{ ui.quizzes }}</h1>
+  <p class="lead">{{ ui.quizzes_desc }}</p>
+
+  {% if quizzes %}
+  <ol class="lesson-list">
+    {% for quiz in quizzes %}
+    <li>
+      <a href="{{ url_for(lang, 'quizzes', quiz.slug) }}">
+        <span class="lesson-num">Q{{ loop.index }}</span>
+        <span class="lesson-level">{{ quiz.category }}</span>
+        <span class="lesson-title">{{ quiz.title }}</span>
+        <span class="lesson-meta">{{ "★" * quiz.difficulty }}{{ "☆" * (5 - quiz.difficulty) }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+  {% else %}
+  <p class="muted">{{ ui.quizzes_empty }}</p>
+  {% endif %}
+</section>
+{% endblock %}

@@ -111,6 +111,21 @@ UI = {
         "toc": "이 글의 목차",
         "tools": "투자 계산기", "tools_nav": "계산기",
         "continue_reading": "이어보기",
+        "quizzes": "주식 퀴즈", "quizzes_nav": "퀴즈",
+        "quizzes_desc": "실전에서 진짜 헷갈리는 상황을 짧은 문제로 풀어보며 감각을 익히세요.",
+        "quizzes_empty": "아직 등록된 퀴즈가 없습니다.",
+        "quiz_question_label": "Question",
+        "quiz_correct_badge": "정답!",
+        "quiz_correct": "정답입니다!",
+        "quiz_wrong": "아쉽지만 오답이에요",
+        "quiz_explanation": "해설",
+        "quiz_next": "다음 문제로 이동",
+        "quiz_restart": "처음부터 다시 풀기",
+        "quiz_done_title": "퀴즈를 모두 풀었어요!",
+        "quiz_chart_preview": "Live Chart Preview",
+        "quiz_chart_preview_label": "차트 예시",
+        "quiz_student_label": "학습자",
+        "nav_home": "홈", "nav_courses": "강의", "nav_quizzes": "퀴즈", "nav_profile": "프로필",
     },
     "en": {
         "home": "Home", "privacy": "Privacy Policy", "contact": "Contact",
@@ -132,6 +147,21 @@ UI = {
         "toc": "In this article",
         "tools": "Investing Calculators", "tools_nav": "Calculators",
         "continue_reading": "Continue reading",
+        "quizzes": "Stock Quizzes", "quizzes_nav": "Quizzes",
+        "quizzes_desc": "Sharpen your instincts on the situations that actually trip up investors, one short question at a time.",
+        "quizzes_empty": "No quizzes have been published yet.",
+        "quiz_question_label": "Question",
+        "quiz_correct_badge": "Correct!",
+        "quiz_correct": "That's correct!",
+        "quiz_wrong": "Not quite — here's why",
+        "quiz_explanation": "Explanation",
+        "quiz_next": "Next question",
+        "quiz_restart": "Restart from question 1",
+        "quiz_done_title": "You've finished every quiz!",
+        "quiz_chart_preview": "Live Chart Preview",
+        "quiz_chart_preview_label": "Example chart",
+        "quiz_student_label": "Student",
+        "nav_home": "Home", "nav_courses": "Courses", "nav_quizzes": "Quizzes", "nav_profile": "Profile",
     },
 }
 
@@ -264,6 +294,34 @@ def load_lessons(lang: str):
     return lessons_by_course
 
 
+def load_quizzes(lang: str):
+    """quizzes 목록 (order순). 각 퀴즈는 객관식 4지선다 + 해설로 구성됩니다."""
+    quiz_dir = CONTENT_DIR / lang / "quizzes"
+    if not quiz_dir.exists():
+        return []
+    quizzes = []
+    for path in sorted(quiz_dir.glob("*.md")):
+        raw = path.read_text(encoding="utf-8")
+        meta, body = _parse_frontmatter(raw)
+        html_body, _, _ = _render_markdown(body, lang)
+        keywords = meta.get("keywords", [])
+        quizzes.append({
+            "slug": meta["slug"],
+            "title": meta["title"],
+            "category": meta["category"],
+            "difficulty": int(meta.get("difficulty", 1)),
+            "order": int(meta["order"]),
+            "updated": str(meta.get("updated", date.today().isoformat())),
+            "question_html": html_body,
+            "options": meta["options"],
+            "answer": int(meta["answer"]),
+            "explanation": meta["explanation"],
+            "keywords": ", ".join(keywords) if keywords else meta["category"],
+        })
+    quizzes.sort(key=lambda x: x["order"])
+    return quizzes
+
+
 def load_news(lang: str):
     """news 글 목록 (최신순). 각 글은 실제 보도를 자체적으로 종합·분석해 쓴 것으로,
     강의(lesson)와 달리 course/order 개념이 없고 published 날짜로만 정렬합니다."""
@@ -343,6 +401,7 @@ def build():
         ui = UI[lang]
         site = SITE_TEXT[lang]
         lessons_by_course = load_lessons(lang)
+        quizzes = load_quizzes(lang)
         base_dir = DIST_DIR if lang == DEFAULT_LANG else DIST_DIR / lang
 
         # 홈
@@ -350,10 +409,30 @@ def build():
         home_path = url_for(lang)
         write(base_dir / "index.html", home_tpl.render(
             lang=lang, ui=ui, site=site,
-            lessons_by_course=lessons_by_course,
+            lessons_by_course=lessons_by_course, quiz_count=len(quizzes),
             canonical=home_path, alternates=alternates_for(),
         ))
         all_pages.append((home_path, date.today().isoformat()))
+
+        # 주식 퀴즈
+        quizzes_tpl = env.get_template("quizzes.html")
+        quizzes_path = url_for(lang, "quizzes")
+        write(base_dir / "quizzes" / "index.html", quizzes_tpl.render(
+            lang=lang, ui=ui, site=site, quizzes=quizzes,
+            canonical=quizzes_path, alternates=alternates_for("quizzes"),
+        ))
+        all_pages.append((quizzes_path, date.today().isoformat()))
+
+        quiz_tpl = env.get_template("quiz.html")
+        for i, quiz in enumerate(quizzes):
+            quiz_url = url_for(lang, "quizzes", quiz["slug"])
+            write(base_dir / "quizzes" / quiz["slug"] / "index.html", quiz_tpl.render(
+                lang=lang, ui=ui, site=site,
+                quiz=quiz, quizzes=quizzes, quiz_index=i,
+                canonical=quiz_url, alternates=alternates_for("quizzes", quiz["slug"]),
+                hide_chrome=True,
+            ))
+            all_pages.append((quiz_url, quiz["updated"]))
 
         # 시장 뉴스 (RSS를 그대로 긁어오지 않고, 실제 보도를 근거로 직접 종합·분석해서 씁니다)
         news_posts = load_news(lang)

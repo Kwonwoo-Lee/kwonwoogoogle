@@ -41,5 +41,11 @@
     <p>{{ ui.market_news_desc }}</p>
     <span class="course-count">{{ ui.market_news_tag }}</span>
   </a>
+  <a class="course-card" href="{{ url_for(lang, 'quizzes') }}">
+    <span class="course-icon">🧠</span>
+    <h2>{{ ui.quizzes }}</h2>
+    <p>{{ ui.quizzes_desc }}</p>
+    <span class="course-count">{{ quiz_count }}{{ "문제" if lang == "ko" else " quizzes" }} · {{ ui.free_all }}</span>
+  </a>
 </section>
 {% endblock %}

@@ -112,10 +112,6 @@ UI = {
         "tools": "투자 계산기", "tools_nav": "계산기",
         "continue_reading": "이어보기",
         "progress_label": "내 진도율",
-        "hero_cta_primary": "오늘의 콘텐츠 보기", "hero_cta_secondary": "전체 강의 둘러보기",
-        "hero_lessons_waiting": "개의 강의가 기다리고 있어요",
-        "highlight_label": "오늘의 추천 콘텐츠", "read_more": "자세히 보기",
-        "recent_section_title": "최근 추가된 콘텐츠", "recent_section_desc": "매일 자동으로 갱신됩니다 - 조작된 인기순이 아니라 실제 발행 시각 기준입니다.",
         "quizzes": "주식 퀴즈", "quizzes_nav": "퀴즈",
         "quizzes_desc": "실제 상황을 가정한 판단력 문제로 배운 개념을 점검해보세요. 정답을 고르면 바로 해설이 나옵니다.",
         "quiz_check": "선택지를 고른 뒤 제출하면 정답과 해설을 확인할 수 있어요.", "quiz_submit": "제출하기",
@@ -144,10 +140,6 @@ UI = {
         "tools": "Investing Calculators", "tools_nav": "Calculators",
         "continue_reading": "Continue reading",
         "progress_label": "Your progress",
-        "hero_cta_primary": "See today's content", "hero_cta_secondary": "Browse all lessons",
-        "hero_lessons_waiting": " lessons waiting for you",
-        "highlight_label": "Today's Pick", "read_more": "Read more",
-        "recent_section_title": "Recently Added", "recent_section_desc": "Updated automatically every day - sorted by real publish time, not a manipulated popularity count.",
         "quizzes": "Stock Quizzes", "quizzes_nav": "Quizzes",
         "quizzes_desc": "Test what you've learned with realistic judgment-call scenarios. Pick an answer to see the explanation instantly.",
         "quiz_check": "Pick an answer, then submit to see the correct answer and explanation.", "quiz_submit": "Submit",
@@ -408,40 +400,7 @@ def build():
         quizzes = load_quizzes(lang)
         for quiz in quizzes:
             quiz["is_new"] = (date.today() - date.fromisoformat(quiz["updated"])).days <= 5
-        news_posts = load_news(lang)
         base_dir = DIST_DIR if lang == DEFAULT_LANG else DIST_DIR / lang
-
-        # 홈 페이지용: 뉴스/강의/퀴즈를 하나로 합쳐 최신순으로 - 전부 실제 발행일
-        # 기준이라 조작된 "인기순위" 없이 정직하게 "최근 추가된 콘텐츠"만 보여줌
-        recent_items = []
-        if news_posts:
-            top_news = news_posts[0]
-            recent_items.append({
-                "type": "news", "title": top_news["title"], "excerpt": top_news["description"],
-                "url": url_for(lang, "news", top_news["slug"]), "date": top_news["published"],
-                "badge": ui["market_news"], "icon": "📰", "hue": "blue",
-            })
-        for course_slug, course_meta in COURSES.items():
-            lessons = lessons_by_course.get(course_slug, [])
-            if lessons:
-                latest = max(lessons, key=lambda x: x["updated"])
-                recent_items.append({
-                    "type": "lesson", "title": latest["title"], "excerpt": latest["description"],
-                    "url": url_for(lang, course_slug, latest["slug"]), "date": latest["updated"],
-                    "badge": course_meta[lang]["short_title"], "icon": course_meta["icon"], "hue": "green",
-                })
-        for q in quizzes[:2]:
-            recent_items.append({
-                "type": "quiz", "title": q["title"], "excerpt": "",
-                "url": url_for(lang, "quizzes", q["slug"]), "date": q["updated"],
-                "badge": q["category"], "icon": "🧠", "hue": q["category_hue"],
-            })
-        recent_items.sort(key=lambda x: x["date"], reverse=True)
-        for i, item in enumerate(recent_items):
-            item["rank"] = i + 1
-            item["is_new"] = (date.today() - date.fromisoformat(item["date"])).days <= 5
-        recent_items = recent_items[:6]
-        highlight_item = recent_items[0] if recent_items else None
 
         # 홈
         home_tpl = env.get_template("home.html")
@@ -449,12 +408,12 @@ def build():
         write(base_dir / "index.html", home_tpl.render(
             lang=lang, ui=ui, site=site,
             lessons_by_course=lessons_by_course, quiz_count=len(quizzes),
-            recent_items=recent_items, highlight_item=highlight_item,
             canonical=home_path, alternates=alternates_for(),
         ))
         all_pages.append((home_path, date.today().isoformat()))
 
         # 시장 뉴스 (RSS를 그대로 긁어오지 않고, 실제 보도를 근거로 직접 종합·분석해서 씁니다)
+        news_posts = load_news(lang)
         news_tpl = env.get_template("news.html")
         news_path = url_for(lang, "news")
         write(base_dir / "news" / "index.html", news_tpl.render(

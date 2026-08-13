@@ -19,94 +19,21 @@
       <span class="hero-eyebrow">{{ ui.free_all }} · {{ "가입 없이 바로 시작" if lang == "ko" else "No signup required" }}</span>
       <h1>{{ site.tagline }}</h1>
       <p class="lead">{{ site.description }}</p>
-
-      <div class="hero-cta-row">
-        {% if highlight_item %}
-        <a class="btn-primary" href="{{ highlight_item.url }}">▶ {{ ui.hero_cta_primary }}</a>
-        {% endif %}
-        <a class="btn-secondary" href="{{ url_for(lang, 'basics') }}">
-          <span>📘 {{ ui.hero_cta_secondary }}</span>
-          <span class="btn-secondary-sub">{{ lessons_by_course.values() | map('length') | sum }}{{ ui.hero_lessons_waiting }} ›</span>
-        </a>
-      </div>
-
-      <nav class="hero-pill-row" aria-label="quick links">
-        {% for slug, course in courses.items() %}
-        <a class="hero-pill" href="{{ url_for(lang, slug) }}">{{ course[lang].short_title }}</a>
-        {% endfor %}
-        <a class="hero-pill" href="{{ url_for(lang, 'news') }}">{{ ui.market_news }}</a>
-        <a class="hero-pill" href="{{ url_for(lang, 'quizzes') }}">{{ ui.quizzes }}</a>
-        <a class="hero-pill" href="{{ url_for(lang, 'tools') }}">{{ ui.tools }}</a>
-      </nav>
-
       <div class="hero-stats">
         <div class="hero-stat"><strong>{{ lessons_by_course.values() | map('length') | sum }}+</strong><span>{{ "강의" if lang == "ko" else "Lessons" }}</span></div>
         <div class="hero-stat"><strong>{{ quiz_count }}+</strong><span>{{ "퀴즈" if lang == "ko" else "Quizzes" }}</span></div>
         <div class="hero-stat"><strong>0{{ "원" if lang == "ko" else "$" }}</strong><span>{{ "전부 무료" if lang == "ko" else "Always free" }}</span></div>
       </div>
     </div>
-
-    <div class="hero-side">
-      <div class="hero-chart-card glass">
-        <svg viewBox="0 0 280 150" class="hero-sparkline" preserveAspectRatio="none" aria-hidden="true">
-          <polyline class="hero-sparkline-fill" points="0,150 0,112 28,120 56,96 84,104 112,72 140,84 168,52 196,64 224,30 252,42 280,18 280,150" />
-          <polyline class="hero-sparkline-line" points="0,112 28,120 56,96 84,104 112,72 140,84 168,52 196,64 224,30 252,42 280,18" />
-          <circle class="hero-sparkline-dot" cx="280" cy="18" r="4" />
-        </svg>
-      </div>
-      {% if highlight_item %}
-      <a class="hero-highlight-card glass" href="{{ highlight_item.url }}">
-        <span class="hero-highlight-label"><span class="pulse-dot"></span>{{ ui.highlight_label }}</span>
-        <div class="hero-highlight-meta">
-          <span class="pill-badge cat-{{ highlight_item.hue }}">{{ highlight_item.icon }} {{ highlight_item.badge }}</span>
-          {% if highlight_item.is_new %}<span class="pill-badge warm">NEW</span>{% endif %}
-        </div>
-        <h3 class="hero-highlight-title">{{ highlight_item.title }}</h3>
-        {% if highlight_item.excerpt %}<p class="hero-highlight-excerpt">{{ highlight_item.excerpt }}</p>{% endif %}
-        <span class="hero-highlight-cta">{{ ui.read_more }} →</span>
-      </a>
-      {% endif %}
+    <div class="hero-chart" aria-hidden="true">
+      <svg viewBox="0 0 280 150" class="hero-sparkline" preserveAspectRatio="none">
+        <polyline class="hero-sparkline-fill" points="0,150 0,112 28,120 56,96 84,104 112,72 140,84 168,52 196,64 224,30 252,42 280,18 280,150" />
+        <polyline class="hero-sparkline-line" points="0,112 28,120 56,96 84,104 112,72 140,84 168,52 196,64 224,30 252,42 280,18" />
+        <circle class="hero-sparkline-dot" cx="280" cy="18" r="4" />
+      </svg>
     </div>
   </div>
 </section>
-
-{% if recent_items|length > 1 %}
-<section class="wrap recent-section">
-  <h2>{{ ui.recent_section_title }}</h2>
-  <p class="lead recent-section-desc">{{ ui.recent_section_desc }}</p>
-
-  <div class="recent-feature-row">
-    {% for item in recent_items[1:3] %}
-    <a class="recent-feature-card glass hue-{{ item.hue }}" href="{{ item.url }}">
-      <div class="recent-feature-meta">
-        <span class="pill-badge cat-{{ item.hue }}">{{ item.icon }} {{ item.badge }}</span>
-        {% if item.is_new %}<span class="pill-badge warm">NEW</span>{% endif %}
-      </div>
-      <h3>{{ item.title }}</h3>
-      {% if item.excerpt %}<p>{{ item.excerpt | truncate(90) }}</p>{% endif %}
-      <span class="recent-feature-cta">{{ ui.read_more }} →</span>
-    </a>
-    {% endfor %}
-  </div>
-
-  {% if recent_items|length > 3 %}
-  <ol class="recent-rank-list">
-    {% for item in recent_items[3:] %}
-    <li>
-      <a class="hover-lift" href="{{ item.url }}">
-        <span class="recent-rank-num">{{ item.rank }}</span>
-        <span class="recent-rank-body">
-          <span class="recent-rank-title">{{ item.title }}{% if item.is_new %}<span class="pill-badge warm recent-rank-new">NEW</span>{% endif %}</span>
-          <span class="pill-badge cat-{{ item.hue }}">{{ item.icon }} {{ item.badge }}</span>
-        </span>
-        <span class="chevron-arrow" aria-hidden="true">›</span>
-      </a>
-    </li>
-    {% endfor %}
-  </ol>
-  {% endif %}
-</section>
-{% endif %}
 
 <section class="wrap course-grid">
   {% for slug, course in courses.items() %}

@@ -233,64 +233,18 @@ h1 { font-size: 28px; }
 .quiz-card-chevron { color: var(--muted); font-size: 22px; flex-shrink: 0; font-weight: 300; }
 .difficulty-stars { color: var(--warm); letter-spacing: 1px; font-size: 12px; }
 
-/* 퀴즈 풀이 카드 - 404vibe.app 실제 문제풀이 페이지(glass-panel/option-row/
-   select→submit 흐름) 구조를 그대로 참고 */
-.back-to-list-btn {
-  display: inline-flex; align-items: center; gap: 6px; height: 38px; padding: 0 14px;
-  background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
-  color: var(--ink-2); font-size: 14px; font-weight: 700; cursor: pointer;
-  box-shadow: 0 2px 8px rgba(15,23,42,.04); transition: all .2s ease;
-}
-.back-to-list-btn:hover { border-color: var(--warm); background: var(--warm-2); color: var(--warm); }
-
-.quiz-solve-card {
-  background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
-  box-shadow: 0 1px 3px rgba(0,0,0,.06), 0 4px 16px rgba(0,0,0,.04);
-  padding: 28px; margin-top: 16px;
-}
-.solve-meta-badges { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; padding-bottom: 16px; border-bottom: 1px solid var(--border); margin-bottom: 18px; }
-
-.question-label { font-size: 12px; font-weight: 900; color: var(--warm); letter-spacing: 2px; font-family: var(--font-mono, monospace); }
-.question-title { font-size: 20px; font-weight: 900; margin: 4px 0 14px; line-height: 1.4; font-family: var(--font-heading); }
-.question-body {
-  font-size: 17px; font-weight: 600; line-height: 1.75; color: var(--ink);
-  padding-left: 18px; border-left: 4px solid var(--warm); margin: 0;
-}
-.question-body p { margin: 0 0 8px; }
-.question-body p:last-child { margin-bottom: 0; }
-
+.quiz-question-body { margin: 20px 0; }
 .quiz-options { display: flex; flex-direction: column; gap: 10px; margin-top: 24px; }
 .quiz-option {
-  text-align: left; font: inherit; display: flex; align-items: center; gap: 14px;
-  font-size: 15px; font-weight: 500; padding: 14px 16px; min-height: 52px; border-radius: 14px;
+  text-align: left; font: inherit; font-size: 16px; padding: 14px 18px; border-radius: 10px;
   border: 1px solid var(--border); background: var(--surface); color: var(--ink); cursor: pointer;
-  transition: all .2s ease;
+  transition: border-color .15s ease, background .15s ease;
 }
-.quiz-options:not(.locked) .quiz-option:hover { border-color: var(--warm); background: var(--warm-2); transform: translateY(-1px); }
-.quiz-options.locked .quiz-option { cursor: default; }
-.quiz-option-key {
-  width: 28px; height: 28px; border-radius: 50%; background: var(--accent-2); color: var(--ink-2);
-  display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700;
-  flex-shrink: 0; font-family: var(--font-mono, monospace); transition: all .2s ease;
-}
-.quiz-option.selected { border-color: var(--warm); background: var(--warm-2); }
-.quiz-option.selected .quiz-option-key { background: var(--warm); color: #fff; }
+.quiz-options:not(.answered) .quiz-option:hover { border-color: var(--accent); background: var(--accent-2); }
+.quiz-options.answered .quiz-option { cursor: default; }
 .quiz-option.correct { border-color: var(--good); background: rgba(0,99,0,.08); font-weight: 700; }
-.quiz-option.correct .quiz-option-key { background: var(--good); color: #fff; }
 .quiz-option.wrong { border-color: var(--bad); background: rgba(208,59,59,.08); }
-.quiz-option.wrong .quiz-option-key { background: var(--bad); color: #fff; }
-
-.quiz-submit-area { display: flex; flex-direction: column; align-items: center; gap: 12px; margin-top: 24px; }
-.quiz-hint { font-size: 13px; color: var(--muted); text-align: center; margin: 0; }
-.btn-submit {
-  min-width: 240px; height: 54px; padding: 0 40px; border-radius: 14px; font: inherit;
-  background: linear-gradient(135deg, var(--warm), #FB923C); color: #14140f; font-size: 16px;
-  font-weight: 900; font-family: var(--font-heading); border: none; cursor: pointer;
-  box-shadow: 0 10px 24px rgba(245,158,11,.22); transition: all .2s ease; letter-spacing: .3px;
-}
-.btn-submit:hover:not(:disabled) { transform: translateY(-2px); box-shadow: 0 14px 32px rgba(245,158,11,.3); color: #fff; }
-.btn-submit:disabled { background: var(--border); color: var(--muted); cursor: not-allowed; box-shadow: none; }
-@media (max-width: 560px) { .btn-submit { width: 100%; min-width: 0; } }
+.quiz-hint { margin-top: 10px; font-size: 13px; }
 
 .quiz-result-box { display: none; margin-top: 20px; }
 .quiz-result-box.show { display: block; }

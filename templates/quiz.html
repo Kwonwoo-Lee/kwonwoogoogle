@@ -30,44 +30,31 @@
 </nav>
 
 <article class="wrap lesson">
-  <a class="back-to-list-btn" href="{{ url_for(lang, 'quizzes') }}">← {{ ui.quizzes }}</a>
+  <div class="quiz-card-meta" style="margin-bottom:10px;">
+    <span class="pill-badge cat-{{ quiz.category_hue }}">{{ quiz.category }}</span>
+    <span class="difficulty-badge" aria-hidden="true">{{ "★" * quiz.difficulty }}{{ "☆" * (5 - quiz.difficulty) }}</span>
+  </div>
+  <h1>{{ quiz.title }}</h1>
+  <p class="byline"><a href="{{ url_for(lang, 'about') }}">{{ ui.reviewed_by }}</a> · {{ quiz.updated }}</p>
 
-  <div class="quiz-solve-card">
-    <div class="solve-meta-badges">
-      <span class="pill-badge cat-{{ quiz.category_hue }}">{{ quiz.category }}</span>
-      <span class="difficulty-badge" aria-hidden="true">{{ "★" * quiz.difficulty }}{{ "☆" * (5 - quiz.difficulty) }}</span>
-    </div>
-
-    <span class="question-label">Q.</span>
-    <h1 class="question-title">{{ quiz.title }}</h1>
-    <div class="question-body">
-      {{ quiz.question_html | safe }}
-    </div>
-
-    <div class="quiz-options" data-answer="{{ quiz.answer }}">
-      {% for opt in quiz.options %}
-      <button type="button" class="quiz-option" data-index="{{ loop.index0 }}">
-        <span class="quiz-option-key">{{ loop.index }}</span>
-        <span class="quiz-option-text">{{ opt }}</span>
-      </button>
-      {% endfor %}
-    </div>
-
-    <div class="quiz-submit-area">
-      <p class="quiz-hint">{{ ui.quiz_check }}</p>
-      <button type="button" class="btn-submit" disabled>{{ ui.quiz_submit }}</button>
-    </div>
-
-    <div class="quiz-result-box">
-      <p class="quiz-result-text"></p>
-      <div class="quiz-explanation-box">
-        <p class="quiz-explanation-label">{{ ui.quiz_explanation }}</p>
-        <p class="quiz-explanation-text">{{ quiz.explanation }}</p>
-      </div>
-    </div>
+  <div class="lesson-body quiz-question-body">
+    {{ quiz.question_html | safe }}
   </div>
 
-  <p class="byline" style="margin-top:16px;"><a href="{{ url_for(lang, 'about') }}">{{ ui.reviewed_by }}</a> · {{ quiz.updated }}</p>
+  <div class="quiz-options" data-answer="{{ quiz.answer }}">
+    {% for opt in quiz.options %}
+    <button type="button" class="quiz-option" data-index="{{ loop.index0 }}">{{ opt }}</button>
+    {% endfor %}
+  </div>
+  <p class="quiz-hint muted">{{ ui.quiz_check }}</p>
+
+  <div class="quiz-result-box">
+    <p class="quiz-result-text"></p>
+    <div class="quiz-explanation-box">
+      <p class="quiz-explanation-label">{{ ui.quiz_explanation }}</p>
+      <p class="quiz-explanation-text">{{ quiz.explanation }}</p>
+    </div>
+  </div>
 
   <div class="share-row">
     <span class="share-label">{{ ui.share }}</span>
@@ -96,33 +83,23 @@
   var box = document.querySelector('.quiz-options');
   if (!box) return;
   var answerIdx = parseInt(box.dataset.answer, 10);
-  var submitBtn = document.querySelector('.btn-submit');
   var resultBox = document.querySelector('.quiz-result-box');
   var resultText = document.querySelector('.quiz-result-text');
+  var isKo = document.documentElement.lang === 'ko';
   var correctMsg = {{ ui.quiz_correct | tojson }};
   var wrongMsg = {{ ui.quiz_wrong | tojson }};
-  var selected = null;
 
   box.addEventListener('click', function (event) {
     var btn = event.target.closest('.quiz-option');
-    if (!btn || box.classList.contains('locked')) return;
-    box.querySelectorAll('.quiz-option').forEach(function (b) { b.classList.remove('selected'); });
-    btn.classList.add('selected');
-    selected = parseInt(btn.dataset.index, 10);
-    submitBtn.disabled = false;
-  });
-
-  submitBtn.addEventListener('click', function () {
-    if (selected === null || box.classList.contains('locked')) return;
-    box.classList.add('locked');
-    submitBtn.disabled = true;
-    var correct = selected === answerIdx;
+    if (!btn || box.classList.contains('answered')) return;
+    box.classList.add('answered');
+    var picked = parseInt(btn.dataset.index, 10);
+    var correct = picked === answerIdx;
 
     box.querySelectorAll('.quiz-option').forEach(function (b) {
       var idx = parseInt(b.dataset.index, 10);
-      b.classList.remove('selected');
       if (idx === answerIdx) b.classList.add('correct');
-      else if (idx === selected) b.classList.add('wrong');
+      else if (idx === picked) b.classList.add('wrong');
     });
 
     resultText.textContent = correct ? correctMsg : wrongMsg;

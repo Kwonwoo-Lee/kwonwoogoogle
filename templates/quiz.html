@@ -32,7 +32,7 @@
 <article class="wrap lesson">
   <a class="back-to-list-btn" href="{{ url_for(lang, 'quizzes') }}">← {{ ui.quizzes }}</a>
 
-  <div class="quiz-solve-card">
+  <div class="quiz-solve-card glass">
     <div class="solve-meta-badges">
       <span class="pill-badge cat-{{ quiz.category_hue }}">{{ quiz.category }}</span>
       <span class="difficulty-badge" aria-hidden="true">{{ "★" * quiz.difficulty }}{{ "☆" * (5 - quiz.difficulty) }}</span>

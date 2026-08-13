@@ -14,34 +14,49 @@
 
 {% block content %}
 <section class="hero">
-  <div class="wrap">
-    <h1>{{ site.tagline }}</h1>
-    <p class="lead">{{ site.description }}</p>
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <span class="hero-eyebrow">{{ ui.free_all }} · {{ "가입 없이 바로 시작" if lang == "ko" else "No signup required" }}</span>
+      <h1>{{ site.tagline }}</h1>
+      <p class="lead">{{ site.description }}</p>
+      <div class="hero-stats">
+        <div class="hero-stat"><strong>{{ lessons_by_course.values() | map('length') | sum }}+</strong><span>{{ "강의" if lang == "ko" else "Lessons" }}</span></div>
+        <div class="hero-stat"><strong>{{ quiz_count }}+</strong><span>{{ "퀴즈" if lang == "ko" else "Quizzes" }}</span></div>
+        <div class="hero-stat"><strong>0{{ "원" if lang == "ko" else "$" }}</strong><span>{{ "전부 무료" if lang == "ko" else "Always free" }}</span></div>
+      </div>
+    </div>
+    <div class="hero-chart" aria-hidden="true">
+      <svg viewBox="0 0 280 150" class="hero-sparkline" preserveAspectRatio="none">
+        <polyline class="hero-sparkline-fill" points="0,150 0,112 28,120 56,96 84,104 112,72 140,84 168,52 196,64 224,30 252,42 280,18 280,150" />
+        <polyline class="hero-sparkline-line" points="0,112 28,120 56,96 84,104 112,72 140,84 168,52 196,64 224,30 252,42 280,18" />
+        <circle class="hero-sparkline-dot" cx="280" cy="18" r="4" />
+      </svg>
+    </div>
   </div>
 </section>
 
 <section class="wrap course-grid">
   {% for slug, course in courses.items() %}
-  <a class="course-card" href="{{ url_for(lang, slug) }}">
+  <a class="course-card glass" href="{{ url_for(lang, slug) }}">
     <span class="course-icon">{{ course.icon }}</span>
     <h2>{{ course[lang].title }}</h2>
     <p>{{ course[lang].description }}</p>
     <span class="course-count">{{ lessons_by_course[slug] | length }}{{ "강" if lang == "ko" else " lessons" }} · {{ ui.free_all }}</span>
   </a>
   {% endfor %}
-  <a class="course-card" href="{{ cfg.PAPERTRADE_URL }}" target="_blank" rel="noopener">
+  <a class="course-card glass" href="{{ cfg.PAPERTRADE_URL }}" target="_blank" rel="noopener">
     <span class="course-icon">💹</span>
     <h2>{{ ui.practice_trading }}</h2>
     <p>{{ ui.practice_trading_desc }}</p>
     <span class="course-count">{{ ui.practice_trading_tag }}</span>
   </a>
-  <a class="course-card" href="{{ url_for(lang, 'news') }}">
+  <a class="course-card glass" href="{{ url_for(lang, 'news') }}">
     <span class="course-icon">📰</span>
     <h2>{{ ui.market_news }}</h2>
     <p>{{ ui.market_news_desc }}</p>
     <span class="course-count">{{ ui.market_news_tag }}</span>
   </a>
-  <a class="course-card" href="{{ url_for(lang, 'quizzes') }}">
+  <a class="course-card glass" href="{{ url_for(lang, 'quizzes') }}">
     <span class="course-icon">🧠</span>
     <h2>{{ ui.quizzes }}</h2>
     <p>{{ ui.quizzes_desc }}</p>

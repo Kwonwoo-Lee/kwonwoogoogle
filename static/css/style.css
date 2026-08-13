@@ -1,40 +1,41 @@
+/* Modern FinTech Aesthetic - 다크모드를 기본값으로 하는 네이비 베이스 +
+   차트 컬러(상승=에메랄드그린 / 하락=레드) 포인트 컬러 체계.
+   :root(꾸미지 않은 기본)가 다크 팔레트이고, [data-theme="light"]로
+   명시적으로 전환했을 때만 라이트 팔레트를 씁니다(시스템 설정과 무관하게
+   다크가 기본이라는 요구사항 반영). */
 :root {
-  color-scheme: light;
-  --page: #f9f9f7; --surface: #ffffff; --border: rgba(11,11,11,.10);
-  --ink: #14140f; --ink-2: #52514e; --muted: #898781;
-  --accent: #1a5fb4; --accent-2: #eaf1fb;
-  --good: #006300; --bad: #d03b3b;
-  --warm: #F59E0B; --warm-2: rgba(245,158,11,.12);
-  --mint: #0891B2; --mint-2: rgba(8,145,178,.12);
-  --font-heading: "Outfit", -apple-system, "Segoe UI", "Noto Sans KR", system-ui, sans-serif;
-}
-@media (prefers-color-scheme: dark) {
-  :root:where(:not([data-theme="light"])) {
-    color-scheme: dark;
-    --page: #0d0d0c; --surface: #1a1a18; --border: rgba(255,255,255,.10);
-    --ink: #f5f5f0; --ink-2: #c3c2b7; --muted: #898781;
-    --accent: #6ea8e5; --accent-2: #17263a;
-    --good: #0ca30c; --bad: #e2685f;
-    --warm: #fbbf5c; --warm-2: rgba(251,191,92,.14);
-    --mint: #22b8d8; --mint-2: rgba(34,184,216,.14);
-  }
-}
-:root[data-theme="dark"] {
   color-scheme: dark;
-  --page: #0d0d0c; --surface: #1a1a18; --border: rgba(255,255,255,.10);
-  --ink: #f5f5f0; --ink-2: #c3c2b7; --muted: #898781;
-  --accent: #6ea8e5; --accent-2: #17263a;
-  --good: #0ca30c; --bad: #e2685f;
-  --warm: #fbbf5c; --warm-2: rgba(251,191,92,.14);
+  --page: #0A0E1A; --surface: #131A2B; --surface-2: #1B2438; --border: rgba(255,255,255,.08);
+  --ink: #F1F4F9; --ink-2: #B8C2D9; --muted: #7E8AA3;
+  --accent: #4C8DFF; --accent-2: rgba(76,141,255,.14);
+  --good: #10B981; --good-2: rgba(16,185,129,.12);
+  --bad: #F0555A; --bad-2: rgba(240,85,90,.12);
+  --warm: #F59E0B; --warm-2: rgba(245,158,11,.14);
   --mint: #22b8d8; --mint-2: rgba(34,184,216,.14);
+  --font-heading: "Outfit", "Pretendard", -apple-system, "Segoe UI", system-ui, sans-serif;
+  --font-body: "Pretendard", "Inter", -apple-system, "Segoe UI", system-ui, sans-serif;
+  --glass-bg: rgba(19,26,43,.62); --glass-border: rgba(255,255,255,.10);
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+  --glass-bg: rgba(255,255,255,.62); --glass-border: rgba(15,23,42,.08);
+  --page: #F7F9FC; --surface: #FFFFFF; --surface-2: #EEF2F8; --border: rgba(15,23,42,.10);
+  --ink: #0F172A; --ink-2: #475569; --muted: #94A3B8;
+  --accent: #1a5fb4; --accent-2: #eaf1fb;
+  --good: #059669; --good-2: rgba(5,150,105,.10);
+  --bad: #DC2626; --bad-2: rgba(220,38,38,.10);
+  --warm: #D97706; --warm-2: rgba(217,119,6,.10);
+  --mint: #0891B2; --mint-2: rgba(8,145,178,.10);
 }
 
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0; background: var(--page); color: var(--ink);
-  font-family: -apple-system, "Segoe UI", "Noto Sans KR", system-ui, sans-serif;
+  font-family: var(--font-body);
+  font-variant-numeric: tabular-nums;
   line-height: 1.7; font-size: 17px;
+  transition: background-color .2s ease, color .2s ease;
 }
 .wrap { max-width: 800px; margin: 0 auto; padding: 0 20px; }
 a { color: var(--accent); text-decoration: none; }
@@ -43,6 +44,14 @@ img { max-width: 100%; height: auto; }
 h1, h2, h3, .brand, .quiz-card-title, .quiz-result-text { font-family: var(--font-heading); }
 h1 { font-weight: 800; letter-spacing: -.03em; }
 .hero h1 { font-weight: 800; letter-spacing: -.04em; }
+
+/* 라이트/다크 토글 버튼 */
+.theme-toggle {
+  display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 34px;
+  border-radius: 50%; border: 1px solid var(--border); background: var(--surface); color: var(--ink-2);
+  cursor: pointer; font-size: 16px; margin-left: 14px; transition: all .2s ease; flex-shrink: 0;
+}
+.theme-toggle:hover { border-color: var(--accent); color: var(--accent); transform: rotate(15deg); }
 
 /* pill badges (카테고리/난이도 등, 404vibe 실제 배지 색상 공식 참고:
    배경 10% 불투명, 글자는 진하게, 테두리 30% 불투명 - 카테고리별로 다른 색조) */
@@ -82,6 +91,23 @@ h1 { font-weight: 800; letter-spacing: -.03em; }
   box-shadow: 0 8px 24px rgba(15,23,42,.10);
 }
 
+/* 글래스모피즘 유틸리티 - 카드 뒤 배경이 살짝 비치는 반투명 + 블러.
+   각 카드 규칙에서 background를 var(--glass-bg)로 바꾸고 이 클래스를 더해 사용. */
+.glass {
+  background: var(--glass-bg) !important;
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  backdrop-filter: blur(14px) saturate(140%);
+  border-color: var(--glass-border) !important;
+}
+
+/* 마이크로인터랙션 - 버튼류 hover/active 시 미세한 크기 변화 */
+.share-btn, .pager-link, .back-to-list-btn, .quiz-option, .copy-link-btn, .theme-toggle {
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease, background .15s ease, color .15s ease;
+}
+.share-btn:hover, .pager-link:hover, .back-to-list-btn:hover { transform: scale(1.03); }
+.share-btn:active, .pager-link:active, .back-to-list-btn:active,
+.btn-submit:active:not(:disabled), .quiz-option:active { transform: scale(.97); }
+
 /* header */
 .site-header { border-bottom: 1px solid var(--border); background: var(--surface); }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; padding: 16px 20px; max-width: 900px; }
@@ -91,9 +117,35 @@ h1 { font-weight: 800; letter-spacing: -.03em; }
 .main-nav a.lang-switch { padding-left: 20px; border-left: 1px solid var(--border); font-weight: 500; }
 
 /* hero */
-.hero { padding: 56px 0 40px; text-align: center; }
-.hero h1 { font-size: 34px; margin: 0 0 12px; }
-.hero .lead { color: var(--ink-2); font-size: 18px; max-width: 560px; margin: 0 auto; }
+.hero { padding: 64px 0 48px; }
+.hero-inner { display: flex; align-items: center; gap: 48px; max-width: 1000px; }
+.hero-copy { flex: 1 1 420px; min-width: 280px; }
+.hero-eyebrow {
+  display: inline-flex; align-items: center; gap: 6px; padding: 5px 14px; border-radius: 999px;
+  background: var(--good-2); color: var(--good); font-size: 13px; font-weight: 700; margin-bottom: 18px;
+}
+.hero h1 { font-size: 38px; margin: 0 0 14px; line-height: 1.25; }
+.hero .lead { color: var(--ink-2); font-size: 18px; max-width: 480px; margin: 0; }
+.hero-stats { display: flex; gap: 28px; margin-top: 32px; }
+.hero-stat { display: flex; flex-direction: column; }
+.hero-stat strong { font-family: var(--font-heading); font-size: 26px; font-weight: 800; color: var(--ink); }
+.hero-stat span { font-size: 13px; color: var(--muted); margin-top: 2px; }
+.hero-chart { flex: 1 1 260px; min-width: 220px; max-width: 320px; }
+.hero-sparkline { width: 100%; height: auto; overflow: visible; }
+.hero-sparkline-fill { fill: var(--good-2); stroke: none; }
+.hero-sparkline-line {
+  fill: none; stroke: var(--good); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round;
+  stroke-dasharray: 420; stroke-dashoffset: 420; animation: hero-draw-in 1.8s ease-out .2s forwards;
+}
+.hero-sparkline-dot { fill: var(--good); opacity: 0; animation: hero-dot-in .4s ease-out 1.6s forwards, hero-dot-pulse 2s ease-in-out 2.4s infinite; }
+@keyframes hero-draw-in { to { stroke-dashoffset: 0; } }
+@keyframes hero-dot-in { to { opacity: 1; } }
+@keyframes hero-dot-pulse { 0%, 100% { r: 4; } 50% { r: 6; } }
+@media (max-width: 720px) {
+  .hero-inner { flex-direction: column; gap: 32px; }
+  .hero h1 { font-size: 28px; }
+  .hero-copy, .hero-chart { max-width: 100%; }
+}
 
 /* course grid */
 .course-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; padding-bottom: 60px; max-width: 900px; }
@@ -214,6 +266,18 @@ h1 { font-size: 28px; }
 }
 .continue-banner.show { display: flex; }
 .continue-banner a { font-weight: 700; }
+
+/* 진도율 바 (localStorage 기반, 서버/로그인 불필요) */
+.progress-bar-box { margin: 20px 0 28px; }
+.progress-bar-head { display: flex; justify-content: space-between; font-size: 13px; color: var(--ink-2); font-weight: 700; margin-bottom: 8px; }
+.progress-bar-count { color: var(--good); font-family: var(--font-heading); }
+.progress-bar-track { height: 8px; border-radius: 999px; background: var(--surface-2); overflow: hidden; }
+.progress-bar-fill { height: 100%; border-radius: 999px; background: linear-gradient(90deg, var(--good), var(--mint)); transition: width .4s ease; }
+.lesson-check {
+  display: none; align-items: center; justify-content: center; width: 20px; height: 20px;
+  border-radius: 50%; background: var(--good); color: #fff; font-size: 11px; font-weight: 900; flex-shrink: 0;
+}
+.lesson-list a.is-completed .lesson-check { display: inline-flex; }
 
 /* quizzes - 404vibe.app의 quiz-card-premium 레이아웃(번호박스+내용+화살표) 참고 */
 .quiz-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 14px; margin: 28px 0 60px; }

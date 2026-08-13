@@ -13,7 +13,7 @@
   {% if quizzes %}
   <div class="quiz-grid">
     {% for q in quizzes %}
-    <a class="quiz-card hover-lift glass" href="{{ url_for(lang, 'quizzes', q.slug) }}">
+    <a class="quiz-card hover-lift" href="{{ url_for(lang, 'quizzes', q.slug) }}">
       {% if q.is_new %}<span class="new-badge">NEW</span>{% endif %}
       <span class="quiz-card-index pill-badge cat-{{ q.category_hue }}">{{ loop.index }}</span>
       <div class="quiz-card-body">

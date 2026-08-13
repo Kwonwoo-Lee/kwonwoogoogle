@@ -40,19 +40,10 @@
     <span>{{ ui.continue_reading }}: <a href="#"></a></span>
   </div>
 
-  <div class="progress-bar-box" data-course="{{ course.slug }}" data-total="{{ lessons | length }}">
-    <div class="progress-bar-head">
-      <span>{{ ui.progress_label }}</span>
-      <span class="progress-bar-count">0/{{ lessons | length }}</span>
-    </div>
-    <div class="progress-bar-track"><div class="progress-bar-fill" style="width:0%"></div></div>
-  </div>
-
   <ol class="lesson-list">
     {% for lesson in lessons %}
     <li>
-      <a href="{{ url_for(lang, course.slug, lesson.slug) }}" data-lesson-slug="{{ lesson.slug }}">
-        <span class="lesson-check" aria-hidden="true">✓</span>
+      <a href="{{ url_for(lang, course.slug, lesson.slug) }}">
         <span class="lesson-num">{{ lesson.badge }}</span>
         {% if lesson.level %}<span class="lesson-level">{{ lesson.level }}</span>{% endif %}
         <span class="lesson-title">{{ lesson.title }}</span>

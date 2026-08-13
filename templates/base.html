@@ -36,17 +36,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/static/css/style.css">
-<script>
-(function () {
-  try {
-    var saved = localStorage.getItem('ts_theme');
-    if (saved === 'light') document.documentElement.setAttribute('data-theme', 'light');
-  } catch (e) {}
-})();
-</script>
 {% if cfg.GOOGLE_SITE_VERIFICATION %}
 <meta name="google-site-verification" content="{{ cfg.GOOGLE_SITE_VERIFICATION }}">
 {% endif %}
@@ -98,7 +89,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="{{ alternates[l] }}" class="lang-switch">{{ native_name[l] }}</a>
         {% endif %}
       {% endfor %}
-      <button type="button" class="theme-toggle" aria-label="Toggle light/dark theme">🌙</button>
     </nav>
   </div>
 </header>
@@ -115,25 +105,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </footer>
 
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-  var toggle = document.querySelector('.theme-toggle');
-  if (!toggle) return;
-  var isLight = document.documentElement.getAttribute('data-theme') === 'light';
-  toggle.textContent = isLight ? '☀️' : '🌙';
-  toggle.addEventListener('click', function () {
-    var nowLight = document.documentElement.getAttribute('data-theme') === 'light';
-    if (nowLight) {
-      document.documentElement.removeAttribute('data-theme');
-      try { localStorage.setItem('ts_theme', 'dark'); } catch (e) {}
-      toggle.textContent = '🌙';
-    } else {
-      document.documentElement.setAttribute('data-theme', 'light');
-      try { localStorage.setItem('ts_theme', 'light'); } catch (e) {}
-      toggle.textContent = '☀️';
-    }
-  });
-});
-
 document.addEventListener('click', function (event) {
   var btn = event.target.closest('.copy-link-btn');
   if (!btn) return;
@@ -156,17 +127,6 @@ document.addEventListener('DOMContentLoaded', function () {
       };
       localStorage.setItem('ts_progress', JSON.stringify(store));
     } catch (e) {}
-
-    // 진도율 - 이 강의를 "완료"로 기록 (읽은 강의 slug 목록, 코스별)
-    try {
-      var done = JSON.parse(localStorage.getItem('ts_completed') || '{}');
-      var course = lessonEl.dataset.course;
-      done[course] = done[course] || [];
-      if (done[course].indexOf(lessonEl.dataset.slug) === -1) {
-        done[course].push(lessonEl.dataset.slug);
-        localStorage.setItem('ts_completed', JSON.stringify(done));
-      }
-    } catch (e) {}
   }
   var banner = document.querySelector('.continue-banner[data-course]');
   if (banner) {
@@ -178,22 +138,6 @@ document.addEventListener('DOMContentLoaded', function () {
         link.textContent = saved.title;
         banner.classList.add('show');
       }
-    } catch (e) {}
-  }
-
-  var progressBox = document.querySelector('.progress-bar-box[data-course]');
-  if (progressBox) {
-    try {
-      var doneMap = JSON.parse(localStorage.getItem('ts_completed') || '{}');
-      var doneList = doneMap[progressBox.dataset.course] || [];
-      var total = parseInt(progressBox.dataset.total, 10) || 0;
-      var pct = total > 0 ? Math.min(100, Math.round(doneList.length / total * 100)) : 0;
-      progressBox.querySelector('.progress-bar-fill').style.width = pct + '%';
-      progressBox.querySelector('.progress-bar-count').textContent = doneList.length + '/' + total;
-      doneList.forEach(function (slug) {
-        var row = document.querySelector('.lesson-list a[data-lesson-slug="' + slug + '"]');
-        if (row) row.classList.add('is-completed');
-      });
     } catch (e) {}
   }
 });

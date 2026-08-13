@@ -4,6 +4,7 @@ title: "Amazon Hits $3 Trillion Market Cap - Then Gives Back Gains on Bezos's $4
 description: "Amazon crossed $3 trillion in market cap for the first time, only to slide the next day after Jeff Bezos filed to sell $4 billion in shares. Here's why even a pre-scheduled sale still moved the stock."
 published: 2026-08-04
 keywords: ["Amazon 3 trillion market cap", "Jeff Bezos stock sale", "Amazon stock drop", "10b5-1 trading plan", "big tech market cap ranking"]
+seo_audited: 2026-08-13
 ---
 
 ## What Happened

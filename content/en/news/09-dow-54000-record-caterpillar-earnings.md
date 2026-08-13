@@ -4,6 +4,7 @@ title: "Dow Jones Tops 54,000 for the First Time Ever, Powered by Caterpillar's 
 description: "The Dow rose 907 points (1.71%) to close above 54,000 for the first time, with the S&P 500 hitting a two-month high. Here's how one industrial stock's earnings drove a third of the gain."
 published: 2026-08-05
 keywords: ["Dow Jones record high", "Dow 54000", "Caterpillar earnings August 2026", "S&P 500 record close", "Caterpillar stock jump", "US stock market record high", "August 4 2026 stock market"]
+seo_audited: 2026-08-13
 ---
 
 ## What Happened

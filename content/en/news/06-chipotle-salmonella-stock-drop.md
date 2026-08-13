@@ -4,6 +4,7 @@ title: "Chipotle (CMG) Stock Drops Nearly 10% in a Day as Minnesota Salmonella O
 description: "Chipotle shares tumbled about 10% in a single session after a jalapeño-linked salmonella outbreak in Minnesota. Here's why its worst day in nine months happened even before the link was confirmed."
 published: 2026-08-05
 keywords: ["Chipotle stock drop", "CMG salmonella outbreak", "Chipotle jalapeno recall", "food safety stock risk", "Minnesota salmonella outbreak", "why did Chipotle stock fall today"]
+seo_audited: 2026-08-13
 ---
 
 ## What Happened

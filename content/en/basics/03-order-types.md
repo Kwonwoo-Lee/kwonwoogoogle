@@ -5,6 +5,7 @@ description: "Market orders, limit orders, stop (stop-loss) orders, and trailing
 order: 3
 updated: 2026-08-02
 keywords: ["market order vs limit order", "stop loss order", "trailing stop", "order types explained"]
+seo_audited: 2026-08-13
 ---
 
 ## Why Order Types Actually Matter

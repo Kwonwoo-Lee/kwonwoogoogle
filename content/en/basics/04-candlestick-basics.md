@@ -5,6 +5,7 @@ description: "What bullish and bearish candles mean, what the body and wicks tel
 order: 4
 updated: 2026-08-02
 keywords: ["how to read candlestick charts", "bullish bearish candle", "candlestick patterns", "doji hammer", "chart timeframes"]
+seo_audited: 2026-08-13
 ---
 
 ## One Candle = A Summary of Price Over a Fixed Time Window

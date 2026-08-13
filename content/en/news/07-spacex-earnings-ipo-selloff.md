@@ -4,6 +4,7 @@ title: "SpaceX (SPCX) Falls 7-8% After Hours on First Earnings Since IPO, Even a
 description: "SpaceX revenue jumped 92% to $7.81B, beating estimates in its first earnings since IPO - yet shares fell 7-8% below the $135 offer price."
 published: 2026-08-05
 keywords: ["SpaceX stock", "SPCX earnings", "SpaceX first earnings report", "Starlink subscriber growth", "SpaceX stock drop after hours", "SpaceX capex AI spending"]
+seo_audited: 2026-08-13
 ---
 
 ## What Happened

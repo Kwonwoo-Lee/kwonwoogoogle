@@ -5,6 +5,7 @@ description: "Why support and resistance levels form, the rules of range-breakou
 order: 4
 updated: 2026-08-03
 keywords: ["support and resistance", "breakout trading strategy", "volatility breakout strategy", "range breakout", "false breakout"]
+seo_audited: 2026-08-13
 ---
 
 ## What Are Support and Resistance

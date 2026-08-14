@@ -5,6 +5,7 @@ description: "Position sizing, diversification, and stop-loss discipline — the
 order: 6
 updated: 2026-08-02
 keywords: ["risk management for stocks", "position sizing", "diversification", "stop loss discipline", "money management"]
+seo_audited: 2026-08-14
 ---
 
 ## Why "How Much Can I Lose" Comes Before "How Much Can I Make"

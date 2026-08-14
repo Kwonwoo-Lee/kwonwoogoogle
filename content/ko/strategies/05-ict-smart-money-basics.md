@@ -5,6 +5,7 @@ description: "유동성(Liquidity), 페어밸류갭(FVG), 스윕 같은 ICT(Inne
 order: 5
 updated: 2026-08-03
 keywords: ["ICT 트레이딩", "스마트머니 컨셉", "유동성 스윕", "FVG 뜻", "페어밸류갭", "유동성 개념"]
+seo_audited: 2026-08-14
 ---
 
 ## ICT / 스마트머니 컨셉이란

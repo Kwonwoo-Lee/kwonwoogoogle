@@ -5,6 +5,7 @@ description: "How to calculate risk/reward ratio (R:R), why it can matter more t
 order: 6
 updated: 2026-08-03
 keywords: ["risk reward ratio", "R multiple", "position sizing", "money management trading", "risk management strategy"]
+seo_audited: 2026-08-14
 ---
 
 ## What Is Risk/Reward Ratio

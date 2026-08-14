@@ -5,6 +5,7 @@ description: "The core terms and logic behind ICT (Inner Circle Trader) smart mo
 order: 5
 updated: 2026-08-02
 keywords: ["ICT trading", "smart money concepts", "liquidity sweep", "what is FVG", "fair value gap"]
+seo_audited: 2026-08-14
 ---
 
 ## What Is ICT / Smart Money Concepts

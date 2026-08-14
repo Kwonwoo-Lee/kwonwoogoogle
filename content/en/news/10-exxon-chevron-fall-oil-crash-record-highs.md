@@ -4,6 +4,7 @@ title: "ExxonMobil Falls 4%, Chevron Drops 3.6% as Oil Crashes on Hormuz Deal Ho
 description: "ExxonMobil sank about 4% and Chevron fell 3.6% as Brent crude dropped over 5% on hopes of a US-Iran Hormuz deal, even as the Dow and S&P 500 closed at record highs the same day."
 published: 2026-08-05
 keywords: ["ExxonMobil stock drop", "Chevron stock fall", "oil price crash Hormuz deal", "why energy stocks down today", "Strait of Hormuz oil prices", "energy sector selloff August 2026", "XOM CVX stock news"]
+seo_audited: 2026-08-14
 ---
 
 ## What Happened

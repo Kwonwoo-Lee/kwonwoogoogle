@@ -5,6 +5,7 @@ description: "PER, PBR, ROE, EPS가 각각 무엇을 의미하는지, 어떻게 
 order: 5
 updated: 2026-08-02
 keywords: ["PER 뜻", "PBR 뜻", "ROE 뜻", "EPS 뜻", "재무제표 보는법"]
+seo_audited: 2026-08-14
 ---
 
 ## 왜 숫자를 봐야 할까

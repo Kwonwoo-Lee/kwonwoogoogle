@@ -5,6 +5,7 @@ description: "What P/E, P/B, ROE, and EPS actually mean, how they're calculated,
 order: 5
 updated: 2026-08-02
 keywords: ["what is P/E ratio", "what is P/B ratio", "what is ROE", "what is EPS", "how to read financial statements"]
+seo_audited: 2026-08-14
 ---
 
 ## Why Look at the Numbers at All

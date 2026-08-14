@@ -4,6 +4,7 @@ title: "Eli Lilly Stock Jumps 6% on 48% Revenue Surge - The Exact Opposite of No
 description: "Eli Lilly beat every estimate and raised full-year guidance, with Mounjaro sales up 91% and revenue up 48% to $23 billion - and shares jumped roughly 6%. Here's why its guidance raise landed so differently from Novo Nordisk's."
 published: 2026-08-05
 keywords: ["Eli Lilly stock today", "LLY earnings Q2 2026", "Mounjaro sales growth", "Zepbound revenue 2026", "Eli Lilly guidance raise", "why did Eli Lilly stock jump", "GLP-1 weight loss stocks"]
+seo_audited: 2026-08-14
 ---
 
 ## What Happened

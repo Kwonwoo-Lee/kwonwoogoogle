@@ -4,6 +4,7 @@ title: "Novo Nordisk Stock Falls 6% Despite Raised Guidance - Why Wegovy's US Sl
 description: "Novo Nordisk raised its full-year sales outlook, yet shares still dropped more than 6%. Here's why a 22% drop in US Wegovy sales overshadowed the guidance beat."
 published: 2026-08-05
 keywords: ["Novo Nordisk stock drop", "NVO stock today", "Wegovy sales decline", "Ozempic earnings", "GLP-1 weight loss drug stocks", "Eli Lilly vs Novo Nordisk", "Novo Nordisk guidance raise"]
+seo_audited: 2026-08-14
 ---
 
 ## What Happened

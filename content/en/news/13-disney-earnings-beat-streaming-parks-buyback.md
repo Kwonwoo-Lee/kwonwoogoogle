@@ -4,6 +4,7 @@ title: "Disney Stock Rises Roughly 4% as Streaming Profit Doubles and Parks Reve
 description: "Disney's adjusted EPS of $2.06 crushed estimates and shares rose roughly 4% premarket. Streaming profit doubled, parks revenue rose 10%, and buybacks got a boost - here's why it added up to a rally."
 published: 2026-08-05
 keywords: ["Disney stock today", "Disney Q3 2026 earnings", "Disney+ Hulu profit", "Disney parks revenue", "DIS stock jump", "Disney share buyback", "Hearst A+E Global Media deal"]
+seo_audited: 2026-08-14
 ---
 
 ## What Happened

@@ -5,6 +5,7 @@ description: "축적·조작·분산(PO3) 사이클과 HTF 4단계 조건 + LTF 
 order: 7
 updated: 2026-08-03
 keywords: ["PO3 파워오브쓰리", "Confirm DOL", "킬존 트레이딩", "선물 트레이딩 전략", "단타 전략", "스마트머니 매매기법"]
+seo_audited: 2026-08-15
 ---
 
 ## 이 강의는 5강의 후속편입니다

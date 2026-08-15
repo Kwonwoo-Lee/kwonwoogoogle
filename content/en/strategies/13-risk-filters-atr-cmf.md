@@ -5,6 +5,7 @@ description: "Analyzes the triple risk filter that all 11 strategies must pass t
 order: 13
 updated: 2026-08-03
 keywords: ["ATR stop loss", "Chaikin money flow", "risk management strategy", "fees slippage net profit", "position sizing"]
+seo_audited: 2026-08-15
 ---
 
 ## The Difference Between a Good Trader and a Professional Trader

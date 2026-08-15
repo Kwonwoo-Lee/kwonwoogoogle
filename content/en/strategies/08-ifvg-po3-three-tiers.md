@@ -5,6 +5,7 @@ description: "Break down a combined liquidity-sweep + inverted-FVG entry signal 
 order: 8
 updated: 2026-08-03
 keywords: ["fair value gap trading", "liquidity sweep strategy", "ICT scalping strategy", "IFVG PO3 strategy", "day trading strategy"]
+seo_audited: 2026-08-15
 ---
 
 ## Not All Signals Carry Equal Weight

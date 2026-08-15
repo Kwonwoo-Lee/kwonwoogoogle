@@ -5,6 +5,7 @@ description: "Analyzes the exact rules and differing risk structures of two brea
 order: 11
 updated: 2026-08-03
 keywords: ["Donchian channel strategy", "opening range breakout", "ORB strategy", "volatility breakout strategy", "turtle trading strategy"]
+seo_audited: 2026-08-15
 ---
 
 ## Continuing From Lesson 4: How Do You Define "The Range"?

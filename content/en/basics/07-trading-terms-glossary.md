@@ -5,6 +5,7 @@ description: "Moving averages, RSI, Bollinger Bands, support/resistance, liquidi
 order: 7
 updated: 2026-08-02
 keywords: ["stock trading terms glossary", "what is a moving average", "what is RSI", "what is bollinger bands", "liquidity FVG meaning", "what is risk reward ratio"]
+seo_audited: 2026-08-15
 ---
 
 ## Why Round Up Terms Before You Start

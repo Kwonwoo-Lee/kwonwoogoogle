@@ -5,6 +5,7 @@ description: "Turn the ICT concepts from the previous lesson into an actual trad
 order: 7
 updated: 2026-08-03
 keywords: ["power of three trading", "kill zone trading", "ICT trading strategy", "Confirm DOL", "smart money concepts", "premium discount zones"]
+seo_audited: 2026-08-15
 ---
 
 ## This Lesson Builds Directly on the Previous One

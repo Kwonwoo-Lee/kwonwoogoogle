@@ -5,6 +5,7 @@ description: "Analyzes Volume Profile, a concept that defines support/resistance
 order: 12
 updated: 2026-08-03
 keywords: ["volume profile trading", "point of control trading", "volume profile POC", "value area high low VAH VAL"]
+seo_audited: 2026-08-15
 ---
 
 ## A Different Question From Everything So Far: Not "How Often," But "How Much"

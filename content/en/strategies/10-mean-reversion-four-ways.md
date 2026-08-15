@@ -5,6 +5,7 @@ description: "Four pullback strategies that all sit under the 'mean reversion' u
 order: 10
 updated: 2026-08-03
 keywords: ["RSI oversold strategy", "RSI2 strategy", "bollinger band strategy", "VWAP strategy", "mean reversion strategy"]
+seo_audited: 2026-08-15
 ---
 
 ## One Step Further Than Lesson 3: Reverting "From What," Exactly?

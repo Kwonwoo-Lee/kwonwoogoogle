@@ -5,6 +5,7 @@ description: "A rules-based trend-following strategy that defines trend via EMA(
 order: 9
 updated: 2026-08-03
 keywords: ["moving average pullback strategy", "trend following strategy", "EMA crossover strategy", "trend pullback strategy", "R multiple"]
+seo_audited: 2026-08-15
 ---
 
 ## How This Differs From the Golden Cross in Lesson 1

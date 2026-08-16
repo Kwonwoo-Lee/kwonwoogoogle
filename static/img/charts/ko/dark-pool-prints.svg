@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 340" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="620" height="340" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="14" fill="#20201a" text-anchor="middle" font-weight="700">다크풀 프린트: 비공개 체결 경로 &amp; VWAP 상단 프린트 누적</text>
+
+<text x="28" y="46" font-size="12" fill="#5a5950" font-weight="700">체결 경로 비교</text>
+
+<text x="28" y="62" font-size="10" fill="#5a5950" font-weight="700">공개 호가창 경로</text>
+<rect x="28" y="68" width="80" height="36" rx="7" fill="#5a5950" opacity="0.10" stroke="#5a5950" stroke-width="1.2"/>
+<text x="68" y="84" font-size="9" fill="#3a3a33" text-anchor="middle" font-weight="700">대량 매수 주문</text>
+<text x="68" y="96" font-size="8" fill="#3a3a33" text-anchor="middle">(500만 주 가정)</text>
+
+<rect x="116" y="68" width="80" height="36" rx="7" fill="#d0453b" opacity="0.13" stroke="#d0453b" stroke-width="1.2"/>
+<text x="156" y="84" font-size="9" fill="#d0453b" text-anchor="middle" font-weight="700">호가창 즉시 노출</text>
+<text x="156" y="96" font-size="8" fill="#d0453b" text-anchor="middle">(다른 참가자가 포착)</text>
+
+<rect x="204" y="68" width="80" height="36" rx="7" fill="#d0453b" opacity="0.13" stroke="#d0453b" stroke-width="1.2"/>
+<text x="244" y="84" font-size="9" fill="#d0453b" text-anchor="middle" font-weight="700">체결단가 악화</text>
+<text x="244" y="96" font-size="8" fill="#d0453b" text-anchor="middle">(가격 충격)</text>
+
+<path d="M 108,86 L 114,86" fill="none" stroke="#767568" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 196,86 L 202,86" fill="none" stroke="#767568" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+<text x="28" y="136" font-size="10" fill="#5a5950" font-weight="700">다크풀 경로</text>
+<rect x="28" y="142" width="80" height="36" rx="7" fill="#5a5950" opacity="0.10" stroke="#5a5950" stroke-width="1.2"/>
+<text x="68" y="158" font-size="9" fill="#3a3a33" text-anchor="middle" font-weight="700">대량 매수 주문</text>
+<text x="68" y="170" font-size="8" fill="#3a3a33" text-anchor="middle">(500만 주 가정)</text>
+
+<rect x="116" y="142" width="80" height="36" rx="7" fill="#1f9d55" opacity="0.14" stroke="#1f9d55" stroke-width="1.2"/>
+<text x="156" y="158" font-size="9" fill="#177a42" text-anchor="middle" font-weight="700">다크풀 체결</text>
+<text x="156" y="170" font-size="8" fill="#177a42" text-anchor="middle">(비공개 처리)</text>
+
+<rect x="204" y="142" width="80" height="36" rx="7" fill="#c98a1f" opacity="0.16" stroke="#c98a1f" stroke-width="1.2"/>
+<text x="244" y="158" font-size="9" fill="#a06a10" text-anchor="middle" font-weight="700">사후 보고</text>
+<text x="244" y="170" font-size="8" fill="#a06a10" text-anchor="middle">(시차 존재)</text>
+
+<path d="M 108,160 L 114,160" fill="none" stroke="#767568" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 196,160 L 202,160" fill="none" stroke="#767568" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+<defs>
+  <marker id="arrow" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto">
+    <path d="M0,0 L6,3 L0,6 Z" fill="#767568"/>
+  </marker>
+</defs>
+
+<text x="160" y="198" font-size="9.3" fill="#5a5950" text-anchor="middle">다크풀은 체결 전 노출 없이 처리되고, 체결 후에야 시차를 두고 보고된다</text>
+
+<line x1="325" y1="30" x2="325" y2="315" stroke="#e1e0d9" stroke-width="1"/>
+
+<text x="472" y="46" font-size="12" fill="#5a5950" text-anchor="middle" font-weight="700">다크풀 거래비중 &amp; 대량 프린트 누적(4일)</text>
+
+<line x1="345" y1="270" x2="600" y2="270" stroke="#c7c6bb" stroke-width="1"/>
+<line x1="345" y1="60" x2="345" y2="270" stroke="#c7c6bb" stroke-width="1"/>
+<line x1="345" y1="230" x2="600" y2="230" stroke="#c7c6bb" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="595" y="226" font-size="8" fill="#767568" text-anchor="end">평소 수준(~25%)</text>
+
+<rect x="360" y="230" width="30" height="40" fill="#c98a1f" opacity="0.55"/>
+<rect x="420" y="222" width="30" height="48" fill="#c98a1f" opacity="0.55"/>
+<rect x="480" y="209" width="30" height="61" fill="#c98a1f" opacity="0.55"/>
+<rect x="540" y="193" width="30" height="77" fill="#c98a1f" opacity="0.55"/>
+<text x="555" y="185" font-size="9" fill="#a06a10" text-anchor="middle" font-weight="700">48%</text>
+
+<circle cx="375" cy="214" r="4" fill="#1a5fb4" opacity="0.75"/>
+<circle cx="375" cy="203" r="5" fill="#1a5fb4" opacity="0.75"/>
+
+<circle cx="435" cy="204" r="5" fill="#1a5fb4" opacity="0.75"/>
+<circle cx="435" cy="192" r="5" fill="#1a5fb4" opacity="0.75"/>
+<circle cx="435" cy="180" r="6" fill="#1a5fb4" opacity="0.75"/>
+
+<circle cx="495" cy="190" r="6" fill="#1a5fb4" opacity="0.75"/>
+<circle cx="495" cy="177" r="6" fill="#1a5fb4" opacity="0.75"/>
+<circle cx="495" cy="163" r="7" fill="#1a5fb4" opacity="0.75"/>
+
+<circle cx="555" cy="172" r="7" fill="#1a5fb4" opacity="0.75"/>
+<circle cx="555" cy="157" r="7" fill="#1a5fb4" opacity="0.75"/>
+<circle cx="555" cy="141" r="8" fill="#1a5fb4" opacity="0.75"/>
+<circle cx="555" cy="123" r="8" fill="#1a5fb4" opacity="0.75"/>
+
+<text x="375" y="284" font-size="9" fill="#767568" text-anchor="middle">1일차</text>
+<text x="435" y="284" font-size="9" fill="#767568" text-anchor="middle">2일차</text>
+<text x="495" y="284" font-size="9" fill="#767568" text-anchor="middle">3일차</text>
+<text x="555" y="284" font-size="9" fill="#767568" text-anchor="middle">4일차</text>
+
+<text x="472" y="302" font-size="8.8" fill="#767568" text-anchor="middle">막대: 다크풀 거래비중(%)  ·  점: VWAP 상단 대량 프린트(크기=규모)</text>
+</svg>

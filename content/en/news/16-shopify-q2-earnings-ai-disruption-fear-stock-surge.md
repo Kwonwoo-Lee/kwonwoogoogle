@@ -4,6 +4,7 @@ title: "Shopify (SHOP) Stock Jumps Over 20% as Revenue Grows 34% and GMV Hits $1
 description: "Shopify's Q2 revenue rose 34% to $3.58B and GMV hit $115.6B, sending shares up more than 20%. Here's why results directly rebutted fears that AI would disrupt e-commerce software."
 published: 2026-08-05
 keywords: ["Shopify stock surge", "SHOP Q2 2026 earnings", "Shopify GMV growth", "AI disrupting e-commerce SaaS", "Shopify Q3 guidance", "e-commerce platform stocks", "Shopify Sidekick AI"]
+seo_audited: 2026-08-16
 ---
 
 ## What Happened

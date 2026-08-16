@@ -5,6 +5,7 @@ description: "Learn how options market makers' delta hedging creates gamma expos
 order: 15
 updated: 2026-08-05
 keywords: ["gamma exposure explained", "what is GEX trading", "options dealer hedging", "gamma pin risk", "0DTE options", "negative gamma explained", "gamma flip level", "dealer positioning stocks"]
+seo_audited: 2026-08-16
 ---
 
 ## Why Prices Sometimes Freeze Near a Level Into Expiration

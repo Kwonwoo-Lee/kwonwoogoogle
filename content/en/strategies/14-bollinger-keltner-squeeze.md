@@ -5,6 +5,7 @@ description: "Learn the TTM Squeeze: spot volatility compression as Bollinger Ba
 order: 14
 updated: 2026-08-04
 keywords: ["TTM squeeze strategy", "Bollinger Bands Keltner Channel squeeze", "volatility contraction trading", "squeeze momentum indicator", "John Carter TTM squeeze", "low volatility breakout setup", "squeeze on squeeze off"]
+seo_audited: 2026-08-16
 ---
 
 ## A Different Question: "When" Does Volatility Explode?

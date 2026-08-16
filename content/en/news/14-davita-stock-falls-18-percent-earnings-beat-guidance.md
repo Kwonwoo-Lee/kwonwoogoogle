@@ -4,6 +4,7 @@ title: "DaVita Stock Plunges 18% Despite Beating Earnings Estimates - Here's Why
 description: "DaVita beat Q2 EPS and revenue estimates, yet shares plunged nearly 18% in a single day - the stock's worst session this year. Here's how softening revenue-per-treatment and flat guidance overwhelmed the headline beat."
 published: 2026-08-05
 keywords: ["DaVita stock drop", "DVA earnings Q2 2026", "DaVita guidance reaffirmed", "revenue per treatment", "dialysis stock news", "why did DaVita stock fall", "healthcare earnings today"]
+seo_audited: 2026-08-16
 ---
 
 ## What Happened

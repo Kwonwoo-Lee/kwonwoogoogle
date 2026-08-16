@@ -5,6 +5,7 @@ description: "Why chasing dividend yield alone is a trap, how to check payout ra
 order: 9
 updated: 2026-08-05
 keywords: ["dividend portfolio", "dividend kings aristocrats", "payout ratio explained", "dividend reinvestment compounding", "REIT taxes", "high dividend yield trap"]
+seo_audited: 2026-08-16
 ---
 
 ## This Lesson Builds on Lesson 8

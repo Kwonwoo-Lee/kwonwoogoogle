@@ -4,6 +4,7 @@ title: "CDW Stock Sinks Double Digits Despite 10% Revenue Growth and an EPS Beat
 description: "CDW topped Wall Street's revenue and EPS estimates, yet shares sank as much as 20%+ intraday after gross margin slipped to 20.1% from 20.8%. Here's why a hardware-heavy mix quietly ate into profitability."
 published: 2026-08-05
 keywords: ["CDW stock drop", "CDW Q2 2026 earnings", "CDW gross margin decline", "IT distributor stock news", "hardware revenue mix", "CDW CFO retirement", "why did CDW stock fall today"]
+seo_audited: 2026-08-16
 ---
 
 ## What Happened

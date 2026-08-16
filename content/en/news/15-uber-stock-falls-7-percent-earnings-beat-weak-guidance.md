@@ -4,6 +4,7 @@ title: "Uber Stock Falls 7% Despite Record $58B Bookings and First-Ever $10B Fre
 description: "Uber posted 22% gross bookings growth and crossed $10 billion in trailing free cash flow for the first time, yet shares dropped 7%. Here's why Brazil competition and Q3 guidance overshadowed the beat."
 published: 2026-08-05
 keywords: ["Uber stock drop", "UBER Q2 2026 earnings", "Uber Q3 guidance", "Uber gross bookings", "Uber robotaxi autonomous vehicles", "Uber Brazil competition", "why did Uber stock fall today"]
+seo_audited: 2026-08-16
 ---
 
 ## What Happened

@@ -5,6 +5,7 @@ description: "Learn how Anchored VWAP, calculated from a swing low or earnings d
 order: 17
 updated: 2026-08-07
 keywords: ["anchored VWAP strategy", "anchored VWAP trading", "VWAP support resistance", "volume weighted average price swing trading", "VWAP fan technique", "earnings gap trading strategy", "cost basis indicator", "anchored VWAP entry"]
+seo_audited: 2026-08-17
 ---
 
 ## Starting From a Limitation of Session VWAP

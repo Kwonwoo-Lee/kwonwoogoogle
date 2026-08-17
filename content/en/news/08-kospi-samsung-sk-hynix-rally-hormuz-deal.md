@@ -4,6 +4,7 @@ title: "Kospi Jumps 3.85% as SK Hynix Surges Nearly 6% and Samsung Rallies on Ho
 description: "Kospi surged 3.85% to reclaim 6,600 as SK Hynix jumped nearly 6% and Samsung Electronics, up as much as 5% intraday, closed up about 2.5%, fueled by a Wall Street chip rally and hopes for a US-Iran Hormuz deal."
 published: 2026-08-05
 keywords: ["Kospi surge", "Samsung Electronics stock", "SK Hynix stock", "Strait of Hormuz deal", "semiconductor rally", "Kospi 6600", "Iran deal stock market reaction"]
+seo_audited: 2026-08-17
 ---
 
 ## What Happened

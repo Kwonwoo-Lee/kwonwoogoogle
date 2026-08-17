@@ -5,6 +5,7 @@ description: "ETF가 여러 종목을 한 바구니에 담아 거래소에서 �
 order: 11
 updated: 2026-08-11
 keywords: ["ETF란", "ETF 뜻", "ETF 개별주식 차이", "인덱스펀드 ETF 차이", "ETF 초보 투자", "ETF 운용보수", "코스피200 ETF"]
+seo_audited: 2026-08-17
 ---
 
 ## ETF는 "여러 종목을 담은 바구니"를 통째로 사고파는 상품입니다

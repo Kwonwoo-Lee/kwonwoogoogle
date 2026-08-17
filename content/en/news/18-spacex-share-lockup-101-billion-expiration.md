@@ -4,6 +4,7 @@ title: "SpaceX (SPCX) Stock Wobbles Again as $101 Billion Share Lockup Expires -
 description: "SpaceX shares are sliding again as up to $101.6B worth of stock becomes eligible for trading on August 6, layering a supply-side shock on top of an already rocky post-earnings selloff."
 published: 2026-08-06
 keywords: ["SpaceX stock lockup", "SPCX share unlock", "why is SpaceX stock falling", "IPO lockup expiration explained", "SpaceX stock price today", "SPCX float increase", "SpaceX stock below IPO price"]
+seo_audited: 2026-08-17
 ---
 
 ## What Happened

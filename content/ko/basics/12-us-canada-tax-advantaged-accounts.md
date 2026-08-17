@@ -1,10 +1,11 @@
 ---
 slug: us-canada-tax-advantaged-accounts
-title: "미국·캐나다 절세 투자계좌 비교 — 401(k)·IRA vs RRSP·TFSA"
-description: "미국의 401(k)·IRA와 캐나다의 RRSP·TFSA가 각각 어떻게 세금을 줄여주는지, 완전히 합법적인 제도의 작동 원리를 비교합니다."
+title: "401(k)와 IRA 차이 완벽정리 — 캐나다 RRSP·TFSA까지 한 번에 비교"
+description: "미국 401(k)·IRA와 캐나다 RRSP·TFSA가 각각 어떻게 세금을 줄여주는지, 로스 IRA와 TFSA가 무엇인지까지 항목별로 비교합니다."
 order: 12
 updated: 2026-08-13
-keywords: ["401k IRA 차이", "RRSP TFSA 차이", "미국 절세 투자", "캐나다 절세 투자", "로스 IRA란", "TFSA란"]
+keywords: ["401k IRA 차이", "로스 IRA란", "RRSP TFSA 차이", "TFSA란", "미국 절세 투자", "캐나다 절세 투자"]
+seo_audited: 2026-08-17
 ---
 
 ## 절세는 '규칙을 피하는 것'이 아니라 '규칙을 쓰는 것'입니다

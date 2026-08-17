@@ -5,6 +5,7 @@ description: "Learn pairs trading and statistical arbitrage — betting that an 
 order: 18
 updated: 2026-08-08
 keywords: ["pairs trading strategy", "statistical arbitrage", "pairs trading z-score", "market neutral strategy", "cointegration trading", "spread trading strategy", "long short equity strategy", "stat arb"]
+seo_audited: 2026-08-17
 ---
 
 ## A Different Question: Not One Stock, But the Relationship Between Two

@@ -5,6 +5,7 @@ description: "A professional's view on the three forces behind every price move:
 order: 10
 updated: 2026-08-11
 keywords: ["why stock prices move", "supply and demand stocks", "how stock prices are determined", "market expectations and price", "how chart analysis works", "earnings surprise"]
+seo_audited: 2026-08-17
 ---
 
 ## A Price Is the Outcome of a Live Auction

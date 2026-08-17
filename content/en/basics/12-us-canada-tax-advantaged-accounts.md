@@ -5,6 +5,7 @@ description: "How America's 401(k)/IRA and Canada's RRSP/TFSA legally reduce you
 order: 12
 updated: 2026-08-13
 keywords: ["401k vs IRA", "RRSP vs TFSA", "Roth IRA explained", "TFSA explained", "tax advantaged investing US", "tax advantaged investing Canada"]
+seo_audited: 2026-08-17
 ---
 
 ## Tax-Advantaged Investing Isn't a Loophole — It's Using the Rules as Written

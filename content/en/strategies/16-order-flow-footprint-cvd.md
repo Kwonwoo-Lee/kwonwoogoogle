@@ -5,6 +5,7 @@ description: "Learn how footprint charts and cumulative volume delta (CVD) revea
 order: 16
 updated: 2026-08-06
 keywords: ["order flow trading", "footprint chart trading", "cumulative volume delta", "CVD divergence strategy", "stacked imbalance trading", "bid ask volume analysis", "order flow scalping", "delta divergence trading"]
+seo_audited: 2026-08-17
 ---
 
 ## There's More Inside a Candle Than Five Numbers

@@ -5,6 +5,7 @@ description: "장 시작이 아니라 스윙 저점·실적 발표일 등 의미
 order: 17
 updated: 2026-08-07
 keywords: ["앵커드 VWAP", "Anchored VWAP", "VWAP 매매법", "평균단가 지지선", "실적 갭 매매", "VWAP 팬", "스윙 트레이딩 전략", "거래량가중평균가"]
+seo_audited: 2026-08-17
 ---
 
 ## 세션 VWAP의 한계에서 출발한 지표

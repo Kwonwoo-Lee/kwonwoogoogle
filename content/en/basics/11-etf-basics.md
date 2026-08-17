@@ -5,6 +5,7 @@ description: "How an ETF bundles many holdings into one basket you can trade in 
 order: 11
 updated: 2026-08-11
 keywords: ["what is an ETF", "ETF vs index fund", "ETF vs individual stocks", "ETF for beginners", "ETF expense ratio", "how ETFs work", "S&P 500 ETF"]
+seo_audited: 2026-08-17
 ---
 
 ## An ETF Is a Basket of Holdings You Trade as a Single Ticker

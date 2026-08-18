@@ -5,6 +5,7 @@ description: "How the yield curve — bond yields plotted across maturities — 
 order: 18
 updated: 2026-08-14
 keywords: ["what is the yield curve", "yield curve inversion explained", "2s10s spread meaning", "inverted yield curve recession", "yield curve recession indicator", "what does yield curve inversion mean", "2 year 10 year treasury spread"]
+seo_audited: 2026-08-18
 ---
 
 ## Why Does One Bond-Market Chart Keep Making Headlines?

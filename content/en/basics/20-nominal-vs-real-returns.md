@@ -5,6 +5,7 @@ description: "Why an '8% annual return' might really only be 5%, how the Fisher 
 order: 20
 updated: 2026-08-15
 keywords: ["nominal vs real return", "what is real return investing", "inflation adjusted return", "Fisher equation explained", "real interest rate vs nominal", "money illusion investing", "how inflation affects returns"]
+seo_audited: 2026-08-18
 ---
 
 ## Should You Take an "8% Annual Return" at Face Value?

@@ -5,6 +5,7 @@ description: "Why central bank rate decisions move the entire stock market, how 
 order: 16
 updated: 2026-08-13
 keywords: ["how do interest rates affect stock prices", "interest rates and stock valuations", "discount rate stock market explained", "why growth stocks fall when rates rise", "interest rates and stock market", "fed rate hikes stock market impact", "growth vs value stocks interest rates"]
+seo_audited: 2026-08-18
 ---
 
 ## Why Does the Whole Market Move on a Rate Decision Day?

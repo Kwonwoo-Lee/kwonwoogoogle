@@ -5,6 +5,7 @@ description: "How call and put options work as the right to buy or sell at a fix
 order: 17
 updated: 2026-08-13
 keywords: ["what are options in stocks", "call option vs put option", "what is option premium", "protective put explained", "options as insurance", "covered call meaning", "options basics for beginners"]
+seo_audited: 2026-08-18
 ---
 
 ## An Option Is a Contract on a Right — Not a Trading Signal

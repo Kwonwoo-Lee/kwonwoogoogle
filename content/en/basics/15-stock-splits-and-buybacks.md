@@ -5,6 +5,7 @@ description: "How a stock split multiplies shares while a buyback shrinks them, 
 order: 15
 updated: 2026-08-12
 keywords: ["what is a stock split", "what is a stock buyback", "stock split effect on price", "buyback effect on stock price", "stock split vs buyback", "share repurchase explained", "why do companies split stock"]
+seo_audited: 2026-08-18
 ---
 
 ## Opposite Directions, Same Underlying Idea

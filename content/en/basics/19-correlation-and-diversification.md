@@ -5,6 +5,7 @@ description: "What a correlation coefficient between -1 and +1 actually means, w
 order: 19
 updated: 2026-08-14
 keywords: ["what is correlation coefficient investing", "diversification explained", "portfolio correlation", "stock bond correlation", "how does diversification reduce risk", "correlation and diversification", "asset allocation correlation", "true diversification"]
+seo_audited: 2026-08-18
 ---
 
 ## "I Own 10 Stocks — So Why Did My Whole Account Drop Together?"

@@ -5,6 +5,7 @@ description: "How market capitalization is calculated from share price and share
 order: 14
 updated: 2026-08-12
 keywords: ["what is market cap", "market cap calculation", "market capitalization explained", "large cap mid cap small cap", "market cap vs share price", "how to calculate market cap", "market cap ranking"]
+seo_audited: 2026-08-18
 ---
 
 ## Market Cap Answers One Question: "What Would It Cost to Buy the Whole Company?"

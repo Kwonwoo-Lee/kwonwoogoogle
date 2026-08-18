@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="640" height="400" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="320" y="28" font-size="15" fill="#20201a" text-anchor="middle" font-weight="700">휠 전략(The Wheel): 현금 ↔ 주식을 오가는 순환 구조</text>
+
+<!-- Left box: Cash-secured put -->
+<rect x="40" y="150" width="250" height="130" rx="10" fill="#1a5fb4" opacity="0.08" stroke="#1a5fb4" stroke-width="1.5"/>
+<text x="165" y="172" font-size="11" fill="#1a5fb4" text-anchor="middle" font-weight="700">1단계 · 현금 보유</text>
+<text x="165" y="192" font-size="13" fill="#20201a" text-anchor="middle" font-weight="700">현금담보부 풋매도</text>
+<text x="165" y="209" font-size="9.5" fill="#767568" text-anchor="middle">(Cash-Secured Put)</text>
+<text x="165" y="230" font-size="9.5" fill="#20201a" text-anchor="middle">행사가 × 100주 현금 담보</text>
+<text x="165" y="246" font-size="9.5" fill="#20201a" text-anchor="middle">→ 풋 프리미엄 즉시 수취</text>
+<text x="165" y="264" font-size="9" fill="#767568" text-anchor="middle">진입: 이 가격에 사고 싶은 종목</text>
+
+<!-- Right box: Covered call -->
+<rect x="350" y="150" width="250" height="130" rx="10" fill="#1f9d55" opacity="0.08" stroke="#1f9d55" stroke-width="1.5"/>
+<text x="475" y="172" font-size="11" fill="#1f9d55" text-anchor="middle" font-weight="700">2단계 · 주식 100주 보유</text>
+<text x="475" y="192" font-size="13" fill="#20201a" text-anchor="middle" font-weight="700">커버드콜 매도</text>
+<text x="475" y="209" font-size="9.5" fill="#767568" text-anchor="middle">(Covered Call)</text>
+<text x="475" y="230" font-size="9.5" fill="#20201a" text-anchor="middle">배정된 100주 위에 콜 매도</text>
+<text x="475" y="246" font-size="9.5" fill="#20201a" text-anchor="middle">→ 콜 프리미엄 추가 수취</text>
+<text x="475" y="264" font-size="9" fill="#767568" text-anchor="middle">청산: 이 가격에 팔아도 괜찮은 목표가</text>
+
+<!-- Top arrow: put assigned -->
+<line x1="290" y1="175" x2="345" y2="175" stroke="#d0453b" stroke-width="2"/>
+<polygon points="345,175 336,170 336,180" fill="#d0453b"/>
+<text x="320" y="150" font-size="10.5" fill="#d0453b" text-anchor="middle" font-weight="700">배정</text>
+<text x="320" y="163" font-size="8.5" fill="#20201a" text-anchor="middle">풋이 내가격으로 만기 → 주식 매수</text>
+
+<!-- Bottom arrow: call exercised -->
+<line x1="350" y1="255" x2="295" y2="255" stroke="#1a5fb4" stroke-width="2"/>
+<polygon points="295,255 304,250 304,260" fill="#1a5fb4"/>
+<text x="320" y="285" font-size="10.5" fill="#1a5fb4" text-anchor="middle" font-weight="700">콜 행사</text>
+<text x="320" y="298" font-size="8.5" fill="#20201a" text-anchor="middle">콜이 내가격으로 만기 → 주식 매도, 현금화</text>
+
+<!-- Self-loop above left box -->
+<path d="M 100,150 C 100,105 230,105 230,150" fill="none" stroke="#767568" stroke-width="1.5" stroke-dasharray="4,3"/>
+<polygon points="230,150 222,142 235,140" fill="#767568"/>
+<text x="165" y="100" font-size="9" fill="#767568" text-anchor="middle" font-weight="700">외가격 소멸 → 프리미엄 확정, 반복</text>
+
+<!-- Self-loop above right box -->
+<path d="M 410,150 C 410,105 540,105 540,150" fill="none" stroke="#767568" stroke-width="1.5" stroke-dasharray="4,3"/>
+<polygon points="540,150 532,142 545,140" fill="#767568"/>
+<text x="475" y="100" font-size="9" fill="#767568" text-anchor="middle" font-weight="700">외가격 소멸 → 새 콜 매도, 반복</text>
+
+<!-- Legend -->
+<line x1="60" y1="340" x2="85" y2="340" stroke="#d0453b" stroke-width="2.5"/>
+<text x="93" y="345" font-size="10.5" fill="#20201a" text-anchor="start">배정/행사 → 다음 단계로 전환</text>
+<line x1="330" y1="340" x2="355" y2="340" stroke="#767568" stroke-width="2.5" stroke-dasharray="4,3"/>
+<text x="363" y="345" font-size="10.5" fill="#20201a" text-anchor="start">소멸(OTM) → 같은 단계 반복</text>
+
+<text x="320" y="375" font-size="9.5" fill="#767568" text-anchor="middle">두 경우 모두 매도 시점에 이미 프리미엄을 수취했다는 점은 동일하다</text>
+</svg>

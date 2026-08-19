@@ -5,6 +5,7 @@ description: "PER이 안 통하는 적자 성장주엔 PSR, 부채가 많은 기
 order: 23
 updated: 2026-08-16
 keywords: ["PER PBR PSR 차이", "EV EBITDA란", "PEG 비율이란", "포워드 PER 트레일링 PER 차이", "적자 기업 밸류에이션", "가치함정이란", "성장주 PER 높은 이유", "밸류에이션 지표 비교"]
+seo_audited: "2026-08-19"
 ---
 
 ## PER 하나로는 설명 안 되는 회사들이 있습니다

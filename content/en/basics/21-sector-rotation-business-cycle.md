@@ -5,6 +5,7 @@ description: "Why certain sectors consistently move first at each stage of the b
 order: 21
 updated: 2026-08-15
 keywords: ["what is sector rotation", "sectors by business cycle stage", "cyclical vs defensive stocks", "business cycle investing", "sector rotation strategy explained", "which sectors lead a recovery", "economic cycle stock sectors"]
+seo_audited: "2026-08-19"
 ---
 
 ## Why Does the Same Handful of Sectors Always Seem to Move First?

@@ -4,6 +4,7 @@ title: "Nvidia Stock Jumps 3.43% to $219.22 as SpaceX Names It Exclusive AI Chip
 description: "Elon Musk said SpaceX will build its future AI infrastructure exclusively on Nvidia chips, sending Nvidia shares up 3.43% and the Dow to a fresh record - even as the Nasdaq and S&P 500 slipped."
 published: 2026-08-06
 keywords: ["Nvidia stock today", "SpaceX Nvidia exclusive deal", "Dow Jones record high", "Vera Rubin architecture", "Starmind orbital data center", "why is Nvidia stock up", "Nasdaq falls today"]
+seo_audited: "2026-08-19"
 ---
 
 ## What Happened

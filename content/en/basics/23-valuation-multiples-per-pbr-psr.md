@@ -5,6 +5,7 @@ description: "P/E breaks down for unprofitable growth companies, so investors re
 order: 23
 updated: 2026-08-16
 keywords: ["PER vs PSR vs PBR difference", "what is EV EBITDA", "PEG ratio explained", "forward PE vs trailing PE", "how to value unprofitable growth stocks", "what is a value trap", "why do growth stocks have high PE"]
+seo_audited: "2026-08-19"
 ---
 
 ## Some Companies Break the P/E Ratio

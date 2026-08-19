@@ -4,6 +4,7 @@ title: "SanDisk (SNDK) Stock Falls Nearly 8% After Hours Despite Beating on Reve
 description: "SanDisk topped estimates on both revenue and EPS, yet shares fell nearly 8% in after-hours trading after a 470%+ year-to-date run made 'good' no longer good enough for the market."
 published: 2026-08-06
 keywords: ["SanDisk stock", "SNDK earnings", "SanDisk stock drop after hours", "memory chip supercycle", "SanDisk guidance", "AI NAND flash demand", "why did SanDisk stock fall"]
+seo_audited: "2026-08-19"
 ---
 
 ## What Happened

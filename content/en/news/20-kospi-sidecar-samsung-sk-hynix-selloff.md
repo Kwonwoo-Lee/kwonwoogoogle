@@ -4,6 +4,7 @@ title: "Kospi Plunges Over 5% Intraday, Triggers Sell-Side Sidecar - Samsung Fal
 description: "Kospi crashed at the open on August 6, falling as much as 5% and forcing the Korea Exchange to trigger a sell-side sidecar. SK Hynix dropped 7.13% and Samsung 3.66%, tracing back to a US memory chip guidance shock."
 published: 2026-08-06
 keywords: ["Kospi crash", "sell-side sidecar triggered", "Samsung Electronics stock drop", "SK Hynix stock plunge", "SanDisk guidance miss", "memory chip selloff", "Kospi circuit breaker"]
+seo_audited: "2026-08-19"
 ---
 
 ## What Happened

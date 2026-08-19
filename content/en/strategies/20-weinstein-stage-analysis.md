@@ -5,6 +5,7 @@ description: "Stan Weinstein's Stage Analysis: use the 30-week moving average an
 order: 20
 updated: 2026-08-10
 keywords: ["stan weinstein stage analysis", "4 stage trading strategy", "30 week moving average", "relative strength line stock", "stage 2 breakout", "when to buy stocks", "weinstein stage analysis strategy", "position trading strategy"]
+seo_audited: "2026-08-19"
 ---
 
 ## Why Stage Analysis Still Matters

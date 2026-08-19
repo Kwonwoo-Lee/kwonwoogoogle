@@ -5,6 +5,7 @@ description: "Learn how the Ichimoku Cloud's five lines - Tenkan-sen, Kijun-sen,
 order: 19
 updated: 2026-08-09
 keywords: ["ichimoku cloud strategy", "ichimoku trading strategy", "tenkan kijun cross", "kumo breakout trading", "ichimoku cloud indicator explained", "kumo twist signal", "chikou span confirmation", "ichimoku kinko hyo"]
+seo_audited: "2026-08-19"
 ---
 
 ## Five Lines That Show Market Balance "At a Glance"

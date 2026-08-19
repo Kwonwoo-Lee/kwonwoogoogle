@@ -5,6 +5,7 @@ description: "Why short selling is a borrow-and-return trade, why its risk profi
 order: 22
 updated: 2026-08-16
 keywords: ["what is short selling", "how does short selling work", "short selling explained", "short selling risk", "short squeeze explained", "borrowing shares to sell", "naked short selling", "short covering meaning"]
+seo_audited: "2026-08-19"
 ---
 
 ## Someone Is Making Money While the Price Falls

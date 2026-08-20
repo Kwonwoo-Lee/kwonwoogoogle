@@ -5,6 +5,7 @@ description: "Why a rights offering usually hits the stock price and a bonus iss
 order: 24
 updated: 2026-08-17
 keywords: ["what is a rights offering", "what is a bonus issue", "rights offering vs bonus issue", "rights offering stock price effect", "ex-rights price explained", "what is a subscription right", "bonus issue good or bad", "rights issue dilution calculation"]
+seo_audited: 2026-08-20
 ---
 
 ## Two Announcements, Two Opposite Reactions

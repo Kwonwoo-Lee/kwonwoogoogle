@@ -5,6 +5,7 @@ description: "Learn how options sweeps and Vol/OI ratios flag unusual options ac
 order: 22
 updated: 2026-08-13
 keywords: ["unusual options activity", "options sweep meaning", "options flow trading", "vol oi ratio options", "smart money options flow", "how to trade options sweeps", "dark pool options activity", "aggressive options orders"]
+seo_audited: 2026-08-20
 ---
 
 ## Why Large Traders Leave Footprints in the Options Market

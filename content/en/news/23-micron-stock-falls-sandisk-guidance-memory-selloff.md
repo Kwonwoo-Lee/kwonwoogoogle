@@ -4,6 +4,7 @@ title: "Micron (MU) Stock Falls 3%+ Premarket - Even With 2026 HBM Capacity Sold
 description: "Micron (MU) fell 3%+ premarket on Aug 6 in a sympathy selloff tied to SanDisk's guidance, despite its 2026 HBM output already sold out."
 published: 2026-08-06
 keywords: ["Micron stock", "MU premarket drop", "Micron HBM sold out", "memory chip sector selloff", "SanDisk guidance fallout", "AI memory supercycle", "why did Micron stock fall"]
+seo_audited: 2026-08-20
 ---
 
 ## What Happened

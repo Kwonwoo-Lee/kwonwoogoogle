@@ -5,6 +5,7 @@ description: "Learn Wyckoff's five-phase accumulation schematic and Spring patte
 order: 21
 updated: 2026-08-12
 keywords: ["wyckoff method trading", "wyckoff accumulation schematic", "wyckoff spring pattern", "composite man trading", "how to spot accumulation phase", "wyckoff spring vs shakeout", "sign of strength trading", "wyckoff distribution schematic"]
+seo_audited: 2026-08-20
 ---
 
 ## Why Wyckoff, and Why Now

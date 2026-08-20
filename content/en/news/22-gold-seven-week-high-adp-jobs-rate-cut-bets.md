@@ -4,6 +4,7 @@ title: "Gold Tops $4,290 an Ounce, Hits Seven-Week High as Weak ADP Jobs Report 
 description: "Spot gold climbed to $4,293.94 an ounce, its highest level in seven weeks, after ADP showed private payrolls grew by just 44,000 in July, sending Treasury yields and the dollar lower."
 published: 2026-08-06
 keywords: ["gold price seven week high", "ADP jobs report miss", "Fed September rate cut odds", "dollar index weakens", "gold $4300 an ounce", "Treasury yields fall today", "why is gold rising"]
+seo_audited: 2026-08-20
 ---
 
 ## What Happened

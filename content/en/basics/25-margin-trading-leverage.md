@@ -5,6 +5,7 @@ description: "How borrowing to buy stocks multiplies your return on capital, how
 order: 25
 updated: 2026-08-17
 keywords: ["what is margin trading", "margin call meaning", "how does leverage work in investing", "maintenance margin explained", "buying on margin risk", "forced liquidation stocks", "margin trading vs cash account", "leverage investing risk"]
+seo_audited: 2026-08-20
 ---
 
 ## What "I Bought Double on Margin" Actually Means

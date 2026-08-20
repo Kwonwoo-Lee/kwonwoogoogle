@@ -4,6 +4,7 @@ title: "Peloton (PTON) Posts First-Ever Full-Year Profit, Yet Stock Sinks 13% Pr
 description: "Peloton reported its first full fiscal-year profit ever on August 6, but shares fell about 13% premarket after guiding to a revenue decline of up to 4% in fiscal 2027."
 published: 2026-08-06
 keywords: ["Peloton stock", "PTON earnings", "why did Peloton stock fall", "Peloton first annual profit", "Peloton FY2027 guidance", "connected fitness subscribers decline", "PTON premarket"]
+seo_audited: 2026-08-20
 ---
 
 ## What Happened

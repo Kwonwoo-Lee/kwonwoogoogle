@@ -4,6 +4,7 @@ title: "Jobless Claims Hold at 199,000, July Layoffs Hit Two-Year Low - Mixed La
 description: "US initial jobless claims came in at 199,000 and Challenger layoff announcements hit a two-year low on August 6, even as the Dow closed at a record high. We break down what three conflicting labor reports mean ahead of Friday's nonfarm payrolls."
 published: 2026-08-06
 keywords: ["initial jobless claims today", "Challenger layoffs report July 2026", "nonfarm payrolls August 2026 preview", "Dow Jones record high today", "September Fed rate cut odds", "US labor market slowdown", "AI layoffs Challenger report"]
+seo_audited: 2026-08-20
 ---
 
 ## What Happened

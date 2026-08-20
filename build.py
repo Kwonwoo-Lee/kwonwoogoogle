@@ -342,7 +342,10 @@ def load_news(lang: str):
             "_filename": path.stem,
         })
     # published 날짜가 같은 글끼리는 파일명(번호) 역순으로 정렬해 최근에 추가된 글이 위로 오도록 함
-    posts.sort(key=lambda x: (x["published"], x["_filename"]), reverse=True)
+    def _file_num(stem: str) -> int:
+        m = re.match(r"\d+", stem)
+        return int(m.group()) if m else -1
+    posts.sort(key=lambda x: (x["published"], _file_num(x["_filename"])), reverse=True)
     for post in posts:
         del post["_filename"]
     return posts

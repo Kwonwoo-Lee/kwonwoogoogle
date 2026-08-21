@@ -4,6 +4,7 @@ title: "AppLovin (APP) Stock Plunges 21% on Q2 Earnings - How a 1% Revenue Miss 
 description: "AppLovin shares fell as much as 21% Thursday after Q2 revenue of $1.92B missed estimates by just 1%, erasing roughly $40 billion in market value. Here's why."
 published: 2026-08-06
 keywords: ["AppLovin stock", "APP Q2 earnings", "AppLovin stock drop reason", "AppLovin revenue miss", "AI adtech stocks", "AppLovin Q3 guidance", "APP price target cut"]
+seo_audited: 2026-08-21
 ---
 
 ## What Happened

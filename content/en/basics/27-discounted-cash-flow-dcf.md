@@ -5,6 +5,7 @@ description: "How the DCF model discounts a company's projected future free cash
 order: 27
 updated: 2026-08-18
 keywords: ["what is DCF valuation", "how to calculate DCF", "discounted cash flow explained", "free cash flow calculation", "intrinsic value calculation", "what is WACC", "terminal value explained", "DCF vs PER"]
+seo_audited: 2026-08-21
 ---
 
 ## A Different Kind of Question Than "Is This Cheap?"

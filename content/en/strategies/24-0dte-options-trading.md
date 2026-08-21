@@ -5,6 +5,7 @@ description: "How 0DTE options compress theta decay and gamma risk into a single
 order: 24
 updated: 2026-08-15
 keywords: ["0DTE options", "zero days to expiration", "0DTE trading strategy", "0DTE iron condor", "SPX 0DTE options", "options theta gamma", "0DTE credit spread", "same day expiration options risk"]
+seo_audited: 2026-08-21
 ---
 
 ## Why "Expires Today" Changes Everything About an Option

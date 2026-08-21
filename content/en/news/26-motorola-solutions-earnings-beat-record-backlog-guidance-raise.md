@@ -4,6 +4,7 @@ title: "Motorola Solutions (MSI) Jumps 5.45% After Hours as Record $15.6B Backlo
 description: "Motorola Solutions posted 13% revenue growth and a 24% jump in adjusted EPS, then raised full-year guidance on a record $15.6 billion backlog - flipping a down regular session into a 5.45% after-hours surge."
 published: 2026-08-06
 keywords: ["Motorola Solutions stock", "MSI Q2 2026 earnings", "Motorola Solutions guidance raise", "public safety communications stocks", "Motorola Solutions record backlog", "MSI after hours surge", "mission critical communications earnings"]
+seo_audited: 2026-08-21
 ---
 
 ## What Happened

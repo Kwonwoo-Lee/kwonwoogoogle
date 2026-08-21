@@ -4,6 +4,7 @@ title: "Rocket Lab (RKLB) Jumps 4.1% on $663 Million in Space Force Contracts - 
 description: "Rocket Lab stock rose 4.1% to $77.89 after the Space Force disclosed two contracts worth $663 million combined. Here's why $397 million of that hinges on the untested Neutron rocket."
 published: 2026-08-06
 keywords: ["Rocket Lab stock", "RKLB Space Force contract", "Rocket Lab Neutron rocket", "Rocket Lab $663 million contract", "space defense stocks", "Rocket Lab HASTE contract", "Rocket Lab backlog"]
+seo_audited: 2026-08-21
 ---
 
 ## What Happened

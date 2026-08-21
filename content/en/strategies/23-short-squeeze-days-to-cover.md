@@ -5,6 +5,7 @@ description: "Learn how short interest ratio and days to cover flag short squeez
 order: 23
 updated: 2026-08-14
 keywords: ["short squeeze", "short interest ratio", "days to cover", "short covering", "how to find short squeeze stocks", "short squeeze vs gamma squeeze", "short interest data", "high short interest stocks"]
+seo_audited: 2026-08-21
 ---
 
 ## Why Short Selling Can Turn Into Its Own Trap

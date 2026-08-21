@@ -5,6 +5,7 @@ description: "Why beta, not standard deviation, is how analysts compare risk acr
 order: 26
 updated: 2026-08-18
 keywords: ["what is beta in stocks", "stock beta meaning", "high beta vs low beta stocks", "systematic vs unsystematic risk", "how is beta calculated", "beta coefficient explained", "limitations of beta", "beta vs standard deviation"]
+seo_audited: 2026-08-21
 ---
 
 ## What Does "This Stock Is Volatile" Actually Mean?

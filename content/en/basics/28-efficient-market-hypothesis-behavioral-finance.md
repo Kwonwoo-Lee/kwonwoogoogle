@@ -5,6 +5,7 @@ description: "How the efficient market hypothesis's weak, semi-strong, and stron
 order: 28
 updated: 2026-08-19
 keywords: ["what is efficient market hypothesis", "efficient market hypothesis vs behavioral finance", "random walk theory explained", "what is behavioral finance", "market anomalies explained", "three forms of market efficiency", "loss aversion bias", "active fund vs index fund returns"]
+seo_audited: 2026-08-21
 ---
 
 ## "The Price Already Knows" — Is That Actually True?

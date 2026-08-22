@@ -5,6 +5,7 @@ description: "Why corporate bonds yield more than Treasuries, how investment-gra
 order: 33
 updated: 2026-08-21
 keywords: ["what is a credit spread", "credit spread meaning investing", "high yield spread explained", "investment grade vs high yield bonds", "credit spread widening meaning", "corporate bond yield vs treasury yield", "credit spread recession indicator"]
+seo_audited: 2026-08-22
 ---
 
 ## Why Should a Stock Investor Who Ignores Bonds Care About This Number?

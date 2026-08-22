@@ -5,6 +5,7 @@ description: "What Warren Buffett's economic moat concept actually means, how th
 order: 34
 updated: 2026-08-22
 keywords: ["what is an economic moat", "economic moat meaning", "types of economic moats", "warren buffett moat investing", "network effect switching costs", "how to identify a moat", "competitive advantage stocks"]
+seo_audited: 2026-08-22
 ---
 
 ## Why "Profitable Right Now" Matters Less Than "Can Defend It"

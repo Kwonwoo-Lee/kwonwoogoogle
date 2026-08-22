@@ -5,6 +5,7 @@ description: "How VIX contango and backwardation reveal the volatility regime, a
 order: 28
 updated: 2026-08-19
 keywords: ["VIX term structure", "contango vs backwardation", "VIX futures trading", "what is the VIX", "roll yield strategy", "VIX3M VIX ratio", "short volatility strategy", "volatility risk premium"]
+seo_audited: 2026-08-22
 ---
 
 ## The VIX Headline Number Isn't the Whole Story

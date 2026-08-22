@@ -5,6 +5,7 @@ description: "How the order book's bid-ask queue turns into a trade, why market 
 order: 30
 updated: 2026-08-20
 keywords: ["what is a market maker", "what is a dark pool", "how does an order book work", "bid ask spread explained", "market microstructure", "price discovery stock market", "liquidity provider ETF", "why is the bid ask spread wide"]
+seo_audited: 2026-08-22
 ---
 
 ## The Moment You Click "Buy," Who Actually Takes the Other Side?

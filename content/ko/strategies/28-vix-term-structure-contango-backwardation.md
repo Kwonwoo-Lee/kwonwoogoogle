@@ -5,6 +5,7 @@ description: "VIX 선물의 콘탱고·백워데이션 기간구조로 지금이
 order: 28
 updated: 2026-08-19
 keywords: ["VIX 기간구조", "콘탱고 백워데이션", "VIX 선물 매매법", "VIX 지수 뜻", "롤 수익률 전략", "VIX3M VIX 비율", "숏 변동성 전략", "VIX 헤지 전략"]
+seo_audited: 2026-08-22
 ---
 
 ## VIX 숫자 하나만 봐서는 안 되는 이유

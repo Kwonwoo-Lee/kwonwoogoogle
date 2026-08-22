@@ -5,6 +5,7 @@ description: "Why a stock often rallies before joining an index like the S&P 500
 order: 29
 updated: 2026-08-19
 keywords: ["index rebalancing effect", "S&P 500 index inclusion effect", "what happens when a stock is added to an index", "index fund rebalancing", "passive fund flows stock price", "KOSPI 200 rebalancing", "index inclusion premium", "why do stocks rise before index inclusion"]
+seo_audited: 2026-08-22
 ---
 
 ## The Company Hasn't Changed, But the Price Moves Anyway

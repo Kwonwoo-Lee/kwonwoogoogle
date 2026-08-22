@@ -5,6 +5,7 @@ description: "How the wheel strategy cycles cash-secured puts into covered calls
 order: 27
 updated: 2026-08-18
 keywords: ["wheel strategy options", "cash secured puts", "covered call strategy", "options income strategy", "how does the wheel strategy work", "selling puts for income", "wheel strategy risk", "assigned shares covered call"]
+seo_audited: 2026-08-22
 ---
 
 ## Selling Instead of Buying

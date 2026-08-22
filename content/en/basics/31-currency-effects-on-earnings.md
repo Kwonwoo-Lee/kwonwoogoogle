@@ -5,6 +5,7 @@ description: "Why a strong dollar eats into multinational profits, the differenc
 order: 31
 updated: 2026-08-20
 keywords: ["how exchange rates affect earnings", "what is FX exposure", "constant currency growth meaning", "strong dollar earnings headwind", "translation exposure explained", "currency hedged vs unhedged ETF", "foreign stocks currency risk"]
+seo_audited: 2026-08-22
 ---
 
 ## The Same Company Sold the Same Goods at the Same Price — So Why Did Earnings Fall?

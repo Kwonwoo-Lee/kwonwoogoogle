@@ -1,5 +1,5 @@
 ---
-slug: volatility-contraction-pattern-vcp
+slug: vcp-volatility-contraction-pattern
 title: "VCP(변동성 수축 패턴): 미너비니 피벗 포인트 브레이크아웃 매매법"
 description: "마크 미너비니의 VCP(변동성 수축 패턴)로 눌림목이 점점 좁아지는 종목을 찾아 피벗 포인트 돌파 타이밍과 손절 기준을 잡는 실전 방법을 설명합니다."
 order: 31

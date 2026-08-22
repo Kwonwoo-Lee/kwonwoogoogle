@@ -1,5 +1,5 @@
 ---
-slug: volatility-contraction-pattern-vcp
+slug: vcp-volatility-contraction-pattern
 title: "VCP (Volatility Contraction Pattern): Mark Minervini's Pivot Breakout Strategy"
 description: "Learn Mark Minervini's VCP: how tightening pullbacks and falling volume set up low-risk pivot point breakouts, with entry and stop rules."
 order: 31

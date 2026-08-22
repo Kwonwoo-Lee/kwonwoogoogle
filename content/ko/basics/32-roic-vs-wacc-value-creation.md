@@ -5,6 +5,7 @@ description: "투하자본수익률(ROIC)이 자본조달비용(WACC)을 넘어�
 order: 32
 updated: 2026-08-21
 keywords: ["ROIC란", "ROIC 뜻", "WACC란", "ROIC WACC 차이", "투하자본수익률이란", "경제적 부가가치 EVA", "ROIC 계산법", "가치창출 가치파괴 기업"]
+seo_audited: 2026-08-22
 ---
 
 ## 이익을 내는 회사가 곧 가치를 만드는 회사는 아니다

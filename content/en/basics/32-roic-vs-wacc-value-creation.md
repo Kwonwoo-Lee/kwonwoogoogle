@@ -5,6 +5,7 @@ description: "Why a company's return on invested capital (ROIC) has to clear its
 order: 32
 updated: 2026-08-21
 keywords: ["what is ROIC", "ROIC vs WACC", "what is WACC", "return on invested capital explained", "economic value added EVA", "how to calculate ROIC", "value creation vs value destruction", "ROIC vs ROE"]
+seo_audited: 2026-08-22
 ---
 
 ## A Profitable Company Isn't Automatically a Value-Creating One

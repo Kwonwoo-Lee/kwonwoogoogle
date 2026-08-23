@@ -4,6 +4,7 @@ title: "Kospi Opens Up 1.8%, Closes Down 0.60% - SK Hynix Falls 4.88% on Nvidia 
 description: "Kospi rallied as much as 1.83% at the open before reversing to close at 6,258.77. SK Hynix sank 4.88% on reports Nvidia may cut HBM specs for its Rubin Ultra chip, while Hanwha Solutions and OCI Holdings jumped on new US solar tariffs."
 published: 2026-08-07
 keywords: ["Kospi close August 7", "SK Hynix stock drop reason", "Nvidia Rubin Ultra HBM", "Hanwha Solutions stock surge", "OCI Holdings stock", "solar stocks US tariff", "Kospi foreign investor selling"]
+seo_audited: 2026-08-23
 ---
 
 ## What Happened

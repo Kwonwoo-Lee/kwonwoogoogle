@@ -4,6 +4,7 @@ title: "Atlassian (TEAM) Stock Jumps More Than 30% on Q4 Beat - Cloud Revenue Up
 description: "Atlassian shares jumped over 30% after Q4 revenue grew 28% and cloud revenue surged 31%, reversing a year of fears that AI would disrupt Jira and Confluence."
 published: 2026-08-07
 keywords: ["Atlassian stock", "TEAM Q4 2026 earnings", "why did Atlassian stock jump", "Atlassian cloud revenue growth", "Rovo AI Atlassian", "Jira Confluence AI disruption fears", "enterprise software AI stocks"]
+seo_audited: 2026-08-23
 ---
 
 ## What Happened

@@ -4,6 +4,7 @@ title: "Honeywell Aerospace (HONA) Stock Sinks 20% in Its First Earnings as a St
 description: "Honeywell Aerospace's first earnings report since spinning off from Honeywell saw shares fall over 20%. Revenue actually rose - here's why a supply bottleneck, not weak demand, triggered the guidance cut."
 published: 2026-08-07
 keywords: ["Honeywell Aerospace stock", "HONA earnings Q2 2026", "why did Honeywell Aerospace stock fall", "precision casting shortage aerospace", "Honeywell Aerospace guidance cut", "aerospace parts supplier stock", "Honeywell spinoff earnings"]
+seo_audited: 2026-08-23
 ---
 
 ## What Happened

@@ -4,6 +4,7 @@ title: "July Payrolls Shrink by 23,000 - Why a Weak US Jobs Report Didn't Spark 
 description: "July nonfarm payrolls fell 23,000 versus a forecast +83,000 gain, yet Fed Chair Warsh's inflation focus kept rate-cut bets from taking off."
 published: 2026-08-07
 keywords: ["July nonfarm payrolls report", "US unemployment rate 4.1%", "jobs report miss", "Fed Warsh rate hike", "labor force participation rate", "September rate cut odds", "household survey payroll survey divergence"]
+seo_audited: 2026-08-23
 ---
 
 ## What Happened

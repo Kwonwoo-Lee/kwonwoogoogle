@@ -4,6 +4,7 @@ title: "Datadog (DDOG) Stock Sinks 17% Despite 36% Revenue Growth and Raised Gui
 description: "Datadog beat Q2 estimates and raised full-year guidance, yet shares plunged about 17%. Here's why a single nine-figure AI customer cutting usage overshadowed an otherwise strong quarter."
 published: 2026-08-07
 keywords: ["Datadog stock drop", "DDOG earnings Q2 2026", "why did Datadog stock fall", "OpenAI Datadog customer concentration", "cloud monitoring stock crash", "AI customer concentration risk", "Datadog Q3 guidance"]
+seo_audited: 2026-08-23
 ---
 
 ## What Happened

@@ -4,6 +4,7 @@ title: "Airbnb (ABNB) Snaps 3-Quarter Earnings Miss Streak - Revenue Up 17%, GBV
 description: "Airbnb ended three straight quarterly earnings misses with a beat that sent ABNB shares surging in after-hours trading. Here's why the market reacted so strongly to a 17% revenue gain."
 published: 2026-08-07
 keywords: ["Airbnb stock surge", "ABNB Q2 2026 earnings", "why did Airbnb stock jump", "Airbnb earnings beat", "Airbnb gross booking value", "Airbnb Q3 guidance", "ABNB stock price today"]
+seo_audited: 2026-08-23
 ---
 
 ## What Happened

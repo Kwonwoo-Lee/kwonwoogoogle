@@ -4,6 +4,7 @@ title: "Oil Jumps as WTI Gains 2.8%, Brent 3.8% on Iran's Hormuz Draft Plan - Do
 description: "Oil surged and the Dow fell 464 points (0.85%) after Iran published a restrictive draft plan for Strait of Hormuz shipping, reversing the deal hopes that fueled Kospi's 3.85% rally two days earlier."
 published: 2026-08-06
 keywords: ["oil prices surge today", "Strait of Hormuz Iran draft plan", "Dow Jones falls today", "WTI Brent crude price", "Iran bans US Israeli ships", "Salesforce stock drop", "10-year Treasury yield rises"]
+seo_audited: 2026-08-23
 ---
 
 ## What Happened

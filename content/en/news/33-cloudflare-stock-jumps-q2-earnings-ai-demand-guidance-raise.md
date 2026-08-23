@@ -4,6 +4,7 @@ title: "Cloudflare (NET) Stock Jumps as Much as 18% After Hours on Q2 Beat and R
 description: "Cloudflare's Q2 revenue jumped 36% and full-year guidance was raised, sending shares up as much as 18% after hours. Here's why surging AI-driven internet traffic is turning into real revenue."
 published: 2026-08-07
 keywords: ["Cloudflare stock", "NET Q2 2026 earnings", "why did Cloudflare stock jump", "Cloudflare guidance raise", "AI internet traffic infrastructure stocks", "Cloudflare restructuring layoffs", "network security stocks AI"]
+seo_audited: 2026-08-23
 ---
 
 ## What Happened

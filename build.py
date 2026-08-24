@@ -255,6 +255,17 @@ def _render_markdown(body: str, lang: str):
     return html_body, toc, faq
 
 
+def _check_missing_alt(html_body: str, label: str):
+    """이미지에 alt 텍스트가 비어있으면 빌드를 막지 않고 콘솔에 경고만 띄웁니다.
+    (alt는 접근성뿐 아니라 구글 이미지 검색 유입에도 쓰이는데, 마크다운 작성자가
+    빼먹기 쉬운 항목이라 여기서 놓치지 않게 잡아줍니다.)"""
+    for match in re.finditer(r"<img\b[^>]*>", html_body):
+        tag = match.group(0)
+        alt_match = re.search(r'alt="([^"]*)"', tag)
+        if alt_match is None or not alt_match.group(1).strip():
+            print(f"  ⚠️  alt 텍스트 없는 이미지: {label}")
+
+
 def load_lessons(lang: str):
     """course_slug -> 정렬된 lesson dict 리스트 (해당 언어)"""
     lessons_by_course = {}
@@ -265,7 +276,8 @@ def load_lessons(lang: str):
             raw = path.read_text(encoding="utf-8")
             meta, body = _parse_frontmatter(raw)
             html_body, toc, faq = _render_markdown(body, lang)
-            keywords = meta.get("keywords", [])
+            _check_missing_alt(html_body, f"{lang}/{course_slug}/{path.name}")
+            keywords = meta.get("keywords") or []
             reading_min = meta.get("reading_min", estimate_reading_minutes(body, lang))
             lessons.append({
                 "course": course_slug,
@@ -279,7 +291,9 @@ def load_lessons(lang: str):
                 "html": html_body,
                 "toc": toc,
                 "faq": faq,
+                "image": meta.get("image"),
                 "keywords": ", ".join(keywords) if keywords else COURSES[course_slug][lang]["title"],
+                "keywords_list": keywords,
             })
         lessons.sort(key=lambda x: x["order"])
         for i, lesson in enumerate(lessons):
@@ -329,7 +343,8 @@ def load_news(lang: str):
         raw = path.read_text(encoding="utf-8")
         meta, body = _parse_frontmatter(raw)
         html_body, toc, faq = _render_markdown(body, lang)
-        keywords = meta.get("keywords", [])
+        _check_missing_alt(html_body, f"{lang}/news/{path.name}")
+        keywords = meta.get("keywords") or []
         posts.append({
             "slug": meta["slug"],
             "title": meta["title"],
@@ -338,7 +353,9 @@ def load_news(lang: str):
             "html": html_body,
             "toc": toc,
             "faq": faq,
+            "image": meta.get("image"),
             "keywords": ", ".join(keywords) if keywords else "",
+            "keywords_list": keywords,
             "_filename": path.stem,
         })
     # published 날짜가 같은 글끼리는 파일명(번호) 역순으로 정렬해 최근에 추가된 글이 위로 오도록 함
@@ -375,6 +392,28 @@ def url_for(lang: str, *parts) -> str:
 def alternates_for(*parts) -> dict:
     """같은 페이지의 언어별 URL 대응표 (hreflang / 언어 전환 링크용)"""
     return {lang: url_for(lang, *parts) for lang in LANGUAGES}
+
+
+def _pick_related(current: dict, candidates: list, limit: int = 3) -> list:
+    """연관 콘텐츠를 프런트매터 keywords가 겹치는 순으로 고릅니다.
+    겹치는 키워드가 없거나 모자라면 candidates 순서(기존처럼 다음 글/다음 강의부터)로
+    채워서, 키워드를 안 채운 글도 연관 추천이 비어버리지 않게 합니다."""
+    current_kw = set(current.get("keywords_list") or [])
+    scored = sorted(
+        candidates,
+        key=lambda c: len(current_kw & set(c.get("keywords_list") or [])),
+        reverse=True,
+    )
+    picked = [c for c in scored if current_kw & set(c.get("keywords_list") or [])][:limit]
+    if len(picked) < limit:
+        picked_slugs = {c["slug"] for c in picked}
+        for c in candidates:
+            if len(picked) >= limit:
+                break
+            if c["slug"] not in picked_slugs:
+                picked.append(c)
+                picked_slugs.add(c["slug"])
+    return picked
 
 
 def write(path: Path, content: str):
@@ -444,7 +483,7 @@ def build():
         for i, post in enumerate(news_posts):
             prev_post = news_posts[i + 1] if i + 1 < len(news_posts) else None  # 최신순 정렬이므로 다음 인덱스가 "이전 글"
             next_post = news_posts[i - 1] if i > 0 else None
-            related_news = [p for p in news_posts if p["slug"] != post["slug"]][:3]
+            related_news = _pick_related(post, [p for p in news_posts if p["slug"] != post["slug"]])
             post_url = url_for(lang, "news", post["slug"])
             write(base_dir / "news" / post["slug"] / "index.html", news_post_tpl.render(
                 lang=lang, ui=ui, site=site, post=post,
@@ -479,7 +518,7 @@ def build():
             for i, lesson in enumerate(lessons):
                 prev_lesson = lessons[i - 1] if i > 0 else None
                 next_lesson = lessons[i + 1] if i < len(lessons) - 1 else None
-                related_lessons = (lessons[i + 1:] + lessons[:i])[:3]
+                related_lessons = _pick_related(lesson, lessons[i + 1:] + lessons[:i])
                 lesson_url = url_for(lang, course_slug, lesson["slug"])
                 level_part = f" · {lesson['level']}" if lesson.get("level") else ""
                 progress_label = (

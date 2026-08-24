@@ -4,6 +4,7 @@
 {% block meta_description %}{{ lesson.description }}{% endblock %}
 {% block meta_keywords %}{{ lesson.keywords }}{% endblock %}
 {% block og_type %}article{% endblock %}
+{% block og_image_url %}{{ cfg.SITE_URL }}{{ lesson.image if lesson.image else cfg.DEFAULT_OG_IMAGE }}{% endblock %}
 
 {% block json_ld %}
 <script type="application/ld+json">
@@ -12,6 +13,7 @@
   "@type": "Article",
   "headline": {{ lesson.title | tojson }},
   "description": {{ lesson.description | tojson }},
+  "image": {{ self.og_image_url() | tojson }},
   "datePublished": {{ lesson.updated | tojson }},
   "dateModified": {{ lesson.updated | tojson }},
   "inLanguage": {{ lang | tojson }},

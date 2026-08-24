@@ -4,6 +4,7 @@
 {% block meta_description %}{{ post.description }}{% endblock %}
 {% block meta_keywords %}{{ post.keywords }}{% endblock %}
 {% block og_type %}article{% endblock %}
+{% block og_image_url %}{{ cfg.SITE_URL }}{{ post.image if post.image else cfg.DEFAULT_OG_IMAGE }}{% endblock %}
 
 {% block json_ld %}
 <script type="application/ld+json">
@@ -12,12 +13,24 @@
   "@type": "NewsArticle",
   "headline": {{ post.title | tojson }},
   "description": {{ post.description | tojson }},
+  "image": {{ self.og_image_url() | tojson }},
   "datePublished": {{ post.published | tojson }},
   "dateModified": {{ post.published | tojson }},
   "inLanguage": {{ lang | tojson }},
   "author": { "@type": "Organization", "name": {{ site.name | tojson }} },
   "publisher": { "@type": "Organization", "name": {{ site.name | tojson }} },
   "mainEntityOfPage": {{ (cfg.SITE_URL + canonical) | tojson }}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": {{ ui.home | tojson }}, "item": {{ cfg.SITE_URL | tojson }} },
+    {"@type": "ListItem", "position": 2, "name": {{ ui.market_news | tojson }}, "item": {{ (cfg.SITE_URL + url_for(lang, 'news')) | tojson }} },
+    {"@type": "ListItem", "position": 3, "name": {{ post.title | tojson }}, "item": {{ (cfg.SITE_URL + canonical) | tojson }} }
+  ]
 }
 </script>
 {% if post.faq %}

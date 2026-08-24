@@ -6,7 +6,7 @@ OG 태그 등)에 반영됩니다. 애드센스 승인을 받으면 ADSENSE_CLIE
 채우면 모든 광고 슬롯에 자동으로 반영됩니다.
 """
 
-SITE_NAME = "주식아카데미"
+SITE_NAME = "TradeSmrt"
 SITE_TAGLINE = "누구나 쉽게 배우는 주식 투자 강의"
 SITE_DESCRIPTION = (
     "주식 기초 용어부터 이동평균선, ICT 스마트머니 기법까지 "

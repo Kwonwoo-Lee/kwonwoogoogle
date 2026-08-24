@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 340" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="620" height="340" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="13.5" fill="#20201a" text-anchor="middle" font-weight="700">국회의원 STOCK Act 공시 vs 기업 내부자 Form 4 공시: 지연 기간 비교</text>
+
+<text x="28" y="46" font-size="12" fill="#5a5950" font-weight="700">공시 경로 비교</text>
+
+<text x="28" y="62" font-size="9.5" fill="#5a5950" font-weight="700">국회의원(STOCK Act)</text>
+<rect x="26" y="68" width="86" height="36" rx="7" fill="#5a5950" opacity="0.10" stroke="#5a5950" stroke-width="1.2"/>
+<text x="69" y="83" font-size="8.3" fill="#3a3a33" text-anchor="middle" font-weight="700">매매 발생</text>
+<text x="69" y="96" font-size="7.6" fill="#3a3a33" text-anchor="middle">(의원·배우자)</text>
+
+<rect x="120" y="68" width="86" height="36" rx="7" fill="#c98a1f" opacity="0.16" stroke="#c98a1f" stroke-width="1.2"/>
+<text x="163" y="83" font-size="8.3" fill="#a06a10" text-anchor="middle" font-weight="700">공시 대기</text>
+<text x="163" y="96" font-size="7.6" fill="#a06a10" text-anchor="middle">(최대 45일)</text>
+
+<rect x="214" y="68" width="80" height="36" rx="7" fill="#d0453b" opacity="0.13" stroke="#d0453b" stroke-width="1.2"/>
+<text x="254" y="83" font-size="8.3" fill="#d0453b" text-anchor="middle" font-weight="700">PTR 공시</text>
+<text x="254" y="96" font-size="7.6" fill="#d0453b" text-anchor="middle">(주가 이미 변동)</text>
+
+<path d="M 112,86 L 118,86" fill="none" stroke="#767568" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 206,86 L 212,86" fill="none" stroke="#767568" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+<text x="28" y="136" font-size="9.5" fill="#5a5950" font-weight="700">기업 내부자(Form 4)</text>
+<rect x="26" y="142" width="86" height="36" rx="7" fill="#5a5950" opacity="0.10" stroke="#5a5950" stroke-width="1.2"/>
+<text x="69" y="157" font-size="8.3" fill="#3a3a33" text-anchor="middle" font-weight="700">매매 발생</text>
+<text x="69" y="170" font-size="7.6" fill="#3a3a33" text-anchor="middle">(임원·이사)</text>
+
+<rect x="120" y="142" width="86" height="36" rx="7" fill="#1f9d55" opacity="0.14" stroke="#1f9d55" stroke-width="1.2"/>
+<text x="163" y="157" font-size="8.3" fill="#177a42" text-anchor="middle" font-weight="700">Form 4 공시</text>
+<text x="163" y="170" font-size="7.6" fill="#177a42" text-anchor="middle">(2영업일 이내)</text>
+
+<rect x="214" y="142" width="80" height="36" rx="7" fill="#1f9d55" opacity="0.14" stroke="#1f9d55" stroke-width="1.2"/>
+<text x="254" y="157" font-size="8.3" fill="#177a42" text-anchor="middle" font-weight="700">신속 대응 가능</text>
+<text x="254" y="170" font-size="7.6" fill="#177a42" text-anchor="middle">(상대적으로 신선)</text>
+
+<path d="M 112,160 L 118,160" fill="none" stroke="#767568" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 206,160 L 212,160" fill="none" stroke="#767568" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+<defs>
+  <marker id="arrow" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto">
+    <path d="M0,0 L6,3 L0,6 Z" fill="#767568"/>
+  </marker>
+</defs>
+
+<text x="160" y="198" font-size="8.8" fill="#5a5950" text-anchor="middle">국회의원 공시는 최대 45일 지연될 수 있지만, 기업 내부자 공시는 2영업일 이내가 원칙</text>
+
+<line x1="325" y1="30" x2="325" y2="315" stroke="#e1e0d9" stroke-width="1"/>
+
+<text x="472" y="46" font-size="12" fill="#5a5950" text-anchor="middle" font-weight="700">공시까지 걸리는 기간(예시)</text>
+
+<line x1="345" y1="270" x2="600" y2="270" stroke="#c7c6bb" stroke-width="1"/>
+<line x1="345" y1="60" x2="345" y2="270" stroke="#c7c6bb" stroke-width="1"/>
+
+<rect x="385" y="256" width="46" height="14" rx="2" fill="#1f9d55" opacity="0.55"/>
+<text x="408" y="250" font-size="9" fill="#177a42" text-anchor="middle" font-weight="700">2영업일</text>
+<text x="408" y="284" font-size="9" fill="#767568" text-anchor="middle">Form 4</text>
+
+<rect x="495" y="82" width="46" height="188" rx="2" fill="#d0453b" opacity="0.5"/>
+<text x="518" y="76" font-size="9" fill="#d0453b" text-anchor="middle" font-weight="700">최대 45일</text>
+<text x="518" y="284" font-size="9" fill="#767568" text-anchor="middle">STOCK Act</text>
+
+<text x="472" y="102" font-size="8.3" fill="#767568" text-anchor="middle" font-style="italic">그 사이 주가가</text>
+<text x="472" y="114" font-size="8.3" fill="#767568" text-anchor="middle" font-style="italic">이미 움직였을 수 있음</text>
+
+<text x="472" y="302" font-size="8.6" fill="#767568" text-anchor="middle">막대 높이 = 공시 지연 기간(법정 상한 기준, 실제 지연은 더 길 수 있음)</text>
+</svg>

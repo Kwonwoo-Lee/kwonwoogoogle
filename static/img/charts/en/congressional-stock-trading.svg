@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 340" font-family="'Segoe UI', Arial, sans-serif">
+<rect x="0" y="0" width="620" height="340" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="12.5" fill="#20201a" text-anchor="middle" font-weight="700">Congressional STOCK Act Disclosure vs. Corporate Insider Form 4: Lag Compared</text>
+
+<text x="28" y="46" font-size="12" fill="#5a5950" font-weight="700">Disclosure Path Compared</text>
+
+<text x="28" y="62" font-size="9.3" fill="#5a5950" font-weight="700">Congress (STOCK Act)</text>
+<rect x="26" y="68" width="86" height="36" rx="7" fill="#5a5950" opacity="0.10" stroke="#5a5950" stroke-width="1.2"/>
+<text x="69" y="83" font-size="8.1" fill="#3a3a33" text-anchor="middle" font-weight="700">Trade Occurs</text>
+<text x="69" y="96" font-size="7.4" fill="#3a3a33" text-anchor="middle">(member or spouse)</text>
+
+<rect x="120" y="68" width="86" height="36" rx="7" fill="#c98a1f" opacity="0.16" stroke="#c98a1f" stroke-width="1.2"/>
+<text x="163" y="83" font-size="8.1" fill="#a06a10" text-anchor="middle" font-weight="700">Filing Window</text>
+<text x="163" y="96" font-size="7.4" fill="#a06a10" text-anchor="middle">(up to 45 days)</text>
+
+<rect x="214" y="68" width="80" height="36" rx="7" fill="#d0453b" opacity="0.13" stroke="#d0453b" stroke-width="1.2"/>
+<text x="254" y="83" font-size="8.1" fill="#d0453b" text-anchor="middle" font-weight="700">PTR Filed</text>
+<text x="254" y="96" font-size="7.4" fill="#d0453b" text-anchor="middle">(price may have moved)</text>
+
+<path d="M 112,86 L 118,86" fill="none" stroke="#767568" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 206,86 L 212,86" fill="none" stroke="#767568" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+<text x="28" y="136" font-size="9.3" fill="#5a5950" font-weight="700">Corporate Insider (Form 4)</text>
+<rect x="26" y="142" width="86" height="36" rx="7" fill="#5a5950" opacity="0.10" stroke="#5a5950" stroke-width="1.2"/>
+<text x="69" y="157" font-size="8.1" fill="#3a3a33" text-anchor="middle" font-weight="700">Trade Occurs</text>
+<text x="69" y="170" font-size="7.4" fill="#3a3a33" text-anchor="middle">(officer or director)</text>
+
+<rect x="120" y="142" width="86" height="36" rx="7" fill="#1f9d55" opacity="0.14" stroke="#1f9d55" stroke-width="1.2"/>
+<text x="163" y="157" font-size="8.1" fill="#177a42" text-anchor="middle" font-weight="700">Form 4 Filed</text>
+<text x="163" y="170" font-size="7.4" fill="#177a42" text-anchor="middle">(within 2 business days)</text>
+
+<rect x="214" y="142" width="80" height="36" rx="7" fill="#1f9d55" opacity="0.14" stroke="#1f9d55" stroke-width="1.2"/>
+<text x="254" y="157" font-size="8.1" fill="#177a42" text-anchor="middle" font-weight="700">Still Actionable</text>
+<text x="254" y="170" font-size="7.4" fill="#177a42" text-anchor="middle">(comparatively fresh)</text>
+
+<path d="M 112,160 L 118,160" fill="none" stroke="#767568" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 206,160 L 212,160" fill="none" stroke="#767568" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+<defs>
+  <marker id="arrow" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto">
+    <path d="M0,0 L6,3 L0,6 Z" fill="#767568"/>
+  </marker>
+</defs>
+
+<text x="160" y="198" font-size="8.5" fill="#5a5950" text-anchor="middle">Congress can stay undisclosed up to 45 days; insiders must file within 2 business days</text>
+
+<line x1="325" y1="30" x2="325" y2="315" stroke="#e1e0d9" stroke-width="1"/>
+
+<text x="472" y="46" font-size="12" fill="#5a5950" text-anchor="middle" font-weight="700">Time to Disclosure (Illustrative)</text>
+
+<line x1="345" y1="270" x2="600" y2="270" stroke="#c7c6bb" stroke-width="1"/>
+<line x1="345" y1="60" x2="345" y2="270" stroke="#c7c6bb" stroke-width="1"/>
+
+<rect x="385" y="256" width="46" height="14" rx="2" fill="#1f9d55" opacity="0.55"/>
+<text x="408" y="250" font-size="9" fill="#177a42" text-anchor="middle" font-weight="700">2 days</text>
+<text x="408" y="284" font-size="9" fill="#767568" text-anchor="middle">Form 4</text>
+
+<rect x="495" y="82" width="46" height="188" rx="2" fill="#d0453b" opacity="0.5"/>
+<text x="518" y="76" font-size="9" fill="#d0453b" text-anchor="middle" font-weight="700">up to 45 days</text>
+<text x="518" y="284" font-size="9" fill="#767568" text-anchor="middle">STOCK Act</text>
+
+<text x="472" y="102" font-size="8" fill="#767568" text-anchor="middle" font-style="italic">Price may have</text>
+<text x="472" y="114" font-size="8" fill="#767568" text-anchor="middle" font-style="italic">already moved by then</text>
+
+<text x="472" y="302" font-size="8.4" fill="#767568" text-anchor="middle">Bar height = disclosure lag (legal max — real-world lag can run longer)</text>
+</svg>

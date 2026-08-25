@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 380" font-family="-apple-system, 'Segoe UI', Arial, sans-serif">
+<rect x="0" y="0" width="620" height="380" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="14.5" fill="#20201a" text-anchor="middle" font-weight="700">Elliott Wave: 5-Wave Impulse and 3-Wave Correction (A-B-C)</text>
+
+<line x1="45" y1="220" x2="600" y2="220" stroke="#c7c6bd" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="50" y="234" font-size="9.5" fill="#8a4fd1" font-weight="700">Rule 3: Wave 4 can't overlap Wave 1's territory (above this line)</text>
+
+<line x1="45" y1="300" x2="600" y2="300" stroke="#c7c6bd" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="50" y="314" font-size="9.5" fill="#d0453b" font-weight="700">Rule 1: Wave 2 can't drop below this (Wave 1 start) = stop level</text>
+
+<path d="M 55,300 L 130,220" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+<circle cx="55" cy="300" r="5" fill="#1f9d55"/>
+<circle cx="130" cy="220" r="5" fill="#1a5fb4"/>
+<text x="92" y="212" font-size="11" fill="#1a5fb4" text-anchor="middle" font-weight="700">Wave 1</text>
+
+<path d="M 130,220 L 172,258" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+<circle cx="172" cy="258" r="6.5" fill="#c98a1f"/>
+<text x="172" y="278" font-size="11" fill="#c98a1f" text-anchor="middle" font-weight="700">Wave 2</text>
+<text x="172" y="292" font-size="9.5" fill="#c98a1f" text-anchor="middle">(Wave 3 entry candidate)</text>
+
+<path d="M 172,258 L 320,80" fill="none" stroke="#1a5fb4" stroke-width="3.5"/>
+<circle cx="320" cy="80" r="5" fill="#1a5fb4"/>
+<text x="252" y="150" font-size="11.5" fill="#1a5fb4" text-anchor="middle" font-weight="700">Wave 3 (strongest)</text>
+
+<path d="M 320,80 L 368,140" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+<circle cx="368" cy="140" r="5" fill="#1a5fb4"/>
+<text x="344" y="132" font-size="11" fill="#1a5fb4" text-anchor="middle" font-weight="700">Wave 4</text>
+
+<path d="M 368,140 L 432,48" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+<circle cx="432" cy="48" r="5" fill="#1a5fb4"/>
+<text x="432" y="36" font-size="11" fill="#1a5fb4" text-anchor="middle" font-weight="700">Wave 5</text>
+
+<path d="M 432,48 L 490,160" fill="none" stroke="#d0453b" stroke-width="2.6" stroke-dasharray="7,3"/>
+<circle cx="490" cy="160" r="5" fill="#d0453b"/>
+<text x="490" y="180" font-size="11" fill="#d0453b" text-anchor="middle" font-weight="700">Wave A</text>
+
+<path d="M 490,160 L 522,120" fill="none" stroke="#d0453b" stroke-width="2.6" stroke-dasharray="7,3"/>
+<circle cx="522" cy="120" r="5" fill="#d0453b"/>
+<text x="522" y="108" font-size="11" fill="#d0453b" text-anchor="middle" font-weight="700">Wave B</text>
+
+<path d="M 522,120 L 570,215" fill="none" stroke="#d0453b" stroke-width="2.6" stroke-dasharray="7,3"/>
+<circle cx="570" cy="215" r="5" fill="#d0453b"/>
+<text x="570" y="235" font-size="11" fill="#d0453b" text-anchor="middle" font-weight="700">Wave C</text>
+
+<line x1="55" y1="352" x2="80" y2="352" stroke="#1a5fb4" stroke-width="3"/>
+<text x="87" y="356" font-size="10.5" fill="#20201a">5-wave impulse</text>
+<line x1="215" y1="352" x2="240" y2="352" stroke="#d0453b" stroke-width="2.6" stroke-dasharray="7,3"/>
+<text x="247" y="356" font-size="10.5" fill="#20201a">3-wave correction (A-B-C)</text>
+<circle cx="425" cy="352" r="6" fill="#c98a1f"/>
+<text x="437" y="356" font-size="10.5" fill="#20201a">Wave 3 entry (after Wave 2 confirmation)</text>
+</svg>

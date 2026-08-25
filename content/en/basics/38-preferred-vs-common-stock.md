@@ -5,6 +5,7 @@ description: "Why preferred stock gives up voting rights for a priority claim on
 order: 38
 updated: 2026-08-24
 keywords: ["preferred stock vs common stock", "what is preferred stock", "why is preferred stock cheaper than common stock", "preferred stock voting rights", "cumulative preferred stock explained", "preferred stock liquidation priority"]
+seo_audited: 2026-08-25
 ---
 
 ## Same Company, Two Different Stock Prices

@@ -5,6 +5,7 @@ description: "How convertible bonds bundle debt with a call option on shares, wh
 order: 40
 updated: 2026-08-25
 keywords: ["what is a convertible bond", "convertible bond refixing explained", "how do convertible bonds affect stock price", "convertible bond dilution", "convertible bond vs warrant bond", "convertible bond put option", "conversion price explained", "convertible bond issuance good or bad"]
+seo_audited: 2026-08-25
 ---
 
 ## A Bond With a 0% Coupon That People Still Buy

@@ -5,6 +5,7 @@ description: "How Market Profile builds a bell-shaped distribution from 30-minut
 order: 29
 updated: 2026-08-20
 keywords: ["market profile trading", "TPO chart", "initial balance trading", "value area trading", "market profile vs volume profile", "day types market profile", "TPO letters explained"]
+seo_audited: 2026-08-25
 ---
 
 ## Two Profiles That Look Alike but Aren't

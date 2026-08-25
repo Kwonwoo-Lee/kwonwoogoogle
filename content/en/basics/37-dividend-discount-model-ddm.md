@@ -5,6 +5,7 @@ description: "How the Gordon Growth Model prices a dividend stock from its payou
 order: 37
 updated: 2026-08-23
 keywords: ["dividend discount model explained", "gordon growth model formula", "DDM vs DCF", "how to value dividend stocks", "gordon growth model limitations", "dividend discount model example"]
+seo_audited: 2026-08-25
 ---
 
 ## Can You Price a Stock From Its Dividends Alone?

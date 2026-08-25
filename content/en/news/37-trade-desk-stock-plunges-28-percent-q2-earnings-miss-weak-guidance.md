@@ -4,6 +4,7 @@ title: "Trade Desk (TTD) Stock Crashes 28% - Revenue Growth Slows to 3%, Q3 Guid
 description: "Trade Desk stock plunged 28% as Q2 growth slowed to 3% and Q3 guidance implied a 12% revenue decline, sparking analyst downgrades."
 published: 2026-08-07
 keywords: ["Trade Desk stock crash", "TTD stock why did it drop", "Trade Desk Q2 earnings 2026", "Trade Desk Q3 guidance", "ad tech stocks falling", "Jeff Green CEO Trade Desk", "programmatic advertising stock outlook"]
+seo_audited: 2026-08-25
 ---
 
 ## What Happened

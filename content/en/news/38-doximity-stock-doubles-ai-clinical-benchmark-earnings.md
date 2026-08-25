@@ -4,6 +4,7 @@ title: "Doximity (DOCS) Stock Nearly Doubles Intraday - 'LinkedIn for Doctors' A
 description: "Doximity's Q1 revenue grew just 7%, but a CEO claim that AI search earns 10x its cost and a clinical AI benchmark win sent DOCS stock surging as much as 130% before settling near a double."
 published: 2026-08-07
 keywords: ["Doximity stock surge", "DOCS stock why did it jump", "Doximity Q1 earnings 2026", "Doximity AI search revenue", "clinical AI benchmark NOHARM", "short squeeze stock DOCS", "healthcare AI stocks"]
+seo_audited: 2026-08-25
 ---
 
 ## What Happened

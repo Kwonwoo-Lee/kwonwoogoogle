@@ -5,6 +5,7 @@ description: "Why a spin-off hands you shares in the new company while an equity
 order: 39
 updated: 2026-08-24
 keywords: ["spin-off vs carve-out", "what is an equity carve-out", "what is a corporate spin-off", "do I get shares in a spin-off", "carve-out IPO dilution", "corporate split types explained", "spin-off shareholder rights", "parent company stock after spin-off"]
+seo_audited: 2026-08-25
 ---
 
 ## Two Ways to Split a Company, Two Completely Different Outcomes

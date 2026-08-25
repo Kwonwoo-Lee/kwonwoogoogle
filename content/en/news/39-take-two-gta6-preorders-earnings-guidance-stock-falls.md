@@ -4,6 +4,7 @@ title: "Take-Two (TTWO) Stock Slips Despite 'Unprecedented' GTA6 Preorder Buzz -
 description: "Take-Two Interactive posted 6% revenue growth ahead of GTA6's November 19 launch, but shares fell as its reaffirmed $8-8.2B guidance missed the ~$8.86B Wall Street was pricing in."
 published: 2026-08-07
 keywords: ["Take-Two stock", "TTWO earnings", "GTA6 release date", "GTA6 preorders", "Take-Two guidance", "Grand Theft Auto 6 price", "why did Take-Two stock fall"]
+seo_audited: 2026-08-25
 ---
 
 ## What Happened

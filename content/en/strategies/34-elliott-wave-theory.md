@@ -65,9 +65,9 @@ Say stock D starts Wave 1 at $30.00 and rallies to $36.00 — a $6.00 move. Wave
 | Wave 1 start (Rule 1 stop reference) | $30.00 | A break below here invalidates the entire count |
 | Wave 2 low (entry candidate) | $32.29 | 61.8% retracement + reversal candle confirmation |
 | Stop-loss | $29.90 | Just below the Wave 1 start |
-| First target (Wave 3 ≈ Wave 1 × 1.618) | $41.71 | $32.29 + ($6.00 × 1.618) |
+| First target (Wave 3 ≈ Wave 1 × 1.618) | $41.99 | $32.29 + ($6.00 × 1.618) |
 
-The distance from entry ($32.29) to stop ($29.90) is $2.39; the distance to the first target is $9.42 — a risk/reward ratio of roughly 1:3.9, in line with the "you don't need a high win rate if your reward is big enough" logic covered in Lesson 6's [Risk/Reward & Position Sizing](/en/strategies/risk-reward-money-management/). That target isn't guaranteed just because 1.618 is a common ratio — it's a planning anchor for scaling out, not a promise.
+The distance from entry ($32.29) to stop ($29.90) is $2.39; the distance to the first target is $9.71 — a risk/reward ratio of roughly 1:4.1, in line with the "you don't need a high win rate if your reward is big enough" logic covered in Lesson 6's [Risk/Reward & Position Sizing](/en/strategies/risk-reward-money-management/). That target isn't guaranteed just because 1.618 is a common ratio — it's a planning anchor for scaling out, not a promise.
 
 ## Fractals: Waves Inside Waves
 

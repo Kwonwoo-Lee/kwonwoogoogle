@@ -4,6 +4,7 @@ title: "Sezzle (SEZL) Stock Plunges 24% Despite 52% Revenue Growth Beat as Reven
 description: "Sezzle beat Q2 revenue and EPS estimates and raised full-year guidance for the third time in 2026, yet shares plunged as much as 24-32% - here's why a beat-and-raise quarter triggered a sell-off."
 published: 2026-08-08
 keywords: ["Sezzle stock", "why did SEZL stock drop", "Sezzle Q2 2026 earnings", "BNPL stock crash", "buy now pay later stock outlook", "Sezzle guidance warning", "revenue yield normalization fintech"]
+seo_audited: 2026-08-26
 ---
 
 ## What Happened

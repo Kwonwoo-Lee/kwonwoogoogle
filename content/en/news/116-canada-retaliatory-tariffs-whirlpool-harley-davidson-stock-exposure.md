@@ -46,7 +46,7 @@ Retaliatory tariff lists tend to focus on politically symbolic, high-visibility 
 ### Is this tariff dispute a major risk to the broader US stock market?
 For companies with heavy reliance on the Canadian market - Whirlpool, Harley-Davidson, Deere, and select paper and steel producers among them - the impact is direct and measurable. But Canada represents a relatively small share of aggregate S&P 500 revenue, so this alone is unlikely to be a market-wide shock. The bigger risk is if the dispute drags on or spreads to other trading partners, which would raise the general uncertainty premium markets apply to trade-exposed sectors.
 
-You might also be interested in: [US-Canada Trade Talks Collapse, 50% Tariffs Take Effect](/en/news/canada-trade-talks-collapse-50-tariffs-us-stocks-exposed/), [Dick's Sporting Goods Stock Plunges 24%](/en/news/dicks-sporting-goods-stock-drop-guidance-cut-foot-locker/)
+You might also be interested in: [US-Canada Trade Talks Collapse, 50% Tariffs Take Effect](/en/news/canada-trade-talks-collapse-50-tariffs-us-stocks-exposed/), [Dick's Sporting Goods Stock Plunges 31%](/en/news/dicks-sporting-goods-stock-drop-guidance-cut-foot-locker/)
 
 ## Sources
 

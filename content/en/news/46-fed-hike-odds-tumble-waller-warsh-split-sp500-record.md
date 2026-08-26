@@ -4,6 +4,7 @@ title: "Fed September Hike Odds Crash From 57% to 44% as Waller Breaks With Wars
 description: "Fed September hike odds crashed from 57% to 43.9% after the jobs shock, Waller broke from Warsh, and the S&P 500 closed at a record 7,757."
 published: 2026-08-08
 keywords: ["Fed September rate hike odds", "Kevin Warsh Fed policy", "Waller rate cut", "S&P 500 record high", "CME FedWatch tool", "Fed rate decision September 2026", "stock market record close August 2026"]
+seo_audited: 2026-08-26
 ---
 
 ## What Happened

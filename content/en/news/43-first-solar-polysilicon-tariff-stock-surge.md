@@ -4,6 +4,7 @@ title: "First Solar (FSLR) Jumps 7.73% After Hours as Trump Slaps 15% Tariff and
 description: "The Trump administration imposed a 15% Section 232 tariff and a $21/kg minimum import price on polysilicon. Here's why First Solar rallied and what it means for the solar and chip supply chain."
 published: 2026-08-08
 keywords: ["First Solar stock", "why did FSLR stock jump", "polysilicon tariff", "Section 232 solar tariff", "China polysilicon market share", "solar stocks 2026 outlook", "Wells Fargo First Solar price target"]
+seo_audited: 2026-08-26
 ---
 
 ## What Happened

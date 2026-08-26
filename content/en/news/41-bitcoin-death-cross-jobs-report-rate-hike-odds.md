@@ -4,6 +4,7 @@ title: "Bitcoin Barely Budges as September Hike Odds Crash From 55% to 40% - Why
 description: "A weak July jobs report slashed September rate-hike odds, yet bitcoin gained only about 0.7-2% near $65,000. Here's why a lingering 'death cross' capped the move."
 published: 2026-08-07
 keywords: ["bitcoin price today", "bitcoin death cross", "September rate hike odds", "ethereum price August 2026", "CME FedWatch bitcoin", "bitcoin $65000", "crypto reaction jobs report"]
+seo_audited: 2026-08-26
 ---
 
 ## What Happened

@@ -4,6 +4,7 @@ title: "Twilio (TWLO) Stock Soars 30% to a 52-Week High as Q2 Revenue Jumps 22% 
 description: "Twilio's Q2 revenue hit $1.5 billion, up 22% year-over-year, sending shares up roughly 30% to a fresh 52-week high. Here's how AI-agent-driven conversations became the company's newest growth engine."
 published: 2026-08-08
 keywords: ["Twilio stock", "why did Twilio stock jump", "TWLO Q2 2026 earnings", "Twilio guidance raise", "Twilio AI agents", "customer communications API stock", "52-week high tech stock August 2026"]
+seo_audited: 2026-08-26
 ---
 
 ## What Happened

@@ -4,6 +4,7 @@ title: "Gold Jumps 2.6% to Touch $4,400 - Why the Official Jobs Report Hit Harde
 description: "Gold spiked to $4,411 an ounce on August 7, up 2.6%, as the official July jobs shock pushed September rate-cut odds to roughly 90%."
 published: 2026-08-08
 keywords: ["gold price today", "gold $4400 an ounce", "July jobs report shock", "September rate cut odds 90 percent", "Waller Fed rate cut", "CME FedWatch gold", "gold price forecast 2026"]
+seo_audited: 2026-08-26
 ---
 
 ## What Happened

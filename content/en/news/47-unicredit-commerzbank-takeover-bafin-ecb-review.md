@@ -4,6 +4,7 @@ title: "UniCredit's Commerzbank Takeover Clears BaFin, Moves to ECB Review - CEO
 description: "UniCredit's €35 billion Commerzbank bid cleared Germany's BaFin and entered ECB review. Commerzbank's CEO softened her tone and announced a €1.2 billion buyback - here's what's at stake."
 published: 2026-08-08
 keywords: ["UniCredit Commerzbank takeover", "European bank M&A 2026", "Commerzbank stock price", "BaFin ECB approval", "Andrea Orcel", "Bettina Orlopp", "biggest European bank merger"]
+seo_audited: 2026-08-26
 ---
 
 ## What Happened

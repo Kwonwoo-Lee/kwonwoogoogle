@@ -4,6 +4,7 @@ title: "SpaceX Stock Jumps 11% as Argus Upgrades to Buy, Sets $160 Target on 'Un
 description: "SpaceX shares surged over 11% on August 7 after Argus upgraded the stock to Buy, citing rapid payback on AI infrastructure spending - the same capex that had triggered a selloff just days earlier."
 published: 2026-08-07
 keywords: ["SpaceX stock", "why is SpaceX stock up today", "SPCX Argus upgrade", "SpaceX $160 price target", "SpaceX Q2 revenue", "AI infrastructure payback period", "SpaceX Starlink AI data centers"]
+seo_audited: 2026-08-26
 ---
 
 ## What Happened

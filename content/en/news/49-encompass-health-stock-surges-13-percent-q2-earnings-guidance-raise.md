@@ -4,6 +4,7 @@ title: "Encompass Health (EHC) Stock Jumps 13% on Q2 Beat - Rehab Hospital Opera
 description: "Encompass Health posted 9.6% revenue growth and an EPS beat, sending shares up over 13% in a day. Here's how bed-capacity expansion is powering this under-the-radar healthcare growth story."
 published: 2026-08-08
 keywords: ["Encompass Health stock", "why did EHC stock jump", "Encompass Health Q2 2026 earnings", "inpatient rehabilitation hospital stock", "Encompass Health guidance raise", "Mark Tarr CEO", "healthcare earnings 2026"]
+seo_audited: 2026-08-27
 ---
 
 ## What Happened

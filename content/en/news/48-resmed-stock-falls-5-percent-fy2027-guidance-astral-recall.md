@@ -4,6 +4,7 @@ title: "ResMed (RMD) Stock Falls 5% Despite Record $1.46B Quarter and EPS Beat -
 description: "ResMed posted record Q4 revenue and a 16% EPS jump, yet shares fell over 5% after its first-ever FY2027 outlook came in below trend. Here's why the guidance mattered more than the beat."
 published: 2026-08-08
 keywords: ["ResMed stock", "why did RMD stock fall", "ResMed Q4 FY2026 earnings", "Astral ventilator recall", "ResMed FY2027 guidance", "Wells Fargo ResMed price target", "sleep apnea device stock"]
+seo_audited: 2026-08-27
 ---
 
 ## What Happened

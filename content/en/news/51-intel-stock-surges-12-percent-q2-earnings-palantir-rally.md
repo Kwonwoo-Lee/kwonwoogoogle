@@ -4,6 +4,7 @@ title: "Intel (INTC) Stock Tops $101, Up 12.7% This Week - Fastest Revenue Growt
 description: "Intel stock climbed 12.7% in a week on 25% revenue growth and a Palantir-earnings-driven chip rally, already blowing past JPMorgan's freshly raised price target."
 published: 2026-08-08
 keywords: ["Intel stock", "INTC stock surge reason", "Intel Q2 2026 earnings", "Intel price target", "Palantir earnings semiconductor stocks", "Intel foundry 18A", "Lip-Bu Tan Intel CEO", "US government Intel stake"]
+seo_audited: 2026-08-27
 ---
 
 ## What Happened

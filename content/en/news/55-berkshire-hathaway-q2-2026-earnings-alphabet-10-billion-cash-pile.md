@@ -4,6 +4,7 @@ title: "Berkshire Hathaway Q2 Net Income Doubles to $25.7B - Greg Abel Turns Net
 description: "Berkshire Hathaway posted $25.67 billion in Q2 net income, roughly double Q1's total. Cash fell to $365.5 billion as Greg Abel became a net stock buyer for the first time in 15 quarters, anchored by a $10 billion Alphabet bet."
 published: 2026-08-09
 keywords: ["Berkshire Hathaway earnings Q2 2026", "Greg Abel Alphabet investment", "Berkshire cash pile $365 billion", "BRK.B earnings report", "Warren Buffett successor", "Berkshire stock buybacks", "Berkshire net buyer stocks", "Berkshire Alphabet $10 billion"]
+seo_audited: 2026-08-27
 ---
 
 ## What Happened

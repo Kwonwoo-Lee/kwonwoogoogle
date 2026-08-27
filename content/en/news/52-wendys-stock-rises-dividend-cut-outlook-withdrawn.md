@@ -4,6 +4,7 @@ title: "Wendy's (WEN) Stock Rises 1.7% Despite Dividend Cut and Withdrawn Guidan
 description: "Wendy's beat Q2 estimates but halved its dividend and pulled 2026 guidance. Here's why the stock still rose despite a 7% drop in US same-store sales."
 published: 2026-08-08
 keywords: ["Wendy's stock", "WEN stock dividend cut", "Wendy's Q2 2026 earnings", "Wendy's same-store sales decline", "Bob Wright Wendy's CEO", "Wendy's guidance withdrawn", "Wendy's turnaround strategy", "fast food stocks 2026"]
+seo_audited: 2026-08-27
 ---
 
 ## What Happened

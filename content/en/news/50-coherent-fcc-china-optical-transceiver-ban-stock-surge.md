@@ -4,6 +4,7 @@ title: "Coherent (COHR) Stock Jumps Over 30% This Week as Reuters Reports FCC Dr
 description: "Reuters: FCC drafts ban on new Chinese optical transceiver imports. Coherent, Lumentum surged; Zhongji Innolight, with 27% share, sank."
 published: 2026-08-08
 keywords: ["Coherent stock", "COHR stock surge reason", "FCC Chinese optical transceiver ban", "Zhongji Innolight stock", "Lumentum stock rally", "AI data center optical transceivers", "US China tech trade restrictions", "Applied Optoelectronics stock"]
+seo_audited: 2026-08-27
 ---
 
 ## What Happened

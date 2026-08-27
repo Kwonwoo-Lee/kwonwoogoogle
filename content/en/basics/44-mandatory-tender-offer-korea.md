@@ -40,9 +40,9 @@ Take a hypothetical Company X with 10 million shares outstanding, currently trad
 | Market price | ₩10,000 |
 | Deal price (Shareholder A → Acquirer B) | ₩16,000 |
 | Controlling block B acquires | 3,000,000 shares (30%) |
-| Mandatory tender target (50%+1 minus 30%) | ~2,010,000 shares (~20.1pp) |
+| Mandatory tender target (50%+1 minus 30%) | ~2,000,000 shares (~20.0pp) |
 
-The moment B buys the 30% block from A, B crosses the 25% threshold and becomes the largest shareholder — triggering the obligation to keep buying, via tender offer, up to 50% plus one share, or roughly 5,010,000 shares in total. Having already secured 3,000,000, B must now offer to buy roughly 2,010,000 more shares from ordinary shareholders at the same ₩16,000. If most of them tender, B needs to fund not just the ₩480 billion for the controlling block (3,000,000 × ₩16,000) but potentially another ~₩322 billion (2,010,000 × ₩16,000) on top of it — a substantial jump in the total capital the deal requires. For an ordinary shareholder, the flip side is real: a stake that could previously only be sold at ₩10,000 on the open market now has a shot at ₩16,000 instead.
+The moment B buys the 30% block from A, B crosses the 25% threshold and becomes the largest shareholder — triggering the obligation to keep buying, via tender offer, up to 50% plus one share, or roughly 5,000,000 shares in total. Having already secured 3,000,000, B must now offer to buy roughly 2,000,000 more shares from ordinary shareholders at the same ₩16,000. If most of them tender, B needs to fund not just the ₩480 billion for the controlling block (3,000,000 × ₩16,000) but potentially another ~₩320 billion (2,000,000 × ₩16,000) on top of it — a substantial jump in the total capital the deal requires. For an ordinary shareholder, the flip side is real: a stake that could previously only be sold at ₩10,000 on the open market now has a shot at ₩16,000 instead.
 
 ## A 27-Year Gap — Introduced in 1997, Scrapped in 1998, and Now Coming Back
 

@@ -4,6 +4,7 @@ title: "Bitcoin ETFs Post Best Week Since April With $1 Billion Inflows - Why Bl
 description: "US spot bitcoin ETFs pulled in roughly $1 billion over the past week, their strongest showing since April. Here's why BlackRock's IBIT captured most of it and what a cold-storage hack has to do with it."
 published: 2026-08-09
 keywords: ["bitcoin ETF inflows", "BlackRock IBIT inflows", "bitcoin spot ETF August 2026", "ethereum ETF inflows", "Coldcard hack bitcoin", "bitcoin price $65000", "Fidelity FBTC", "institutional bitcoin demand"]
+seo_audited: 2026-08-27
 ---
 
 ## What Happened

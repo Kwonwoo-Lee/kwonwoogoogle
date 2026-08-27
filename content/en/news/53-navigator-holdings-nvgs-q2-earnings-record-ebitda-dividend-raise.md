@@ -4,6 +4,7 @@ title: "Navigator Holdings (NVGS) Posts Record Q2 With Net Income Up 147%, Raise
 description: "Gas shipping company Navigator Holdings reported record Q2 net income of $53 million (+147% YoY) and record EBITDA, raised its dividend and announced a buyback - yet shares fell 2.15%. Here's the peak-cycle worry behind the drop."
 published: 2026-08-08
 keywords: ["Navigator Holdings stock", "why did NVGS stock fall", "Navigator Holdings Q2 2026 earnings", "gas shipping stocks", "ethylene export terminal", "Navigator Holdings dividend raise", "LPG carrier stocks 2026", "Morgan's Point terminal"]
+seo_audited: 2026-08-27
 ---
 
 ## What Happened

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 340" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="620" height="340" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="13.5" fill="#20201a" text-anchor="middle" font-weight="700">Form 4 거래 코드 필터링과 클러스터 매수 구조</text>
+
+<text x="26" y="48" font-size="12" fill="#5a5950" font-weight="700">① 거래 코드로 신호 걸러내기</text>
+
+<rect x="26" y="58" width="255" height="40" rx="7" fill="#1f9d55" opacity="0.14" stroke="#1f9d55" stroke-width="1.4"/>
+<text x="40" y="74" font-size="9.5" fill="#177a42" font-weight="700">코드 P · 공개시장 매수</text>
+<text x="40" y="89" font-size="8.3" fill="#177a42">자기 자금 · 강한 신호</text>
+
+<rect x="26" y="104" width="255" height="34" rx="7" fill="#5a5950" opacity="0.10" stroke="#5a5950" stroke-width="1.2"/>
+<text x="40" y="119" font-size="9" fill="#3a3a33" font-weight="700">코드 A · 보상성 부여</text>
+<text x="40" y="132" font-size="8" fill="#3a3a33">스톡옵션·RSU · 약한 신호</text>
+
+<rect x="26" y="144" width="255" height="34" rx="7" fill="#5a5950" opacity="0.10" stroke="#5a5950" stroke-width="1.2"/>
+<text x="40" y="159" font-size="9" fill="#3a3a33" font-weight="700">코드 M · 옵션 행사</text>
+<text x="40" y="172" font-size="8" fill="#3a3a33">일상적 이벤트 · 약한 신호</text>
+
+<rect x="26" y="184" width="255" height="34" rx="7" fill="#d0453b" opacity="0.10" stroke="#d0453b" stroke-width="1.2"/>
+<text x="40" y="199" font-size="9" fill="#d0453b" font-weight="700">코드 S · 공개시장 매도</text>
+<text x="40" y="212" font-size="8" fill="#d0453b">사유 다양 · 노이즈에 가까움</text>
+
+<text x="26" y="240" font-size="8.6" fill="#767568">실전에서는 코드 P만 집계해 스크리닝하는 것이 원칙</text>
+
+<line x1="305" y1="30" x2="305" y2="315" stroke="#e1e0d9" stroke-width="1"/>
+
+<text x="462" y="48" font-size="12" fill="#5a5950" text-anchor="middle" font-weight="700">② 클러스터 매수 타임라인(15일 이내)</text>
+
+<line x1="335" y1="270" x2="600" y2="270" stroke="#c7c6bb" stroke-width="1.4"/>
+<path d="M 596,266 L 600,270 L 596,274" fill="none" stroke="#c7c6bb" stroke-width="1.4"/>
+<text x="335" y="286" font-size="8" fill="#767568">Day 0</text>
+<text x="596" y="286" font-size="8" fill="#767568" text-anchor="end">Day 15</text>
+
+<line x1="380" y1="255" x2="380" y2="270" stroke="#177a42" stroke-width="2"/>
+<circle cx="380" cy="255" r="5" fill="#1f9d55"/>
+<text x="380" y="238" font-size="8.3" fill="#177a42" text-anchor="middle" font-weight="700">CFO 매수</text>
+<text x="380" y="226" font-size="7.6" fill="#767568" text-anchor="middle">Day 3 · 코드 P</text>
+
+<line x1="450" y1="255" x2="450" y2="270" stroke="#177a42" stroke-width="2"/>
+<circle cx="450" cy="255" r="5" fill="#1f9d55"/>
+<text x="450" y="238" font-size="8.3" fill="#177a42" text-anchor="middle" font-weight="700">사외이사 매수</text>
+<text x="450" y="226" font-size="7.6" fill="#767568" text-anchor="middle">Day 5 · 코드 P</text>
+
+<line x1="530" y1="255" x2="530" y2="270" stroke="#177a42" stroke-width="2"/>
+<circle cx="530" cy="255" r="5" fill="#1f9d55"/>
+<text x="530" y="238" font-size="8.3" fill="#177a42" text-anchor="middle" font-weight="700">COO 매수</text>
+<text x="530" y="226" font-size="7.6" fill="#767568" text-anchor="middle">Day 8 · 코드 P</text>
+
+<rect x="365" y="200" width="180" height="16" rx="8" fill="#c98a1f" opacity="0.14" stroke="#c98a1f" stroke-width="1"/>
+<text x="455" y="212" font-size="8" fill="#a06a10" text-anchor="middle" font-weight="700">서로 독립적인 매수 = 클러스터</text>
+
+<rect x="365" y="296" width="220" height="34" rx="7" fill="#5a5950" opacity="0.08" stroke="#5a5950" stroke-width="1"/>
+<text x="475" y="309" font-size="8" fill="#5a5950" text-anchor="middle" font-weight="700">3인 이상 · 15일 이내 매수</text>
+<text x="475" y="321" font-size="7.6" fill="#767568" text-anchor="middle">단일 매수보다 신뢰도 높은 관행적 기준</text>
+</svg>

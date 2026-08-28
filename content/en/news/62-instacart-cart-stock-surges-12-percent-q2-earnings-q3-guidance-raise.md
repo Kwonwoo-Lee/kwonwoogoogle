@@ -4,6 +4,7 @@ title: "Instacart (CART) Stock Jumps 12% - Q2 Revenue Up 14%, Free Cash Flow Sur
 description: "Instacart parent Maplebear posted Q2 revenue of $1.043 billion (+14%) and free cash flow up 156%, sending shares up more than 12%. Q3 guidance also beat Wall Street estimates, triggering a wave of price-target hikes."
 published: 2026-08-09
 keywords: ["Instacart stock", "why is CART stock up", "Maplebear Q2 2026 earnings", "Instacart Q3 guidance", "online grocery delivery stock", "CART price target raised", "Instacart free cash flow", "Maplebear earnings report"]
+seo_audited: 2026-08-28
 ---
 
 ## What Happened

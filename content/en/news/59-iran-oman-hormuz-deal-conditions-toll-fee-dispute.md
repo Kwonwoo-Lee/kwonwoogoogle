@@ -4,6 +4,7 @@ title: "Iran Says Hormuz Deal With Oman Is Close, But Full Reopening Still Hinge
 description: "Iran's FM Araghchi says a Hormuz transit deal with Oman is near, but full reopening needs the US to address a June MOU violation, while a 60-day toll-free window and Trump's toll idea add fresh uncertainty."
 published: 2026-08-09
 keywords: ["Strait of Hormuz Oman deal", "Araghchi Hormuz conditions", "Hormuz transit route agreement", "Iran US Article Five violation", "Hormuz toll fee Trump", "Strait of Hormuz reopening conditions", "oil market Hormuz news August 2026", "IMO Hormuz toll warning"]
+seo_audited: 2026-08-28
 ---
 
 ## What Happened

@@ -4,6 +4,7 @@ title: "UWM Holdings (UWMC) Stock Crashes 35% - $451.9 Million Q2 Loss Forces Di
 description: "UWM Holdings posted a $451.9 million Q2 loss, suspended its dividend for the first time ever, and raised $2.05 billion from Oaktree and the Ishbia family. The stock fell as much as 35-40% in a day."
 published: 2026-08-09
 keywords: ["UWM Holdings stock", "why is UWMC stock falling", "UWM dividend suspended", "Oaktree Capital UWM investment", "Mat Ishbia UWM Holdings", "UWM Q2 net loss 2026", "mortgage lender stock crash", "UWM $2.05 billion capital raise"]
+seo_audited: 2026-08-28
 ---
 
 ## What Happened

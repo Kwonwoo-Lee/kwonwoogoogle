@@ -4,6 +4,7 @@ title: "Oil Rebounds to $83.55 Brent as Hormuz Ship Traffic Plunges 33% in a Day
 description: "Brent hit $83.55 as Hormuz ship traffic fell 33% in a day, yet oil stayed down about 4% for the week with Bessent's deal still unsigned."
 published: 2026-08-09
 keywords: ["oil prices today August 2026", "Strait of Hormuz ship traffic drop", "Brent crude price $83", "WTI oil price rebound", "Bessent Iran Hormuz deal", "Strait of Hormuz agreement delay", "oil weekly decline percent", "geopolitical oil risk 2026"]
+seo_audited: 2026-08-28
 ---
 
 ## What Happened

@@ -4,6 +4,7 @@ title: "Boeing (BA) Stock Jumps 8% as FAA Finally Certifies 737 MAX 7 - Best Wee
 description: "Boeing's 737 MAX 7 won FAA certification seven years late, sending shares up roughly 8% in a day. Here's the engine anti-ice saga behind the delay and what comes next with the MAX 10."
 published: 2026-08-09
 keywords: ["Boeing stock", "BA stock surge reason", "737 MAX 7 FAA certification", "Boeing 737 MAX 10", "Boeing Southwest Airlines", "Boeing price target 2026", "737 MAX engine anti-ice defect", "Boeing stock forecast"]
+seo_audited: 2026-08-28
 ---
 
 ## What Happened

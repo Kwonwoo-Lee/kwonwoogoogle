@@ -4,6 +4,7 @@ title: "Foreign Investors Sell a Record $5.1 Billion of Kospi Stocks in One Week
 description: "Foreign investors sold a record $5.1 billion of Kospi stocks in one week, topping the 2021 high amid AI valuation fears and a weak won."
 published: 2026-08-09
 keywords: ["Kospi foreign selling record", "Kospi weekly outflow August 2026", "why foreign investors selling Korean stocks", "Samsung SK Hynix foreign outflow", "Korean won weakness stock market", "AI bubble semiconductor selloff", "Kospi outlook August 2026", "Sell Korea"]
+seo_audited: 2026-08-28
 ---
 
 ## What Happened

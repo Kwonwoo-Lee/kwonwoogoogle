@@ -4,6 +4,7 @@ title: "Bitcoin Stalls Below $65,000 Despite Record $853M Weekly ETF Inflows - H
 description: "Bitcoin keeps testing $65,000 without breaking through, even as US spot ETFs pull in their biggest weekly inflow since April. An unconfirmed bullish reversal pattern and a contested BIP-110 soft fork help explain the standoff."
 published: 2026-08-09
 keywords: ["Bitcoin price prediction", "Bitcoin $65000 resistance", "Bitcoin ETF inflows this week", "BIP-110 fork explained", "Bitcoin head and shoulders pattern", "BlackRock IBIT inflows", "Bitcoin support level $60000", "Bitcoin price August 2026"]
+seo_audited: 2026-08-28
 ---
 
 ## What Happened

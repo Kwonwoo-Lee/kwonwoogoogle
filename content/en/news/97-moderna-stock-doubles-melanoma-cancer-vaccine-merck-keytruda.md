@@ -1,14 +1,14 @@
 ---
 slug: moderna-stock-doubles-melanoma-cancer-vaccine-merck-keytruda
-title: "Moderna Stock More Than Doubles to $154 as mRNA Melanoma Vaccine Beats Keytruda Alone in Phase 3 - Merck Jumps 6.5% Too"
-description: "Moderna shares surged as much as 145% after its personalized mRNA cancer vaccine with Merck's Keytruda hit its main goal in a Phase 3 melanoma trial - the first successful late-stage study for any mRNA cancer therapy."
+title: "Moderna Stock Nearly Triples to $174 as mRNA Melanoma Vaccine Beats Keytruda Alone in Phase 3 - Merck Jumps 6.5% Too"
+description: "Moderna shares surged as much as 177% after its personalized mRNA cancer vaccine with Merck's Keytruda hit its main goal in a Phase 3 melanoma trial - the first successful late-stage study for any mRNA cancer therapy."
 published: 2026-08-19
 keywords: ["Moderna stock surge", "MRNA stock doubles", "Moderna Merck cancer vaccine", "intismeran Keytruda trial", "mRNA cancer vaccine Phase 3", "Moderna stock today", "Merck stock jump", "personalized cancer vaccine biotech"]
 ---
 
 ## What Happened
 
-Moderna (NASDAQ: MRNA) shares more than doubled in Wednesday trading, jumping as much as 145% intraday - from roughly $63 to an intraday high near $163 - before settling around $154, still up over 140% on the day. It was, by a wide margin, the best single trading day in the company's history as a public company. The catalyst was a joint announcement with Merck (NYSE: MRK): their personalized mRNA cancer vaccine, known in trials as intismeran (formerly mRNA-4157/V940), met the main goal of a Phase 3 study in high-risk melanoma patients when combined with Merck's blockbuster immunotherapy Keytruda. Merck's own stock, while a much smaller company-wide move given its size, still rose roughly 6.5% on the news - a significant single-day pop for a pharmaceutical giant of Merck's scale.
+Moderna (NASDAQ: MRNA) shares nearly tripled in Wednesday trading, surging over 100% intraday before closing up 176.97% at $174.38 - up from a prior close of roughly $62.96. It was, by a wide margin, the best single trading day in the company's history as a public company. The catalyst was a joint announcement with Merck (NYSE: MRK): their personalized mRNA cancer vaccine, known in trials as intismeran (formerly mRNA-4157/V940), met the main goal of a Phase 3 study in high-risk melanoma patients when combined with Merck's blockbuster immunotherapy Keytruda. Merck's own stock, while a much smaller company-wide move given its size, still rose roughly 6.5% on the news - a significant single-day pop for a pharmaceutical giant of Merck's scale.
 
 The trial, run in patients who had surgically removed high-risk melanoma, compared the intismeran-plus-Keytruda combination against Keytruda alone, which has been the standard of care in this setting for years. The combination significantly extended the time patients lived without their melanoma returning or spreading - the study's primary endpoint - and separately reduced the risk of the cancer metastasizing to distant parts of the body, a secondary but clinically critical measure. Neither company has yet released the full numerical breakdown (the specific percentage risk reduction or median outcomes), but both said they plan to present detailed results at an upcoming medical conference and to discuss the data with regulators for a potential filing.
 

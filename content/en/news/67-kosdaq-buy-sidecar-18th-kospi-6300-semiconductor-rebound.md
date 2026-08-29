@@ -4,6 +4,7 @@ title: "Kosdaq Triggers Buy-Side Sidecar for 18th Time This Year as Kospi Reclai
 description: "South Korea's Kosdaq jumped over 4% and triggered a buy-side sidecar at 9:50am Monday, its 18th this year, as Kospi reclaimed 6,300 on fading fears that memory chips have peaked."
 published: 2026-08-10
 keywords: ["Kosdaq buy sidecar", "Kosdaq sidecar 18th time", "Kospi reclaims 6300", "Samsung Electronics SK Hynix stock", "semiconductor peak-out fears", "Kosdaq150 futures surge", "Philadelphia Semiconductor Index", "Korea stock market August 10"]
+seo_audited: 2026-08-29
 ---
 
 ## What Happened

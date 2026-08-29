@@ -4,6 +4,7 @@ title: "Riot Platforms (RIOT) Stock Jumps 19% - A $9.1 Billion AI Data Center De
 description: "Bitcoin miner Riot Platforms surged as much as 19% after unveiling a 20-year, $9.1 billion AI data center lease alongside Q2 earnings. Here's what the deal means for the crypto-mining sector."
 published: 2026-08-11
 keywords: ["Riot Platforms stock", "why is RIOT stock up", "Riot Platforms Anthropic deal", "bitcoin miner AI pivot", "RIOT 9.1 billion data center", "Riot Platforms Q2 2026 earnings", "AI data center lease deal", "bitcoin mining stock forecast 2026"]
+seo_audited: 2026-08-29
 ---
 
 ## What Happened

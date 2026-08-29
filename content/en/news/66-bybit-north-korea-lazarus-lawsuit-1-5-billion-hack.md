@@ -4,6 +4,7 @@ title: "Bybit Sues North Korea and Lazarus Group Over $1.5 Billion Hack, Wins Fe
 description: "Bybit filed a RICO lawsuit against North Korea and the Lazarus Group over crypto's largest-ever hack and has already secured a preliminary injunction freezing traceable stolen funds."
 published: 2026-08-10
 keywords: ["Bybit lawsuit North Korea", "Lazarus Group hack", "Bybit $1.5 billion hack", "crypto RICO lawsuit", "largest crypto hack ever", "North Korea crypto hacking", "Bybit asset freeze", "crypto exchange security"]
+seo_audited: 2026-08-29
 ---
 
 ## What Happened

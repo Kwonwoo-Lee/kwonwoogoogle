@@ -4,6 +4,7 @@ title: "Week Ahead: S&P 500 Hits Record 7,758 After Best Week Since April - Wedn
 description: "The S&P 500 closed at a record 7,758 after its strongest week since April. This week's CPI, PPI, and retail sales data will decide whether the Fed's 56% pause odds hold up."
 published: 2026-08-09
 keywords: ["stock market week ahead August 2026", "CPI report date August 12", "S&P 500 record high", "Fed September rate pause odds", "Cisco Applied Materials earnings", "10-year Treasury yield 4.64%", "July CPI forecast core inflation", "this week stock market calendar"]
+seo_audited: 2026-08-29
 ---
 
 ## What Happened

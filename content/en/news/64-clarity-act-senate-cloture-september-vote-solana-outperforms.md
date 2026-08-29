@@ -4,6 +4,7 @@ title: "Senate Locks In Sept. 15 Cloture Vote on Crypto's CLARITY Act - Solana R
 description: "Majority Leader Thune filed cloture on the CLARITY Act, setting up a Sept. 15 Senate vote. Polymarket odds bounced off record lows as Solana outperformed Bitcoin and Ether on the news."
 published: 2026-08-09
 keywords: ["CLARITY Act Senate vote", "CLARITY Act September 15", "Thune cloture crypto bill", "Solana price today", "Polymarket CLARITY Act odds", "crypto market structure bill", "Solana outperforms Bitcoin", "crypto regulation 2026"]
+seo_audited: 2026-08-29
 ---
 
 ## What Happened

@@ -4,6 +4,7 @@ title: "Korea Zinc Shares Jump 11% After US Commerce Secretary Names Its Tenness
 description: "Korea Zinc surged over 11% on August 10 after Commerce Secretary Lutnick cited its $7.4 billion Tennessee smelter as a model for US critical minerals supply."
 published: 2026-08-10
 keywords: ["Korea Zinc stock surge", "Korea Zinc Lutnick", "Korea Zinc Tennessee smelter", "critical minerals supply chain stock", "Korea Zinc Project Crucible", "US critical minerals policy stocks", "Korea Zinc 010130", "Commerce Department critical minerals"]
+seo_audited: 2026-08-29
 ---
 
 ## What Happened

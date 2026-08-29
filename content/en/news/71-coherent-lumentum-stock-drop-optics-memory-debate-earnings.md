@@ -4,6 +4,7 @@ title: "Coherent Falls 12%, Lumentum Drops 7-9% as AI Optics Rally Stalls Ahead 
 description: "Coherent (COHR) fell 12% and Lumentum (LITE) dropped 7-9% with no clear catalyst, as a weekend social-media debate and stretched pre-earnings valuations triggered profit-taking."
 published: 2026-08-11
 keywords: ["Coherent stock drop", "COHR stock 12 percent", "Lumentum stock drop", "LITE stock why", "optics vs memory debate", "Coherent Lumentum earnings", "AI optical networking valuation", "optical transceiver stocks pullback"]
+seo_audited: 2026-08-29
 ---
 
 ## What Happened

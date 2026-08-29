@@ -4,6 +4,7 @@ title: "Datadog (DDOG) Stock Jumps 11% - Rebounding From a 19% Plunge Over an Op
 description: "Datadog's Q2 revenue grew 36%, yet the stock fell 19% on a largest-customer usage warning - then rebounded over 11% four days later as Morgan Stanley and Cantor Fitzgerald hiked price targets."
 published: 2026-08-11
 keywords: ["Datadog stock", "why is DDOG stock up", "Datadog Q2 2026 earnings", "Datadog OpenAI usage decline", "DDOG price target raised", "cloud monitoring stock 2026", "Datadog AI customers", "DDOG stock forecast"]
+seo_audited: 2026-08-29
 ---
 
 ## What Happened

@@ -42,7 +42,7 @@ keywords: ["9월 첫째주 증시 전망", "델 실적 발표일", "브로드컴
 ### 노동절 연휴는 이번 주 증시 일정에 영향을 주지 않나요?
 2026년 노동절은 9월 7일 월요일이라 이번 글에서 다룬 9월 1일~4일 거래 주간에는 영향을 주지 않습니다. 다만 다음 주인 9월 7일에는 증시가 휴장하므로, 8월 고용보고서 발표 이후 이어지는 시장 반응이 노동절 연휴를 낀 단축 거래로 다소 왜곡될 가능성은 염두에 둘 필요가 있습니다.
 
-관련 기사: [워시 잭슨홀 연설 결과 - 9월 금리 인상 확률 35%→58% 급등](/news/warsh-jackson-hole-speech-outcome-rate-hike-odds-58-percent/), [엔비디아 2분기 실적 컨센서스 상회 - 매출 108억 달러, AWS GPU 공급 계약](/news/nvidia-q2-earnings-beat-108-billion-guidance-aws-gpu-deal/)
+관련 기사: [워시 잭슨홀 연설 결과 - 9월 금리 인상 확률 35%→58% 급등](/news/warsh-jackson-hole-speech-outcome-rate-hike-odds-58-percent/), [엔비디아 2분기 실적 컨센서스 상회 - 3분기 가이던스 1080억 달러, AWS GPU 공급 계약](/news/nvidia-q2-earnings-beat-108-billion-guidance-aws-gpu-deal/)
 
 ## 참고 자료
 

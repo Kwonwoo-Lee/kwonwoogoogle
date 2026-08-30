@@ -4,6 +4,7 @@ title: "On Holding (ONON) Stock Crashes 20% in Its Worst Day Ever - Why Rival Ho
 description: "On Holding stock plunged over 20% on a Q2 revenue miss and guidance cut, its worst day on record. Here's why Deckers, HOKA's owner, barely flinched on similar headwinds."
 published: 2026-08-12
 keywords: ["On Holding stock crash", "ONON stock plunge", "On Holding Q2 earnings", "On vs Deckers Hoka", "On Holding guidance cut", "sneaker stocks tariffs 2026", "ONON worst day ever", "athletic footwear stock comparison"]
+seo_audited: 2026-08-30
 ---
 
 ## What Happened

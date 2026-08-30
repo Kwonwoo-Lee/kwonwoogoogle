@@ -4,6 +4,7 @@ title: "July CPI: Core Inflation Jumps to 3.1%, Highest Since February, as Headl
 description: "July CPI showed headline inflation steady at 2.7%, but core inflation jumped to 3.1% - the hottest since February. Here's why yields still eased and what it means for Fed Chair Warsh's September call."
 published: 2026-08-12
 keywords: ["July CPI report", "core inflation 3.1%", "September Fed rate hike odds", "Kevin Warsh Fed chair", "CPI August 12 2026", "core CPI vs headline CPI", "tariff inflation 2026", "Treasury yields CPI reaction"]
+seo_audited: 2026-08-30
 ---
 
 ## What Happened

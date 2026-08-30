@@ -4,6 +4,7 @@ title: "Plug Power (PLUG) Stock Jumps 10% - Q2 Revenue of $178.3M Beats Estimate
 description: "Plug Power's Q2 revenue of $178.3M topped estimates and gross margin improved from -30.7% to -0.9% year-over-year, sending shares up over 10%. Here's why the margin turnaround, not just the revenue beat, moved the stock."
 published: 2026-08-11
 keywords: ["Plug Power stock", "why is PLUG stock up", "Plug Power Q2 2026 earnings", "hydrogen fuel cell stocks 2026", "PLUG price target raised", "Plug Power EBITDA breakeven", "FuelCell Energy Bloom Energy stock", "PLUG stock forecast"]
+seo_audited: 2026-08-30
 ---
 
 ## What Happened

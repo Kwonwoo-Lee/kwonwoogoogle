@@ -4,6 +4,7 @@ title: "S&P 500 Hits Record 7,808, Tops 7,800 for the First Time as Flat July PP
 description: "The S&P 500 broke above 7,800 for the first time, hitting a 7,808 intraday record after flat July PPI data pushed September Fed hike odds down to 32% from 40%."
 published: 2026-08-13
 keywords: ["S&P 500 7800 record", "S&P 500 all-time high August 2026", "July PPI report", "September Fed hike odds", "JPMorgan S&P 500 target 7800", "producer price index August 13", "Kevin Warsh rate decision", "Treasury yields PPI reaction"]
+seo_audited: 2026-08-30
 ---
 
 ## What Happened

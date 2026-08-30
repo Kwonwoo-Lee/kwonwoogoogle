@@ -4,6 +4,7 @@ title: "Cava (CAVA) Jumps 12%, Chipotle (CMG) Jumps 13% — Same Size Rally, Two
 description: "Cava and Chipotle both jumped roughly 12-13% after earnings weeks apart. Here's why a 31% grower and a 9% grower got rewarded almost identically."
 published: 2026-08-13
 keywords: ["Cava stock jump", "CAVA earnings reaction", "Chipotle stock jump", "CMG earnings beat", "Cava vs Chipotle", "cyclospora restaurant stocks", "fast-casual stock comparison", "Cava Q2 2026 earnings"]
+seo_audited: 2026-08-30
 ---
 
 ## What Happened

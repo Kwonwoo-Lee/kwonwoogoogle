@@ -4,6 +4,7 @@ title: "Cisco (CSCO) Sinks 4.5% After Hours While Supermicro (SMCI) Jumps 17.6% 
 description: "Cisco fell 4.5% and Supermicro jumped 17.6% after beating estimates the same week. Here's why two AI earnings beats split so sharply."
 published: 2026-08-13
 keywords: ["Cisco stock drop", "CSCO earnings reaction", "Supermicro stock surge", "SMCI earnings beat", "Cisco vs Supermicro", "AI infrastructure earnings season", "sell the news stock", "Cisco fiscal 2027 guidance"]
+seo_audited: 2026-08-30
 ---
 
 ## What Happened

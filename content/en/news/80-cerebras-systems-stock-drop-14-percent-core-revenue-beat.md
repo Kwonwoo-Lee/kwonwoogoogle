@@ -4,6 +4,7 @@ title: "Cerebras (CBRS) Stock Sinks 14% on Earnings - So Why Did Wall Street Rai
 description: "Cerebras Systems shares fell 14% after Q2 earnings, yet Morgan Stanley, Wedbush and UBS all raised price targets. Here's why a revenue miss and a core-business boom happened at once."
 published: 2026-08-14
 keywords: ["Cerebras stock drop", "CBRS stock", "Cerebras Q2 earnings", "wafer-scale AI chip", "Cerebras price target", "AI chip stocks 2026", "Andrew Feldman Cerebras", "Cerebras IPO stock"]
+seo_audited: 2026-08-30
 ---
 
 ## What Happened

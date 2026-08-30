@@ -4,6 +4,7 @@ title: "CoreWeave (CRWV) Stock Jumps 18% as Q2 Revenue Soars 112% to $2.58B and 
 description: "CoreWeave shares jumped 18% after Q2 revenue surged 112% and its backlog hit $104 billion, a stark reversal from May's guidance-driven selloff. Here's why the market reacted so differently this time."
 published: 2026-08-12
 keywords: ["CoreWeave stock surge", "CRWV stock jump", "CoreWeave Q2 earnings", "CoreWeave backlog 104 billion", "AI infrastructure stocks 2026", "Meta Anthropic CoreWeave deal", "neocloud stocks", "CRWV price target"]
+seo_audited: 2026-08-30
 ---
 
 ## What Happened

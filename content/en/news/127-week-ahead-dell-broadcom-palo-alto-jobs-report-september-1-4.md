@@ -40,7 +40,7 @@ That's the more conventional reading, but it isn't guaranteed here. Warsh explic
 ### Does Labor Day affect trading this particular week?
 No - Labor Day 2026 falls on Monday, September 7, so it doesn't touch the September 1-4 trading days covered here. It's still worth keeping in mind that the market will be closed the following Monday, which could compress or distort how markets digest the jobs report and any earnings follow-through heading into a shortened week.
 
-Related reading: [Warsh's Jackson Hole Speech Outcome: September Rate-Hike Odds Jump From 35% to 58%](/en/news/warsh-jackson-hole-speech-outcome-rate-hike-odds-58-percent/), [Nvidia Beats Q2 Estimates With $10.8 Billion Revenue and New AWS GPU Supply Deal](/en/news/nvidia-q2-earnings-beat-108-billion-guidance-aws-gpu-deal/)
+Related reading: [Warsh's Jackson Hole Speech Outcome: September Rate-Hike Odds Jump From 35% to 58%](/en/news/warsh-jackson-hole-speech-outcome-rate-hike-odds-58-percent/), [Nvidia Beats Q2 Estimates, Guides to $108 Billion Q3 Revenue With New AWS GPU Supply Deal](/en/news/nvidia-q2-earnings-beat-108-billion-guidance-aws-gpu-deal/)
 
 ## Sources
 

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 380" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="620" height="380" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="14" fill="#20201a" text-anchor="middle" font-weight="700">오더블록 형성·되돌림 진입 vs 붕괴 후 브레이커블록</text>
+
+<line x1="310" y1="34" x2="310" y2="345" stroke="#e1e0d9" stroke-width="1"/>
+
+<text x="35" y="52" font-size="12" fill="#5a5950" font-weight="700">① 오더블록 형성 → 되돌림 진입</text>
+<line x1="35" y1="140" x2="300" y2="140" stroke="#767568" stroke-width="1.3" stroke-dasharray="5,4"/>
+<text x="40" y="132" font-size="10" fill="#767568">직전 고점 (구조)</text>
+
+<rect x="35" y="190" width="265" height="25" fill="#c98a1f" opacity="0.15" stroke="#c98a1f" stroke-width="1.5" stroke-dasharray="5,4"/>
+<text x="40" y="185" font-size="10.5" fill="#a06a10" font-weight="700">오더블록 구간</text>
+
+<line x1="75" y1="180" x2="75" y2="225" stroke="#d0453b" stroke-width="2.5"/>
+<rect x="60" y="190" width="30" height="25" fill="#fbe1df" stroke="#d0453b" stroke-width="2.5"/>
+
+<path d="M 40,198 L 60,203 L 90,213 L 120,150 L 150,100 L 180,80 L 210,130 L 235,200 L 260,155 L 285,115" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+
+<circle cx="90" cy="213" r="4.5" fill="#d0453b"/>
+<circle cx="235" cy="200" r="5.5" fill="#1f9d55"/>
+<line x1="235" y1="200" x2="235" y2="248" stroke="#1f9d55" stroke-width="1.2" stroke-dasharray="3,2"/>
+<text x="235" y="260" font-size="10" fill="#1f9d55" text-anchor="middle" font-weight="700">되돌림 후 반등 진입</text>
+
+<line x1="35" y1="300" x2="60" y2="300" stroke="#d0453b" stroke-width="3"/>
+<text x="67" y="304" font-size="10" fill="#20201a">오더블록(마지막 하락 캔들)</text>
+<line x1="35" y1="320" x2="60" y2="320" stroke="#c98a1f" stroke-width="8" opacity="0.3"/>
+<text x="67" y="324" font-size="10" fill="#20201a">오더블록 구간(캔들 범위)</text>
+
+<text x="335" y="52" font-size="12" fill="#5a5950" font-weight="700">② 오더블록 붕괴 → 브레이커블록</text>
+<line x1="335" y1="100" x2="600" y2="100" stroke="#767568" stroke-width="1.3" stroke-dasharray="5,4"/>
+<text x="340" y="93" font-size="10" fill="#767568">직전 고점 (구조)</text>
+
+<rect x="335" y="180" width="265" height="25" fill="#8a4fd1" opacity="0.14" stroke="#8a4fd1" stroke-width="1.5" stroke-dasharray="5,4"/>
+<text x="340" y="175" font-size="10" fill="#6a3aa8" font-weight="700">브레이커블록(붕괴된 오더블록)</text>
+
+<line x1="360" y1="170" x2="360" y2="215" stroke="#d0453b" stroke-width="2.5"/>
+<rect x="345" y="180" width="30" height="25" fill="#fbe1df" stroke="#d0453b" stroke-width="2.5"/>
+
+<path d="M 335,188 L 360,195 L 385,150 L 415,110 L 445,90 L 470,130 L 495,175 L 520,215 L 545,170 L 570,195 L 595,235" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+
+<circle cx="520" cy="215" r="5.5" fill="#d0453b"/>
+<line x1="520" y1="215" x2="520" y2="245" stroke="#d0453b" stroke-width="1.2" stroke-dasharray="3,2"/>
+<text x="520" y="257" font-size="9.5" fill="#d0453b" text-anchor="middle" font-weight="700">종가로 붕괴(유동성 스윕)</text>
+
+<circle cx="570" cy="195" r="5.5" fill="#8a4fd1"/>
+<line x1="570" y1="195" x2="570" y2="278" stroke="#8a4fd1" stroke-width="1.2" stroke-dasharray="3,2"/>
+<text x="570" y="290" font-size="9.5" fill="#6a3aa8" text-anchor="middle" font-weight="700">저항으로 재사용(브레이커)</text>
+
+<line x1="335" y1="320" x2="360" y2="320" stroke="#8a4fd1" stroke-width="8" opacity="0.3"/>
+<text x="367" y="324" font-size="10" fill="#20201a">같은 구간이 저항으로 뒤집힘</text>
+</svg>

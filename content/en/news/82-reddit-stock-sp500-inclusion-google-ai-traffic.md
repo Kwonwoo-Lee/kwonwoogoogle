@@ -4,6 +4,7 @@ title: "Reddit (RDDT) Stock Jumps 11% on S&P 500 Inclusion - Two Weeks After a 2
 description: "Reddit shares surged over 11% after S&P Dow Jones Indices confirmed it will join the S&P 500 on August 18. Just two weeks earlier, the same stock fell 21% on Google AI Overview traffic worries."
 published: 2026-08-14
 keywords: ["Reddit stock jump", "RDDT stock", "Reddit S&P 500 inclusion", "index inclusion effect", "Google AI Overviews traffic", "AvalonBay removed S&P 500", "passive fund buying stock", "Reddit Q2 earnings"]
+seo_audited: "2026-08-31"
 ---
 
 ## What Happened

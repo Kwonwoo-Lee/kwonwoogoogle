@@ -4,6 +4,7 @@ title: "SanDisk (SNDK) Stock Jumps 21% in Two Days as Investor Day Reveals an 80
 description: "SanDisk stock surged roughly 21% over two sessions after its Investor Day unveiled an 80% gross margin target through 2030. JPMorgan responded with a $2,250 price target."
 published: 2026-08-15
 keywords: ["SanDisk stock surge", "SNDK investor day", "SanDisk price target 2250", "JPMorgan SanDisk upgrade", "NAND flash shortage 2026", "SanDisk 80 percent gross margin", "AI memory chip stocks", "SanDisk stock forecast"]
+seo_audited: "2026-08-31"
 ---
 
 ## What Happened

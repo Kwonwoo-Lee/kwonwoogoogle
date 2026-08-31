@@ -4,6 +4,7 @@ title: "Coinbase Stock Falls 3.5%, Bitcoin Retests $62K - CLARITY Act Odds Colla
 description: "Coinbase shares dropped 3.5% and CLARITY Act passage odds sank to roughly 16-19% on Polymarket. Here's why Trump is bringing crypto CEOs to the White House on August 19."
 published: 2026-08-16
 keywords: ["Coinbase stock drop", "CLARITY Act odds Polymarket", "CLARITY Act passage 2026", "Trump White House crypto meeting", "CFTC Innovation Advisory Committee", "bitcoin price today", "COIN stock news", "crypto regulation bill 2026"]
+seo_audited: "2026-08-31"
 ---
 
 ## What Happened

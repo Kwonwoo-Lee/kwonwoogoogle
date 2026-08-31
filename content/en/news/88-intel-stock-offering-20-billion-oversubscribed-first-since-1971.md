@@ -4,6 +4,7 @@ title: "Intel (INTC) Raises $20 Billion in Its First Stock Sale Since 1971 - $10
 description: "Intel's first stock offering since 1971 drew $100B in orders for its $20B deal, and INTC closed 7.9% above the $95 offer price."
 published: 2026-08-16
 keywords: ["Intel stock offering", "INTC $20 billion offering", "Intel oversubscribed stock sale", "Intel $95 share price", "Intel foundry expansion funding", "Intel first stock offering since 1971", "INTC stock analysis 2026", "AI chip manufacturing capex"]
+seo_audited: "2026-08-31"
 ---
 
 ## What Happened

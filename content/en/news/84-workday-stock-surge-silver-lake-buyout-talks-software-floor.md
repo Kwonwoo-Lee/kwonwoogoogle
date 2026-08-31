@@ -4,6 +4,7 @@ title: "Workday (WDAY) Stock Jumps 18% in a Day on Silver Lake Buyout Talks, Tra
 description: "Workday shares posted their best single-day gain since 2016 after Reuters reported Silver Lake is in talks to take the company private. A day later, the stock fell 4.3%."
 published: 2026-08-15
 keywords: ["Workday stock jump", "WDAY Silver Lake", "Workday take private", "Workday buyout talks", "software LBO 2026", "Workday stock analysis", "private equity software acquisition", "SaaSpocalypse"]
+seo_audited: "2026-08-31"
 ---
 
 ## What Happened

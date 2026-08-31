@@ -4,6 +4,7 @@ title: "July Retail Sales Drop 0.6%, Michigan Sentiment Crashes to 51.0 - Septem
 description: "July retail sales unexpectedly fell 0.6% and Michigan consumer sentiment cratered to 51.0. Fed hike odds dropped, yet the S&P 500 fell too - here's the good-news-is-bad-news mechanism behind it."
 published: 2026-08-15
 keywords: ["July retail sales decline", "Michigan consumer sentiment 51", "September Fed rate hike odds", "retail sales miss 2026", "gold price Fed rate hike odds", "dollar index falls retail sales", "good news bad news stocks", "S&P 500 weekly gain streak"]
+seo_audited: "2026-08-31"
 ---
 
 ## What Happened

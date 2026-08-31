@@ -4,6 +4,7 @@ title: "Week Ahead: Home Depot, Target, Lowe's, Walmart Earnings Line Up With FO
 description: "S&P 500 closed at 7,785.76 for a third straight weekly gain. This week's retail earnings wave and July FOMC minutes could decide September rate-hike odds."
 published: 2026-08-16
 keywords: ["stock market week ahead August 2026", "Home Depot Target Walmart earnings dates", "FOMC minutes August 19", "Fed three dissents rate hike", "September 16 FOMC meeting odds", "Warsh Jackson Hole speech", "S&P 500 7785", "tariffs retail earnings 2026"]
+seo_audited: "2026-08-31"
 ---
 
 ## What Happened

@@ -4,6 +4,7 @@ title: "Coherent (COHR) Tops $2 Billion in Quarterly Revenue for the First Time,
 description: "Coherent posted a textbook beat-and-raise quarter, crossing $2B in revenue for the first time, yet COHR stock fell about 5%. Here's why Wall Street raised price targets anyway."
 published: 2026-08-14
 keywords: ["Coherent stock drop reason", "COHR Q4 earnings", "Coherent beat and raise", "COHR price target 500", "Coherent sell the news", "AI optics earnings 2026", "Coherent fiscal 2027 guidance", "Rosenblatt Coherent price target"]
+seo_audited: "2026-08-31"
 ---
 
 ## What Happened

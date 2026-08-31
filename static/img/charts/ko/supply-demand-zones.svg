@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 380" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="620" height="380" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="13.5" fill="#20201a" text-anchor="middle" font-weight="700">수요존 프레시존 첫 터치 반등 vs 반복 테스트 후 존 붕괴</text>
+
+<line x1="310" y1="34" x2="310" y2="345" stroke="#e1e0d9" stroke-width="1"/>
+
+<text x="35" y="52" font-size="12" fill="#5a5950" font-weight="700">① 프레시존: 첫 터치에서 강한 반등</text>
+
+<rect x="35" y="185" width="265" height="45" fill="#c98a1f" opacity="0.15" stroke="#c98a1f" stroke-width="1.5" stroke-dasharray="5,4"/>
+<line x1="35" y1="185" x2="300" y2="185" stroke="#a06a10" stroke-width="1.2"/>
+<line x1="35" y1="230" x2="300" y2="230" stroke="#a06a10" stroke-width="1.2" stroke-dasharray="2,2"/>
+<text x="40" y="180" font-size="10.5" fill="#a06a10" font-weight="700">수요존 (베이스: 캔들 3개)</text>
+<text x="245" y="197" font-size="8.5" fill="#a06a10">프록시멀</text>
+<text x="245" y="243" font-size="8.5" fill="#a06a10">디스탈</text>
+
+<rect x="90" y="193" width="12" height="16" fill="#eceae2" stroke="#767568" stroke-width="1.2"/>
+<rect x="118" y="195" width="12" height="17" fill="#eceae2" stroke="#767568" stroke-width="1.2"/>
+<rect x="146" y="192" width="12" height="16" fill="#eceae2" stroke="#767568" stroke-width="1.2"/>
+
+<path d="M 40,120 L 70,160 L 96,199 L 124,204 L 152,200 L 185,130 L 210,75 L 235,95 L 260,195 L 285,140" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+
+<circle cx="260" cy="195" r="5.5" fill="#1f9d55"/>
+<line x1="260" y1="195" x2="260" y2="252" stroke="#1f9d55" stroke-width="1.2" stroke-dasharray="3,2"/>
+<text x="260" y="264" font-size="9.5" fill="#1f9d55" text-anchor="middle" font-weight="700">첫 터치(프레시존) → 강한 반등</text>
+
+<line x1="35" y1="295" x2="60" y2="295" stroke="#c98a1f" stroke-width="8" opacity="0.3"/>
+<text x="67" y="299" font-size="10" fill="#20201a">수요존 범위(베이스 전체)</text>
+<rect x="35" y="308" width="12" height="14" fill="#eceae2" stroke="#767568" stroke-width="1.2"/>
+<text x="67" y="319" font-size="10" fill="#20201a">베이스를 이루는 개별 캔들(여러 개)</text>
+
+<text x="335" y="52" font-size="12" fill="#5a5950" font-weight="700">② 같은 존, 반복 테스트로 소모되어 붕괴</text>
+
+<rect x="335" y="185" width="265" height="45" fill="#c98a1f" opacity="0.12" stroke="#c98a1f" stroke-width="1.5" stroke-dasharray="5,4"/>
+<line x1="335" y1="185" x2="600" y2="185" stroke="#a06a10" stroke-width="1.2"/>
+<line x1="335" y1="230" x2="600" y2="230" stroke="#a06a10" stroke-width="1.2" stroke-dasharray="2,2"/>
+
+<rect x="390" y="193" width="12" height="16" fill="#eceae2" stroke="#767568" stroke-width="1.2"/>
+<rect x="418" y="195" width="12" height="17" fill="#eceae2" stroke="#767568" stroke-width="1.2"/>
+<rect x="446" y="192" width="12" height="16" fill="#eceae2" stroke="#767568" stroke-width="1.2"/>
+
+<path d="M 335,120 L 365,160 L 391,199 L 419,204 L 447,200 L 480,130 L 505,75 L 530,195 L 552,118 L 570,90 L 585,195 L 600,255" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+
+<circle cx="530" cy="195" r="5" fill="#1f9d55"/>
+<line x1="530" y1="195" x2="530" y2="248" stroke="#1f9d55" stroke-width="1.1" stroke-dasharray="3,2"/>
+<text x="530" y="259" font-size="9" fill="#1f9d55" text-anchor="middle" font-weight="700">1차 터치: 반등 성공</text>
+
+<circle cx="585" cy="195" r="5.5" fill="#d0453b"/>
+<line x1="585" y1="195" x2="585" y2="278" stroke="#d0453b" stroke-width="1.2" stroke-dasharray="3,2"/>
+<text x="585" y="290" font-size="9" fill="#d0453b" text-anchor="middle" font-weight="700">2차 터치: 존 붕괴(소모)</text>
+
+<line x1="335" y1="308" x2="360" y2="308" stroke="#1f9d55" stroke-width="3"/>
+<text x="367" y="312" font-size="10" fill="#20201a">첫 방문은 반응 강함(프레시존)</text>
+<line x1="335" y1="325" x2="360" y2="325" stroke="#d0453b" stroke-width="3"/>
+<text x="367" y="329" font-size="10" fill="#20201a">재방문할수록 반응 약화·붕괴</text>
+</svg>

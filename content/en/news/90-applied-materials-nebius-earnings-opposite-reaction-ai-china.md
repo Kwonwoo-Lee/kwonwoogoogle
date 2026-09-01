@@ -4,6 +4,7 @@ title: "Applied Materials (AMAT) Posts a Record Quarter and Falls 5% - Nebius (N
 description: "Applied Materials hit record revenue and still fell 5%. Nebius grew revenue 454% and jumped 28%. Here's why two AI-linked earnings beats went in opposite directions."
 published: 2026-08-17
 keywords: ["Applied Materials stock drop", "AMAT earnings", "Nebius stock surge", "NBIS earnings", "AMAT vs NBIS", "AI chip equipment stocks", "AI neocloud stocks", "semiconductor equipment China revenue"]
+seo_audited: 2026-09-01
 ---
 
 ## What Happened

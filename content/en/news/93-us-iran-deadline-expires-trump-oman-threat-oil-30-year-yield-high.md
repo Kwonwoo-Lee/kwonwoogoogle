@@ -4,6 +4,7 @@ title: "US-Iran 60-Day Deadline Expires, Trump Threatens to 'Bomb' Oman as Oil T
 description: "The June US-Iran memorandum's 60-day deadline expired Monday without a deal. Trump's threat against Oman, Brent crossing $91, and the 30-year Treasury yield's highest level since 2007 hit Wall Street futures together."
 published: 2026-08-18
 keywords: ["US Iran deadline expires", "Trump Oman bomb threat", "Brent crude $91", "30-year Treasury yield 19-year high", "Strait of Hormuz blockade 2026", "Kevin Warsh Fed yields", "Nasdaq futures drop today", "Iran fully offensive posture"]
+seo_audited: 2026-09-01
 ---
 
 ## What Happened

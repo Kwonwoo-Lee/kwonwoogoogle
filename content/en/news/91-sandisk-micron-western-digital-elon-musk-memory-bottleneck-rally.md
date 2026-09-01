@@ -4,6 +4,7 @@ title: "SanDisk Jumps 8%, Western Digital 6%, Micron 5% After Elon Musk Calls Me
 description: "Elon Musk's three-word reply calling memory AI's real constraint sent SanDisk, Western Digital, and Micron surging Monday, as Bank of America lifted its Micron target to $1,550."
 published: 2026-08-17
 keywords: ["Micron stock", "SanDisk stock surge", "Western Digital stock", "Elon Musk memory bottleneck", "AI memory shortage", "Micron stock $1000", "Bank of America Micron price target", "memory chip supercycle stocks"]
+seo_audited: 2026-09-01
 ---
 
 ## What Happened

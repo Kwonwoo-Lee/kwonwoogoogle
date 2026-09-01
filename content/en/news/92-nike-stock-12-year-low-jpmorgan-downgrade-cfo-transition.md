@@ -4,6 +4,7 @@ title: "Nike (NKE) Stock Falls to $39.09, Its Lowest Close Since 2014, the Same 
 description: "Nike closed at $39.09 on August 17, a 12-year low, as JPMorgan's $40 downgrade, On Holding's earnings crash, and China weakness converge with a CFO transition."
 published: 2026-08-18
 keywords: ["Nike stock 12 year low", "NKE stock price today", "Nike stock $39", "JPMorgan Nike downgrade Underweight", "Nike China revenue decline", "David Denton Nike CFO", "Nike stock 2026 forecast", "On Holding Nike stock reaction"]
+seo_audited: 2026-09-01
 ---
 
 ## What Happened

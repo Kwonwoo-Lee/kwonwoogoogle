@@ -4,6 +4,7 @@ title: "Oil Jumps Above $88 as Israel-Lebanon Ceasefire Collapses, Exxon Profit 
 description: "Weekend Israeli strikes in Lebanon and Bessent's warning of 'unprecedented' Iran isolation pushed Brent above $88. Exxon and Chevron profits surged on the war premium, but S&P 500 futures were nearly flat Monday morning."
 published: 2026-08-17
 keywords: ["oil price surge today", "Israel Lebanon strikes", "Brent crude $88", "Exxon Mobil profit surge", "Chevron earnings 2026", "Bessent Iran economic isolation", "Strait of Hormuz blockade", "energy stocks outlook 2026"]
+seo_audited: 2026-09-01
 ---
 
 ## What Happened

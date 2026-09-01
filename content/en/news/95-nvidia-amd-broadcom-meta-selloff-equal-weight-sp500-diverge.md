@@ -4,6 +4,7 @@ title: "Nvidia -2%, AMD -5%, Broadcom -3%, Meta -3% - Yet the Equal-Weight S&P 5
 description: "As the 30-year Treasury yield hit a 19-year high on August 18, Nvidia, AMD, Broadcom and Meta all sank - but the equal-weight S&P 500 actually gained. Here's why AMD fell more than Nvidia on the same news."
 published: 2026-08-19
 keywords: ["Nvidia stock drop reason", "AMD stock falls today", "Broadcom Meta stock decline", "equal-weight S&P 500", "RSP ETF vs SPY", "30-year Treasury yield 19-year high", "Dan Loeb Third Point Nvidia", "SOX semiconductor index drop"]
+seo_audited: 2026-09-01
 ---
 
 ## What Happened

@@ -4,6 +4,7 @@ title: "Micron Falls 5%, SanDisk 6%, Western Digital 7% - Memory Stocks Erase Mo
 description: "Memory stocks that jumped on Elon Musk's comments gave it all back a day later. A 19-year-high 30-year Treasury yield and a new Netlist patent case against Micron both hit the same day."
 published: 2026-08-18
 keywords: ["Micron stock drop today", "SanDisk stock falls", "Western Digital stock decline", "Netlist Micron patent lawsuit", "memory chip stocks August 2026", "30-year Treasury yield 19-year high", "Micron ITC patent case", "memory stock volatility"]
+seo_audited: 2026-09-01
 ---
 
 ## What Happened

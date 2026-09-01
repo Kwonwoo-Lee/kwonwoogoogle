@@ -4,6 +4,7 @@ title: "Fed's July Minutes Reveal Rarest Hawkish Split Since 2016 - But Septembe
 description: "The Fed's July FOMC minutes revealed a 3-way hawkish dissent last seen in 2016, but weak jobs and retail data since have cut September hike odds to 32%."
 published: 2026-08-19
 keywords: ["Fed minutes September 2026", "FOMC three dissents rate hike", "Beth Hammack Neel Kashkari Lorie Logan", "September rate hike odds 2026", "30-year Treasury yield Fed minutes", "Fed AI investment inflation risk", "CME FedWatch September 2026", "Fed minutes stock market reaction"]
+seo_audited: 2026-09-01
 ---
 
 ## What Happened

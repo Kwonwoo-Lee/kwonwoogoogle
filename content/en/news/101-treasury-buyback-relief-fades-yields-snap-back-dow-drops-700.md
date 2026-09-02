@@ -4,6 +4,7 @@ title: "Treasury's Bond Rescue Lasts Just One Day - 30-Year Yield Snaps Back to 
 description: "Treasury's bond buyback relief lasted barely a day - the 30-year yield snapped back near a 19-year high and the Dow fell over 700 points as oil surged and Walmart tumbled."
 published: 2026-08-21
 keywords: ["30-year Treasury yield 19-year high", "why Dow dropped 700 points", "Treasury buyback fails to hold yields", "Treasury yields rise again reason", "Walmart stock drop Dow Jones", "Iran oil prices inflation", "Bessent buyback circuit breaker", "term premium bond yields"]
+seo_audited: 2026-09-02
 ---
 
 ## What Happened

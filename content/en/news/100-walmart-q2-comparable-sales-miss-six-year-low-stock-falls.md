@@ -4,6 +4,7 @@ title: "Walmart (WMT) Beat on EPS and Revenue, Raised Guidance - and Still Fell 
 description: "Walmart beat Q2 EPS at $0.81, topped revenue estimates and raised full-year guidance, yet the stock dropped 6-8% because U.S. comparable sales grew just 2.6% - its slowest in six years. Here's why the beat turned into a selloff."
 published: 2026-08-20
 keywords: ["Walmart stock drop", "WMT Q2 FY27 earnings", "Walmart comparable sales miss", "Walmart earnings August 2026", "Walmart US comp sales six-year low", "Walmart raised guidance", "US consumer spending Walmart", "Walmart tariff refund"]
+seo_audited: 2026-09-02
 ---
 
 ## What Happened

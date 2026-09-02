@@ -4,6 +4,7 @@ title: "Target (TGT) Jumps Over 4% on Earnings While Lowe's (LOW) Falls 5.6% - S
 description: "Target's comparable sales grew 3.8% and it raised guidance, sending shares up over 4%. Lowe's beat on EPS but cut its outlook and fell 5.6%. Here's why."
 published: 2026-08-20
 keywords: ["Target stock earnings", "TGT Q2 2026 earnings", "Lowe's stock drop", "LOW earnings guidance cut", "Target vs Lowe's stock", "home improvement retail stocks", "Target turnaround CEO Fiddelke", "housing market mortgage rates retail earnings"]
+seo_audited: 2026-09-02
 ---
 
 ## What Happened

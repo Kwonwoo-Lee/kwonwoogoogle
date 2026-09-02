@@ -4,6 +4,7 @@ title: "Treasury Doubles Long-Bond Buybacks - 30-Year Yield Drops From 19-Year H
 description: "Treasury doubled its long-bond buyback size, sending the 30-year yield down 9bp from a 19-year high and helping the S&P 500 snap a 3-day losing streak."
 published: 2026-08-20
 keywords: ["Treasury bond buyback", "Bessent buyback expansion", "why 30-year yield fell", "S&P 500 snaps losing streak", "Treasury doubles buyback size", "30-year Treasury yield 5.196", "Treasury yield 19-year high", "Treasury liquidity support buyback"]
+seo_audited: 2026-09-02
 ---
 
 ## What Happened

@@ -4,6 +4,7 @@ title: "Bitcoin Rockets 24% to $77,000 in Four Days - Strategy's (MSTR) BTC Stac
 description: "Bitcoin surged from $62,800 to $77,000 in under a week. Strategy's bitcoin holdings flipped to a $2.19B unrealized gain as BTC crossed its average cost basis - here's why Coinbase moved far less."
 published: 2026-08-21
 keywords: ["bitcoin price today", "why is bitcoin rising", "MSTR stock news", "Coinbase stock today", "bitcoin short squeeze", "Strategy bitcoin average cost", "bitcoin ETF inflows", "crypto rally August 2026"]
+seo_audited: 2026-09-02
 ---
 
 ## What Happened

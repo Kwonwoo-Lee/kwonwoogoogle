@@ -4,6 +4,7 @@ title: "Moderna Stock Nearly Triples to $174 as mRNA Melanoma Vaccine Beats Keyt
 description: "Moderna shares surged as much as 177% after its personalized mRNA cancer vaccine with Merck's Keytruda hit its main goal in a Phase 3 melanoma trial - the first successful late-stage study for any mRNA cancer therapy."
 published: 2026-08-19
 keywords: ["Moderna stock surge", "MRNA stock doubles", "Moderna Merck cancer vaccine", "intismeran Keytruda trial", "mRNA cancer vaccine Phase 3", "Moderna stock today", "Merck stock jump", "personalized cancer vaccine biotech"]
+seo_audited: 2026-09-02
 ---
 
 ## What Happened

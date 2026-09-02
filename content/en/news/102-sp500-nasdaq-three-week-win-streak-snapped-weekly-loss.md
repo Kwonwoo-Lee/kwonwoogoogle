@@ -4,6 +4,7 @@ title: "S&P 500, Nasdaq Snap Three-Week Win Streak - Down 1.9% and 2.5% as 30-Ye
 description: "The S&P 500 ended a three-week winning streak with a 1.9% weekly loss, the Nasdaq fell 2.5%, and the Dow logged back-to-back weekly declines as the 30-year Treasury yield spiked."
 published: 2026-08-21
 keywords: ["S&P 500 weekly loss", "Nasdaq three-week win streak ends", "Dow back-to-back weekly decline", "30-year Treasury yield August 2026", "stock market weekly recap", "Friday stock futures rebound", "bond yields stock market impact", "Jackson Hole symposium September FOMC"]
+seo_audited: 2026-09-02
 ---
 
 ## What Happened

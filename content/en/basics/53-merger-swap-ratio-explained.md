@@ -5,6 +5,7 @@ description: "How Korean law forces listed-company mergers to price the swap rat
 order: 53
 updated: 2026-08-31
 keywords: ["merger swap ratio explained", "how is merger ratio calculated", "affiliate merger minority shareholders", "Korea merger ratio controversy", "appraisal rights merger Korea", "merger valuation formula"]
+seo_audited: 2026-09-02
 ---
 
 ## One Ratio Decides What Your Shares Are Worth

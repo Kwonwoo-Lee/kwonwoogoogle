@@ -4,6 +4,7 @@ title: "US-Canada Trade Talks Collapse, 50% Tariffs Take Effect - Deere, Whirlpo
 description: "US-Canada trade talks collapsed Friday and 50% tariffs took effect. Carney's Sept. 8 retaliation targets Deere, Whirlpool and paper stocks - here's what US investors should watch."
 published: 2026-08-24
 keywords: ["US Canada tariffs stock market", "Trump 50% tariffs Canada", "Carney retaliatory tariffs September 8", "Deere Whirlpool tariff exposure", "homebuilder stocks lumber tariff", "US steel stocks Canada tariff", "Canada trade talks collapse", "US Canada trade war 2026"]
+seo_audited: 2026-09-03
 ---
 
 ## What Happened

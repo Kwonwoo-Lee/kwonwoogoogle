@@ -4,6 +4,7 @@ title: "Bessent's Iran 'Economic D-Day' Lands Today - Brent Near $94 as Energy S
 description: "Treasury Secretary Bessent details a sweeping new Iran sanctions package at 2pm ET on August 24. Brent crude is near $94 after a second straight weekly gain, fueling an energy-stock rally alongside fresh inflation worries."
 published: 2026-08-24
 keywords: ["Bessent Iran sanctions", "economic D-Day Iran", "Brent crude $94", "Iran secondary sanctions", "Exxon Chevron earnings oil", "Jackson Hole Warsh speech oil prices", "US Iran economic isolation", "oil prices inflation September rate cut"]
+seo_audited: 2026-09-03
 ---
 
 ## What Happened

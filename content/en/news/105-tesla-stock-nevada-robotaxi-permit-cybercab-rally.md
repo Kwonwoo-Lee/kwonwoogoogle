@@ -4,6 +4,7 @@ title: "Tesla Stock Jumps 5% in a Day, 6.5% for the Week - What Nevada's '5,000 
 description: "Tesla stock surged 5% on Friday and 6.5% for the week after Nevada approved its robotaxi operator permit alongside Uber and Waymo. Here's what the '5,000 vehicle' headline actually allows."
 published: 2026-08-22
 keywords: ["Tesla stock surge", "Tesla Nevada robotaxi permit", "Tesla Cybercab launch", "TSLA stock today", "Nevada robotaxi 5000 permit", "Uber Waymo robotaxi approval", "Tesla weekly stock gain", "Elon Musk Tesla growth"]
+seo_audited: 2026-09-03
 ---
 
 ## What Happened

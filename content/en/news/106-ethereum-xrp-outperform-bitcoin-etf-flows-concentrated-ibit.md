@@ -4,6 +4,7 @@ title: "Ethereum Jumps 8%, XRP Surges 20%+ - So Why Did Bitcoin ETFs Still Pull 
 description: "Ethereum and XRP outran bitcoin's price gains this week, yet bitcoin ETFs still absorbed more than twice the inflows of ether ETFs. Here's why price momentum and institutional fund flows are pointing in different directions."
 published: 2026-08-22
 keywords: ["ethereum price surge", "why is XRP rising", "bitcoin ETF inflows this week", "ether ETF inflows", "IBIT BlackRock flows", "XRP ETF CLARITY Act", "bitcoin vs altcoin performance", "crypto ETF flows August 2026"]
+seo_audited: 2026-09-03
 ---
 
 ## What Happened

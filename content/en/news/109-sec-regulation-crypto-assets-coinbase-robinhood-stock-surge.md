@@ -4,6 +4,7 @@ title: "SEC Unveils 'Regulation Crypto Assets' - Coinbase Jumps 12.7% in a Day, 
 description: "The SEC's new August 18 crypto offering framework sent Coinbase stock up 12.7% - double bitcoin's gain that day. Goldman Sachs also raised its Robinhood price target from $118 to $123."
 published: 2026-08-23
 keywords: ["SEC Regulation Crypto Assets", "why is Coinbase stock up", "COIN stock 12.7 percent", "Robinhood Goldman Sachs price target", "SEC crypto exemption proposal", "CLARITY Act crypto stocks", "Coinbase Robinhood regulatory news", "crypto securities exemption 2026"]
+seo_audited: 2026-09-03
 ---
 
 ## What Happened

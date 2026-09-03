@@ -4,6 +4,7 @@ title: "Marvell (MRVL) Fell 8% the Same Week UBS Raised Its Target to $310 - Why
 description: "UBS raised its Marvell (MRVL) target to $310 on a bigger Google deal, yet the stock fell 8%. Why the rate-driven reset beat the good news."
 published: 2026-08-23
 keywords: ["Marvell stock drop", "MRVL earnings August 27", "Marvell Google warrant deal", "Marvell UBS price target", "Marvell valuation AI chip stock", "AI semiconductor earnings season 2026", "Marvell Jefferies price target", "custom AI silicon Marvell"]
+seo_audited: 2026-09-03
 ---
 
 ## What Happened

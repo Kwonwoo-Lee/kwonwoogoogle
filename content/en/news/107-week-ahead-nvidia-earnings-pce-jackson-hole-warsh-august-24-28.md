@@ -4,6 +4,7 @@ title: "Week Ahead: Nvidia Earnings and July PCE Data Collide on Aug 26, Two Day
 description: "Nvidia's Aug. 26 earnings land the same day as July PCE data, two days before Warsh's first Jackson Hole speech as Fed chair."
 published: 2026-08-23
 keywords: ["Nvidia earnings August 26 2026", "NVDA Q2 earnings preview", "July PCE inflation data release date", "Jackson Hole 2026 Warsh speech", "stock market week ahead August 24 2026", "September FOMC rate decision odds", "Fed Chair Kevin Warsh Jackson Hole", "S&P 500 week ahead outlook"]
+seo_audited: 2026-09-03
 ---
 
 ## What Happened

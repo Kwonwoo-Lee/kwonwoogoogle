@@ -4,6 +4,7 @@ title: "US PMI Hits 52-Month High, Dow Jumps 517 Points - But Financials and Gol
 description: "The S&P Global Composite PMI hit a 52-month high on August 21, sending the Dow up 517 points - yet financials and gold stocks led the rally. Here's why Robinhood and Coinbase outran the index by 10x."
 published: 2026-08-22
 keywords: ["August PMI 52-month high", "Dow Jones 517 point rally", "why is Robinhood stock up", "Coinbase stock surge August 2026", "White House crypto summit", "financials gold stocks rally", "S&P Global Composite PMI", "Tesla stock 5 percent"]
+seo_audited: 2026-09-03
 ---
 
 ## What Happened

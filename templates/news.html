@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block meta_title %}{{ ui.market_news }} - {{ site.name }}{% endblock %}
+{% block meta_title %}{{ ui.market_news }}{{ " - " ~ ui.news_page_num_suffix ~ " " ~ page_num if page_num and page_num > 1 else "" }} - {{ site.name }}{% endblock %}
 {% block meta_description %}{{ ui.market_news_desc }}{% endblock %}
 
 {% block content %}
@@ -21,6 +21,19 @@
     </li>
     {% endfor %}
   </ol>
+  {% if total_pages and total_pages > 1 %}
+  <nav class="lesson-pager">
+    {% if prev_page_url %}
+    <a class="pager-link prev" href="{{ prev_page_url }}"><span>{{ ui.prev_page }}</span></a>
+    {% else %}
+    <span></span>
+    {% endif %}
+    <span class="muted" style="align-self:center;">{{ page_num }} / {{ total_pages }}</span>
+    {% if next_page_url %}
+    <a class="pager-link next" href="{{ next_page_url }}"><span>{{ ui.next_page }}</span></a>
+    {% endif %}
+  </nav>
+  {% endif %}
   {% else %}
   <p class="muted" style="margin-top:24px;">{{ ui.market_news_empty }}</p>
   {% endif %}

@@ -7,7 +7,19 @@
   "@type": "WebSite",
   "name": {{ site.name | tojson }},
   "url": {{ cfg.SITE_URL | tojson }},
-  "description": {{ site.description | tojson }}
+  "description": {{ site.description | tojson }},
+  "inLanguage": {{ lang | tojson }},
+  "publisher": { "@id": {{ (cfg.SITE_URL + "/#organization") | tojson }} }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": {{ (cfg.SITE_URL + "/#organization") | tojson }},
+  "name": {{ site.name | tojson }},
+  "url": {{ cfg.SITE_URL | tojson }},
+  "logo": { "@type": "ImageObject", "url": {{ (cfg.SITE_URL + cfg.DEFAULT_OG_IMAGE) | tojson }}, "width": 1200, "height": 630 }
 }
 </script>
 {% endblock %}

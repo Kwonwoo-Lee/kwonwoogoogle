@@ -10,6 +10,7 @@ hreflang 대응 URL을 자동 계산합니다.
 실행: python build.py
 결과: dist/ 폴더가 곧 배포할 사이트 전체입니다.
 """
+import math
 import re
 import shutil
 from datetime import date, datetime, timezone
@@ -35,6 +36,7 @@ DEFAULT_LANG = "ko"  # 기본 언어는 URL 접두어 없음 (/basics/...), 그 
 NATIVE_NAME = {"ko": "한국어", "en": "English"}
 OG_LOCALE = {"ko": "ko_KR", "en": "en_US"}
 READING_WPM = {"ko": 350, "en": 220}  # ko는 어절/분, en은 단어/분 기준 추정치
+NEWS_PAGE_SIZE = 24  # 뉴스 인덱스 페이지당 글 수 (하루 7~8개씩 계속 쌓이므로 한 페이지에 다 몰아넣지 않음)
 
 COURSES = {
     "basics": {
@@ -125,6 +127,8 @@ UI = {
         "quiz_done_title": "퀴즈를 모두 풀었어요!",
         "quiz_student_label": "학습자",
         "nav_home": "홈", "nav_courses": "강의", "nav_quizzes": "퀴즈", "nav_profile": "프로필",
+        "news_page_num_suffix": "페이지",
+        "prev_page": "← 이전 페이지", "next_page": "다음 페이지 →",
     },
     "en": {
         "home": "Home", "privacy": "Privacy Policy", "contact": "Contact",
@@ -159,6 +163,8 @@ UI = {
         "quiz_done_title": "You've finished every quiz!",
         "quiz_student_label": "Student",
         "nav_home": "Home", "nav_courses": "Courses", "nav_quizzes": "Quizzes", "nav_profile": "Profile",
+        "news_page_num_suffix": "Page",
+        "prev_page": "← Previous page", "next_page": "Next page →",
     },
 }
 
@@ -476,12 +482,20 @@ def build():
         # 시장 뉴스 (RSS를 그대로 긁어오지 않고, 실제 보도를 근거로 직접 종합·분석해서 씁니다)
         news_posts = load_news(lang)
         news_tpl = env.get_template("news.html")
-        news_path = url_for(lang, "news")
-        write(base_dir / "news" / "index.html", news_tpl.render(
-            lang=lang, ui=ui, site=site, news_items=news_posts,
-            canonical=news_path, alternates=alternates_for("news"),
-        ))
-        all_pages.append((news_path, date.today().isoformat()))
+        total_news_pages = max(1, math.ceil(len(news_posts) / NEWS_PAGE_SIZE))
+        for page_num in range(1, total_news_pages + 1):
+            start = (page_num - 1) * NEWS_PAGE_SIZE
+            page_items = news_posts[start:start + NEWS_PAGE_SIZE]
+            page_path = url_for(lang, "news") if page_num == 1 else url_for(lang, "news", "page", str(page_num))
+            out_dir = (base_dir / "news") if page_num == 1 else (base_dir / "news" / "page" / str(page_num))
+            write(out_dir / "index.html", news_tpl.render(
+                lang=lang, ui=ui, site=site, news_items=page_items,
+                page_num=page_num, total_pages=total_news_pages,
+                prev_page_url=(url_for(lang, "news") if page_num == 2 else url_for(lang, "news", "page", str(page_num - 1))) if page_num > 1 else None,
+                next_page_url=url_for(lang, "news", "page", str(page_num + 1)) if page_num < total_news_pages else None,
+                canonical=page_path, alternates=alternates_for("news") if page_num == 1 else alternates_for("news", "page", str(page_num)),
+            ))
+            all_pages.append((page_path, date.today().isoformat()))
 
         news_post_tpl = env.get_template("news_post.html")
         for i, post in enumerate(news_posts):

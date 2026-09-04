@@ -17,8 +17,13 @@
   "datePublished": {{ post.published | tojson }},
   "dateModified": {{ post.published | tojson }},
   "inLanguage": {{ lang | tojson }},
-  "author": { "@type": "Organization", "name": {{ site.name | tojson }} },
-  "publisher": { "@type": "Organization", "name": {{ site.name | tojson }} },
+  "author": { "@type": "Organization", "name": {{ site.name | tojson }}, "url": {{ cfg.SITE_URL | tojson }} },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.name | tojson }},
+    "url": {{ cfg.SITE_URL | tojson }},
+    "logo": { "@type": "ImageObject", "url": {{ (cfg.SITE_URL + cfg.DEFAULT_OG_IMAGE) | tojson }}, "width": 1200, "height": 630 }
+  },
   "mainEntityOfPage": {{ (cfg.SITE_URL + canonical) | tojson }}
 }
 </script>

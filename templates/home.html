@@ -25,6 +25,26 @@
 {% endblock %}
 
 {% block content %}
+{% if lang == "ko" %}
+<script>
+(function () {
+  // 한국어가 아닌 브라우저로 홈페이지(/)에 처음 들어온 방문자는 영어 홈으로 안내.
+  // - 검색엔진 크롤러는 제외 (SEO에 영향 없도록)
+  // - 언어 스위처를 눌러 수동으로 선택한 적이 있으면(ts_lang_choice) 다시 안내하지 않음
+  // - URL 구조나 hreflang, sitemap은 전혀 건드리지 않으므로 기존 색인에는 영향 없음
+  try {
+    if (localStorage.getItem('ts_lang_choice')) return;
+    var ua = navigator.userAgent || '';
+    if (/bot|crawl|spider|slurp|googlebot|naver|yeti|bingbot|duckduck|baiduspider|yandex|facebookexternalhit/i.test(ua)) return;
+    var langs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+    var prefersKorean = langs.some(function (l) { return /^ko\b/i.test(l); });
+    if (!prefersKorean) {
+      location.replace('{{ alternates.en }}');
+    }
+  } catch (e) {}
+})();
+</script>
+{% endif %}
 <section class="hero">
   <div class="wrap">
     <h1>{{ site.tagline }}</h1>

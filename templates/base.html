@@ -85,7 +85,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <a href="{{ cfg.PAPERTRADE_URL }}" target="_blank" rel="noopener" data-track="paper_trading">{{ ui.practice_trading }}</a>
       {% for l in languages %}
         {% if l != lang %}
-        <a href="{{ alternates[l] }}" class="lang-switch">{{ native_name[l] }}</a>
+        <a href="{{ alternates[l] }}" class="lang-switch" data-lang-choice="{{ l }}">{{ native_name[l] }}</a>
         {% endif %}
       {% endfor %}
     </nav>
@@ -128,6 +128,14 @@ document.addEventListener('click', function (event) {
   if (shareLink) {
     tsTrack('share', { method: 'x', content_type: 'article', link_url: shareLink.href });
     return;
+  }
+
+  // 언어 스위처를 직접 눌러 수동으로 전환한 경우, 그 선택을 기억해서
+  // 홈페이지의 브라우저 언어 자동 안내(아래 home.html 스크립트)가 이후 방문에서
+  // 이 선택을 덮어쓰지 않도록 함
+  var langChoice = event.target.closest('[data-lang-choice]');
+  if (langChoice) {
+    try { localStorage.setItem('ts_lang_choice', langChoice.dataset.langChoice); } catch (e) {}
   }
 
   // data-track="이름"이 붙은 요소는 전부 "이름_click" 이벤트로 자동 전송됨

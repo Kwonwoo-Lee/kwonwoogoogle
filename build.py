@@ -138,7 +138,7 @@ UI = {
             "investment decisions.",
         "prev_lesson": "← Previous lesson", "next_lesson": "Next lesson →",
         "practice_trading": "Paper Trading",
-        "practice_trading_desc": "Put what you learned into practice with real-time prices — start with a virtual ₩10,000,000.",
+        "practice_trading_desc": "Put what you learned into practice with real-time prices — start with a virtual ₩10,000,000 (Korean won). Note: the practice trading tool's interface is Korean-only.",
         "practice_trading_tag": "Real-time prices · Free",
         "market_news": "Market News",
         "market_news_desc": "Original market analysis written from real reporting. Each article links its sources at the bottom.",

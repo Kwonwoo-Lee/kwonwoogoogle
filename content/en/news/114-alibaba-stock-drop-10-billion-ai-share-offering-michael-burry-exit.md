@@ -4,6 +4,7 @@ title: "Alibaba (BABA) Sinks 8.6% on $10.2 Billion AI Share Sale - Third Big Tec
 description: "Alibaba's US-listed ADR fell 8.6% after a record $10.2B Hong Kong share placement to fund AI infrastructure, as Michael Burry exited his stake entirely."
 published: 2026-08-25
 keywords: ["Alibaba stock drop", "BABA stock news", "Alibaba $10.2 billion share sale", "why did Alibaba stock fall", "Michael Burry Alibaba", "Alphabet Intel Alibaba equity raise", "Big Tech AI funding stock offering", "Alibaba Hong Kong share placement"]
+seo_audited: 2026-09-04
 ---
 
 ## What Happened

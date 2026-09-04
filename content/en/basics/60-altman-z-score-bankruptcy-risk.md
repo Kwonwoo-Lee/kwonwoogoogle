@@ -58,7 +58,7 @@ Compare two hypothetical manufacturers in the same industry, Company P and Compa
 | X4 = Market Value of Equity / Total Liabilities | 1.8 | 0.4 |
 | X5 = Sales / Total Assets | 1.2 | 0.9 |
 | **Z-Score calculation** | 1.2(0.25)+1.4(0.35)+3.3(0.15)+0.6(1.8)+1.0(1.2) | 1.2(0.02)+1.4(−0.10)+3.3(0.01)+0.6(0.4)+1.0(0.9) |
-| **Z-Score** | **4.14 (Safe Zone)** | **1.19 (Distress Zone)** |
+| **Z-Score** | **3.57 (Safe Zone)** | **1.06 (Distress Zone)** |
 
 Company P has ample working capital and a large cushion of accumulated retained earnings, so its liquidity and financial flexibility aren't in question, and the market is pricing its equity well above its total liabilities — putting it comfortably in the safe zone. Company Q, by contrast, has almost no working capital, negative retained earnings (meaning it has accumulated losses over time rather than profits), and a stock price so depressed that its entire market equity value is less than half its total liabilities. Nearly every one of the five ratios is weak at once — exactly the pattern that lands a company in the distress zone. Looking at P/E or P/B alone for either company would have missed this gap entirely, which is precisely the gap the Z-Score is designed to catch.
 

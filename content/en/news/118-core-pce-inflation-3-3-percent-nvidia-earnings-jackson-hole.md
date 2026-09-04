@@ -4,6 +4,7 @@ title: "Core PCE Inflation Stuck at 3.3% for a Fourth Straight Month as Wall Str
 description: "Core PCE inflation held at 3.3% for a fourth straight month in July as Wall Street closed slightly lower ahead of Nvidia's earnings, with NVDA down 1.3% pre-report."
 published: 2026-08-26
 keywords: ["core PCE inflation July 2026", "PCE report today", "Nvidia earnings today", "Nvidia stock before earnings", "Jackson Hole Warsh speech", "September Fed rate hike odds", "Dow Nasdaq close today", "PCE inflation Fed rate decision"]
+seo_audited: 2026-09-04
 ---
 
 ## What Happened

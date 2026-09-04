@@ -4,6 +4,7 @@ title: "Canada Finalizes $20 Billion Retaliatory Tariffs on 700 US Products - Wh
 description: "Canada confirmed retaliatory tariffs of 15-50% on $20 billion of US goods starting Sept. 8. Here's why Whirlpool and Harley-Davidson, already squeezed by tariffs, are the two clearest US stock targets."
 published: 2026-08-26
 keywords: ["Canada retaliatory tariffs", "Whirlpool stock tariffs", "Harley-Davidson stock Canada", "US Canada trade war 2026", "September 8 Canada tariffs", "appliance tariffs Canada", "WHR HOG stock", "US manufacturers tariff exposure"]
+seo_audited: 2026-09-04
 ---
 
 ## What Happened

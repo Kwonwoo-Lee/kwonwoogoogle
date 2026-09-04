@@ -4,6 +4,7 @@ title: "Nvidia's Longest Losing Streak Since 2022 - AI Server Prices Jump 15%+ o
 description: "Nvidia stock has fallen for six straight sessions, its longest losing streak since 2022, as memory costs push AI server prices up more than 15% ahead of August 26 earnings."
 published: 2026-08-24
 keywords: ["why is Nvidia stock falling", "Nvidia losing streak 2022", "Nvidia earnings August 26", "AI server prices rising 15 percent", "Nvidia memory cost increase", "Nvidia $500 billion financing deal", "SOXX semiconductor index drop", "Nvidia circular financing risk"]
+seo_audited: 2026-09-04
 ---
 
 ## What Happened

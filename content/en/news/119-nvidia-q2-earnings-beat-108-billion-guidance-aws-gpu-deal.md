@@ -4,6 +4,7 @@ title: "Nvidia Beats With $96.2B Revenue, Then Stuns Wall Street With $108B Q3 G
 description: "Nvidia posted $96.2B revenue and $2.22 EPS, both above consensus, and guided Q3 revenue to $108B. Shares dipped initially, then reversed to gain 4-5% after hours."
 published: 2026-08-27
 keywords: ["Nvidia Q2 earnings", "why did Nvidia stock jump", "NVDA Q3 guidance $108 billion", "Nvidia data center revenue", "Jensen Huang 70% fiscal 2028 growth", "Nvidia AWS 2 million GPUs", "Nvidia after hours stock price", "Nvidia beats consensus"]
+seo_audited: 2026-09-04
 ---
 
 ## What Happened

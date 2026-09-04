@@ -4,6 +4,7 @@ title: "Dick's Sporting Goods (DKS) Stock Plunges 31% - Full-Year EPS Guidance S
 description: "Dick's Sporting Goods stock crashed more than 30% after a modest Q2 miss was overshadowed by a steep full-year EPS guidance cut tied to Foot Locker integration losses."
 published: 2026-08-25
 keywords: ["Dick's Sporting Goods stock crash", "DKS stock drop reason", "Dick's Sporting Goods earnings", "Foot Locker acquisition losses", "DKS guidance cut", "Dick's Sporting Goods Q2 miss", "why is DKS stock down today", "Foot Locker integration risk"]
+seo_audited: 2026-09-04
 ---
 
 ## What Happened

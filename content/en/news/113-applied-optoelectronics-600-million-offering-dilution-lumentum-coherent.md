@@ -4,6 +4,7 @@ title: "Applied Optoelectronics (AAOI) Sinks 12% on Third $600M Stock Offering T
 description: "AI datacenter optics maker AAOI plunged 12% on August 24 after unveiling another $600 million at-the-market stock offering, dragging Lumentum and Coherent lower on dilution fears."
 published: 2026-08-25
 keywords: ["AAOI stock drop", "Applied Optoelectronics equity offering", "AAOI $600 million ATM offering", "Lumentum Coherent stock fall", "optical transceiver dilution concerns", "AI datacenter optics stocks", "AAOI stock news today", "optical transceiver stocks 2026"]
+seo_audited: 2026-09-04
 ---
 
 ## What Happened

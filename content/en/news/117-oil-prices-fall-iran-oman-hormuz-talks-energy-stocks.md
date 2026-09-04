@@ -4,6 +4,7 @@ title: "Oil Prices Fall for a Third Straight Day to $86 as Iran-Oman Hormuz Talk
 description: "Brent crude has dropped for three consecutive sessions to the mid-$80s as Iran and Oman discuss reopening the Strait of Hormuz, reversing the energy-stock rally and inflation fears from just two days ago."
 published: 2026-08-26
 keywords: ["oil prices fall today", "Brent crude $86", "Strait of Hormuz reopening", "Iran Oman talks oil", "Exxon Chevron stock today", "oil price drop inflation Fed", "PCE inflation report August 26", "Jackson Hole Warsh speech oil"]
+seo_audited: 2026-09-04
 ---
 
 ## What Happened

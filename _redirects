@@ -1,0 +1,32 @@
+# Cloudflare Pages 리다이렉트 규칙
+# build.py가 빌드할 때마다 이 파일을 dist/_redirects로 그대로 복사합니다.
+# 콘텐츠를 삭제/개명할 때는 여기에 한 줄 추가해서, 이미 구글에 색인된 옛 URL이
+# 404로 남지 않고 관련 목록 페이지로 리다이렉트되게 하세요.
+
+# 2026-08 코스피/코스닥 뉴스 삭제 (미국 증시 전용으로 정리)
+/news/kospi-samsung-sk-hynix-rally-hormuz-deal/ /news/ 301
+/news/kospi-sidecar-samsung-sk-hynix-selloff/ /news/ 301
+/news/kospi-sk-hynix-falls-nvidia-hbm-solar-tariff-rally/ /news/ 301
+/news/kospi-foreign-selling-record-week-august/ /news/ 301
+/news/kosdaq-buy-sidecar-18th-kospi-6300-semiconductor-rebound/ /news/ 301
+/news/august-semiconductor-exports-155-percent-record-kospi-rally/ /news/ 301
+/en/news/kospi-samsung-sk-hynix-rally-hormuz-deal/ /en/news/ 301
+/en/news/kospi-sidecar-samsung-sk-hynix-selloff/ /en/news/ 301
+/en/news/kospi-sk-hynix-falls-nvidia-hbm-solar-tariff-rally/ /en/news/ 301
+/en/news/kospi-foreign-selling-record-week-august/ /en/news/ 301
+/en/news/kosdaq-buy-sidecar-18th-kospi-6300-semiconductor-rebound/ /en/news/ 301
+/en/news/august-semiconductor-exports-155-percent-record-kospi-rally/ /en/news/ 301
+
+# 2026-08 퀴즈 문제 전면 교체로 삭제된 이전 슬러그
+/quizzes/stop-loss-discipline/ /quizzes/ 301
+/quizzes/roth-vs-traditional-choice/ /quizzes/ 301
+/quizzes/per-comparison-trap/ /quizzes/ 301
+/quizzes/employer-stock-concentration-risk/ /quizzes/ 301
+/quizzes/break-even-anchoring-bias/ /quizzes/ 301
+/quizzes/volume-surge-breakout-trap/ /quizzes/ 301
+/en/quizzes/stop-loss-discipline/ /en/quizzes/ 301
+/en/quizzes/roth-vs-traditional-choice/ /en/quizzes/ 301
+/en/quizzes/per-comparison-trap/ /en/quizzes/ 301
+/en/quizzes/employer-stock-concentration-risk/ /en/quizzes/ 301
+/en/quizzes/break-even-anchoring-bias/ /en/quizzes/ 301
+/en/quizzes/volume-surge-breakout-trap/ /en/quizzes/ 301

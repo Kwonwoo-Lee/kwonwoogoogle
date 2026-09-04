@@ -28,6 +28,7 @@ CONTENT_DIR = ROOT / "content"
 TEMPLATES_DIR = ROOT / "templates"
 STATIC_DIR = ROOT / "static"
 DIST_DIR = ROOT / "dist"
+REDIRECTS_FILE = ROOT / "_redirects"
 
 LANGUAGES = ["ko", "en"]
 DEFAULT_LANG = "ko"  # 기본 언어는 URL 접두어 없음 (/basics/...), 그 외는 /en/basics/... 처럼 접두어 붙음
@@ -523,6 +524,10 @@ def build():
     # 정적 파일 복사
     if STATIC_DIR.exists():
         shutil.copytree(STATIC_DIR, DIST_DIR / "static")
+
+    # Cloudflare Pages 리다이렉트 규칙 (삭제된 글/퀴즈가 404로 남지 않도록)
+    if REDIRECTS_FILE.exists():
+        shutil.copy(REDIRECTS_FILE, DIST_DIR / "_redirects")
 
     # sitemap.xml (모든 언어 페이지 포함)
     sitemap_entries = "\n".join(

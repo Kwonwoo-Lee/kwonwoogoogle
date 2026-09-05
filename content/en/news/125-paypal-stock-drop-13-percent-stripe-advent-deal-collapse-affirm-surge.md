@@ -4,6 +4,7 @@ title: "PayPal (PYPL) Sinks 12.7% as Stripe-Advent Abandon $53 Billion Buyout, W
 description: "PayPal fell 12.7% after Stripe and Advent walked away from a $53 billion takeover bid, while Affirm surged 8.9% on its most profitable quarter ever. What the split reveals about deal-premium risk."
 published: 2026-08-29
 keywords: ["PayPal stock drop today", "PYPL Stripe Advent deal collapse", "why is PayPal stock falling", "Affirm stock surge earnings", "PYPL AFRM comparison", "Stripe PayPal 53 billion buyout", "PayPal takeover bid rejected", "Affirm most profitable quarter"]
+seo_audited: "2026-09-05"
 ---
 
 ## What Happened

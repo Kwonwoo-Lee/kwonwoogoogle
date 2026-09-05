@@ -4,6 +4,7 @@ title: "Warsh's Jackson Hole Speech Sends September Rate Hike Odds Soaring From 
 description: "Fed Chair Kevin Warsh told Jackson Hole inflation has run hot for 65 months and it's the Fed's fault, sending September hike odds from 35% to 58% overnight and rattling chip stocks."
 published: 2026-08-28
 keywords: ["Warsh Jackson Hole speech results", "September rate hike odds 58%", "Kevin Warsh speech quotes", "Fed September FOMC coin flip", "10-year Treasury yield 4.68%", "Nasdaq semiconductor stocks fall", "Warsh 65 months inflation", "Jackson Hole symposium market reaction"]
+seo_audited: "2026-09-05"
 ---
 
 ## What Happened

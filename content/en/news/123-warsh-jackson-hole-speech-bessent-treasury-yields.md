@@ -4,6 +4,7 @@ title: "Fed Chair Warsh Delivers First Jackson Hole Speech Today - Bessent's Tre
 description: "Kevin Warsh delivers his first Jackson Hole keynote as Fed Chair at 10am ET today. Bessent's Treasury bond buybacks are testing Warsh's policy credibility just as inflation runs hot at 3.3%."
 published: 2026-08-28
 keywords: ["Warsh Jackson Hole speech", "Fed Chair Kevin Warsh", "Jackson Hole speech today time", "Bessent Treasury buybacks yields", "30-year Treasury yield 5.3%", "September Fed rate hike odds", "Warsh Bessent Fed independence", "Jackson Hole 2026 symposium"]
+seo_audited: "2026-09-05"
 ---
 
 ## What Happened

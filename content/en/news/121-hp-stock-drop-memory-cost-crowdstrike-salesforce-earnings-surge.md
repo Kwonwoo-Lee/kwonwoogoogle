@@ -4,6 +4,7 @@ title: "HP Stock Sinks 8.68% Despite Raised Guidance While CrowdStrike and Sales
 description: "HP beat estimates and raised its full-year guidance, yet shares fell 8.68% on surging memory costs, while CrowdStrike and Salesforce jumped double digits the same night."
 published: 2026-08-27
 keywords: ["HP stock drop reason", "HPQ Q3 earnings guidance raise", "memory costs 35% of PC bill of materials", "CrowdStrike earnings stock jump", "Salesforce earnings beat", "Salesforce Anthropic investment gain", "PC margin memory chip prices", "HP CrowdStrike Salesforce comparison"]
+seo_audited: "2026-09-05"
 ---
 
 ## What Happened

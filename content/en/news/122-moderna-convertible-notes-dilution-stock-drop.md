@@ -4,6 +4,7 @@ title: "Moderna (MRNA) Falls Another 5% on $2 Billion Convertible Notes - Diluti
 description: "Moderna announced a $2 billion convertible note offering to fund its oncology business, sending shares down as much as 5.8% - just ten days after a 177% single-day surge. Here's why financing news can hit a stock even after great clinical data."
 published: 2026-08-28
 keywords: ["Moderna stock", "Moderna convertible notes", "why is MRNA stock down", "Moderna $2 billion offering", "convertible note dilution", "Moderna capped call", "Moderna intismeran", "MRNA stock today"]
+seo_audited: "2026-09-05"
 ---
 
 ## What Happened

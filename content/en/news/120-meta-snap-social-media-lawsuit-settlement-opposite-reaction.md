@@ -4,6 +4,7 @@ title: "Meta Rallies on $16.7B Teen Safety Settlement While Snap Sinks 8.5% on a
 description: "Meta gained after settling a 29-state teen safety case for up to $16.7B, while Snap fell 8.5% the same day on a brand-new Pennsylvania lawsuit. Here's why identical legal risk produced opposite stock moves."
 published: 2026-08-27
 keywords: ["Meta stock settlement $16.7 billion", "Meta teen safety lawsuit", "Snap stock drop today", "SNAP Pennsylvania lawsuit", "Meta vs Snap stock", "Instagram Facebook teen safety settlement", "Snapchat lawsuit Dave Sunday", "social media addiction lawsuit stocks"]
+seo_audited: "2026-09-05"
 ---
 
 ## What Happened

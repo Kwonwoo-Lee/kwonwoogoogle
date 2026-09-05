@@ -4,6 +4,7 @@ title: "Bitcoin Tops $81,000 Then Sinks 3.8% as Fed Chair Warsh's Hawkish Jackso
 description: "Bitcoin broke above $81,000 for the first time since May, then fell to $77,800 within a day after Fed Chair Warsh's hawkish Jackson Hole remarks sparked over $475 million in forced long liquidations."
 published: 2026-08-29
 keywords: ["bitcoin price drop today", "bitcoin $81000 pullback", "why is bitcoin falling today", "bitcoin liquidations August 2026", "Warsh Fed rate hike crypto", "ethereum price drop today", "crypto market cap fall", "bitcoin long liquidations"]
+seo_audited: "2026-09-05"
 ---
 
 ## What Happened

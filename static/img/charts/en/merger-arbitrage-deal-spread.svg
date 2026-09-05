@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 360" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="620" height="360" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="14" fill="#20201a" text-anchor="middle" font-weight="700">Merger Arbitrage: Deal Spread and Deal-Close vs. Deal-Break Scenarios</text>
+
+<line x1="55" y1="300" x2="580" y2="300" stroke="#c7c6bb" stroke-width="1"/>
+<line x1="55" y1="55" x2="55" y2="300" stroke="#c7c6bb" stroke-width="1"/>
+<text x="60" y="315" font-size="10" fill="#767568">Pre-deal</text>
+<text x="165" y="315" font-size="10" fill="#767568">Announcement</text>
+<text x="560" y="315" font-size="10" fill="#767568" text-anchor="end">Expected close</text>
+
+<line x1="55" y1="90" x2="580" y2="90" stroke="#1f9d55" stroke-width="1.3" stroke-dasharray="5,4"/>
+<text x="60" y="82" font-size="10.5" fill="#177a42" font-weight="700">Offer price $200</text>
+
+<line x1="55" y1="270" x2="180" y2="270" stroke="#767568" stroke-width="1.3" stroke-dasharray="5,4"/>
+<text x="60" y="284" font-size="10" fill="#5a5950">Pre-announcement price $130</text>
+
+<path d="M 55,270 L 175,270" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+<path d="M 175,270 L 195,168" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+
+<line x1="180" y1="60" x2="180" y2="300" stroke="#c98a1f" stroke-width="1.3" stroke-dasharray="3,2"/>
+<text x="188" y="70" font-size="10" fill="#a06a10" font-weight="700">Announcement</text>
+
+<circle cx="195" cy="168" r="5" fill="#20201a"/>
+<text x="203" y="163" font-size="10.5" fill="#20201a" font-weight="700">$185 (spread level)</text>
+
+<line x1="215" y1="90" x2="215" y2="168" stroke="#c98a1f" stroke-width="1.6"/>
+<path d="M 210,96 L 215,90 L 220,96" fill="none" stroke="#c98a1f" stroke-width="1.6"/>
+<path d="M 210,162 L 215,168 L 220,162" fill="none" stroke="#c98a1f" stroke-width="1.6"/>
+<text x="228" y="132" font-size="10.5" fill="#a06a10" font-weight="700">Deal spread $15</text>
+
+<path d="M 195,168 C 320,140 420,110 580,92" fill="none" stroke="#1f9d55" stroke-width="3"/>
+<circle cx="580" cy="92" r="5.5" fill="#1f9d55"/>
+<text x="500" y="118" font-size="11" fill="#177a42" font-weight="700">Deal closes → converges to offer</text>
+
+<path d="M 195,168 C 280,210 340,255 420,268" fill="none" stroke="#d0453b" stroke-width="3" stroke-dasharray="6,4"/>
+<circle cx="420" cy="268" r="5.5" fill="#d0453b"/>
+<text x="425" y="286" font-size="11" fill="#d0453b" font-weight="700">Deal breaks → falls back to pre-deal level</text>
+
+<line x1="60" y1="345" x2="85" y2="345" stroke="#1a5fb4" stroke-width="3"/>
+<text x="92" y="349" font-size="10" fill="#20201a">Price (pre-deal to spread)</text>
+<line x1="255" y1="345" x2="280" y2="345" stroke="#1f9d55" stroke-width="3"/>
+<text x="287" y="349" font-size="10" fill="#20201a">Deal closes</text>
+<line x1="365" y1="345" x2="390" y2="345" stroke="#d0453b" stroke-width="3" stroke-dasharray="6,4"/>
+<text x="397" y="349" font-size="10" fill="#20201a">Deal breaks</text>
+</svg>

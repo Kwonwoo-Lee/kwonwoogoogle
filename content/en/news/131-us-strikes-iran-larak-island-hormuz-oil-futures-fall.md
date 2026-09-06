@@ -4,6 +4,7 @@ title: "US Strikes Iranian Rocket Launchers on Larak Island: Oil Jumps 2% While 
 description: "US forces struck Iranian rocket launchers on Larak Island Sunday night. Oil jumped above $90 while Dow futures fell only 63-85 points, a sign markets have grown numb to repeated Hormuz scares."
 published: 2026-08-31
 keywords: ["US strikes Iran Hormuz", "Larak Island rocket launchers", "Brent crude oil $90 today", "why did Dow futures fall today", "Strait of Hormuz mine threat 2026", "Warsh Jackson Hole inflation", "August stock market gains 2026", "oil prices Iran news today"]
+seo_audited: "2026-09-06"
 ---
 
 ## What Happened

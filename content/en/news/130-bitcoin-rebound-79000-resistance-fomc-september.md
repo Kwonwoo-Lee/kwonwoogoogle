@@ -4,6 +4,7 @@ title: "Bitcoin Rebounds to $78,960, Testing $79,000 Resistance Just a Day After
 description: "Bitcoin gained 1.5% to $78,960 on Sunday, clawing back part of Saturday's Warsh-driven drop as traders eye $81,000 resistance ahead of the September Fed meeting."
 published: 2026-08-30
 keywords: ["bitcoin price today", "bitcoin $79000 resistance", "why is bitcoin price up today", "bitcoin rebound after Warsh crash", "bitcoin technical levels August 2026", "September Fed meeting bitcoin", "bitcoin open interest today", "ethereum XRP price today"]
+seo_audited: "2026-09-06"
 ---
 
 ## What Happened

@@ -4,6 +4,7 @@ title: "Trump Weighs 'Phase 2' Chip Tariffs on Laptops, Servers and Consoles - M
 description: "The Trump administration is reportedly weighing tariffs of up to 100% on semiconductors, extended to laptops, servers and consoles, with January's exemptions at risk. Micron gave back a 4% gain the same day."
 published: 2026-08-30
 keywords: ["semiconductor tariff phase 2", "Trump chip tariff laptops servers", "Micron stock tariff news", "Lutnick semiconductor tariff", "chip tariff exemptions scrapped", "100% semiconductor tariff", "Nvidia Micron tariff risk", "AI data center server tariff"]
+seo_audited: "2026-09-06"
 ---
 
 ## What Happened

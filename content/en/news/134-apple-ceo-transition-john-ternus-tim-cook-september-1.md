@@ -4,6 +4,7 @@ title: "Apple's New CEO Takes Over Today - Tim Cook Steps Down After 15 Years as
 description: "John Ternus officially became Apple's CEO on September 1, ending Tim Cook's 15-year run. Here's how the stock reacted heading into a near-$5 trillion valuation."
 published: 2026-09-01
 keywords: ["Apple CEO change", "John Ternus CEO", "Tim Cook steps down", "Apple stock forecast", "AAPL 5 trillion market cap", "Apple AI strategy", "Tim Cook executive chairman", "Apple new CEO September 1"]
+seo_audited: "2026-09-06"
 ---
 
 ## What Happened

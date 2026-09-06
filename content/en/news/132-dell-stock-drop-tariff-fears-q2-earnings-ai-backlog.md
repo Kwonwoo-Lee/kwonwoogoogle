@@ -4,6 +4,7 @@ title: "Dell (DELL) Stock Slides Ahead of September 1 Earnings - Record $51.3B A
 description: "Dell reports Q2 earnings September 1 with revenue seen up 50%, but shares have slipped this week on fears of a phase-two chip tariff hitting servers and laptops directly."
 published: 2026-08-31
 keywords: ["Dell stock today", "DELL earnings September 1", "Dell Q2 earnings preview", "semiconductor tariff phase 2 Dell", "Dell AI server backlog", "Dell stock price target", "DELL stock forecast", "Dell tariff fears"]
+seo_audited: "2026-09-06"
 ---
 
 ## What Happened

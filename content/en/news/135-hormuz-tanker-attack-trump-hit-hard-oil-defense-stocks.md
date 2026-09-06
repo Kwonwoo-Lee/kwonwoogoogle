@@ -4,6 +4,7 @@ title: "Tanker Struck in Hormuz Again as Trump Vows to 'Hit Iran Hard' - Brent B
 description: "A tanker was hit by three projectiles in the Strait of Hormuz on September 1 as Trump vowed a strong response to Iran. Brent crude topped $91 and Asian markets fell across the board."
 published: 2026-09-01
 keywords: ["Hormuz tanker attack", "Trump hit Iran hard", "Brent crude 91 dollars", "Strait of Hormuz crisis", "US Iran war escalation", "oil price today", "Asian markets fall today", "US stock futures Iran"]
+seo_audited: "2026-09-06"
 ---
 
 ## What Happened

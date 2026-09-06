@@ -4,6 +4,7 @@ title: "Amazon Jumps 4% on Evercore's $355 Target While Nvidia Falls 3.3% on Cir
 description: "Amazon rallied 4% on an Evercore ISI upgrade citing Alexa AI purchases, while Nvidia fell 3.3% as circular-financing worries resurfaced - a split inside the same AI trade."
 published: 2026-08-30
 keywords: ["Amazon stock Evercore price target", "Nvidia stock circular financing", "AMZN vs NVDA August 2026", "Amazon Alexa AI agentic shopping", "Nvidia OpenAI circular financing worry", "why did Nvidia stock fall Friday", "Amazon stock price target $355", "AI stocks diverging"]
+seo_audited: "2026-09-06"
 ---
 
 ## What Happened

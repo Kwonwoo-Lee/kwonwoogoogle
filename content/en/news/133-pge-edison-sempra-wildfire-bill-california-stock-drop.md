@@ -4,6 +4,7 @@ title: "PG&E Sinks 19%, Edison International 23% While Sempra Falls Just 4% - Ca
 description: "California's SB 492 passed without shielding utilities from wildfire lawsuits, sending PG&E and Edison International shares sharply lower. Why Sempra barely moved."
 published: 2026-08-31
 keywords: ["PG&E stock drop today", "why is Edison International stock falling", "California wildfire bill SB 492", "PG&E credit rating downgrade", "Sempra stock wildfire", "Mizuho PG&E price target cut", "Eaton Fire lawsuits Edison", "California utility stocks today"]
+seo_audited: "2026-09-06"
 ---
 
 ## What Happened

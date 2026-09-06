@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 400" font-family="'Segoe UI', Arial, sans-serif">
+<rect x="0" y="0" width="620" height="400" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="15" fill="#20201a" text-anchor="middle" font-weight="700">Seasonality Trading: Average Monthly Return Pattern (Conceptual)</text>
+
+<!-- zero line -->
+<line x1="45" y1="150" x2="590" y2="150" stroke="#8a8a7c" stroke-width="1.3"/>
+<text x="40" y="154" font-size="10" fill="#8a8a7c" text-anchor="end">0</text>
+
+<!-- winter window band (Nov-Apr) -->
+<rect x="497" y="55" width="91" height="150" fill="#1a5fb4" opacity="0.07"/>
+<rect x="45" y="55" width="182" height="150" fill="#1a5fb4" opacity="0.07"/>
+<!-- summer window band (May-Oct) -->
+<rect x="227" y="55" width="270" height="150" fill="#b8860b" opacity="0.06"/>
+
+<g font-size="10.5" fill="#5a5a4e" text-anchor="middle">
+<rect x="50" y="120" width="34" height="30" fill="#1a5fb4"/>
+<rect x="95" y="128" width="34" height="22" fill="#1a5fb4"/>
+<rect x="140" y="112" width="34" height="38" fill="#1a5fb4"/>
+<rect x="185" y="118" width="34" height="32" fill="#1a5fb4"/>
+<rect x="230" y="122" width="34" height="28" fill="#8a8a7c"/>
+<rect x="275" y="130" width="34" height="20" fill="#8a8a7c"/>
+<rect x="320" y="126" width="34" height="24" fill="#8a8a7c"/>
+<rect x="365" y="134" width="34" height="16" fill="#8a8a7c"/>
+<rect x="410" y="150" width="34" height="28" fill="#d0453b"/>
+<rect x="455" y="124" width="34" height="26" fill="#8a8a7c"/>
+<rect x="500" y="105" width="34" height="45" fill="#1a5fb4"/>
+<rect x="545" y="98" width="34" height="52" fill="#1a5fb4"/>
+<text x="67" y="168">Jan</text>
+<text x="112" y="168">Feb</text>
+<text x="157" y="168">Mar</text>
+<text x="202" y="168">Apr</text>
+<text x="247" y="168">May</text>
+<text x="292" y="168">Jun</text>
+<text x="337" y="168">Jul</text>
+<text x="382" y="168">Aug</text>
+<text x="427" y="168" fill="#d0453b" font-weight="700">Sep</text>
+<text x="472" y="168">Oct</text>
+<text x="517" y="168">Nov</text>
+<text x="562" y="168">Dec</text>
+</g>
+
+<line x1="410" y1="178" x2="410" y2="200" stroke="#d0453b" stroke-width="1.3" stroke-dasharray="3,3"/>
+<text x="427" y="198" font-size="11.5" fill="#d0453b" text-anchor="middle" font-weight="700">September Effect: the only negative month on average</text>
+
+<text x="136" y="70" font-size="12" fill="#1a5fb4" text-anchor="middle" font-weight="700">Winter window (Nov-Apr): stronger per the Halloween Indicator</text>
+<text x="362" y="70" font-size="12" fill="#b8860b" text-anchor="middle" font-weight="700">Summer window (May-Oct): relatively weaker</text>
+
+<line x1="45" y1="230" x2="590" y2="230" stroke="#e1e0d9" stroke-width="1"/>
+
+<!-- Santa rally callout -->
+<text x="310" y="256" font-size="12.5" fill="#20201a" text-anchor="middle" font-weight="700">Santa Claus Rally: last 5 trading days of Dec + first 2 of Jan (7 days total)</text>
+<rect x="500" y="270" width="34" height="34" fill="none" stroke="#1f9d55" stroke-width="1.5" stroke-dasharray="4,3"/>
+<rect x="45" y="270" width="34" height="34" fill="none" stroke="#1f9d55" stroke-width="1.5" stroke-dasharray="4,3"/>
+<path d="M 534,287 C 560,260 20,260 45,287" fill="none" stroke="#1f9d55" stroke-width="1.5" marker-end="url(#arrow2)"/>
+<text x="310" y="300" font-size="11" fill="#1f9d55" text-anchor="middle">Late Dec into early Jan: a narrow window with a historically high win rate</text>
+
+<defs>
+  <marker id="arrow2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+    <path d="M0,0 L8,4 L0,8 z" fill="#1f9d55"/>
+  </marker>
+</defs>
+
+<line x1="50" y1="345" x2="80" y2="345" stroke="#1a5fb4" stroke-width="10"/>
+<text x="88" y="349" font-size="12.5" fill="#20201a" text-anchor="start">Winter window (Nov-Apr): relatively stronger</text>
+<line x1="330" y1="345" x2="360" y2="345" stroke="#8a8a7c" stroke-width="10"/>
+<text x="368" y="349" font-size="12.5" fill="#20201a" text-anchor="start">Summer window (May-Oct): relatively weaker</text>
+<line x1="50" y1="372" x2="80" y2="372" stroke="#d0453b" stroke-width="10"/>
+<text x="88" y="376" font-size="12.5" fill="#20201a" text-anchor="start">September: the sole negative month on long-run average</text>
+</svg>

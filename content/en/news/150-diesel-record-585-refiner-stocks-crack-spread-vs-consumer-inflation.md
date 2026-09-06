@@ -1,6 +1,6 @@
 ---
 slug: diesel-record-585-refiner-stocks-crack-spread-vs-consumer-inflation
-title: "US Diesel Hits Record $5.85 a Gallon - Refiners Valero, Marathon Post Record Crack Spreads While Households Eat $9.7 Billion in Extra Costs"
+title: "US Diesel Hits Record $5.85 a Gallon - Refiners Valero, Marathon Post Record Crack Spreads While Households Eat $97 Billion in Extra Costs"
 description: "US diesel prices hit a record $5.85 a gallon. Refiners like Valero and Marathon are riding record crack-spread margins even as households absorb billions in extra fuel costs."
 published: 2026-09-06
 keywords: ["diesel price record high", "US gas prices $4 a gallon", "Valero Marathon Phillips 66 stock", "crack spread record high", "Iran war inflation", "refiner stocks 2026 outlook", "Labor Day gas prices", "September CPI oil prices"]
@@ -26,7 +26,7 @@ History suggests this kind of rally doesn't last indefinitely, though. Refiner s
 
 ## Where This Meets Household Budgets and Fed Policy
 
-For American households, the cost of this oil and refining-margin shock is real money. Since the Iran war began, Americans have collectively spent an estimated $9.7 billion in extra gasoline and diesel costs, which works out to more than $740 per household on average. That burden shows up not just at the pump, but also - through the freight pass-through described above - gradually working its way into grocery bills, online shopping costs and everyday retail prices.
+For American households, the cost of this oil and refining-margin shock is real money. Since the Iran war began, Americans have collectively spent an estimated $97 billion in extra gasoline and diesel costs, which works out to more than $740 per household on average. That burden shows up not just at the pump, but also - through the freight pass-through described above - gradually working its way into grocery bills, online shopping costs and everyday retail prices.
 
 This supply-side inflation pressure is complicating the Federal Reserve's calculus at an especially sensitive moment. The Fed's blackout period ahead of its September 15-16 FOMC meeting began on Saturday, September 5, and next week brings the August Producer Price Index on September 10 and the Consumer Price Index on September 11. Market pricing already puts the odds of a September rate hike in the 58-68% range, and a fresh energy-driven inflation impulse showing up in those prints could push that probability even higher. Supply-shock inflation is a particularly awkward problem for a central bank, because raising rates to cool demand does nothing to restore tanker traffic through the Strait of Hormuz. Yet with a price-stability mandate to defend, the Fed may have little choice but to lean hawkish if headline inflation keeps climbing regardless of the underlying cause.
 

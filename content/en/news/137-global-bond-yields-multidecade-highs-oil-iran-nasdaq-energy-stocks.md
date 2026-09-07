@@ -4,6 +4,7 @@ title: "US 10-Year Yield Hits Highest Since January 2025, UK Gilts Highest Since
 description: "Oil surged past $94 after a Hormuz tanker attack, sending US, UK, and Japanese bond yields to multi-year and multi-decade highs while the Nasdaq fell over 1%."
 published: 2026-09-02
 keywords: ["US 10-year Treasury yield highest since 2025", "UK gilt yield highest since 2008", "Japan 10-year JGB yield 3 percent", "oil price $94 Iran conflict", "why Nasdaq fell today", "energy stocks rising today", "global bond yield spike", "Hormuz tanker attack market impact"]
+seo_audited: 2026-09-07
 ---
 
 ## What Happened

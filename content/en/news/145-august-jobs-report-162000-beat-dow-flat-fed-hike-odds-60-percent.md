@@ -4,6 +4,7 @@ title: "August Jobs Report Delivers 162,000 'Triple Surprise' - Dow Erases 400-P
 description: "August payrolls surged 162,000, nearly triple the 55,000 expected. The Dow fell almost 400 points intraday but clawed back most of the loss to close flat, as September rate-hike odds jumped from 54.6% to 60%."
 published: 2026-09-04
 keywords: ["August jobs report 2026", "nonfarm payrolls 162000", "September rate hike odds 60 percent", "Dow Jones close today", "unemployment rate 4.1 percent August", "CME FedWatch September FOMC", "2-year Treasury yield 4.37", "jobs report surprise Fed reaction"]
+seo_audited: 2026-09-07
 ---
 
 ## What Happened

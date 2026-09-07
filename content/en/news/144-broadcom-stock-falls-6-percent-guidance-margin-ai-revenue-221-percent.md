@@ -4,6 +4,7 @@ title: "Broadcom Stock Falls 6% Despite 221% AI Revenue Growth - Why Gross Margi
 description: "Broadcom beat on Q3 earnings and AI revenue surged 221%, but shares fell 6% Thursday after Q4 guidance and margin outlook missed the bar. Here's the mechanism behind the drop."
 published: 2026-09-04
 keywords: ["why did Broadcom stock fall", "AVGO earnings September 2026", "Broadcom Q4 guidance miss", "Broadcom gross margin decline", "Broadcom AI semiconductor revenue 221%", "Hock Tan 2028 AI revenue forecast", "Broadcom vs Dell earnings reaction", "AVGO stock today"]
+seo_audited: 2026-09-07
 ---
 
 ## What Happened

@@ -4,6 +4,7 @@ title: "September Rate Hike Odds Jump to 66% While ISM Manufacturing Cools to 54
 description: "CME FedWatch puts September rate hike odds near 66% after Warsh's hawkish tone, while August ISM manufacturing cooled to 54.6% and its prices index stayed stuck at 71.1."
 published: 2026-09-01
 keywords: ["September rate hike odds 66%", "ISM manufacturing PMI August 2026", "CME FedWatch rate hike", "September FOMC outlook", "Warsh hawkish comments aftermath", "ISM prices index 71.1", "Barclays two Fed hikes", "Treasury yield outlook September"]
+seo_audited: 2026-09-07
 ---
 
 ## What Happened

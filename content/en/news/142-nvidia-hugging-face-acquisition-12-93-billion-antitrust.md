@@ -4,6 +4,7 @@ title: "Nvidia Confirms $12.93 Billion Hugging Face Deal - Stock Pops Then Fades
 description: "Nvidia is buying open-source AI hub Hugging Face for $12.93 billion, a nearly 3x markup on its 2023 valuation. NVDA rose then wobbled as regulators eye the deal."
 published: 2026-09-03
 keywords: ["Nvidia Hugging Face acquisition", "NVDA stock today", "Nvidia $12.93 billion deal", "Hugging Face acquisition antitrust", "Jensen Huang Hugging Face deal", "Nvidia AI ecosystem strategy", "Hugging Face Nvidia deal details", "Nvidia open source AI acquisition"]
+seo_audited: 2026-09-07
 ---
 
 ## What Happened

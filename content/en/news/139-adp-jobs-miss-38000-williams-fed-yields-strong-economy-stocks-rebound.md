@@ -4,6 +4,7 @@ title: "ADP Private Payrolls Miss Badly at 38,000 in August - NY Fed's Williams 
 description: "ADP's August private payrolls rose just 38,000, well short of the 47,000 forecast, but Wall Street rebounded anyway after NY Fed's Williams tied surging yields to a strong economy rather than inflation risk."
 published: 2026-09-02
 keywords: ["ADP August jobs report", "Williams Fed yields strong economy", "September rate hike odds 66%", "ADP private payrolls 38000", "why did stocks rebound today", "Treasury yields not inflation", "September FOMC outlook", "CME FedWatch September hike"]
+seo_audited: 2026-09-07
 ---
 
 ## What Happened

@@ -4,6 +4,7 @@ title: "Gold Falls to Two-Week Low Near $4,374 - Why Hormuz Tensions and Surging
 description: "Gold fell 1.6-1.8% in a single session to a two-week low, even as a Hormuz tanker attack spiked oil prices. Here's why rate-hike fears at 66% beat safe-haven demand."
 published: 2026-09-02
 keywords: ["why did gold fall today", "gold price two-week low", "gold price today", "Fed rate hike odds 66 percent gold", "Warsh hawkish comments gold", "silver price drop today", "gold safe haven demand", "Treasury yields gold price"]
+seo_audited: 2026-09-07
 ---
 
 ## What Happened

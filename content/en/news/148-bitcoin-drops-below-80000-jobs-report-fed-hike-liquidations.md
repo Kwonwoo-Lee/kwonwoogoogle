@@ -4,6 +4,7 @@ title: "Bitcoin Sinks Below $80,000, $757 Million Liquidated, as Blowout August 
 description: "Bitcoin fell as much as 3.5% below $80,000 and $757M in crypto was liquidated after August payrolls tripled forecasts, lifting Fed hike odds to 59%."
 published: 2026-09-05
 keywords: ["Bitcoin price today", "why is Bitcoin dropping", "Bitcoin below $80000", "Fed rate hike odds September 2026", "crypto liquidations today", "August jobs report Bitcoin reaction", "Bitcoin FOMC September 16", "Bitcoin price prediction September"]
+seo_audited: "2026-09-08"
 ---
 
 ## What Happened

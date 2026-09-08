@@ -4,6 +4,7 @@ title: "Week Ahead: Apple's iPhone Event, Oracle's Earnings Under Record Debt-In
 description: "Apple's Sept. 9 iPhone event, Oracle's earnings under record debt costs, and August CPI all hit this week."
 published: 2026-09-06
 keywords: ["Apple iPhone 18 event", "Oracle earnings date September 2026", "Oracle debt credit rating", "August CPI release date", "September FOMC rate hike odds", "week ahead stock market", "Apple foldable iPhone stock", "Oracle CDS record high"]
+seo_audited: "2026-09-08"
 ---
 
 ## What Happened

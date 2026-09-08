@@ -4,6 +4,7 @@ title: "Tesla (TSLA) Falls Nearly 6% to $354.08 as Cybercab Launch 'Underwhelms'
 description: "Tesla stock fell 5.92% to $354.08 after a secretive Cybercab launch skipped fleet details and drew a new NHTSA safety audit."
 published: 2026-09-05
 keywords: ["Tesla stock today", "TSLA Cybercab launch", "Tesla Cybercab NHTSA probe", "why did Tesla stock fall today", "Tesla robotaxi safety investigation", "Wells Fargo Tesla price target", "RBC Tesla price target Cybercab", "Tesla stock drop September 2026"]
+seo_audited: "2026-09-08"
 ---
 
 ## What Happened

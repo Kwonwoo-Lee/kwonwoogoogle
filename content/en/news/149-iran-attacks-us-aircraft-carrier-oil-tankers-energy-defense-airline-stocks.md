@@ -4,6 +4,7 @@ title: "Iran Fires Ballistic Missiles at US Aircraft Carrier, US Destroys 3 Iran
 description: "Iran targeted a US carrier and destroyer with ballistic missiles; the US hit back at three Iranian oil tankers. Here's why energy, defense and airline stocks now face very different outcomes."
 published: 2026-09-06
 keywords: ["Iran attacks US aircraft carrier", "US strikes Iranian oil tankers", "Brent crude oil price today", "Iran US war escalation stocks", "energy defense stocks rally", "Kharg Island oil tanker strike", "September Fed rate hike oil shock", "Delta Air Lines refinery hedge"]
+seo_audited: "2026-09-08"
 ---
 
 ## What Happened

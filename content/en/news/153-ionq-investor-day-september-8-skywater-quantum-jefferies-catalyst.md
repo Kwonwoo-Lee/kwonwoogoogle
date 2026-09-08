@@ -4,6 +4,7 @@ title: "IonQ Stock Swings Wildly Ahead of September 8 Investor Day - Jefferies C
 description: "IonQ holds its first Investor Day at the NYSE on Sept 8, with the $1.8B SkyWater deal and a multiyear revenue forecast in focus."
 published: 2026-09-07
 keywords: ["IonQ stock", "IonQ Investor Day", "IonQ SkyWater acquisition", "quantum computing stocks", "IonQ revenue forecast", "Rigetti Infleqtion stock", "September 8 Investor Day", "quantum computing stock outlook"]
+seo_audited: "2026-09-08"
 ---
 
 ## What Happened

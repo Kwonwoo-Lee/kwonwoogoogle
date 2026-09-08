@@ -4,6 +4,7 @@ title: "Lululemon (LULU) Craters 17.38% to $100.61, an 8-Year Low, on Its Third 
 description: "Lululemon stock fell 17.38% to $100.61, an 8-year low, after slashing FY2026 guidance for the third time. Ex-Nike executive Heidi O'Neill becomes CEO on September 8."
 published: 2026-09-05
 keywords: ["Lululemon stock crash", "why is LULU stock down", "Lululemon guidance cut", "Heidi O'Neill Lululemon CEO", "Lululemon Nike CEO", "Lululemon Q3 guidance", "Lululemon North America sales decline", "Nike stock 12 year low"]
+seo_audited: "2026-09-08"
 ---
 
 ## What Happened

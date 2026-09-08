@@ -4,6 +4,7 @@ title: "US Diesel Hits Record $5.85 a Gallon - Refiners Valero, Marathon Post Re
 description: "US diesel prices hit a record $5.85 a gallon. Refiners like Valero and Marathon are riding record crack-spread margins even as households absorb billions in extra fuel costs."
 published: 2026-09-06
 keywords: ["diesel price record high", "US gas prices $4 a gallon", "Valero Marathon Phillips 66 stock", "crack spread record high", "Iran war inflation", "refiner stocks 2026 outlook", "Labor Day gas prices", "September CPI oil prices"]
+seo_audited: "2026-09-08"
 ---
 
 ## What Happened

@@ -4,6 +4,7 @@ title: "Iran Declares Hormuz 'Restricted Zone,' Claims It Hit a US Navy Drone - 
 description: "Iran declared a new restricted zone in the Strait of Hormuz and claimed it struck a US naval drone. The US denied it. Brent crude rose to $96.8 over the Labor Day weekend."
 published: 2026-09-07
 keywords: ["Iran Hormuz restricted zone", "Iran claims US drone attack", "Brent crude $96 oil price", "Iran US war escalation September", "US denies Iran drone claim", "Iran tanker retaliation strike", "September FOMC oil inflation", "Tuesday stock market open oil"]
+seo_audited: "2026-09-08"
 ---
 
 ## What Happened

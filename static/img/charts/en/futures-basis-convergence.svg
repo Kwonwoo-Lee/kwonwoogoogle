@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="'Segoe UI', Arial, sans-serif">
+<rect x="0" y="0" width="640" height="420" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="320" y="28" font-size="16" fill="#20201a" text-anchor="middle" font-weight="700">Futures Price Converges to Spot at Expiration</text>
+
+<line x1="90" y1="360" x2="90" y2="55" stroke="#767568" stroke-width="1.5"/>
+<line x1="90" y1="360" x2="590" y2="360" stroke="#767568" stroke-width="1.5"/>
+<text x="60" y="60" font-size="13" fill="#767568" text-anchor="middle">Price</text>
+<text x="565" y="382" font-size="13" fill="#767568" text-anchor="middle">Time (approaching expiration)</text>
+
+<path d="M 90,260 C 220,254 360,266 560,250" fill="none" stroke="#20201a" stroke-width="2.5"/>
+<path d="M 90,170 C 250,192 420,226 560,250" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+
+<text x="100" y="288" font-size="13" fill="#20201a" text-anchor="start" font-weight="700">Spot price (KOSPI 200 index)</text>
+<text x="100" y="152" font-size="13" fill="#1a5fb4" text-anchor="start" font-weight="700">Futures price</text>
+
+<line x1="250" y1="192" x2="250" y2="257" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="4,3"/>
+<circle cx="250" cy="192" r="4" fill="#c0392b"/>
+<circle cx="250" cy="257" r="4" fill="#c0392b"/>
+<text x="262" y="220" font-size="13" fill="#c0392b" text-anchor="start" font-weight="700">Basis</text>
+<text x="262" y="238" font-size="12" fill="#767568" text-anchor="start">= Futures − Spot (positive under contango)</text>
+
+<line x1="560" y1="360" x2="560" y2="55" stroke="#a9a89e" stroke-width="1.5" stroke-dasharray="5,4"/>
+<text x="560" y="378" font-size="13" fill="#767568" text-anchor="middle">Expiration (last trading day)</text>
+
+<circle cx="560" cy="250" r="6" fill="#1f9d55"/>
+<text x="430" y="286" font-size="13" fill="#1f9d55" text-anchor="start" font-weight="700">Convergence (basis → 0)</text>
+</svg>

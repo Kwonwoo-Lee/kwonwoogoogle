@@ -1,9 +1,10 @@
 ---
 slug: houthi-attack-saudi-aramco-oil-100-dow-628-fed-hike-odds
-title: "Dow Sinks 628 Points as Houthi Strikes on Saudi Aramco Send Oil Near $100 - Fed Hike Odds Cross 55% Ahead of Friday's CPI"
+title: "Dow Sinks 628 Points as Houthi Strikes on Saudi Aramco Send Oil Near $100 - Fed Hike Odds Jump to 58.7% Ahead of Friday's CPI"
 description: "Houthi drones and missiles hit Saudi Aramco sites, wounding 73 and pushing Brent above $99. The Dow fell 628 points as traders priced in a bigger Fed hike risk."
 published: 2026-09-09
 keywords: ["Dow Jones drops 628 points", "oil price near 100 dollars", "Houthi attack Saudi Aramco", "Fed rate hike odds September", "Brent crude oil today", "stock market Iran oil September 2026", "CPI report September 11 Fed", "WTI crude six day streak"]
+seo_audited: 2026-09-09
 ---
 
 ## What Happened

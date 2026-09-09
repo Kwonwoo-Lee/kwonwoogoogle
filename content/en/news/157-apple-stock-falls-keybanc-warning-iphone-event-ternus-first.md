@@ -4,6 +4,7 @@ title: "Apple Stock Falls 2.5% Day Before Ternus's First iPhone Event - KeyBanc 
 description: "Apple fell about 2.5% Tuesday as KeyBanc warned Wednesday's iPhone event could be a negative catalyst, citing a 5-year pattern of announcement-day declines."
 published: 2026-09-08
 keywords: ["Apple stock KeyBanc warning", "Apple iPhone event stock drop", "AAPL stock September 9", "John Ternus first iPhone event", "Apple foldable iPhone stock reaction", "iPhone 18 event stock impact", "KeyBanc Apple negative catalyst", "Apple stock history announcement day"]
+seo_audited: 2026-09-09
 ---
 
 ## What Happened

@@ -4,6 +4,7 @@ title: "Canada's $27.6 Billion Retaliatory Tariffs Take Effect Today - Steel and
 description: "Canada's $27.6 billion retaliatory tariffs on US goods took effect Tuesday, doubling steel and aluminum duties to 50% and whipsawing stocks like Nucor and Cleveland-Cliffs."
 published: 2026-09-08
 keywords: ["Canada retaliatory tariffs", "US Canada trade war September 2026", "steel aluminum tariffs 50 percent", "Nucor Cleveland-Cliffs stock", "Canada tariffs 27.6 billion", "US Canada trade talks collapse", "Century Aluminum stock news", "Trump Canada tariff deal"]
+seo_audited: 2026-09-09
 ---
 
 ## What Happened

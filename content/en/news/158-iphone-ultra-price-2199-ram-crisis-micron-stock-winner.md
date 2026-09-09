@@ -4,6 +4,7 @@ title: "iPhone Ultra Price Jumps $200 to $2,199 on Memory Shortage - Same Crisis
 description: "Apple's first foldable iPhone is set to launch at $2,199 instead of its original $1,999 target, as a global memory shortage that's also driving Micron's stock past $1,000 hits Apple's cost sheet."
 published: 2026-09-09
 keywords: ["iPhone Ultra price $2199", "Apple foldable iPhone price", "memory shortage RAM prices 2026", "Micron stock $1000", "why is DRAM price rising", "iPhone event September 9", "memory chip supercycle", "MU stock forecast 2026"]
+seo_audited: 2026-09-09
 ---
 
 ## What Happened

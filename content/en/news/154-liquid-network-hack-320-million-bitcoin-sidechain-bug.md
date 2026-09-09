@@ -4,6 +4,7 @@ title: "Liquid Network Hacked for $320 Million - 95% of Bitcoin Reserves Drained
 description: "Bitcoin sidechain Liquid Network lost $320 million, about 95% of its reserves, to a validation-logic bug. Here's the mechanism, the hacker's 'white hat' offer, and the market read-through."
 published: 2026-09-07
 keywords: ["Liquid Network hack", "Liquid Network $320 million", "Bitcoin sidechain hack", "Blockstream Liquid Network", "crypto hack September 2026", "white hat hacker bitcoin return", "is Liquid Network safe", "Bitcoin price today"]
+seo_audited: 2026-09-09
 ---
 
 ## What Happened

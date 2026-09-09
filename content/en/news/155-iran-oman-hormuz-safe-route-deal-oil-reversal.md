@@ -4,6 +4,7 @@ title: "Iran Nears Hormuz 'Safe Route' Deal With Oman - Oil Spikes to $97.93 The
 description: "Iran says a Strait of Hormuz deal with Oman is in its final stages, but oil whipsawed on the news - spiking to $97.93 a barrel before reversing to $96.15."
 published: 2026-09-08
 keywords: ["Iran Oman Hormuz deal", "Strait of Hormuz safe route", "Brent crude $97", "WTI oil price today", "Iran Hormuz restricted zone", "September FOMC rate hike odds", "Hormuz shipping deal oil", "Iran US tension oil forecast"]
+seo_audited: 2026-09-09
 ---
 
 ## What Happened

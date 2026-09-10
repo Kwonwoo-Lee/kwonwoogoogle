@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="'Segoe UI', Arial, sans-serif">
+<rect x="0" y="0" width="640" height="420" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="320" y="28" font-size="16" fill="#20201a" text-anchor="middle" font-weight="700">Shares Freed Up Before vs. After Lock-Up Expiration</text>
+
+<line x1="70" y1="360" x2="70" y2="60" stroke="#767568" stroke-width="1.5"/>
+<line x1="70" y1="360" x2="590" y2="360" stroke="#767568" stroke-width="1.5"/>
+<text x="40" y="64" font-size="12" fill="#767568" text-anchor="middle">Share</text>
+
+<rect x="150" y="300" width="110" height="60" fill="#1a5fb4"/>
+<text x="205" y="335" font-size="13" fill="#fdfdfb" text-anchor="middle" font-weight="700">20%</text>
+<rect x="150" y="100" width="110" height="200" fill="#c7c6ba"/>
+<text x="205" y="195" font-size="13" fill="#20201a" text-anchor="middle" font-weight="700">80%</text>
+<text x="205" y="386" font-size="13" fill="#20201a" text-anchor="middle" font-weight="700">Before expiration</text>
+<text x="150" y="292" font-size="12" fill="#1a5fb4" text-anchor="start">Free float (tradable)</text>
+<text x="150" y="92" font-size="12" fill="#767568" text-anchor="start">Locked-up shares — cannot be sold</text>
+
+<path d="M 280,220 L 350,220" stroke="#20201a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="315" y="205" font-size="12" fill="#20201a" text-anchor="middle" font-weight="700">Lock-up expires</text>
+
+<rect x="380" y="300" width="110" height="60" fill="#1a5fb4"/>
+<text x="435" y="335" font-size="13" fill="#fdfdfb" text-anchor="middle" font-weight="700">20%</text>
+<rect x="380" y="100" width="110" height="200" fill="#c0392b"/>
+<text x="435" y="195" font-size="13" fill="#fdfdfb" text-anchor="middle" font-weight="700">80%</text>
+<text x="435" y="386" font-size="13" fill="#20201a" text-anchor="middle" font-weight="700">After expiration</text>
+<text x="380" y="92" font-size="12" fill="#c0392b" text-anchor="start" font-weight="700">Newly sellable shares (overhang)</text>
+
+<text x="320" y="410" font-size="12" fill="#767568" text-anchor="middle">Most of the unlocked shares are never actually sold — but the mere possibility weighs on buyer demand</text>
+
+<defs>
+<marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+<path d="M0,0 L8,4 L0,8 z" fill="#20201a"/>
+</marker>
+</defs>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="640" height="420" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="320" y="28" font-size="16" fill="#20201a" text-anchor="middle" font-weight="700">락업 해제 전후 유통 가능 주식의 변화</text>
+
+<line x1="70" y1="360" x2="70" y2="60" stroke="#767568" stroke-width="1.5"/>
+<line x1="70" y1="360" x2="590" y2="360" stroke="#767568" stroke-width="1.5"/>
+<text x="40" y="64" font-size="12" fill="#767568" text-anchor="middle">비중</text>
+
+<rect x="150" y="300" width="110" height="60" fill="#1a5fb4"/>
+<text x="205" y="335" font-size="13" fill="#fdfdfb" text-anchor="middle" font-weight="700">20%</text>
+<rect x="150" y="100" width="110" height="200" fill="#c7c6ba"/>
+<text x="205" y="195" font-size="13" fill="#20201a" text-anchor="middle" font-weight="700">80%</text>
+<text x="205" y="386" font-size="13" fill="#20201a" text-anchor="middle" font-weight="700">락업 해제 전</text>
+<text x="150" y="292" font-size="12" fill="#1a5fb4" text-anchor="start">유통주식</text>
+<text x="150" y="92" font-size="12" fill="#767568" text-anchor="start">락업(보호예수) 물량 — 매도 불가</text>
+
+<path d="M 280,220 L 350,220" stroke="#20201a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="315" y="205" font-size="12" fill="#20201a" text-anchor="middle" font-weight="700">락업 해제일</text>
+
+<rect x="380" y="300" width="110" height="60" fill="#1a5fb4"/>
+<text x="435" y="335" font-size="13" fill="#fdfdfb" text-anchor="middle" font-weight="700">20%</text>
+<rect x="380" y="100" width="110" height="200" fill="#c0392b"/>
+<text x="435" y="195" font-size="13" fill="#fdfdfb" text-anchor="middle" font-weight="700">80%</text>
+<text x="435" y="386" font-size="13" fill="#20201a" text-anchor="middle" font-weight="700">락업 해제 후</text>
+<text x="380" y="92" font-size="12" fill="#c0392b" text-anchor="start" font-weight="700">신규 매도 가능 물량 (오버행)</text>
+
+<text x="320" y="410" font-size="12" fill="#767568" text-anchor="middle">해제 물량 전체가 즉시 매도되는 것은 아니지만, 매도 가능해졌다는 사실 자체가 매수 심리를 위축시킵니다</text>
+
+<defs>
+<marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+<path d="M0,0 L8,4 L0,8 z" fill="#20201a"/>
+</marker>
+</defs>
+</svg>

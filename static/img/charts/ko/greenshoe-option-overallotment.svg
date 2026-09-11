@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="640" height="420" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="320" y="30" font-size="16" fill="#20201a" text-anchor="middle" font-weight="700">주가 방향에 따라 갈리는 그린슈옵션의 대응</text>
+
+<rect x="210" y="55" width="220" height="50" rx="8" fill="#c7c6ba"/>
+<text x="320" y="76" font-size="13" fill="#20201a" text-anchor="middle" font-weight="700">초과배정 물량 15% 매도</text>
+<text x="320" y="95" font-size="11" fill="#20201a" text-anchor="middle">(최대주주로부터 차입 → 투자자에게 판매)</text>
+
+<line x1="320" y1="105" x2="320" y2="130" stroke="#767568" stroke-width="1.5"/>
+<line x1="150" y1="130" x2="490" y2="130" stroke="#767568" stroke-width="1.5"/>
+<line x1="150" y1="130" x2="150" y2="150" stroke="#767568" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="490" y1="130" x2="490" y2="150" stroke="#767568" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="60" y="150" width="180" height="42" rx="8" fill="#1a5fb4"/>
+<text x="150" y="176" font-size="13" fill="#fdfdfb" text-anchor="middle" font-weight="700">주가 &gt; 공모가</text>
+
+<rect x="400" y="150" width="180" height="42" rx="8" fill="#c0392b"/>
+<text x="490" y="176" font-size="13" fill="#fdfdfb" text-anchor="middle" font-weight="700">주가 &lt; 공모가</text>
+
+<line x1="150" y1="192" x2="150" y2="215" stroke="#767568" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="490" y1="192" x2="490" y2="215" stroke="#767568" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="45" y="215" width="210" height="56" rx="8" fill="#eef2f8" stroke="#1a5fb4"/>
+<text x="150" y="238" font-size="13" fill="#1a5fb4" text-anchor="middle" font-weight="700">그린슈옵션 행사</text>
+<text x="150" y="256" font-size="11" fill="#20201a" text-anchor="middle">발행회사로부터 신주를</text>
+<text x="150" y="270" font-size="11" fill="#20201a" text-anchor="middle">공모가에 취득해 상환</text>
+
+<rect x="385" y="215" width="210" height="56" rx="8" fill="#fbeceb" stroke="#c0392b"/>
+<text x="490" y="238" font-size="13" fill="#c0392b" text-anchor="middle" font-weight="700">시장에서 직접 매수</text>
+<text x="490" y="256" font-size="11" fill="#20201a" text-anchor="middle">시세 매수분으로 상환,</text>
+<text x="490" y="270" font-size="11" fill="#20201a" text-anchor="middle">매수세가 하락 완충(시장조성)</text>
+
+<line x1="150" y1="271" x2="150" y2="295" stroke="#767568" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="490" y1="271" x2="490" y2="295" stroke="#767568" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="45" y="295" width="210" height="46" rx="8" fill="#f4f4ef"/>
+<text x="150" y="317" font-size="12" fill="#20201a" text-anchor="middle" font-weight="700">회사: 추가 자금조달</text>
+<text x="150" y="333" font-size="12" fill="#20201a" text-anchor="middle" font-weight="700">주간사: 인수수수료 증가</text>
+
+<rect x="385" y="295" width="210" height="46" rx="8" fill="#f4f4ef"/>
+<text x="490" y="317" font-size="12" fill="#20201a" text-anchor="middle" font-weight="700">주간사: 매수·매도가 차익</text>
+<text x="490" y="333" font-size="12" fill="#20201a" text-anchor="middle" font-weight="700">시장: 하락 속도 완충</text>
+
+<text x="320" y="375" font-size="12" fill="#767568" text-anchor="middle">어느 시나리오든 주간사는 손해를 보지 않으며, 이 개입은 상장 후 통상 30일 안팎으로 제한됩니다</text>
+
+<defs>
+<marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+<path d="M0,0 L8,4 L0,8 z" fill="#767568"/>
+</marker>
+</defs>
+</svg>

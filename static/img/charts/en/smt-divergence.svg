@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 380" font-family="'Segoe UI', Arial, sans-serif">
+<rect x="0" y="0" width="620" height="380" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="13.5" fill="#20201a" text-anchor="middle" font-weight="700">SMT Divergence: Do Both Correlated Assets Confirm the Extreme?</text>
+
+<line x1="310" y1="34" x2="310" y2="345" stroke="#e1e0d9" stroke-width="1"/>
+
+<text x="30" y="52" font-size="12" fill="#5a5950" font-weight="700">① Bearish SMT: only Asset A makes a new high</text>
+
+<line x1="45" y1="95" x2="285" y2="95" stroke="#767568" stroke-width="1.3" stroke-dasharray="5,4"/>
+<text x="50" y="88" font-size="9.5" fill="#767568">Asset A prior high</text>
+
+<path d="M 45,150 L 90,95 L 140,140 L 190,80 L 240,120 L 280,60" fill="none" stroke="#1a5fb4" stroke-width="2.6"/>
+<circle cx="90" cy="95" r="4" fill="#1a5fb4"/>
+<circle cx="190" cy="80" r="5" fill="#d0453b"/>
+<text x="196" y="72" font-size="10" fill="#d0453b" font-weight="700">new high ✓</text>
+<text x="30" y="168" font-size="10" fill="#1a5fb4" font-weight="700">Asset A (e.g. ES)</text>
+
+<line x1="45" y1="230" x2="285" y2="230" stroke="#767568" stroke-width="1.3" stroke-dasharray="5,4"/>
+<text x="50" y="223" font-size="9.5" fill="#767568">Asset B prior high</text>
+
+<path d="M 45,270 L 90,230 L 140,255 L 190,245 L 240,260 L 280,225" fill="none" stroke="#5a7a3a" stroke-width="2.6"/>
+<circle cx="90" cy="230" r="4" fill="#5a7a3a"/>
+<circle cx="190" cy="245" r="5" fill="#767568"/>
+<text x="196" y="240" font-size="10" fill="#767568" font-weight="700">fails to confirm ✗</text>
+<text x="30" y="288" font-size="10" fill="#5a7a3a" font-weight="700">Asset B (e.g. NQ)</text>
+
+<text x="30" y="315" font-size="10" fill="#20201a">A prints a new high, B stalls below its prior high</text>
+<text x="30" y="332" font-size="10" fill="#20201a">→ Bearish SMT: A's new high looks like a liquidity sweep</text>
+
+<text x="335" y="52" font-size="12" fill="#5a5950" font-weight="700">② Bullish SMT: only Asset A makes a new low</text>
+
+<line x1="345" y1="145" x2="585" y2="145" stroke="#767568" stroke-width="1.3" stroke-dasharray="5,4"/>
+<text x="350" y="138" font-size="9.5" fill="#767568">Asset A prior low</text>
+
+<path d="M 345,90 L 390,145 L 440,110 L 490,175 L 540,130 L 580,190" fill="none" stroke="#1a5fb4" stroke-width="2.6"/>
+<circle cx="390" cy="145" r="4" fill="#1a5fb4"/>
+<circle cx="490" cy="175" r="5" fill="#d0453b"/>
+<text x="450" y="192" font-size="10" fill="#d0453b" font-weight="700">new low ✓</text>
+<text x="345" y="205" font-size="10" fill="#1a5fb4" font-weight="700">Asset A (e.g. ES)</text>
+
+<line x1="345" y1="260" x2="585" y2="260" stroke="#767568" stroke-width="1.3" stroke-dasharray="5,4"/>
+<text x="350" y="253" font-size="9.5" fill="#767568">Asset B prior low</text>
+
+<path d="M 345,215 L 390,260 L 440,240 L 490,250 L 540,235 L 580,255" fill="none" stroke="#5a7a3a" stroke-width="2.6"/>
+<circle cx="390" cy="260" r="4" fill="#5a7a3a"/>
+<circle cx="490" cy="250" r="5" fill="#767568"/>
+<text x="496" y="245" font-size="10" fill="#767568" font-weight="700">holds ✗</text>
+<text x="345" y="278" font-size="10" fill="#5a7a3a" font-weight="700">Asset B (e.g. NQ)</text>
+
+<text x="335" y="317" font-size="10" fill="#20201a">A prints a new low, B holds above its prior low</text>
+<text x="335" y="334" font-size="10" fill="#20201a">→ Bullish SMT: A's new low looks like a liquidity sweep</text>
+</svg>

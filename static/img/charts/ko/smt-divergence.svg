@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 380" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="620" height="380" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="13.5" fill="#20201a" text-anchor="middle" font-weight="700">SMT 다이버전스: 두 상관자산의 극값 확인 여부 비교</text>
+
+<line x1="310" y1="34" x2="310" y2="345" stroke="#e1e0d9" stroke-width="1"/>
+
+<text x="30" y="52" font-size="12" fill="#5a5950" font-weight="700">① 약세 SMT: 자산A만 신고점</text>
+
+<line x1="45" y1="95" x2="285" y2="95" stroke="#767568" stroke-width="1.3" stroke-dasharray="5,4"/>
+<text x="50" y="88" font-size="9.5" fill="#767568">자산A 직전 고점</text>
+
+<path d="M 45,150 L 90,95 L 140,140 L 190,80 L 240,120 L 280,60" fill="none" stroke="#1a5fb4" stroke-width="2.6"/>
+<circle cx="90" cy="95" r="4" fill="#1a5fb4"/>
+<circle cx="190" cy="80" r="5" fill="#d0453b"/>
+<text x="196" y="72" font-size="10" fill="#d0453b" font-weight="700">신고점 ✓</text>
+<text x="30" y="168" font-size="10" fill="#1a5fb4" font-weight="700">자산 A (예: ES)</text>
+
+<line x1="45" y1="230" x2="285" y2="230" stroke="#767568" stroke-width="1.3" stroke-dasharray="5,4"/>
+<text x="50" y="223" font-size="9.5" fill="#767568">자산B 직전 고점</text>
+
+<path d="M 45,270 L 90,230 L 140,255 L 190,245 L 240,260 L 280,225" fill="none" stroke="#5a7a3a" stroke-width="2.6"/>
+<circle cx="90" cy="230" r="4" fill="#5a7a3a"/>
+<circle cx="190" cy="245" r="5" fill="#767568"/>
+<text x="196" y="240" font-size="10" fill="#767568" font-weight="700">확인 실패 ✗</text>
+<text x="30" y="288" font-size="10" fill="#5a7a3a" font-weight="700">자산 B (예: NQ)</text>
+
+<text x="30" y="315" font-size="10" fill="#20201a">A는 신고점 갱신, B는 직전 고점을 못 넘김</text>
+<text x="30" y="332" font-size="10" fill="#20201a">→ 약세 SMT 다이버전스: A 신고점은 유동성 스윕 의심</text>
+
+<text x="335" y="52" font-size="12" fill="#5a5950" font-weight="700">② 강세 SMT: 자산A만 신저점</text>
+
+<line x1="345" y1="145" x2="585" y2="145" stroke="#767568" stroke-width="1.3" stroke-dasharray="5,4"/>
+<text x="350" y="138" font-size="9.5" fill="#767568">자산A 직전 저점</text>
+
+<path d="M 345,90 L 390,145 L 440,110 L 490,175 L 540,130 L 580,190" fill="none" stroke="#1a5fb4" stroke-width="2.6"/>
+<circle cx="390" cy="145" r="4" fill="#1a5fb4"/>
+<circle cx="490" cy="175" r="5" fill="#d0453b"/>
+<text x="450" y="192" font-size="10" fill="#d0453b" font-weight="700">신저점 ✓</text>
+<text x="345" y="205" font-size="10" fill="#1a5fb4" font-weight="700">자산 A (예: ES)</text>
+
+<line x1="345" y1="260" x2="585" y2="260" stroke="#767568" stroke-width="1.3" stroke-dasharray="5,4"/>
+<text x="350" y="253" font-size="9.5" fill="#767568">자산B 직전 저점</text>
+
+<path d="M 345,215 L 390,260 L 440,240 L 490,250 L 540,235 L 580,255" fill="none" stroke="#5a7a3a" stroke-width="2.6"/>
+<circle cx="390" cy="260" r="4" fill="#5a7a3a"/>
+<circle cx="490" cy="250" r="5" fill="#767568"/>
+<text x="496" y="245" font-size="10" fill="#767568" font-weight="700">확인 실패 ✗</text>
+<text x="345" y="278" font-size="10" fill="#5a7a3a" font-weight="700">자산 B (예: NQ)</text>
+
+<text x="335" y="317" font-size="10" fill="#20201a">A는 신저점 갱신, B는 직전 저점을 지킴</text>
+<text x="335" y="334" font-size="10" fill="#20201a">→ 강세 SMT 다이버전스: A 신저점은 유동성 스윕 의심</text>
+</svg>

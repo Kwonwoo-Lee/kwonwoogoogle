@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 340" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="620" height="340" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="13.5" fill="#20201a" text-anchor="middle" font-weight="700">COT 리포트: 반대 방향 극단 포지션 &amp; COT 인덱스 90/10 교차</text>
+
+<text x="28" y="48" font-size="12" fill="#5a5950" font-weight="700">그룹별 순포지션 방향(예시)</text>
+
+<line x1="160" y1="66" x2="160" y2="196" stroke="#c7c6bb" stroke-width="1.2"/>
+
+<text x="160" y="80" font-size="9" fill="#767568" text-anchor="middle">순매도 ← 0 → 순매수</text>
+
+<text x="30" y="102" font-size="9.5" fill="#3a3a33" font-weight="700">상업거래자</text>
+<rect x="45" y="108" width="115" height="20" fill="#d0453b" opacity="0.55"/>
+<text x="35" y="122" font-size="8.5" fill="#d0453b" text-anchor="end" font-weight="700">순매도 극단</text>
+
+<text x="30" y="150" font-size="9.5" fill="#3a3a33" font-weight="700">대형투기자</text>
+<rect x="160" y="156" width="128" height="20" fill="#1a5fb4" opacity="0.55"/>
+<text x="293" y="170" font-size="8.5" fill="#1a5fb4" font-weight="700">순매수 극단</text>
+
+<text x="30" y="198" font-size="9.5" fill="#3a3a33" font-weight="700">소규모 트레이더</text>
+<rect x="160" y="204" width="28" height="16" fill="#767568" opacity="0.45"/>
+<text x="192" y="216" font-size="8.5" fill="#767568">순매수(소폭)</text>
+
+<text x="160" y="244" font-size="8.8" fill="#5a5950" text-anchor="middle">상업거래자 순매도와 대형투기자 순매수는</text>
+<text x="160" y="256" font-size="8.8" fill="#5a5950" text-anchor="middle">항상 반대 방향(제로섬 구조)으로 나타난다</text>
+
+<line x1="325" y1="30" x2="325" y2="315" stroke="#e1e0d9" stroke-width="1"/>
+
+<text x="472" y="46" font-size="12" fill="#5a5950" text-anchor="middle" font-weight="700">COT 인덱스 추이 &amp; 90/10 임계선 교차</text>
+
+<line x1="352" y1="270" x2="600" y2="270" stroke="#c7c6bb" stroke-width="1"/>
+<line x1="352" y1="80" x2="352" y2="270" stroke="#c7c6bb" stroke-width="1"/>
+
+<line x1="352" y1="96" x2="600" y2="96" stroke="#d0453b" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="597" y="92" font-size="8" fill="#d0453b" text-anchor="end">90 (매수 극단)</text>
+
+<line x1="352" y1="248" x2="600" y2="248" stroke="#1a5fb4" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="597" y="262" font-size="8" fill="#1a5fb4" text-anchor="end">10 (매도 극단)</text>
+
+<text x="345" y="278" font-size="8" fill="#767568" text-anchor="end">0</text>
+<text x="345" y="86" font-size="8" fill="#767568" text-anchor="end">100</text>
+
+<polyline points="360,232 400,204 440,168 480,132 520,104 560,94" fill="none" stroke="#1a5fb4" stroke-width="2"/>
+<circle cx="560" cy="94" r="3.5" fill="#1a5fb4"/>
+<text x="560" y="82" font-size="8.3" fill="#1a5fb4" text-anchor="middle" font-weight="700">대형투기자</text>
+
+<polyline points="360,132 400,166 440,198 480,228 520,246 560,251" fill="none" stroke="#d0453b" stroke-width="2"/>
+<circle cx="560" cy="251" r="3.5" fill="#d0453b"/>
+<text x="560" y="263" font-size="8.3" fill="#d0453b" text-anchor="middle" font-weight="700">상업거래자</text>
+
+<path d="M 568,100 C 590,140 590,200 578,235" fill="none" stroke="#c98a1f" stroke-width="1.4" stroke-dasharray="2,2" marker-end="url(#arrow2)"/>
+<text x="596" y="170" font-size="8" fill="#a06a10" text-anchor="middle" transform="rotate(90 596 170)">가격 반전</text>
+
+<defs>
+  <marker id="arrow2" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto">
+    <path d="M0,0 L6,3 L0,6 Z" fill="#c98a1f"/>
+  </marker>
+</defs>
+
+<text x="475" y="284" font-size="8" fill="#767568" text-anchor="middle">가로축: 시간(주)  ·  두 인덱스가 90/10 교차 후 가격 반전이 뒤따르는 전형적 패턴</text>
+<text x="475" y="300" font-size="8.3" fill="#767568" text-anchor="middle" font-style="italic">※ 가상의 예시 데이터입니다</text>
+</svg>

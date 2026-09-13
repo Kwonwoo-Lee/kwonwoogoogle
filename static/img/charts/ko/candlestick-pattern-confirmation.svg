@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 380" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="620" height="380" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="15" fill="#20201a" text-anchor="middle" font-weight="700">모닝스타 패턴 + 거래량 컨펌 진입</text>
+
+<!-- support line -->
+<line x1="45" y1="230" x2="590" y2="230" stroke="#767568" stroke-width="1.3" stroke-dasharray="5,4"/>
+<text x="50" y="222" font-size="10.5" fill="#5a5950" font-weight="700">지지선</text>
+
+<!-- stop line -->
+<line x1="45" y1="248" x2="590" y2="248" stroke="#d0453b" stroke-width="1.3" stroke-dasharray="4,3"/>
+<text x="50" y="262" font-size="10.5" fill="#a8362d" font-weight="700">손절선 (패턴 저점 아래)</text>
+
+<!-- breakout trigger line -->
+<line x1="300" y1="120" x2="590" y2="120" stroke="#1f9d55" stroke-width="1.3" stroke-dasharray="4,3"/>
+<text x="470" y="112" font-size="10.5" fill="#1f9d55" font-weight="700">돌파 진입가</text>
+
+<!-- candle 1: bearish -->
+<line x1="160" y1="105" x2="160" y2="235" stroke="#d0453b" stroke-width="2"/>
+<rect x="145" y="125" width="30" height="97" fill="#fbe1df" stroke="#d0453b" stroke-width="2"/>
+
+<!-- candle 2: small doji-like near support -->
+<line x1="230" y1="205" x2="230" y2="245" stroke="#767568" stroke-width="2"/>
+<rect x="223" y="225" width="14" height="8" fill="#f0efe9" stroke="#767568" stroke-width="2"/>
+
+<!-- candle 3: bullish confirmation -->
+<line x1="300" y1="120" x2="300" y2="230" stroke="#1a5fb4" stroke-width="2"/>
+<rect x="284" y="140" width="32" height="82" fill="#dce8f7" stroke="#1a5fb4" stroke-width="2"/>
+
+<!-- candle 4: breakout entry candle -->
+<line x1="370" y1="100" x2="370" y2="175" stroke="#1a5fb4" stroke-width="2"/>
+<rect x="356" y="110" width="28" height="55" fill="#dce8f7" stroke="#1a5fb4" stroke-width="2"/>
+
+<circle cx="370" cy="100" r="5.5" fill="#1f9d55"/>
+<line x1="370" y1="100" x2="370" y2="295" stroke="#1f9d55" stroke-width="1.2" stroke-dasharray="3,2"/>
+<text x="370" y="90" font-size="10.5" fill="#1f9d55" text-anchor="middle" font-weight="700">진입 (3번째 캔들 고점 돌파)</text>
+
+<!-- volume label -->
+<text x="50" y="272" font-size="11" fill="#5a5950" font-weight="700">거래량</text>
+<line x1="45" y1="345" x2="590" y2="345" stroke="#e1e0d9" stroke-width="1"/>
+
+<!-- volume bars -->
+<rect x="145" y="308" width="30" height="37" fill="#767568" opacity="0.35"/>
+<rect x="223" y="330" width="14" height="15" fill="#767568" opacity="0.35"/>
+<rect x="284" y="278" width="32" height="67" fill="#c98a1f" opacity="0.6"/>
+<rect x="356" y="298" width="28" height="47" fill="#1a5fb4" opacity="0.35"/>
+
+<!-- legend -->
+<rect x="430" y="40" width="12" height="10" fill="#fbe1df" stroke="#d0453b" stroke-width="1.5"/>
+<text x="448" y="49" font-size="10" fill="#20201a">음봉 (1번째 캔들)</text>
+<rect x="430" y="58" width="12" height="10" fill="#f0efe9" stroke="#767568" stroke-width="1.5"/>
+<text x="448" y="67" font-size="10" fill="#20201a">도지형 캔들 (2번째)</text>
+<rect x="430" y="76" width="12" height="10" fill="#dce8f7" stroke="#1a5fb4" stroke-width="1.5"/>
+<text x="448" y="85" font-size="10" fill="#20201a">양봉 확인 캔들 (3번째)</text>
+<rect x="430" y="94" width="12" height="10" fill="#c98a1f" opacity="0.6"/>
+<text x="448" y="103" font-size="10" fill="#20201a">거래량 급증 (컨펌)</text>
+</svg>

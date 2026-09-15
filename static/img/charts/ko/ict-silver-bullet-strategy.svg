@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 420" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="620" height="420" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="13.5" fill="#20201a" text-anchor="middle" font-weight="700">ICT 실버불릿: 하루 3개 킬존과 스윕→FVG 진입 구조</text>
+
+<text x="40" y="52" font-size="12" fill="#5a5950" font-weight="700">① 하루 3개의 실버불릿 킬존 (뉴욕시간 ET 기준)</text>
+
+<line x1="40" y1="110" x2="580" y2="110" stroke="#767568" stroke-width="2"/>
+<line x1="40.0" y1="104" x2="40.0" y2="116" stroke="#767568" stroke-width="1.3"/>
+<text x="40.0" y="132" font-size="10" fill="#767568" text-anchor="middle">00:00</text>
+<line x1="107.5" y1="104" x2="107.5" y2="116" stroke="#767568" stroke-width="1.3"/>
+<text x="107.5" y="132" font-size="10" fill="#767568" text-anchor="middle">02:00</text>
+<line x1="175.0" y1="104" x2="175.0" y2="116" stroke="#767568" stroke-width="1.3"/>
+<text x="175.0" y="132" font-size="10" fill="#767568" text-anchor="middle">04:00</text>
+<line x1="242.5" y1="104" x2="242.5" y2="116" stroke="#767568" stroke-width="1.3"/>
+<text x="242.5" y="132" font-size="10" fill="#767568" text-anchor="middle">06:00</text>
+<line x1="310.0" y1="104" x2="310.0" y2="116" stroke="#767568" stroke-width="1.3"/>
+<text x="310.0" y="132" font-size="10" fill="#767568" text-anchor="middle">08:00</text>
+<line x1="377.5" y1="104" x2="377.5" y2="116" stroke="#767568" stroke-width="1.3"/>
+<text x="377.5" y="132" font-size="10" fill="#767568" text-anchor="middle">10:00</text>
+<line x1="445.0" y1="104" x2="445.0" y2="116" stroke="#767568" stroke-width="1.3"/>
+<text x="445.0" y="132" font-size="10" fill="#767568" text-anchor="middle">12:00</text>
+<line x1="512.5" y1="104" x2="512.5" y2="116" stroke="#767568" stroke-width="1.3"/>
+<text x="512.5" y="132" font-size="10" fill="#767568" text-anchor="middle">14:00</text>
+<line x1="580.0" y1="104" x2="580.0" y2="116" stroke="#767568" stroke-width="1.3"/>
+<text x="580.0" y="132" font-size="10" fill="#767568" text-anchor="middle">16:00</text>
+
+<rect x="141.25" y="98" width="33.75" height="24" fill="#8a4fd1" opacity="0.18" stroke="#8a4fd1" stroke-width="1.5"/>
+<text x="158" y="80" font-size="10" fill="#6a3aa8" text-anchor="middle" font-weight="700">런던오픈 SB</text>
+<text x="158" y="92" font-size="9.5" fill="#6a3aa8" text-anchor="middle">(03~04시)</text>
+
+<rect x="377.5" y="98" width="33.75" height="24" fill="#1a5fb4" opacity="0.18" stroke="#1a5fb4" stroke-width="1.5"/>
+<text x="394" y="80" font-size="10" fill="#1a5fb4" text-anchor="middle" font-weight="700">AM세션 SB</text>
+<text x="394" y="92" font-size="9.5" fill="#1a5fb4" text-anchor="middle">(10~11시)</text>
+
+<rect x="512.5" y="98" width="33.75" height="24" fill="#1f9d55" opacity="0.18" stroke="#1f9d55" stroke-width="1.5"/>
+<text x="529" y="80" font-size="10" fill="#177a42" text-anchor="middle" font-weight="700">PM세션 SB</text>
+<text x="529" y="92" font-size="9.5" fill="#177a42" text-anchor="middle">(14~15시)</text>
+
+<text x="580" y="150" font-size="9.5" fill="#9b9a8f" text-anchor="end" font-style="italic">* 모든 시각은 뉴욕시간(ET) 기준</text>
+
+<line x1="20" y1="172" x2="600" y2="172" stroke="#e1e0d9" stroke-width="1"/>
+
+<text x="40" y="196" font-size="12" fill="#5a5950" font-weight="700">② 킬존 안에서: 유동성 스윕 → 디스플레이스먼트 → FVG 진입</text>
+
+<line x1="70" y1="300" x2="270" y2="300" stroke="#767568" stroke-width="1.3" stroke-dasharray="5,4"/>
+<text x="72" y="292" font-size="10" fill="#767568">직전 저점(유동성)</text>
+
+<path d="M 60,250 L 110,268 L 150,318 L 190,232 L 230,178 L 270,196 L 320,168 L 360,178" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+
+<circle cx="150" cy="318" r="5.5" fill="#d0453b"/>
+<text x="150" y="336" font-size="10" fill="#d0453b" text-anchor="middle" font-weight="700">유동성 스윕</text>
+
+<text x="145" y="228" font-size="10" fill="#1a5fb4" font-weight="700">디스플레이스먼트</text>
+<text x="145" y="240" font-size="9.5" fill="#5a5950">(강한 반전 캔들)</text>
+
+<rect x="215" y="185" width="55" height="45" fill="#1a5fb4" opacity="0.16" stroke="#1a5fb4" stroke-width="1.5" stroke-dasharray="4,3"/>
+<text x="242" y="178" font-size="10" fill="#1a5fb4" text-anchor="middle" font-weight="700">FVG(진입 구간)</text>
+
+<line x1="320" y1="168" x2="460" y2="168" stroke="#1f9d55" stroke-width="1.3" stroke-dasharray="5,4"/>
+<text x="390" y="158" font-size="10" fill="#177a42" text-anchor="middle" font-weight="700">목표가(DOL): 세션 상단 유동성</text>
+
+<rect x="70" y="355" width="480" height="30" rx="6" fill="#fbeee9" stroke="#d0453b" stroke-width="1"/>
+<text x="310" y="374" font-size="10.5" fill="#a8362d" text-anchor="middle" font-weight="700">⚠ HTF 바이어스·스윕·FVG 중 하나라도 없으면 진입하지 않음 (Stand Down 원칙)</text>
+</svg>

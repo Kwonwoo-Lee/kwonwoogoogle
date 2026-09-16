@@ -5,7 +5,7 @@ description: "Dark pools now handle nearly half of US equity volume. Learn to re
 order: 25
 updated: 2026-08-16
 keywords: ["dark pool prints", "dark pool trading strategy", "what is a dark pool", "institutional order flow", "block trade tracking", "dark pool volume ratio", "vwap large print", "unusual dark pool activity"]
-seo_audited: 2026-08-16
+seo_audited: 2026-09-16
 ---
 
 ## Why the Biggest Trades Are the Ones You Never See

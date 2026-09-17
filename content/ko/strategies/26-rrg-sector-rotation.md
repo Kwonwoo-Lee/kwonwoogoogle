@@ -5,7 +5,7 @@ description: "RRG(Relative Rotation Graph)의 RS-Ratio·RS-Momentum 두 축과 4
 order: 26
 updated: 2026-08-17
 keywords: ["RRG 차트", "상대순환그래프", "섹터 로테이션 전략", "RS-Ratio RS-Momentum", "섹터 로테이션 매매법", "상대강도 사분면", "RRG 보는법", "섹터 순환 투자"]
-seo_audited: 2026-08-17
+seo_audited: 2026-09-17
 ---
 
 ## 한 화면에 모든 섹터의 힘과 방향을 담는다

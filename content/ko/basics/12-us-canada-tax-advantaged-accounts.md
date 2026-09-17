@@ -5,7 +5,7 @@ description: "미국 401(k)·IRA와 캐나다 RRSP·TFSA가 각각 어떻게 세
 order: 12
 updated: 2026-08-13
 keywords: ["401k IRA 차이", "로스 IRA란", "RRSP TFSA 차이", "TFSA란", "미국 절세 투자", "캐나다 절세 투자"]
-seo_audited: 2026-08-17
+seo_audited: 2026-09-17
 ---
 
 ## 절세는 '규칙을 피하는 것'이 아니라 '규칙을 쓰는 것'입니다

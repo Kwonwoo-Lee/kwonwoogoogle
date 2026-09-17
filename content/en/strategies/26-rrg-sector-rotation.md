@@ -5,7 +5,7 @@ description: "Learn how the Relative Rotation Graph's RS-Ratio and RS-Momentum a
 order: 26
 updated: 2026-08-17
 keywords: ["relative rotation graph", "RRG chart", "sector rotation strategy", "RS-Ratio RS-Momentum", "how to read RRG", "RRG trading strategy", "sector rotation investing", "JdK RS-Ratio"]
-seo_audited: 2026-08-17
+seo_audited: 2026-09-17
 ---
 
 ## Comparing Every Sector's Strength and Direction on One Screen

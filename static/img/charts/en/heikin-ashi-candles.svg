@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 400" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="620" height="400" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="15" fill="#20201a" text-anchor="middle" font-weight="700">Regular Candlesticks vs. Heikin-Ashi: Same Price, Different Trend Picture</text>
+
+<text x="165" y="50" font-size="12.5" fill="#5a5950" text-anchor="middle" font-weight="700">Regular Candlesticks (every swing shown)</text>
+<text x="460" y="50" font-size="12.5" fill="#5a5950" text-anchor="middle" font-weight="700">Heikin-Ashi (smoothed by averaging)</text>
+
+<line x1="310" y1="45" x2="310" y2="345" stroke="#c7c6bd" stroke-width="1" stroke-dasharray="3,3"/>
+<line x1="30" y1="345" x2="590" y2="345" stroke="#e1e0d9" stroke-width="1"/>
+
+<!-- Left panel: regular candlesticks, choppy uptrend -->
+<line x1="50" y1="298" x2="50" y2="332" stroke="#1f9d55" stroke-width="2"/>
+<rect x="39" y="305" width="22" height="20" fill="#e3f5e8" stroke="#1f9d55" stroke-width="2"/>
+
+<line x1="85" y1="283" x2="85" y2="322" stroke="#d0453b" stroke-width="2"/>
+<rect x="74" y="290" width="22" height="25" fill="#fbe1df" stroke="#d0453b" stroke-width="2"/>
+
+<line x1="120" y1="248" x2="120" y2="302" stroke="#1f9d55" stroke-width="2"/>
+<rect x="109" y="255" width="22" height="40" fill="#e3f5e8" stroke="#1f9d55" stroke-width="2"/>
+
+<line x1="155" y1="218" x2="155" y2="267" stroke="#1f9d55" stroke-width="2"/>
+<rect x="144" y="225" width="22" height="35" fill="#e3f5e8" stroke="#1f9d55" stroke-width="2"/>
+
+<line x1="190" y1="208" x2="190" y2="252" stroke="#d0453b" stroke-width="2"/>
+<rect x="179" y="215" width="22" height="30" fill="#fbe1df" stroke="#d0453b" stroke-width="2"/>
+
+<line x1="225" y1="168" x2="225" y2="227" stroke="#1f9d55" stroke-width="2"/>
+<rect x="214" y="175" width="22" height="45" fill="#e3f5e8" stroke="#1f9d55" stroke-width="2"/>
+
+<line x1="260" y1="123" x2="260" y2="187" stroke="#1f9d55" stroke-width="2"/>
+<rect x="249" y="130" width="22" height="50" fill="#e3f5e8" stroke="#1f9d55" stroke-width="2"/>
+
+<circle cx="85" cy="300" r="4.5" fill="#d0453b"/>
+<circle cx="190" cy="230" r="4.5" fill="#d0453b"/>
+<text x="137" y="368" font-size="10.5" fill="#a8362d" text-anchor="middle">Red candles mixed in make the trend look shaky</text>
+
+<!-- Right panel: Heikin-Ashi, smooth uptrend, minimal wicks, no color change -->
+<line x1="350" y1="306" x2="350" y2="334" stroke="#1f9d55" stroke-width="2"/>
+<rect x="339" y="310" width="22" height="20" fill="#e3f5e8" stroke="#1f9d55" stroke-width="2"/>
+
+<line x1="385" y1="281" x2="385" y2="314" stroke="#1f9d55" stroke-width="2"/>
+<rect x="374" y="285" width="22" height="25" fill="#e3f5e8" stroke="#1f9d55" stroke-width="2"/>
+
+<line x1="420" y1="251" x2="420" y2="289" stroke="#1f9d55" stroke-width="2"/>
+<rect x="409" y="255" width="22" height="30" fill="#e3f5e8" stroke="#1f9d55" stroke-width="2"/>
+
+<line x1="455" y1="216" x2="455" y2="259" stroke="#1f9d55" stroke-width="2"/>
+<rect x="444" y="220" width="22" height="35" fill="#e3f5e8" stroke="#1f9d55" stroke-width="2"/>
+
+<line x1="490" y1="176" x2="490" y2="224" stroke="#1f9d55" stroke-width="2"/>
+<rect x="479" y="180" width="22" height="40" fill="#e3f5e8" stroke="#1f9d55" stroke-width="2"/>
+
+<line x1="525" y1="136" x2="525" y2="184" stroke="#1f9d55" stroke-width="2"/>
+<rect x="514" y="140" width="22" height="40" fill="#e3f5e8" stroke="#1f9d55" stroke-width="2"/>
+
+<line x1="560" y1="91" x2="560" y2="144" stroke="#1f9d55" stroke-width="2"/>
+<rect x="549" y="95" width="22" height="45" fill="#e3f5e8" stroke="#1f9d55" stroke-width="2"/>
+
+<line x1="385" y1="298" x2="385" y2="255" stroke="#767568" stroke-width="1" stroke-dasharray="3,2"/>
+<text x="385" y="248" font-size="10.5" fill="#767568" text-anchor="middle" font-weight="700">Same moment, same dip in the raw data</text>
+<text x="460" y="368" font-size="10.5" fill="#1f9d55" text-anchor="middle" font-weight="700">Color holds through — trend stays smooth</text>
+
+<rect x="90" y="380" width="12" height="12" fill="#e3f5e8" stroke="#1f9d55" stroke-width="1.5"/>
+<text x="106" y="390" font-size="11" fill="#20201a" text-anchor="start">Up candle (bullish)</text>
+<rect x="260" y="380" width="12" height="12" fill="#fbe1df" stroke="#d0453b" stroke-width="1.5"/>
+<text x="276" y="390" font-size="11" fill="#20201a" text-anchor="start">Down candle (regular chart only)</text>
+</svg>

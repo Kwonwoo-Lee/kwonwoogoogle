@@ -5,7 +5,7 @@ description: "Instead of 'get rich in 5 years' content, here are five wealth-bui
 order: 13
 updated: 2026-08-13
 keywords: ["wealth building principles", "how to build wealth", "personal finance fundamentals", "long term investing principles", "savings rate vs investment return"]
-seo_audited: 2026-08-18
+seo_audited: 2026-09-18
 ---
 
 ## What Makes This Different From "Shortcut" Content

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 330" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="620" height="330" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="15" fill="#20201a" text-anchor="middle" font-weight="700">Charm flow strengthens into the close, pulling price toward the pin strike</text>
+
+<rect x="40" y="55" width="330" height="180" fill="#1a5fb4" opacity="0.08" stroke="#1a5fb4" stroke-width="1.5" stroke-dasharray="5,4"/>
+<text x="205" y="48" font-size="12" fill="#1a5fb4" text-anchor="middle" font-weight="700">Gamma / vanna dominate: choppier, two-way flow</text>
+
+<rect x="370" y="55" width="210" height="180" fill="#d0453b" opacity="0.08" stroke="#d0453b" stroke-width="1.5" stroke-dasharray="5,4"/>
+<text x="475" y="48" font-size="12" fill="#d0453b" text-anchor="middle" font-weight="700">Charm dominates: flow toward the pin</text>
+
+<line x1="40" y1="150" x2="580" y2="150" stroke="#b8860b" stroke-width="2" stroke-dasharray="6,4"/>
+<text x="565" y="143" font-size="12" fill="#b8860b" text-anchor="end" font-weight="700">Pin strike (heaviest open interest)</text>
+
+<path d="M 40,160 L 80,140 L 120,172 L 160,132 L 200,158 L 240,120 L 280,168 L 320,138 L 360,175 L 370,178 L 400,168 L 430,160 L 460,155 L 490,152 L 520,150 L 550,150 L 580,150" fill="none" stroke="#3a3a30" stroke-width="3"/>
+
+<circle cx="370" cy="178" r="7" fill="#1f9d55"/>
+<line x1="370" y1="178" x2="370" y2="255" stroke="#1f9d55" stroke-width="1.5" stroke-dasharray="5,4"/>
+<text x="370" y="268" font-size="12" fill="#1f9d55" text-anchor="middle" font-weight="700">Charm acceleration begins</text>
+<text x="370" y="282" font-size="11" fill="#1f9d55" text-anchor="middle" font-weight="400">(~60-90 min before close)</text>
+
+<text x="60" y="252" font-size="11" fill="#5a5950" text-anchor="start">9:30</text>
+<text x="205" y="252" font-size="11" fill="#5a5950" text-anchor="middle">12:00</text>
+<text x="370" y="252" font-size="11" fill="#5a5950" text-anchor="middle">2:30</text>
+<text x="565" y="252" font-size="11" fill="#5a5950" text-anchor="end">4:00 (close)</text>
+
+<line x1="50" y1="295" x2="80" y2="295" stroke="#3a3a30" stroke-width="3"/>
+<text x="88" y="300" font-size="13" fill="#20201a" text-anchor="start" font-weight="400">Actual price path</text>
+<line x1="50" y1="315" x2="80" y2="315" stroke="#b8860b" stroke-width="2" stroke-dasharray="6,4"/>
+<text x="88" y="320" font-size="13" fill="#20201a" text-anchor="start" font-weight="400">Pin strike (heaviest open interest)</text>
+</svg>

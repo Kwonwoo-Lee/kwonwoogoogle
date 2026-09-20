@@ -4,6 +4,7 @@ title: "Week Ahead: Trump-Xi White House Summit on September 24 Headlines a Week
 description: "Thursday's Trump-Xi White House summit is this week's biggest US market catalyst, layered on top of the AI-slowdown debate, a China tariff delay, Costco earnings, and record-low consumer sentiment."
 published: 2026-09-20
 keywords: ["Trump Xi summit September 24", "week ahead stock market September 21", "China tariff delay 2026", "AI slowdown Nasdaq stocks", "Costco earnings date September", "Michigan consumer sentiment 47.8", "US China trade truce November", "stock market calendar this week"]
+seo_audited: 2026-09-20
 ---
 
 ## What Happened

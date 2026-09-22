@@ -43,7 +43,7 @@ AI 데이터센터용 인스팅트 가속기와 서버용 에픽 프로세서에
 ### 유가 하락이 왜 증시에는 호재인가요?
 유가 상승은 기업의 원자재·운송비 부담을 늘리고 소비자물가를 자극해 인플레이션 우려로 이어지며, 이는 다시 연준의 긴축 압력과 국채금리 상승으로 연결됩니다. 반대로 유가가 내려가면 이런 인플레이션 경로가 약화되면서 금리와 증시 모두에 우호적인 환경이 만들어집니다. 다만 이번 하락은 실제 합의가 아닌 외교적 기대감에 기반한 것이라 되돌림 가능성도 함께 열려 있습니다.
 
-관련 기사: [인텔 +6% 급등 vs HP -4% 급락](/news/intel-surges-hp-falls-meta-muse-auo-microled-pc-2027-warning/), [10년물 국채금리 5.04%, 2007년 이후 최고치](/news/10-year-yield-5-04-percent-highest-since-2007-mortgage-rate-7-17-percent-dow-drops-328/)
+관련 기사: [인텔 +12% 급등 vs HP -4% 급락](/news/intel-surges-hp-falls-meta-muse-auo-microled-pc-2027-warning/), [10년물 국채금리 5.04%, 2007년 이후 최고치](/news/10-year-yield-5-04-percent-highest-since-2007-mortgage-rate-7-17-percent-dow-drops-328/)
 
 ## 참고 자료
 

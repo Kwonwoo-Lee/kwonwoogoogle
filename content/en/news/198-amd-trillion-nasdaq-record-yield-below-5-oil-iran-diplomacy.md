@@ -43,7 +43,7 @@ Five straight days of gains built on rising confidence in demand for AMD's Insti
 ### Why is falling oil good news for the stock market?
 Rising oil prices raise companies' input and transport costs and stoke consumer inflation, which feeds through to tighter Fed policy and higher Treasury yields. When oil falls, that inflationary channel weakens, creating a more favorable backdrop for both bond yields and equities. That said, Monday's drop was driven by diplomatic hope rather than an actual deal, so it remains reversible if talks don't pan out.
 
-Related reading: [Intel Jumps 6% While HP Slides 4%](/en/news/intel-surges-hp-falls-meta-muse-auo-microled-pc-2027-warning/), [10-Year Treasury Yield Hits 5.04%, Highest Since 2007](/en/news/10-year-yield-5-04-percent-highest-since-2007-mortgage-rate-7-17-percent-dow-drops-328/)
+Related reading: [Intel Jumps 12% While HP Slides 4%](/en/news/intel-surges-hp-falls-meta-muse-auo-microled-pc-2027-warning/), [10-Year Treasury Yield Hits 5.04%, Highest Since 2007](/en/news/10-year-yield-5-04-percent-highest-since-2007-mortgage-rate-7-17-percent-dow-drops-328/)
 
 ## Sources
 

@@ -1,7 +1,7 @@
 ---
 slug: intel-surges-hp-falls-meta-muse-auo-microled-pc-2027-warning
-title: "Intel Jumps 6% While HP Slides 4% - Meta's 'Muse' AI Buzz and an AUO Chip Deal Collide With a Grim 2027 PC Warning"
-description: "Intel surged as much as 6% on Meta Muse-driven AI inference demand and a Micro LED packaging deal with AUO, while HP fell nearly 4% after warning global PC shipments will shrink in 2027."
+title: "Intel Jumps 12% While HP Slides 4% - Meta's 'Muse' AI Buzz and an AUO Chip Deal Collide With a Grim 2027 PC Warning"
+description: "Intel surged as much as 6% in premarket trading and closed up more than 12% on Meta Muse-driven AI inference demand and a Micro LED packaging deal with AUO, while HP fell nearly 4% after warning global PC shipments will shrink in 2027."
 published: 2026-09-21
 keywords: ["why did Intel stock jump today", "why is HP stock falling", "Intel AUO Micro LED partnership", "Meta Muse Intel CPU demand", "HP 2027 PC shipment forecast", "Intel co-packaged optics CPO", "PC market decline 2027", "semiconductor hardware stocks today"]
 seo_audited: 2026-09-21
@@ -9,7 +9,7 @@ seo_audited: 2026-09-21
 
 ## What Happened
 
-Ahead of Monday's open on September 21, two of computing hardware's best-known names moved in opposite directions within hours of each other. Intel shares jumped as much as 6% (reports ranged from 5.76% to 5.9%) in premarket trading, building on Friday's close of $108.60. That extends a rally that already saw the stock climb 4% on Wednesday and 8% on Thursday of the prior week - Intel is now up more than 194% year-to-date. HP, meanwhile, slid as much as 4% in early trading the same morning. Both companies sit inside the broader semiconductor and PC hardware ecosystem, but on this particular Monday, the market drew a sharp line between them.
+Ahead of Monday's open on September 21, two of computing hardware's best-known names moved in opposite directions within hours of each other. Intel shares jumped as much as 6% (reports ranged from 5.76% to 5.9%) in premarket trading, then extended those gains through the regular session to close up more than 12%, building on Friday's close of $108.60. That extends a rally that already saw the stock climb 4% on Wednesday and 8% on Thursday of the prior week - Intel is now up more than 194% year-to-date. HP, meanwhile, slid as much as 4% in early trading the same morning. Both companies sit inside the broader semiconductor and PC hardware ecosystem, but on this particular Monday, the market drew a sharp line between them.
 
 Intel's jump came from two pieces of news landing together. The first was demand excitement tied to Meta's new AI agent app, Muse. According to Sensor Tower data, Muse has held the No. 1 spot among free apps on the U.S. Apple App Store for three straight days, and that kind of runaway adoption has analysts pointing to a knock-on effect: AI inference workloads - the computing needed to actually run a trained AI model for users - lean on server CPUs alongside GPUs, so a hit consumer AI app can translate into incremental demand for Intel's Xeon data-center processors. The second was a partnership announcement with AUO Optronics, the Taiwanese display panel maker. The two companies are jointly developing Micro LED-based advanced packaging technology aimed at co-packaged optics (CPO) and high-density computing integration - pairing AUO's expertise in glass processing and Micro LED manufacturing with a patent Intel already holds for embedding Micro LEDs into a glass substrate and wiring them electrically through what's called a through-glass via (TGV). Tigress Financial responded by lifting its Intel price target to $145 from $118, citing "an AI-driven turnaround and stronger Xeon demand" as the rationale.
 

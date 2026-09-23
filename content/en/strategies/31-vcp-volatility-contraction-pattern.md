@@ -5,7 +5,7 @@ description: "Learn Mark Minervini's VCP: how tightening pullbacks and falling v
 order: 31
 updated: 2026-08-22
 keywords: ["VCP pattern trading", "volatility contraction pattern", "Mark Minervini strategy", "pivot point breakout", "VCP vs cup and handle", "growth stock swing trading", "how to set stop loss breakout"]
-seo_audited: 2026-08-22
+seo_audited: 2026-09-23
 ---
 
 ## VCP: The Tighter the Coil, the Harder It Springs

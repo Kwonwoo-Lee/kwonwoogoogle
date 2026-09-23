@@ -5,7 +5,7 @@ description: "Why a holding company's stock often trades below the net asset val
 order: 35
 updated: 2026-08-22
 keywords: ["what is a holding company discount", "holding company discount meaning", "NAV discount stocks", "why do holding companies trade cheap", "net asset value discount", "conglomerate discount explained", "double listing discount", "sum of the parts valuation"]
-seo_audited: 2026-08-22
+seo_audited: 2026-09-23
 ---
 
 ## Why a Company With Great Subsidiaries Can Still Trade Cheap

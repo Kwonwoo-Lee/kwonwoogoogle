@@ -5,7 +5,7 @@ description: "Learn the gap and go strategy for trading pre-market gappers on th
 order: 32
 updated: 2026-08-23
 keywords: ["gap and go strategy", "gap trading strategy", "premarket gap scanner", "float rotation meaning", "low float stock trading", "opening range breakout gap", "first red day strategy", "how to trade gappers"]
-seo_audited: 2026-08-23
+seo_audited: 2026-09-23
 ---
 
 ## Gap and Go: Riding the Price Void Left Overnight

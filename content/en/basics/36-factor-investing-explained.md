@@ -5,7 +5,7 @@ description: "What the value, momentum, quality, low-volatility, and size factor
 order: 36
 updated: 2026-08-23
 keywords: ["what is factor investing", "factor investing explained", "smart beta ETF meaning", "value factor vs momentum factor", "fama french three factor model", "low volatility anomaly", "quality factor investing", "factor premium explained"]
-seo_audited: 2026-08-23
+seo_audited: 2026-09-23
 ---
 
 ## Most Active Funds Don't Beat the Index — So Why Do Some Strategies Keep Winning?

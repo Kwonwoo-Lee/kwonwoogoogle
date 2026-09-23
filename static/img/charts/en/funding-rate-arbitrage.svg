@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 330" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="620" height="330" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="24" font-size="15" fill="#20201a" text-anchor="middle" font-weight="700">Price P&amp;L cancels out, only funding accumulates in steps</text>
+
+<line x1="360" y1="34" x2="385" y2="34" stroke="#1a5fb4" stroke-width="2.5"/>
+<text x="390" y="38" font-size="10.5" fill="#5a5950" text-anchor="start">Spot price</text>
+<line x1="465" y1="34" x2="490" y2="34" stroke="#d0453b" stroke-width="2" stroke-dasharray="5,3"/>
+<text x="495" y="38" font-size="10.5" fill="#5a5950" text-anchor="start">Perp price</text>
+
+<rect x="40" y="40" width="540" height="105" fill="#1a5fb4" opacity="0.06" stroke="#1a5fb4" stroke-width="1.5" stroke-dasharray="5,4"/>
+<text x="60" y="55" font-size="11.5" fill="#1a5fb4" font-weight="700">Spot and the perpetual move together (perp carries a small premium)</text>
+
+<path d="M 40,100 L 100,80 L 160,115 L 220,75 L 280,120 L 340,90 L 400,105 L 460,70 L 520,110 L 580,95" fill="none" stroke="#1a5fb4" stroke-width="2.5"/>
+<path d="M 40,90 L 100,70 L 160,105 L 220,65 L 280,110 L 340,80 L 400,95 L 460,60 L 520,100 L 580,85" fill="none" stroke="#d0453b" stroke-width="2" stroke-dasharray="5,3"/>
+
+<line x1="40" y1="160" x2="580" y2="160" stroke="#20201a" stroke-width="3.5"/>
+<text x="60" y="177" font-size="11.5" fill="#20201a" font-weight="700">Combined position (delta-neutral): net P&amp;L stays flat as price moves</text>
+
+<line x1="160" y1="145" x2="160" y2="188" stroke="#b8860b" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="280" y1="145" x2="280" y2="188" stroke="#b8860b" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="400" y1="145" x2="400" y2="188" stroke="#b8860b" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="520" y1="145" x2="520" y2="188" stroke="#b8860b" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+<text x="205" y="200" font-size="10.5" fill="#8a6d1a" text-anchor="middle">settle</text>
+<text x="325" y="200" font-size="10.5" fill="#8a6d1a" text-anchor="middle">settle</text>
+<text x="445" y="200" font-size="10.5" fill="#8a6d1a" text-anchor="middle">settle</text>
+
+<rect x="40" y="188" width="540" height="112" fill="#b8860b" opacity="0.05" stroke="#b8860b" stroke-width="1.5" stroke-dasharray="5,4"/>
+<text x="60" y="215" font-size="11.5" fill="#8a6d1a" font-weight="700">Cumulative funding income (paid long to short every 8h, stepped)</text>
+
+<path d="M 40,285 L 160,285 L 160,260 L 280,260 L 280,235 L 400,235 L 400,210 L 520,210 L 520,192 L 580,192" fill="none" stroke="#1f9d55" stroke-width="3"/>
+<circle cx="160" cy="260" r="4" fill="#1f9d55"/>
+<circle cx="280" cy="235" r="4" fill="#1f9d55"/>
+<circle cx="400" cy="210" r="4" fill="#1f9d55"/>
+<circle cx="520" cy="192" r="4" fill="#1f9d55"/>
+
+<text x="40" y="320" font-size="11" fill="#5a5950" text-anchor="start">0h (entry)</text>
+<text x="160" y="320" font-size="11" fill="#5a5950" text-anchor="middle">8h</text>
+<text x="280" y="320" font-size="11" fill="#5a5950" text-anchor="middle">16h</text>
+<text x="400" y="320" font-size="11" fill="#5a5950" text-anchor="middle">24h</text>
+<text x="520" y="320" font-size="11" fill="#5a5950" text-anchor="middle">32h</text>
+</svg>

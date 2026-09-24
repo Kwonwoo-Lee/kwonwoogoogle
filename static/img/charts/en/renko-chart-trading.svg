@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 400" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="620" height="400" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="15" fill="#20201a" text-anchor="middle" font-weight="700">Time-Based Candlesticks vs. Renko: Same Price, Different Trace</text>
+
+<text x="165" y="50" font-size="12.5" fill="#5a5950" text-anchor="middle" font-weight="700">Candlestick chart (a bar every period)</text>
+<text x="460" y="50" font-size="12.5" fill="#5a5950" text-anchor="middle" font-weight="700">Renko chart (a brick every threshold move)</text>
+
+<line x1="310" y1="45" x2="310" y2="345" stroke="#c7c6bd" stroke-width="1" stroke-dasharray="3,3"/>
+<line x1="30" y1="345" x2="590" y2="345" stroke="#e1e0d9" stroke-width="1"/>
+
+<!-- Left panel: noisy time-based price line with small chop -->
+<polyline points="45,325 65,318 85,330 105,300 125,312 145,270 165,285 185,240 205,255 225,205 245,220 265,175 285,190 300,150"
+  fill="none" stroke="#5a5950" stroke-width="2"/>
+<circle cx="45" cy="325" r="3" fill="#5a5950"/>
+<circle cx="65" cy="318" r="3" fill="#5a5950"/>
+<circle cx="85" cy="330" r="3.5" fill="#d0453b"/>
+<circle cx="105" cy="300" r="3" fill="#5a5950"/>
+<circle cx="125" cy="312" r="3.5" fill="#d0453b"/>
+<circle cx="145" cy="270" r="3" fill="#5a5950"/>
+<circle cx="165" cy="285" r="3.5" fill="#d0453b"/>
+<circle cx="185" cy="240" r="3" fill="#5a5950"/>
+<circle cx="205" cy="255" r="3.5" fill="#d0453b"/>
+<circle cx="225" cy="205" r="3" fill="#5a5950"/>
+<circle cx="245" cy="220" r="3.5" fill="#d0453b"/>
+<circle cx="265" cy="175" r="3" fill="#5a5950"/>
+<circle cx="285" cy="190" r="3.5" fill="#d0453b"/>
+<circle cx="300" cy="150" r="3" fill="#5a5950"/>
+<text x="167" y="368" font-size="10.5" fill="#a8362d" text-anchor="middle">Every small wiggle prints its own bar</text>
+
+<!-- Right panel: Renko staircase, same overall move, small chop omitted -->
+<line x1="335" y1="325" x2="335" y2="295" stroke="#767568" stroke-width="1"/>
+<line x1="330" y1="325" x2="340" y2="325" stroke="#767568" stroke-width="1"/>
+<line x1="330" y1="295" x2="340" y2="295" stroke="#767568" stroke-width="1"/>
+<text x="322" y="313" font-size="9" fill="#767568" text-anchor="end">brick</text>
+<text x="322" y="323" font-size="9" fill="#767568" text-anchor="end">size</text>
+
+<rect x="345" y="295" width="26" height="30" fill="#e3f5e8" stroke="#1f9d55" stroke-width="2"/>
+<rect x="373" y="265" width="26" height="30" fill="#e3f5e8" stroke="#1f9d55" stroke-width="2"/>
+<rect x="401" y="235" width="26" height="30" fill="#e3f5e8" stroke="#1f9d55" stroke-width="2"/>
+<!-- pullback that did NOT clear reversal threshold: no brick drawn, shown as faint dashed reference -->
+<rect x="429" y="235" width="26" height="30" fill="#fbe1df" stroke="#d0453b" stroke-width="2" stroke-dasharray="4,3" opacity="0.55"/>
+<text x="442" y="285" font-size="9" fill="#a8362d" text-anchor="middle">below reversal</text>
+<text x="442" y="294" font-size="9" fill="#a8362d" text-anchor="middle">(no brick prints)</text>
+<rect x="457" y="205" width="26" height="30" fill="#e3f5e8" stroke="#1f9d55" stroke-width="2"/>
+<rect x="485" y="175" width="26" height="30" fill="#e3f5e8" stroke="#1f9d55" stroke-width="2"/>
+<rect x="513" y="145" width="26" height="30" fill="#e3f5e8" stroke="#1f9d55" stroke-width="2"/>
+
+<text x="460" y="368" font-size="10.5" fill="#1f9d55" text-anchor="middle" font-weight="700">Sub-threshold pullbacks are simply omitted</text>
+
+<rect x="90" y="380" width="12" height="12" fill="#e3f5e8" stroke="#1f9d55" stroke-width="1.5"/>
+<text x="106" y="390" font-size="11" fill="#20201a" text-anchor="start">Up brick</text>
+<rect x="200" y="380" width="12" height="12" fill="#fbe1df" stroke="#d0453b" stroke-width="1.5" stroke-dasharray="3,2"/>
+<text x="216" y="390" font-size="11" fill="#20201a" text-anchor="start">Sub-threshold move (no real brick, shown for reference only)</text>
+</svg>

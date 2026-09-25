@@ -5,7 +5,7 @@ description: "Learn Elliott Wave Theory's 5-wave impulse, 3-wave correction, the
 order: 34
 updated: 2026-08-25
 keywords: ["elliott wave theory", "elliott wave trading strategy", "impulse wave corrective wave", "how to count elliott waves", "wave 3 entry strategy", "elliott wave rules", "5-3 wave pattern trading", "elliott wave theory guide"]
-seo_audited: 2026-08-25
+seo_audited: "2026-09-25"
 ---
 
 ## What Elliott Wave Theory Actually Claims

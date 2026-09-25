@@ -5,7 +5,7 @@ description: "Learn how the STOCK Act's 45-day disclosure rule exposes congressi
 order: 33
 updated: 2026-08-24
 keywords: ["congressional stock trading", "Nancy Pelosi stock tracker", "STOCK Act disclosure", "copy congress trades", "NANC ETF", "politician stock trading strategy", "STOCK Act 45 day rule", "insider trading vs congress trading"]
-seo_audited: 2026-08-24
+seo_audited: "2026-09-25"
 ---
 
 ## Why Politicians' Trades Became a Trading Strategy

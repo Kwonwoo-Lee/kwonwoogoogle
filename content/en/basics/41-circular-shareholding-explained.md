@@ -5,7 +5,7 @@ description: "Why a chain where Company A owns B, B owns C, and C owns A back in
 order: 41
 updated: 2026-08-25
 keywords: ["circular shareholding explained", "what is circular shareholding", "ownership control disparity", "pyramidal ownership structure", "cross shareholding meaning", "chaebol ownership structure", "control rights vs cash flow rights", "circular shareholding ban Korea"]
-seo_audited: "2026-08-25"
+seo_audited: "2026-09-25"
 ---
 
 ## Can 1% Ownership Control an Entire Company?

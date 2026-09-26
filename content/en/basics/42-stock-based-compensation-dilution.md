@@ -5,7 +5,7 @@ description: "Why stock-based compensation is a real economic cost even though i
 order: 42
 updated: 2026-08-26
 keywords: ["stock based compensation dilution", "SBC dilution explained", "RSU dilution shareholders", "stock based compensation non-GAAP", "diluted shares outstanding increase", "buyback offset dilution", "what is stock based compensation"]
-seo_audited: "2026-08-26"
+seo_audited: 2026-09-26
 ---
 
 ## Profits Are Growing — So Why Does Your Ownership Stake Keep Shrinking?

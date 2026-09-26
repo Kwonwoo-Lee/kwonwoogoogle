@@ -5,7 +5,7 @@ description: "How treasury shares, normally stripped of voting rights, regained 
 order: 43
 updated: 2026-08-26
 keywords: ["treasury stock magic", "what is treasury stock magic Korea", "spin-off treasury shares voting rights", "chaebol control spin-off loophole", "Korea treasury share regulation 2024", "holding company conversion treasury stock", "circular shareholding vs treasury stock magic"]
-seo_audited: "2026-08-26"
+seo_audited: 2026-09-26
 ---
 
 ## Control That Grew Without a Single Extra Won

@@ -5,7 +5,7 @@ description: "Learn how the Advance-Decline Line and McClellan Oscillator reveal
 order: 35
 updated: 2026-08-26
 keywords: ["market breadth indicator", "advance decline line", "mcclellan oscillator", "market internals", "breadth thrust indicator", "narrow rally vs broad rally", "mcclellan summation index", "bearish divergence stocks"]
-seo_audited: 2026-08-26
+seo_audited: 2026-09-27
 ---
 
 ## The Index Hits New Highs — So Why Is Your Portfolio Flat?

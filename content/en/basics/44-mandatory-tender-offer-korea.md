@@ -5,7 +5,7 @@ description: "Why the control premium in a takeover has historically gone only t
 order: 44
 updated: 2026-08-27
 keywords: ["what is a tender offer", "mandatory tender offer explained", "control premium meaning", "tender offer 25 percent rule", "minority shareholder protection M&A", "Korea capital markets act tender offer", "takeover bid vs tender offer"]
-seo_audited: "2026-08-27"
+seo_audited: "2026-09-27"
 ---
 
 ## The Controlling Shareholder Got a Premium. Everyone Else's Stock Just Sat There.

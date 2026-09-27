@@ -5,7 +5,7 @@ description: "How Zuckerberg holds 61% of Meta's votes with only 13% of its equi
 order: 45
 updated: 2026-08-27
 keywords: ["dual class shares explained", "dual class stock meaning", "Zuckerberg voting power ownership", "Alphabet Class A B C shares", "one share one vote principle", "Korea multiple voting rights venture", "dual class shares pros and cons", "recapitalization proposal 2026"]
-seo_audited: "2026-08-27"
+seo_audited: "2026-09-27"
 ---
 
 ## How Does Zuckerberg Control Meta With Just 13% of the Equity?

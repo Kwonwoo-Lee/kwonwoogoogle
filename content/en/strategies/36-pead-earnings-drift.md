@@ -5,7 +5,7 @@ description: "Learn how Post-Earnings Announcement Drift (PEAD) works, how to ca
 order: 36
 updated: 2026-08-27
 keywords: ["post earnings announcement drift", "PEAD trading strategy", "earnings surprise drift strategy", "how to calculate SUE standardized unexpected earnings", "trading earnings surprise stocks", "PEAD anomaly explained", "buy stock after earnings beat strategy", "earnings drift small cap stocks"]
-seo_audited: 2026-08-27
+seo_audited: 2026-09-28
 ---
 
 ## A Market Anomaly That Shouldn't Exist, But Keeps Showing Up

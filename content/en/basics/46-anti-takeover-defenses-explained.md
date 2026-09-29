@@ -5,7 +5,7 @@ description: "How a poison pill dilutes a hostile acquirer's stake, how golden p
 order: 46
 updated: 2026-08-28
 keywords: ["what is a poison pill", "poison pill explained", "golden parachute meaning", "white knight vs greenmail", "shareholder rights plan", "hostile takeover defense", "Korea poison pill law"]
-seo_audited: "2026-08-28"
+seo_audited: 2026-09-29
 ---
 
 ## Once Treasury Shares Have to Be Retired, What's Left to Defend With?

@@ -5,7 +5,7 @@ description: "Why goodwill from M&A isn't amortized but tested for impairment in
 order: 47
 updated: 2026-08-28
 keywords: ["what is goodwill impairment", "goodwill impairment explained", "goodwill vs amortization", "how goodwill is calculated", "impairment loss non-cash expense", "why does goodwill impairment happen", "goodwill impairment stock price", "M&A goodwill accounting"]
-seo_audited: "2026-08-28"
+seo_audited: 2026-09-29
 ---
 
 ## Why a Profitable Company Can Suddenly Post a Massive Loss

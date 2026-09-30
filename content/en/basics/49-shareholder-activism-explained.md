@@ -5,7 +5,7 @@ description: "How activist funds buy a stake and pressure boards for dividends, 
 order: 49
 updated: 2026-08-29
 keywords: ["what is shareholder activism", "activist investor explained", "how does a proxy fight work", "activist fund vs hostile takeover", "5% ownership disclosure rule", "shareholder proposal explained", "Korea activist fund campaigns", "proxy advisor ISS Glass Lewis"]
-seo_audited: "2026-08-29"
+seo_audited: "2026-09-30"
 ---
 
 ## They Don't Want to Take Over the Company — So Why Can It Still Feel Threatened?

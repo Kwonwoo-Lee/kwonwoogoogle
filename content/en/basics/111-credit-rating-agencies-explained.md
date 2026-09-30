@@ -5,6 +5,7 @@ description: "The AAA-to-D rating scale, why notching gives a single issuer's bo
 order: 111
 updated: 2026-09-29
 keywords: ["what is a credit rating", "moody's vs s&p rating difference", "investment grade vs junk bond cutoff", "what is sovereign credit rating", "credit rating notching explained", "how to read a corporate bond rating", "credit rating agency conflict of interest"]
+seo_audited: 2026-09-30
 ---
 
 ## The First Time Since 1917: The US Loses AAA From All Three Raters

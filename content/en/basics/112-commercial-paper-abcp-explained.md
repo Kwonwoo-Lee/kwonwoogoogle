@@ -5,6 +5,7 @@ description: "How unsecured commercial paper (CP) differs from asset-backed CP (
 order: 112
 updated: 2026-09-30
 keywords: ["what is commercial paper", "CP vs ABCP difference", "Legoland ABCP default Korea", "CP CD spread meaning", "asset backed commercial paper explained", "money market fund liquidity risk", "commercial paper rollover risk"]
+seo_audited: 2026-09-30
 ---
 
 ## A Province-Guaranteed Bond Defaults: Korea's 2022 Legoland ABCP Crisis

@@ -5,7 +5,7 @@ description: "Learn to filter SEC Form 4 filings for real insider conviction: sp
 order: 37
 updated: 2026-08-28
 keywords: ["insider cluster buying", "SEC Form 4 filing", "insider buying signal", "Form 4 transaction codes", "how to read Form 4", "insider trading screener", "corporate insider buying strategy", "cluster buy stocks"]
-seo_audited: 2026-08-28
+seo_audited: 2026-09-30
 ---
 
 ## Selling Is Noisy. Buying Is Not.

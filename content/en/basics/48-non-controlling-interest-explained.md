@@ -5,7 +5,7 @@ description: "Why a subsidiary's earnings can jump while a parent company's own 
 order: 48
 updated: 2026-08-29
 keywords: ["what is non-controlling interest", "non-controlling interest explained", "minority interest vs non-controlling interest", "controlling shareholders net income", "consolidated net income vs parent net income", "NCI balance sheet", "equity method vs consolidation", "holding company subsidiary ownership stake earnings"]
-seo_audited: "2026-08-29"
+seo_audited: "2026-09-30"
 ---
 
 ## The Subsidiary Is Booming — So Why Isn't the Parent's Profit?

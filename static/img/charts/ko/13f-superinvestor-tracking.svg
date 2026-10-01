@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 340" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="620" height="340" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="13.5" fill="#20201a" text-anchor="middle" font-weight="700">13F 공시가 보여주는 것 vs 숨기는 것, 그리고 45일 지연</text>
+
+<text x="26" y="48" font-size="12" fill="#5a5950" font-weight="700">① 보이는 것 vs 숨겨지는 것</text>
+
+<rect x="26" y="58" width="255" height="34" rx="7" fill="#1f9d55" opacity="0.14" stroke="#1f9d55" stroke-width="1.4"/>
+<text x="40" y="73" font-size="9.5" fill="#177a42" font-weight="700">롱 주식 · ETF</text>
+<text x="40" y="86" font-size="8.3" fill="#177a42">온전히 공개 · 핵심 데이터</text>
+
+<rect x="26" y="98" width="255" height="30" rx="7" fill="#5a5950" opacity="0.10" stroke="#5a5950" stroke-width="1.2"/>
+<text x="40" y="112" font-size="9" fill="#3a3a33" font-weight="700">콜·풋 옵션</text>
+<text x="40" y="123" font-size="7.8" fill="#3a3a33">방향만 공개 · 스트라이크 불명</text>
+
+<rect x="26" y="134" width="255" height="30" rx="7" fill="#d0453b" opacity="0.10" stroke="#d0453b" stroke-width="1.2"/>
+<text x="40" y="148" font-size="9" fill="#d0453b" font-weight="700">공매도(숏) 포지션</text>
+<text x="40" y="159" font-size="7.8" fill="#d0453b">전혀 공개 안 됨</text>
+
+<rect x="26" y="170" width="255" height="30" rx="7" fill="#d0453b" opacity="0.10" stroke="#d0453b" stroke-width="1.2"/>
+<text x="40" y="184" font-size="9" fill="#d0453b" font-weight="700">현금 · 채권 · 해외주식</text>
+<text x="40" y="195" font-size="7.8" fill="#d0453b">전혀 공개 안 됨</text>
+
+<text x="26" y="222" font-size="8.6" fill="#767568">실전에서는 "보이는 매수"가 숏과 짝을 이룬</text>
+<text x="26" y="234" font-size="8.6" fill="#767568">헤지일 수 있다는 점을 항상 감안해야 함</text>
+
+<line x1="305" y1="30" x2="305" y2="315" stroke="#e1e0d9" stroke-width="1"/>
+
+<text x="462" y="48" font-size="12" fill="#5a5950" text-anchor="middle" font-weight="700">② 공시까지 걸리는 기간</text>
+
+<rect x="335" y="68" width="100" height="36" rx="7" fill="#5a5950" opacity="0.10" stroke="#5a5950" stroke-width="1.2"/>
+<text x="385" y="83" font-size="8.3" fill="#3a3a33" text-anchor="middle" font-weight="700">분기 종료</text>
+<text x="385" y="96" font-size="7.6" fill="#3a3a33" text-anchor="middle">(보유 현황 확정)</text>
+
+<path d="M 435,86 L 455,86" fill="none" stroke="#767568" stroke-width="1.6" marker-end="url(#arrow13f)"/>
+
+<rect x="458" y="68" width="130" height="36" rx="7" fill="#d0453b" opacity="0.13" stroke="#d0453b" stroke-width="1.2"/>
+<text x="523" y="83" font-size="8.3" fill="#d0453b" text-anchor="middle" font-weight="700">13F 공시(최대 45일)</text>
+<text x="523" y="96" font-size="7.6" fill="#d0453b" text-anchor="middle">주가는 이미 변동</text>
+
+<defs>
+  <marker id="arrow13f" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto">
+    <path d="M0,0 L6,3 L0,6 Z" fill="#767568"/>
+  </marker>
+</defs>
+
+<line x1="345" y1="270" x2="600" y2="270" stroke="#c7c6bb" stroke-width="1"/>
+<line x1="345" y1="130" x2="345" y2="270" stroke="#c7c6bb" stroke-width="1"/>
+
+<rect x="365" y="256" width="46" height="14" rx="2" fill="#1f9d55" opacity="0.55"/>
+<text x="388" y="250" font-size="8.6" fill="#177a42" text-anchor="middle" font-weight="700">2영업일</text>
+<text x="388" y="284" font-size="8" fill="#767568" text-anchor="middle">Form 4</text>
+
+<rect x="455" y="144" width="46" height="126" rx="2" fill="#c98a1f" opacity="0.5"/>
+<text x="478" y="138" font-size="8.6" fill="#a06a10" text-anchor="middle" font-weight="700">최대 45일</text>
+<text x="478" y="284" font-size="8" fill="#767568" text-anchor="middle">STOCK Act</text>
+
+<rect x="535" y="156" width="46" height="114" rx="2" fill="#d0453b" opacity="0.5"/>
+<text x="558" y="150" font-size="8.6" fill="#d0453b" text-anchor="middle" font-weight="700">최대 45일</text>
+<text x="558" y="284" font-size="8" fill="#767568" text-anchor="middle">13F</text>
+
+<text x="472" y="302" font-size="8" fill="#767568" text-anchor="middle">13F는 분기 말 스냅샷이라 45일 동안</text>
+<text x="472" y="314" font-size="8" fill="#767568" text-anchor="middle">왕복 매매가 있었어도 전혀 드러나지 않음</text>
+</svg>

@@ -5,7 +5,7 @@ description: "Why option premiums collapse right after earnings, how to back out
 order: 38
 updated: 2026-08-29
 keywords: ["IV crush", "implied volatility crush", "earnings options strategy", "expected move calculation", "straddle strangle strategy", "iron condor earnings play", "how to trade earnings volatility", "IV rank earnings"]
-seo_audited: 2026-08-29
+seo_audited: 2026-10-01
 ---
 
 ## What IV Crush Is: Why Option Prices Collapse the Moment Uncertainty Resolves

@@ -5,7 +5,7 @@ description: "Learn how ICT order blocks form from the last opposing candle befo
 order: 39
 updated: 2026-08-30
 keywords: ["order block trading", "ICT order block", "bullish order block", "bearish order block", "breaker block vs order block", "how to find order blocks", "order block strategy", "smart money order block"]
-seo_audited: 2026-08-30
+seo_audited: "2026-10-02"
 ---
 
 ## What an Order Block Actually Is

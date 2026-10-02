@@ -5,7 +5,7 @@ description: "Why a 10% revenue gain can turn into a 30% profit jump, and a smal
 order: 51
 updated: 2026-08-30
 keywords: ["what is operating leverage", "operating leverage explained", "degree of operating leverage formula", "fixed cost vs variable cost", "why profit falls faster than revenue", "operating leverage vs financial leverage", "break-even point profit sensitivity", "cyclical stocks earnings volatility"]
-seo_audited: "2026-08-30"
+seo_audited: "2026-10-02"
 ---
 
 ## Why Does a 10% Sales Increase Sometimes Turn Into a 30% Profit Jump?

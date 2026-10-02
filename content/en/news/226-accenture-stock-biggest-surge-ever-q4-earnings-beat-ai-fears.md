@@ -4,6 +4,7 @@ title: "Accenture Stock Soars 20%+ in Biggest One-Day Gain Ever After Q4 Earning
 description: "Accenture stock surged over 20% - its biggest one-day gain ever - after a Q4 revenue and bookings beat. Here's why some analysts remain skeptical despite the rally."
 published: 2026-10-01
 keywords: ["Accenture stock surge today", "why did Accenture stock jump", "ACN Q4 earnings beat", "Accenture biggest one day gain ever", "Accenture AI disruption fears", "Cognizant IBM Wipro stock today", "Accenture fiscal 2027 guidance", "IT consulting stocks rally"]
+seo_audited: "2026-10-02"
 ---
 
 ## What Happened

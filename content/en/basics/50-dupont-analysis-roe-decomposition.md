@@ -5,7 +5,7 @@ description: "Two companies with the same 15% ROE can be built completely differ
 order: 50
 updated: 2026-08-30
 keywords: ["what is DuPont analysis", "DuPont analysis explained", "ROE decomposition formula", "net margin asset turnover financial leverage", "why is high ROE risky", "equity multiplier explained", "ROE vs ROA difference", "how to use DuPont analysis"]
-seo_audited: "2026-08-30"
+seo_audited: "2026-10-02"
 ---
 
 ## Two Companies, the Same 15% ROE — Are They Really the Same?

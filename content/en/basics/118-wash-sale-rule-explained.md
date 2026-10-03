@@ -2,7 +2,7 @@
 slug: wash-sale-rule-explained
 title: "The Wash Sale Rule Explained: Why Rebuying Within 30 Days Kills Your Tax Loss"
 description: "How the IRS wash sale rule blocks a tax deduction when you rebuy a security within 30 days of selling it at a loss, the 61-day window, the IRA trap, and why it doesn't apply to everyone."
-order: 114
+order: 118
 updated: 2026-10-03
 keywords: ["wash sale rule explained", "wash sale 30 day rule", "tax loss harvesting wash sale", "substantially identical securities wash sale", "wash sale rule IRA", "does wash sale rule apply to crypto", "wash sale rule cost basis adjustment"]
 seo_audited: 2026-10-03

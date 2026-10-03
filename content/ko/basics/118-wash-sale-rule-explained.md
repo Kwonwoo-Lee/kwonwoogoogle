@@ -2,7 +2,7 @@
 slug: wash-sale-rule-explained
 title: "워시세일(Wash Sale) 규정이란 — 손실매도 후 30일 안에 재매수하면 세금 공제가 사라지는 원리"
 description: "미국 해외주식 투자자가 절세매도(tax-loss harvesting) 후 같은 종목을 30일 안에 재매수하면 왜 손실 공제가 막히는지, 61일 창과 대체 비용 처리, 한국 거주자에게는 왜 적용되지 않는지를 설명합니다."
-order: 114
+order: 118
 updated: 2026-10-03
 keywords: ["워시세일 규정이란", "워시세일 30일 규칙", "미국주식 손실매도 재매수", "tax loss harvesting 워시세일", "해외주식 절세매도", "워시세일 실질적으로 동일한 증권", "미국주식 양도소득세 절세"]
 seo_audited: 2026-10-03

@@ -5,7 +5,7 @@ description: "Learn to draw supply and demand zones from base candles, tell a fr
 order: 40
 updated: 2026-08-31
 keywords: ["supply and demand zones", "demand zone trading strategy", "supply zone trading", "fresh zone vs tested zone", "how to trade supply and demand zones", "supply zone vs order block", "rally base drop pattern", "drop base rally"]
-seo_audited: 2026-08-31
+seo_audited: 2026-10-03
 ---
 
 ## What Supply and Demand Zones Actually Are

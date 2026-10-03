@@ -5,7 +5,7 @@ description: "How Korean conglomerates route business to a founder's-family-owne
 order: 52
 updated: 2026-08-31
 keywords: ["what is related party tunneling", "일감몰아주기 in English", "Korea chaebol related party transactions", "unfair support related party Korea", "deemed gift tax related party Korea", "related party transaction ratio explained", "self-dealing chaebol succession", "Korea large internal transaction disclosure"]
-seo_audited: "2026-08-31"
+seo_audited: 2026-10-03
 ---
 
 ## A Company That Gets 70% of Its Revenue From Sister Firms — What Does That Actually Mean?

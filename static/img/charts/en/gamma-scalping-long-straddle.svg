@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 330" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="620" height="330" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="15" fill="#20201a" text-anchor="middle" font-weight="700">Gamma scalping: sell into rises, buy into drops, reset to neutral</text>
+
+<line x1="45" y1="165" x2="580" y2="165" stroke="#b8860b" stroke-width="2" stroke-dasharray="6,4"/>
+<text x="565" y="158" font-size="12" fill="#b8860b" text-anchor="end" font-weight="700">Baseline (straddle entry price, delta-neutral)</text>
+
+<path d="M 45,165 L 90,95 L 140,200 L 190,100 L 240,195 L 290,105 L 340,190 L 390,110 L 440,185 L 490,115 L 540,165 L 580,165" fill="none" stroke="#3a3a30" stroke-width="3"/>
+
+<circle cx="90" cy="95" r="7" fill="#d0453b"/>
+<circle cx="190" cy="100" r="7" fill="#d0453b"/>
+<circle cx="290" cy="105" r="7" fill="#d0453b"/>
+<circle cx="390" cy="110" r="7" fill="#d0453b"/>
+<circle cx="490" cy="115" r="7" fill="#d0453b"/>
+
+<circle cx="140" cy="200" r="7" fill="#1f9d55"/>
+<circle cx="240" cy="195" r="7" fill="#1f9d55"/>
+<circle cx="340" cy="190" r="7" fill="#1f9d55"/>
+<circle cx="440" cy="185" r="7" fill="#1f9d55"/>
+
+<line x1="90" y1="95" x2="90" y2="60" stroke="#d0453b" stroke-width="1.3" stroke-dasharray="4,3"/>
+<text x="95" y="52" font-size="11" fill="#d0453b" text-anchor="start" font-weight="700">Sell: offset positive delta with stock sale</text>
+
+<line x1="140" y1="200" x2="140" y2="245" stroke="#1f9d55" stroke-width="1.3" stroke-dasharray="4,3"/>
+<text x="145" y="258" font-size="11" fill="#1f9d55" text-anchor="start" font-weight="700">Buy: offset negative delta with stock purchase</text>
+
+<text x="45" y="285" font-size="11" fill="#5a5950" text-anchor="start">Entry</text>
+<text x="580" y="285" font-size="11" fill="#5a5950" text-anchor="end">Near expiration</text>
+
+<circle cx="60" cy="305" r="6" fill="#d0453b"/>
+<text x="75" y="309" font-size="12" fill="#20201a" text-anchor="start" font-weight="400">Rebalance on a rise (sell shares)</text>
+<circle cx="330" cy="305" r="6" fill="#1f9d55"/>
+<text x="345" y="309" font-size="12" fill="#20201a" text-anchor="start" font-weight="400">Rebalance on a drop (buy shares)</text>
+</svg>

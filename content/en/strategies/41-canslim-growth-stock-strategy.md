@@ -5,7 +5,7 @@ description: "Learn William O'Neil's 7 CANSLIM factors for screening growth stoc
 order: 41
 updated: 2026-09-01
 keywords: ["CANSLIM strategy", "what is CANSLIM", "William O'Neil investing method", "growth stock screening", "CANSLIM stock screener", "how to find winning stocks", "institutional buying stocks", "CANSLIM stop loss rule"]
-seo_audited: 2026-09-01
+seo_audited: 2026-10-05
 ---
 
 ## CANSLIM: The Winners All Share Something in Common

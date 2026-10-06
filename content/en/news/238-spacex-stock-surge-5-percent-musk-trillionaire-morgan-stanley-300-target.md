@@ -4,6 +4,7 @@ title: "SpaceX Stock Jumps 5% to $167, Making Elon Musk a Trillionaire Again - W
 description: "SpaceX (SPCX) rose 5% to roughly $167 on October 5 after Morgan Stanley reiterated a $300 target, pushing Elon Musk's net worth back above $1 trillion."
 published: 2026-10-05
 keywords: ["SpaceX stock today", "SPCX stock price", "Elon Musk trillionaire again", "Morgan Stanley SpaceX $300 price target", "SpaceX vs AI megacap valuation", "SpaceXAI SpaceXSI rename", "Starship Flight 15 date", "why is SpaceX stock up today"]
+seo_audited: "2026-10-06"
 ---
 
 ## What Happened

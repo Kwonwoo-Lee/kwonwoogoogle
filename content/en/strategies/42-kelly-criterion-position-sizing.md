@@ -5,7 +5,7 @@ description: "Learn how the Kelly Criterion turns win rate and reward-to-risk in
 order: 42
 updated: 2026-09-02
 keywords: ["kelly criterion", "kelly criterion trading", "position sizing calculator", "half kelly vs full kelly", "optimal bet size formula", "kelly criterion stock trading", "fractional kelly", "money management formula"]
-seo_audited: 2026-09-02
+seo_audited: 2026-10-07
 ---
 
 ## What the Kelly Criterion Actually Answers

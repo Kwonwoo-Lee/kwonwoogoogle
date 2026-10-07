@@ -5,7 +5,7 @@ description: "Why a company can post growing net income while its operating cash
 order: 54
 updated: 2026-09-01
 keywords: ["what is earnings quality", "what are accruals in accounting", "net income vs operating cash flow", "quality of earnings ratio", "why does profit differ from cash flow", "accounts receivable growth earnings quality", "signs of earnings manipulation", "accrual anomaly explained"]
-seo_audited: "2026-09-01"
+seo_audited: 2026-10-07
 ---
 
 ## Why "High-Quality" and "Low-Quality" Earnings Can Report the Same Profit

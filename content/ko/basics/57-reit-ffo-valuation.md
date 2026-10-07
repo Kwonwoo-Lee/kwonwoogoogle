@@ -5,7 +5,7 @@ description: "리츠의 순이익이 감가상각 때문에 실제 현금창출�
 order: 57
 updated: 2026-09-02
 keywords: ["FFO란", "리츠 FFO", "AFFO 뜻", "리츠 밸류에이션", "리츠 PER", "cap rate 리츠", "자본환원율이란", "리츠 순자산가치 NAV"]
-seo_audited: "2026-09-02"
+seo_audited: 2026-10-07
 ---
 
 ## 배당률은 높은데 PER은 왜 이렇게 비싸 보일까

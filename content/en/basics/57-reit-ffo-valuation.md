@@ -5,7 +5,7 @@ description: "Why REIT net income understates real cash generation because of de
 order: 57
 updated: 2026-09-02
 keywords: ["what is FFO", "FFO REIT", "FFO vs AFFO", "REIT valuation", "REIT P/E ratio", "cap rate REIT", "capitalization rate explained", "REIT net asset value NAV"]
-seo_audited: "2026-09-02"
+seo_audited: 2026-10-07
 ---
 
 ## The Dividend Yield Looks Great — So Why Is the P/E So Ugly

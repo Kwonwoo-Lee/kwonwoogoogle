@@ -5,7 +5,7 @@ description: "The EV behind EV/EBITDA isn't the same as market cap. Learn the br
 order: 55
 updated: 2026-09-01
 keywords: ["enterprise value vs equity value", "EV calculation formula", "what is net debt", "enterprise value vs market cap", "EV EBITDA explained", "how to calculate enterprise value", "M&A acquisition cost", "non-controlling interest EV"]
-seo_audited: "2026-09-01"
+seo_audited: 2026-10-07
 ---
 
 ## Could You Buy a $1 Billion Company for $1 Billion?

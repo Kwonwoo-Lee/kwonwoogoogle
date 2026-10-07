@@ -5,7 +5,7 @@ description: "How private equity buys companies mostly with borrowed money, why 
 order: 56
 updated: 2026-09-02
 keywords: ["leveraged buyout explained", "what is an LBO", "LBO structure debt equity", "private equity leveraged buyout", "how does an LBO work", "LBO risk", "leveraged buyout example", "LBO acquisition financing"]
-seo_audited: "2026-09-02"
+seo_audited: 2026-10-07
 ---
 
 ## How Do You Buy a $100 Million Company With $10 Million?

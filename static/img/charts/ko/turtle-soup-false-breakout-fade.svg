@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 380" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="620" height="380" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="14.5" fill="#20201a" text-anchor="middle" font-weight="700">터틀 수프: 20일 고점 돌파 실패 → 숏 진입</text>
+
+<!-- 20-day high (donchian) level line -->
+<line x1="45" y1="160" x2="590" y2="160" stroke="#767568" stroke-width="1.3" stroke-dasharray="5,4"/>
+<text x="50" y="152" font-size="10.5" fill="#5a5950" font-weight="700">직전 20일 고점 (돈치안 상단)</text>
+
+<!-- candle 1 -->
+<line x1="83" y1="252" x2="83" y2="284" stroke="#1a5fb4" stroke-width="2"/>
+<rect x="70" y="258" width="26" height="20" fill="#dce8f7" stroke="#1a5fb4" stroke-width="2"/>
+
+<!-- candle 2 -->
+<line x1="158" y1="215" x2="158" y2="255" stroke="#1a5fb4" stroke-width="2"/>
+<rect x="145" y="220" width="26" height="28" fill="#dce8f7" stroke="#1a5fb4" stroke-width="2"/>
+
+<!-- candle 3 -->
+<line x1="233" y1="182" x2="233" y2="218" stroke="#1a5fb4" stroke-width="2"/>
+<rect x="220" y="188" width="26" height="24" fill="#dce8f7" stroke="#1a5fb4" stroke-width="2"/>
+
+<!-- candle 4: fakeout wick pierces level, closes back below -->
+<line x1="308" y1="128" x2="308" y2="188" stroke="#c98a1f" stroke-width="2.3"/>
+<rect x="295" y="158" width="26" height="24" fill="#faeccb" stroke="#c98a1f" stroke-width="2.3"/>
+<circle cx="308" cy="128" r="4.5" fill="#c98a1f"/>
+<text x="308" y="112" font-size="10" fill="#a8731a" text-anchor="middle" font-weight="700">가짜 돌파 (스탑헌팅)</text>
+
+<!-- stop loss line -->
+<line x1="295" y1="120" x2="590" y2="120" stroke="#d0453b" stroke-width="1.3" stroke-dasharray="4,3"/>
+<text x="470" y="112" font-size="10.5" fill="#a8362d" font-weight="700" text-anchor="middle">손절: 돌파 꼬리 바로 위</text>
+
+<!-- entry marker -->
+<circle cx="321" cy="182" r="5.5" fill="#1f9d55"/>
+<line x1="321" y1="182" x2="321" y2="340" stroke="#1f9d55" stroke-width="1.2" stroke-dasharray="3,2"/>
+<text x="321" y="196" font-size="10" fill="#1f9d55" text-anchor="middle" font-weight="700">진입: 종가가 레인지 안으로 복귀</text>
+
+<!-- candle 5 -->
+<line x1="383" y1="172" x2="383" y2="232" stroke="#d0453b" stroke-width="2"/>
+<rect x="370" y="178" width="26" height="47" fill="#fbe1df" stroke="#d0453b" stroke-width="2"/>
+
+<!-- candle 6 -->
+<line x1="458" y1="222" x2="458" y2="272" stroke="#d0453b" stroke-width="2"/>
+<rect x="445" y="228" width="26" height="34" fill="#fbe1df" stroke="#d0453b" stroke-width="2"/>
+
+<!-- candle 7 -->
+<line x1="533" y1="258" x2="533" y2="300" stroke="#d0453b" stroke-width="2"/>
+<rect x="520" y="264" width="26" height="28" fill="#fbe1df" stroke="#d0453b" stroke-width="2"/>
+
+<!-- target / time exit line -->
+<line x1="383" y1="286" x2="590" y2="286" stroke="#6a3aa8" stroke-width="1.3" stroke-dasharray="4,3"/>
+<text x="486" y="300" font-size="10.5" fill="#6a3aa8" font-weight="700" text-anchor="middle">청산: 2~6봉 내 목표 또는 시간청산</text>
+
+<!-- legend -->
+<rect x="400" y="40" width="12" height="10" fill="#dce8f7" stroke="#1a5fb4" stroke-width="1.5"/>
+<text x="418" y="49" font-size="10" fill="#20201a">레벨 접근 구간</text>
+<rect x="400" y="58" width="12" height="10" fill="#faeccb" stroke="#c98a1f" stroke-width="1.5"/>
+<text x="418" y="67" font-size="10" fill="#20201a">돌파 실패 캔들(신호)</text>
+<rect x="400" y="76" width="12" height="10" fill="#fbe1df" stroke="#d0453b" stroke-width="1.5"/>
+<text x="418" y="85" font-size="10" fill="#20201a">되돌림 진행 캔들</text>
+</svg>

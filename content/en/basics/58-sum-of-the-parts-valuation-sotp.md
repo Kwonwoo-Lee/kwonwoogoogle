@@ -5,7 +5,7 @@ description: "Why applying one P/E multiple to a multi-segment conglomerate misp
 order: 58
 updated: 2026-09-03
 keywords: ["sum of the parts valuation", "SOTP valuation explained", "how to value a conglomerate", "conglomerate discount", "SOTP price target", "valuing multi-segment companies", "SOTP vs DCF", "holding company SOTP"]
-seo_audited: 2026-09-03
+seo_audited: 2026-10-08
 ---
 
 ## Why Do Analyst Reports Say "SOTP Price Target"?

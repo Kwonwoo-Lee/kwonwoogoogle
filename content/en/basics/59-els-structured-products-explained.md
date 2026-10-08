@@ -5,7 +5,7 @@ description: "ELS notes look like a fixed 6% return, but they're economically a 
 order: 59
 updated: 2026-09-03
 keywords: ["what is an ELS", "equity-linked securities explained", "ELS knock-in barrier", "ELS step-down redemption", "ELS vs DLS", "structured note principal loss", "Hong Kong HSCEI ELS", "worst-of structured product"]
-seo_audited: 2026-09-03
+seo_audited: 2026-10-08
 ---
 
 ## Be Skeptical the Moment You Hear "Fixed 6% Return"

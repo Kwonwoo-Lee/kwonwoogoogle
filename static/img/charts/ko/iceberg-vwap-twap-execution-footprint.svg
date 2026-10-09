@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 400" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="620" height="400" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="14" fill="#20201a" text-anchor="middle" font-weight="700">세 가지 체결 흔적: 아이스버그 · TWAP · VWAP 알고리즘</text>
+
+<!-- Panel 1: Iceberg -->
+<text x="40" y="54" font-size="12" fill="#1f9d55" font-weight="700">① 아이스버그 — 같은 가격에서 반복 체결</text>
+<line x1="40" y1="95" x2="580" y2="95" stroke="#1f9d55" stroke-width="1.4" stroke-dasharray="5,4" opacity="0.7"/>
+<text x="585" y="98" font-size="9" fill="#1f9d55" text-anchor="start">고정 가격</text>
+
+<g fill="#1f9d55">
+<circle cx="70" cy="95" r="6"/><circle cx="118" cy="95" r="6"/><circle cx="166" cy="95" r="6"/>
+<circle cx="214" cy="95" r="6"/><circle cx="262" cy="95" r="6"/><circle cx="310" cy="95" r="6"/>
+<circle cx="358" cy="95" r="6"/><circle cx="406" cy="95" r="6"/><circle cx="454" cy="95" r="6"/>
+<circle cx="502" cy="95" r="6"/><circle cx="550" cy="95" r="6"/>
+</g>
+<text x="70" y="118" font-size="8.5" fill="#177a42" text-anchor="middle">500주</text>
+<text x="310" y="118" font-size="8.5" fill="#177a42" text-anchor="middle">500주</text>
+<text x="550" y="118" font-size="8.5" fill="#177a42" text-anchor="middle">500주</text>
+<text x="310" y="135" font-size="9.3" fill="#5a5950" text-anchor="middle">체결될 때마다 같은 가격에서 같은 크기로 즉시 재노출 (거래량만 쌓이고 가격은 고정)</text>
+
+<line x1="20" y1="150" x2="600" y2="150" stroke="#e1e0d9" stroke-width="1"/>
+
+<!-- Panel 2: TWAP -->
+<text x="40" y="174" font-size="12" fill="#1a5fb4" font-weight="700">② TWAP — 시간을 균등하게 쪼갠다</text>
+<line x1="40" y1="230" x2="580" y2="230" stroke="#c7c6bb" stroke-width="1"/>
+<g fill="#1a5fb4" opacity="0.6">
+<rect x="56" y="206" width="26" height="24"/>
+<rect x="104" y="203" width="26" height="27"/>
+<rect x="152" y="208" width="26" height="22"/>
+<rect x="200" y="205" width="26" height="25"/>
+<rect x="248" y="207" width="26" height="23"/>
+<rect x="296" y="204" width="26" height="26"/>
+<rect x="344" y="206" width="26" height="24"/>
+<rect x="392" y="208" width="26" height="22"/>
+<rect x="440" y="205" width="26" height="25"/>
+<rect x="488" y="207" width="26" height="23"/>
+<rect x="536" y="205" width="26" height="25"/>
+</g>
+<text x="310" y="248" font-size="9.3" fill="#5a5950" text-anchor="middle">1분마다 거의 같은 크기 · 거의 같은 간격으로 체결 — 시장 상황과 무관하게 균등 집행</text>
+<text x="56" y="192" font-size="8.5" fill="#1a5fb4" text-anchor="middle">9:30</text>
+<text x="562" y="192" font-size="8.5" fill="#1a5fb4" text-anchor="middle">10:30</text>
+
+<line x1="20" y1="270" x2="600" y2="270" stroke="#e1e0d9" stroke-width="1"/>
+
+<!-- Panel 3: VWAP algo -->
+<text x="40" y="294" font-size="12" fill="#c98a1f" font-weight="700">③ VWAP 알고리즘 — 거래량 곡선을 따라간다</text>
+<line x1="40" y1="372" x2="580" y2="372" stroke="#c7c6bb" stroke-width="1"/>
+<g fill="#c98a1f" opacity="0.65">
+<rect x="56" y="305" width="30" height="67"/>
+<rect x="100" y="320" width="30" height="52"/>
+<rect x="144" y="345" width="30" height="27"/>
+<rect x="188" y="356" width="30" height="16"/>
+<rect x="232" y="360" width="30" height="12"/>
+<rect x="276" y="358" width="30" height="14"/>
+<rect x="320" y="352" width="30" height="20"/>
+<rect x="364" y="338" width="30" height="34"/>
+<rect x="408" y="345" width="30" height="27"/>
+<rect x="452" y="322" width="30" height="50"/>
+<rect x="496" y="308" width="30" height="64"/>
+<rect x="540" y="300" width="30" height="72"/>
+</g>
+<path d="M 71,305 L 115,320 L 159,345 L 203,356 L 247,360 L 291,358 L 335,352 L 379,338 L 423,345 L 467,322 L 511,308 L 555,300" fill="none" stroke="#a06a10" stroke-width="1.6" stroke-dasharray="4,3" opacity="0.8"/>
+<text x="70" y="292" font-size="8.5" fill="#a06a10" text-anchor="middle">개장</text>
+<text x="310" y="292" font-size="8.5" fill="#a06a10" text-anchor="middle">점심 한산</text>
+<text x="556" y="292" font-size="8.5" fill="#a06a10" text-anchor="middle">마감</text>
+<text x="310" y="390" font-size="9.3" fill="#5a5950" text-anchor="middle">체결 크기가 그날의 거래량 곡선(U자형)을 따라 개장·마감에 커지고 점심에 작아짐</text>
+</svg>

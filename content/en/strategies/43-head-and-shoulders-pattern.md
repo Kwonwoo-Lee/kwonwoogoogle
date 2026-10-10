@@ -5,7 +5,7 @@ description: "How to spot the head and shoulders pattern, confirm a neckline bre
 order: 43
 updated: 2026-09-03
 keywords: ["head and shoulders pattern", "head and shoulders trading strategy", "neckline breakout", "inverse head and shoulders", "double top vs double bottom", "chart pattern trading", "head and shoulders price target", "how to trade head and shoulders"]
-seo_audited: 2026-09-03
+seo_audited: 2026-10-10
 ---
 
 ## What a Head and Shoulders Pattern Actually Signals

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 340" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="620" height="340" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="14.5" fill="#20201a" text-anchor="middle" font-weight="700">오버나이트 효과: 장중 vs 야간 수익 기여 개념도</text>
+
+<text x="160" y="50" font-size="12" fill="#5a5950" text-anchor="middle" font-weight="700">1달러를 각각 투자했다면 (개념도)</text>
+
+<line x1="35" y1="255" x2="300" y2="255" stroke="#c7c6bb" stroke-width="1"/>
+<line x1="35" y1="60" x2="35" y2="255" stroke="#c7c6bb" stroke-width="1"/>
+
+<!-- overnight line: steep rise -->
+<path d="M 40,250 L 90,225 L 140,195 L 190,155 L 240,110 L 290,75" fill="none" stroke="#1a5fb4" stroke-width="2.8"/>
+<circle cx="290" cy="75" r="4.5" fill="#1a5fb4"/>
+<text x="196" y="140" font-size="9.5" fill="#1a5fb4" font-weight="700" transform="rotate(-24 196 140)">야간(종가→다음 시가)</text>
+
+<!-- intraday line: roughly flat -->
+<path d="M 40,250 L 90,247 L 140,252 L 190,244 L 240,248 L 290,238" fill="none" stroke="#8a8a7c" stroke-width="2.8"/>
+<circle cx="290" cy="238" r="4.5" fill="#8a8a7c"/>
+<text x="150" y="268" font-size="9.5" fill="#767568" font-weight="700">장중(시가→종가)</text>
+
+<text x="60" y="272" font-size="9" fill="#5a5950" text-anchor="middle">시작</text>
+<text x="290" y="272" font-size="9" fill="#5a5950" text-anchor="middle">약 30년 후</text>
+
+<text x="160" y="300" font-size="9.5" fill="#5a5950" text-anchor="middle">실제 수치는 종목·기간·연구에 따라 크게 다른 개념 설명용 예시</text>
+<text x="160" y="314" font-size="8.5" fill="#a0a098" text-anchor="middle">참고: Haghani·Ragulin·Dewey, "Night Moves"(2024, JOIM)</text>
+
+<line x1="325" y1="30" x2="325" y2="315" stroke="#e1e0d9" stroke-width="1"/>
+
+<text x="475" y="50" font-size="12" fill="#5a5950" text-anchor="middle" font-weight="700">특정 오후 시간대 효과의 변화(개념도)</text>
+
+<line x1="350" y1="250" x2="600" y2="250" stroke="#c7c6bb" stroke-width="1"/>
+<line x1="350" y1="90" x2="350" y2="250" stroke="#c7c6bb" stroke-width="1"/>
+
+<rect x="380" y="110" width="60" height="140" fill="#1a5fb4" opacity="0.65"/>
+<rect x="490" y="243" width="60" height="7" fill="#8a8a7c" opacity="0.7"/>
+
+<text x="410" y="268" font-size="10" fill="#5a5950" text-anchor="middle">2021년 이전</text>
+<text x="520" y="268" font-size="10" fill="#5a5950" text-anchor="middle">2021년 이후</text>
+
+<text x="410" y="102" font-size="10.5" fill="#1a5fb4" text-anchor="middle" font-weight="700">연율 약 +3.7%</text>
+<text x="520" y="238" font-size="10.5" fill="#767568" text-anchor="middle" font-weight="700">약 0%대</text>
+
+<text x="475" y="296" font-size="9.5" fill="#5a5950" text-anchor="middle">뉴욕 연방준비은행(2026) 분석이 보고한 효과 약화 경향</text>
+<text x="475" y="310" font-size="8.5" fill="#a0a098" text-anchor="middle">특정 시간대 한정 사례 — 모든 오버나이트 구간에 동일하게 적용되는 것은 아님</text>
+</svg>

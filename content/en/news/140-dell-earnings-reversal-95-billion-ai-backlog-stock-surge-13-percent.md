@@ -4,7 +4,7 @@ title: "Dell Stock Falls 6% Into Earnings, Then Rockets 16% - Record $95 Billion
 description: "Dell fell nearly 6% ahead of earnings on sky-high expectations, then jumped 16% to lead the S&P 500 after a 58% revenue beat, 203% EPS growth, and a record $95 billion AI server backlog."
 published: 2026-09-03
 keywords: ["Dell stock surge", "Dell earnings September 2026", "DELL earnings beat", "Dell AI server backlog", "Dell raised guidance", "Infrastructure Solutions Group revenue", "AI server earnings season", "Dell Technologies stock today"]
-seo_audited: 2026-09-03
+seo_audited: 2026-10-11
 ---
 
 ## What Happened

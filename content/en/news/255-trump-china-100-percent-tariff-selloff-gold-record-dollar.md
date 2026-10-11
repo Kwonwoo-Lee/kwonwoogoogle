@@ -1,7 +1,7 @@
 ---
 slug: trump-china-100-percent-tariff-selloff-gold-record-dollar
-title: "Trump's 100% China Tariff Threat Wiped Out $2 Trillion in a Day - Gold Hit a Record High, But the Dollar Didn't Move"
-description: "A Trump tariff threat on China erased roughly $2 trillion in US stock value in a single session. Gold hit record highs, but the dollar stayed weak - here's why."
+title: "One Year Ago Today: Trump's 100% China Tariff Threat Wiped Out $2 Trillion in a Day - Gold Hit a Record High, But the Dollar Didn't Move"
+description: "On October 10, 2025, a Trump tariff threat on China erased roughly $2 trillion in US stock value in a single session. Gold hit record highs, but the dollar stayed weak - here's why, and how the standoff was resolved, one year later."
 published: 2026-10-11
 keywords: ["Trump China 100 percent tariff stock market", "Dow Jones tariff selloff today", "gold record high tariff news", "China rare earth export controls tariff", "why didn't the dollar rally", "S&P 500 Nasdaq worst day since April", "VIX spike tariff threat", "Trump Xi APEC meeting tariff"]
 seo_audited: 2026-10-11
@@ -9,7 +9,7 @@ seo_audited: 2026-10-11
 
 ## What Happened
 
-Stocks opened Friday on a strong note, with the Nasdaq Composite briefly touching a fresh intraday record. By the closing bell, that record had been wiped out and then some. Around 11 a.m. ET, President Trump posted on Truth Social that China's recent move to tighten export controls on rare earth minerals - materials China controls roughly 70% of the global supply of - was "very hostile," and that he saw "no reason" to go ahead with a planned meeting with President Xi Jinping at the APEC summit in South Korea. He followed up by threatening a "massive increase" in tariffs on Chinese goods, specifically a 100% tariff "over and above any tariff that they are currently paying," along with new export controls on "any and all critical software" sold to China, both set to take effect November 1 or sooner.
+**One year ago, on October 10, 2025**, stocks opened that Friday on a strong note, with the Nasdaq Composite briefly touching a fresh intraday record. By the closing bell, that record had been wiped out and then some. Around 11 a.m. ET, President Trump posted on Truth Social that China's recent move to tighten export controls on rare earth minerals - materials China controls roughly 70% of the global supply of - was "very hostile," and that he saw "no reason" to go ahead with a planned meeting with President Xi Jinping at the APEC summit in South Korea. He followed up by threatening a "massive increase" in tariffs on Chinese goods, specifically a 100% tariff "over and above any tariff that they are currently paying," along with new export controls on "any and all critical software" sold to China, both set to take effect November 1 or sooner.
 
 The reversal was immediate and broad. The Dow Jones Industrial Average closed down 878.82 points, or 1.9%, at 45,479.60. The S&P 500 fell 2.71% to 6,552.51, and the Nasdaq Composite dropped 3.56% to 22,204.43 - the worst single-day showing for both the S&P 500 and the Nasdaq since the "Liberation Day" tariff shock back in April. The damage wasn't confined to a handful of mega-cap names: 424 of the S&P 500's 500 constituents closed lower. The Cboe Volatility Index, Wall Street's main fear gauge, jumped more than 31% intraday to 21.66, its highest level since early August - a sharp move, though still a fraction of the roughly 60 reading the VIX hit during April's tariff panic. A notable exception to the selling: shares of rare-earth miner MP Materials jumped, as investors bet the standoff would accelerate US efforts to build a rare-earth supply chain independent of China.
 
@@ -21,6 +21,10 @@ The more unusual story sitting underneath Friday's selloff was in the currency a
 
 The reason traces back to where the shock originated. A conventional risk-off event - a surprise earnings miss, a geopolitical flare-up overseas, a credit scare - tends to send capital toward the dollar precisely because the shock is happening somewhere else, and U.S. Treasurys and the dollar are still viewed as the deepest, most liquid refuge available. But when the shock itself is a U.S. policy decision - a tariff threat issued unilaterally by the U.S. president - that logic breaks down. Investors aren't just worried about near-term volatility; they're pricing in the possibility that U.S. trade policy itself becomes a source of economic drag, higher consumer prices, and strained diplomatic relationships that could weigh on U.S. growth and corporate earnings more than on the rest of the world. That is effectively what happened during April's Liberation Day tariff shock as well: the dollar sold off alongside stocks rather than rallying against them, and Friday's episode followed the same script. Gold, which carries no attachment to any single government's trade policy, became the preferred refuge instead.
 
+## What Happened Next: A Truce Reached in Busan, 20 Days Later
+
+In the end, the 100% tariff never took effect. On October 30, 2025, President Trump and President Xi Jinping met in Busan on the sidelines of the APEC summit - their first face-to-face meeting since 2019 - for roughly 100 minutes, and emerged with a tentative one-year trade truce. China agreed to pause for a year the rare-earth export controls that had triggered the whole standoff, while the U.S. cut its fentanyl-related tariff on Chinese goods from 20% to 10%, lowering the overall tariff rate on Chinese imports. China also said it would resume large-scale purchases of U.S. soybeans. Trump called the deal a "great success," and the threatened 100% tariff set for November 1 was formally dropped. Worth noting: the truce was explicitly framed as a one-year arrangement subject to renegotiation, not a permanent resolution.
+
 ## What to Take Away From This
 
 - **A single social media post moved roughly $2 trillion in market value in one session.** That's a reminder that headline risk in markets driven by unilateral policy threats can be larger and faster-moving than risk tied to scheduled data releases or earnings reports, where the market has at least some advance notice of the event.
@@ -30,8 +34,8 @@ The reason traces back to where the shock originated. A conventional risk-off ev
 
 ## FAQ
 
-### Is the 100% tariff on China actually in effect now?
-Not yet, as of this weekend. Trump's threatened 100% tariff, along with new software export controls, is set to take effect November 1 or sooner, contingent on how China responds. U.S. Trade Representative Jamieson Greer confirmed the deadline remains in place even after Trump's softer weekend tone, meaning the threat has been dialed down rhetorically but not formally withdrawn.
+### Did the 100% tariff on China ever actually take effect?
+No. The 100% tariff that had been set to take effect November 1, 2025 never went into force. At a summit in Busan on October 30, 2025, Trump and Xi agreed to a one-year trade truce, under which the tariff threat was formally dropped, the U.S. cut its fentanyl-related tariff on China from 20% to 10%, and China paused its rare-earth export controls for a year.
 
 ### Why would stocks fall but the dollar not rise, when that's supposedly the "safe haven" trade?
 The dollar typically strengthens during a selloff when the shock originates outside the U.S. and investors seek the world's most liquid refuge. When the shock is a U.S. policy decision itself - as with a unilaterally announced tariff threat - that logic can flip, because the policy source of the risk is the U.S. government itself. Gold, which isn't tied to any single country's trade policy, picked up the safe-haven flows instead, extending a rally that had already pushed it above $4,000 an ounce for the first time days earlier.
@@ -46,7 +50,8 @@ This article is an original synthesis and analysis based on the reporting below,
 - [Dow falls nearly 900 points after Trump reignites trade war between the world's two largest economies - CNN](https://www.cnn.com/2025/10/10/investing/us-stock-market)
 - [Dow drops almost 900 points, S&P 500 declines the most since April after Trump's new China tariff threat - CNBC](https://www.cnbc.com/2025/10/09/stock-market-today-live-updates.html)
 - [Markets expect Trump's latest China tariffs will backfire as gold jumps and the dollar 'is not looking healthy' - Fortune](https://fortune.com/2025/10/11/trump-china-tariffs-backfire-gold-prices-dollar-stock-selloff/)
+- [Trump-Xi meeting in Busan: Key takeaways from the summit - Al Jazeera](https://www.aljazeera.com/news/2025/10/30/trump-xi-meeting-in-busan-key-takeaways-from-the-summit)
 
-Related reading: [Dow Jumps 423 Points as Wall Street Shakes Off Its Worst AI Selloff Since August](/en/news/stock-market-rally-dow-423-points-ai-selloff-fades/), [S&P 500 Retreats as 10-Year Yield Hits a 24-Year High](/en/news/sp500-pullback-record-10-year-yield-2002-high-banks-tech-ai-debt/)
+Related reading: [Dow Jumps 423 Points as Wall Street Shakes Off Its Worst AI Selloff Since August](/en/news/stock-market-rally-dow-423-points-ai-selloff-fades/), [S&P 500 Retreats as 10-Year Yield Hits a 24-Year High](/en/news/sp500-pullback-record-10-year-yield-2002-high-banks-tech-ai-debt/), [Bitcoin Sinks Again on the One-Year Anniversary of the "10/10 Massacre"](/en/news/bitcoin-october-10-anniversary-crash-smaller-open-interest-halved/)
 
 > ⚠️ This article is for informational purposes only and is not investment advice. Market conditions change constantly - always verify the latest data before making investment decisions.

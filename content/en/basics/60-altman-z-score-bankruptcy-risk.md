@@ -5,7 +5,7 @@ description: "How the Altman Z-Score formula combines five financial ratios to f
 order: 60
 updated: 2026-09-04
 keywords: ["what is the Altman Z-Score", "Altman Z-Score formula", "bankruptcy risk indicator stocks", "Z-Score calculation ratios", "value trap financial statements", "Altman Z-Score interpretation", "distress zone grey zone stocks"]
-seo_audited: 2026-09-04
+seo_audited: 2026-10-11
 ---
 
 ## A Cheap-Looking Stock Can Be a Company That's Quietly Dying

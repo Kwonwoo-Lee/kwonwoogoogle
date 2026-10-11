@@ -4,7 +4,7 @@ title: "Palo Alto Networks Beats and Raises Guidance, Then Sinks 13% in Two Days
 description: "Palo Alto Networks grew revenue 34% and raised guidance, yet fell 13% over two days on margin worries - while Dell posted a similar beat and jumped 16% in a day. Here's why the same week produced opposite verdicts."
 published: 2026-09-03
 keywords: ["Palo Alto Networks stock drop", "PANW earnings September 2026", "Palo Alto Networks margin concerns", "Dell vs Palo Alto Networks stock", "PANW two-day drop", "cybersecurity stocks selloff today", "Palo Alto Networks RPO $21.2 billion", "why did PANW stock fall after earnings"]
-seo_audited: 2026-09-03
+seo_audited: 2026-10-11
 ---
 
 ## What Happened

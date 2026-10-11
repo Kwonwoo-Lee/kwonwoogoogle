@@ -5,7 +5,7 @@ description: "What the VIX actually calculates, why implied volatility differs f
 order: 61
 updated: 2026-09-04
 keywords: ["what is the VIX index", "VIX fear gauge explained", "implied volatility vs historical volatility", "how is the VIX calculated", "VIX meaning stock market", "what does a high VIX mean", "VKOSPI explained"]
-seo_audited: 2026-09-04
+seo_audited: 2026-10-11
 ---
 
 ## What Exactly Is the Number Behind "the Fear Gauge Just Spiked"

@@ -5,7 +5,7 @@ description: "How duration measures a bond's price sensitivity to interest rates
 order: 63
 updated: 2026-09-05
 keywords: ["what is bond duration", "duration meaning bonds", "macaulay vs modified duration", "how do interest rates affect bond prices", "duration formula explained", "what is convexity in bonds", "long term vs short term bond rate sensitivity", "bond etf duration explained"]
-seo_audited: 2026-09-05
+seo_audited: 2026-10-12
 ---
 
 ## Why Does a "Safe Asset" Like a Bond Swing This Much?

@@ -5,7 +5,7 @@ description: "Learn how merger arbitrage traders profit from the deal spread aft
 order: 44
 updated: 2026-09-05
 keywords: ["merger arbitrage strategy", "risk arbitrage explained", "deal spread calculation", "merger arb deal break risk", "cash merger vs stock merger arbitrage", "how does merger arbitrage work", "annualized return merger arbitrage"]
-seo_audited: 2026-09-05
+seo_audited: 2026-10-12
 ---
 
 ## What Merger Arbitrage Actually Is (and Why "Arbitrage" Is Misleading)

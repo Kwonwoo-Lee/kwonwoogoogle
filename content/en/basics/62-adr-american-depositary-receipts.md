@@ -5,7 +5,7 @@ description: "How an American Depositary Receipt is actually structured, why its
 order: 62
 updated: 2026-09-05
 keywords: ["what is an ADR", "American depositary receipt explained", "ADR vs ordinary shares", "why does an ADR trade at a premium", "SK Hynix ADR premium", "ADR ratio explained", "ADR dividend currency conversion", "foreign stock ADR investing"]
-seo_audited: 2026-09-05
+seo_audited: 2026-10-12
 ---
 
 ## How Can Americans Trade a Korean Stock Without a Korean Brokerage Account

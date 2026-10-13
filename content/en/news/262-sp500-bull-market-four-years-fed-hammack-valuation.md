@@ -1,0 +1,59 @@
+---
+slug: sp500-bull-market-four-years-fed-hammack-valuation
+title: "S&P 500 Bull Market Turns 4 at +117% as Fed's Hammack Goes Hawkish and the Narrowest Rally Since the 1990s Raises Red Flags"
+description: "The S&P 500's bull market hit its fourth anniversary up roughly 117% from its 2022 low, just as Fed's Hammack turned hawkish and breadth hit a decades-wide gap."
+published: 2026-10-13
+keywords: ["S&P 500 bull market 4 years", "S&P 500 up 117 percent since 2022", "Fed Hammack hawkish comments", "bull market year 5 returns history", "Magnificent 7 valuation 2026", "equal weight S&P 500 underperformance", "S&P 500 record high October 2026", "October 27 FOMC meeting outlook"]
+seo_audited: 2026-10-13
+---
+
+## What Happened
+
+On Monday, October 12, the S&P 500's bull market quietly turned four years old. The anniversary marks the index's closing low of 3,577.03 set on October 12, 2022. Measured against the all-time closing high of 7,818.93 reached on October 6, that's a gain of roughly 117% to 119% in exactly four years — the index has more than doubled — and one widely cited estimate puts the cumulative increase in the S&P 500's total market value at close to $40 trillion over that stretch. By any measure, it's one of the larger wealth-creation runs in Wall Street's modern history.
+
+The anniversary, though, arrived alongside a reminder that the run isn't without friction. On the very same day, Cleveland Fed President Beth Hammack — a voting member of the 2026 Federal Open Market Committee — told a National Association for Business Economics gathering that "a restrictive monetary policy stance is appropriate to ensure a timely return to 2% inflation." She said she generally prefers making smaller policy adjustments relatively quickly rather than waiting and having to correct with a larger move later, reiterating a hawkish stance she's held since dissenting in favor of a hike at the Fed's July meeting (when the committee instead held rates at 3.50%-3.75%) and since telling the Jackson Hole audience in August that "now is the time to act." She now puts underlying inflation somewhere in the mid-to-high 2% range and wants tightening to proceed without pushing unemployment meaningfully above its current 4.2%. She stopped short of explicitly calling for a hike at the Fed's upcoming October 27-28 meeting, and markets currently expect the Fed to hold its benchmark rate at 3.75%-4.00% at that gathering — but her comments keep a more hawkish path on the table.
+
+## Why the "Four-Year" Number Matters to Strategists
+
+Wall Street strategists track bull-market age for a reason: history offers a rough, if imperfect, guide to what tends to come next. Oppenheimer's Ari Wald ranks the current run as the sixth-longest of 24 bull markets dating back to 1932, and puts the median time remaining before a cyclical peak at about 13 months from here, with a median fifth-year return of roughly 21%. Carson Group's Ryan Detrick, using a different methodology, calls it the eighth-longest bull market since World War II and notes that the fifth year of a bull market has been positive 100% of the time historically, averaging roughly 18%-19% in gains across the comparable prior cycles. Truist strikes a more conservative note, putting the average fifth-year return at 12% and the median at 15%. The numbers vary by source and sample, but the underlying message is consistent: every bull market that has reached its fourth anniversary since 1957 has gone on to see a fifth year, yet in four of those six cases, the index later fell back below where it stood on its fourth birthday once a bear market eventually arrived. In other words, reaching year five is close to assured by the historical record — staying above water once you're there is not.
+
+What distinguishes this particular cycle from prior ones comes down to two things. First is the AI capital-spending boom, which Ameriprise strategist Anthony Saglimbene has called the defining feature of this bull market — and he's flagged that the pressure is now shifting toward proving that boom actually converts into durable profit, not just spending. Second is concentration. The equal-weighted version of the S&P 500 has lagged the standard market-cap-weighted index by roughly 52 percentage points since the cycle began — the widest such gap at a comparable stage of any bull market going back to at least the 1990s. That means the Magnificent Seven (Nvidia, Apple, Microsoft, Amazon, Alphabet, Meta, and Tesla) have been doing the heavy lifting while hundreds of other constituents have lagged far behind. On valuation, the broader S&P 500 trades above its historical average multiple, and the Magnificent Seven's forward price-to-earnings ratio — in the low-to-mid 20s by most estimates — sits noticeably above the roughly 17x multiple assigned to the other 493 companies in the index. A majority of S&P 500 constituents actually traded lower in September even as the headline index kept printing fresh records, underscoring that the rally's breadth problem is already visible beneath the surface.
+
+## What Hammack's Hawkishness Means for This Rally
+
+The significance of Hammack's remarks has less to do with the content itself — she's said versions of this before — and more to do with timing. When an index is sitting near record highs and already trading above its historical valuation average, even a modest shift in expected interest-rate trajectory carries an outsized effect on prices, because the discount rate applied to future profits moves the valuation math for every stock, and does so most aggressively for names like the Magnificent Seven that are priced heavily on distant future growth. Markets currently expect a hold at the October 27-28 meeting, but a sitting FOMC voter who already dissented in favor of a hike in July and is now publicly repeating that she'd rather tighten "relatively quickly" keeps open the possibility that the Fed's actual rate path turns out more hawkish than what's currently priced in.
+
+There's a second layer of risk that outlets like Reuters have flagged alongside the anniversary coverage: upcoming US midterm elections add a dose of policy uncertainty that historically coincides with choppier trading, on top of whatever the rate path ends up being. That leaves this particular week carrying two separate tests that will shape whether the rally settles smoothly into its fifth year. One is whether JPMorgan, Goldman Sachs, and the rest of the big banks reporting results on October 13 can actually deliver on the unusually high earnings-growth expectations already baked into estimates. The other is whether comments from Hammack and her fellow Fed officials this week sharpen or soften the market's read on what actually happens at the October 27-28 meeting. Both need to break in the market's favor for the transition into year five to stay calm; if either goes the other way, daily swings near these record levels could get considerably larger than they've been.
+
+## What to Take Away From This
+
+- **A bull market's age matters less than what's happening underneath it.** New index highs can mask a deeply uneven market — a 52-percentage-point gap between the equal-weighted and cap-weighted S&P 500 means a handful of mega-cap names are doing most of the work, and that concentration makes the rally more fragile to disappointing results from just a few companies.
+- **Historical base rates are useful context, not a guarantee.** Every bull market since 1957 that reached a fourth anniversary went on to see a fifth year — but several of those later gave back those gains in a subsequent bear market, falling back below their fourth-birthday level. Both facts are true at once, and only looking at the reassuring one is a mistake.
+- **Context matters as much as content when a Fed official speaks.** Hammack's hawkish language isn't new information on its own, but delivering it while the index sits at record highs and above-average valuations makes the market more sensitive to it than the same words would be in a cheaper, calmer market.
+- **High valuations raise the bar for proof, not just performance.** AI spending has powered this cycle's earnings growth, but the Magnificent Seven's elevated forward P/E ratio only holds up as long as that spending keeps converting into profit on the timeline investors expect — any sign it's lagging gives the same multiple a reason to compress.
+
+## FAQ
+
+### How was October 12, 2022 determined as the starting point of this bull market?
+
+The conventional definition marks a bull market's start at the closing low following a decline of 20% or more from a prior peak, once the index subsequently rallies 20% or more off that low. The S&P 500 fell roughly 25% from its early-2022 peak before bottoming at a closing level of 3,577.03 on October 12, 2022, and that date has become the standard reference point for when the current bull market began.
+
+### What's the difference between the equal-weighted and cap-weighted S&P 500?
+
+The S&P 500 figure most commonly quoted is capitalization-weighted, meaning larger companies like Apple or Nvidia move the index far more than smaller constituents. The equal-weighted version gives each of the 500 companies the same influence regardless of size. When the cap-weighted index outpaces the equal-weighted one by a wide margin, as it has by roughly 52 percentage points in this cycle, it signals that a small number of mega-cap stocks are responsible for most of the index-level gains while the broader group of companies lags behind.
+
+### How likely is the Fed to actually raise rates at the October 27-28 meeting?
+
+As of this writing, markets assign a higher probability to the Fed holding its benchmark rate at 3.75%-4.00% at the October 27-28 meeting rather than hiking. That said, continued hawkish commentary from voting members like Hammack — who already dissented toward a hike in July — keeps open the possibility that additional tightening gets a more serious look at the December meeting or beyond. Nothing here is a settled outcome; the actual post-meeting statement and any updated rate projections are the only reliable confirmation.
+
+Related reading: [Bank Stocks Just Had Their Worst Month Versus the S&P 500 Since 1990 - Now Earnings Have to Prove the Selloff Wrong](/en/news/bank-stocks-worst-month-sp500-1990-earnings-day-implied-moves/), [Week Ahead: JPMorgan and Goldman Sachs Kick Off Bank Earnings Tuesday, October 13 as CPI Tests a Record-High Market With Yields at a 24-Year Peak](/en/news/week-ahead-bank-earnings-cpi-24-year-high-yields-october-13-14/)
+
+## Sources
+
+This article is an original synthesis and analysis based on the reporting below; it does not reproduce any source's text. Please check the source articles directly for the most current figures and schedule details.
+
+- [The bull market just turned four after climbing a 'wall of worry' - CNBC](https://www.cnbc.com/2026/10/12/the-bull-market-just-turned-four-after-climbing-a-wall-of-worry.html)
+- [AI-centered US stock bull market nears four-year anniversary - Reuters (via The Star)](https://www.thestar.com.my/tech/tech-news/2026/10/09/ai-centered-us-stock-bull-market-nears-four-year-anniversary-)
+- [Fed's Hammack backs restrictive policy, says better if it comes 'relatively quickly' - Reuters (via Investing.com)](https://www.investing.com/news/economy-news/feds-hammack-backs-restrictive-policy-says-better-if-it-comes-relatively-quickly-4944977)
+
+> This article is for informational and educational purposes only and does not constitute investment advice. All investments carry risk, including the potential loss of principal. Past performance and historical patterns do not guarantee future results. Always do your own research and consult a licensed financial advisor before making investment decisions.

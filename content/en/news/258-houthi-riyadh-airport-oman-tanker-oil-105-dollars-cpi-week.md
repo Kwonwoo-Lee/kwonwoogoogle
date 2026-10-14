@@ -53,7 +53,6 @@ Related reading: [Week Ahead: Bank Earnings and CPI Test a Market With Yields at
 This article is an original synthesis and analysis based on the reporting below; it does not reproduce any source's text. Please check the source articles directly for the most current figures.
 
 - [Oil Rises as Saudi Airport and Tanker Attacks Stoke Supply Fears - Bloomberg](https://www.bloomberg.com/news/articles/2026-10-11/latest-oil-market-news-and-analysis-for-oct-12)
-- [Oil Rises on Mideast Attacks, Dollar Edges Higher: Markets Wrap - Bloomberg](https://www.bloomberg.com/news/articles/2026-10-11/oil-rises-on-mideast-attacks-dollar-edges-higher-markets-wrap)
 - [Yemen fighting expands as Houthis attack Saudi airport again: What to know - Al Jazeera](https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know)
 - [Houthis claim new attack against airport in Saudi capital as witness reports evacuation - NBC News](https://www.nbcnews.com/world/saudi-arabia/houthis-claim-new-attack-airport-saudi-capital-witness-evacuation-rcna602262)
 

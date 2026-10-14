@@ -5,7 +5,7 @@ description: "은행과 자산운용사가 쓰는 VaR가 정확히 무엇을 계
 order: 65
 updated: 2026-09-06
 keywords: ["VaR란 무엇인가", "밸류앳리스크 뜻", "VaR 계산법", "최대예상손실액", "신뢰수준 VaR", "VaR 한계", "CVaR 기대손실", "VaR 신뢰구간"]
-seo_audited: 2026-09-06
+seo_audited: 2026-10-14
 ---
 
 ## "이 포트폴리오는 하루에 최대 얼마까지 잃을 수 있는가"

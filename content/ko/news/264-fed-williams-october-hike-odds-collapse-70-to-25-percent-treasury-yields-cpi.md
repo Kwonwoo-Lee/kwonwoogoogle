@@ -49,7 +49,7 @@ seo_audited: 2026-10-14
 
 이 글은 아래 실제 보도를 바탕으로 종합·재구성한 자체 분석이며, 원문을 그대로 옮긴 것이 아닙니다. 정확한 최신 수치는 원문을 직접 확인하시기 바랍니다.
 
-- [Fed's Williams sees no urgency for next rate hike - Reuters (via Investing.com)](https://www.investing.com/news/economy-news/feds-williams-sees-no-urgency-for-next-rate-hike)
+- [Fed's Williams sees no urgency for next rate hike - Reuters (via Investing.com)](https://www.investing.com/news/economy-news/feds-williams-sees-no-urgency-for-next-fed-rate-hike-4923302)
 - [Fed rate hike bets for October fall sharply on soft data, dovish comments - Reuters (via Hellenic Shipping News)](https://www.hellenicshippingnews.com/fed-rate-hike-bets-for-oct-fall-sharply-on-soft-data-dovish-comments/)
 - [10-year Treasury yield falls as energy prices stabilize - CNBC](https://www.cnbc.com/2026/10/13/us-treasurys-bonds-yields.html)
 

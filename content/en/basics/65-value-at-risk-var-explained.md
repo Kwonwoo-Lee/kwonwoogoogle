@@ -5,7 +5,7 @@ description: "How VaR turns a portfolio's risk into a single dollar figure, why 
 order: 65
 updated: 2026-09-06
 keywords: ["what is value at risk", "VaR formula explained", "value at risk calculation example", "VaR confidence level meaning", "VaR vs CVaR", "value at risk limitations", "how banks measure risk", "expected shortfall vs VaR"]
-seo_audited: 2026-09-06
+seo_audited: 2026-10-14
 ---
 
 ## "How Much Could This Portfolio Lose Tomorrow?"

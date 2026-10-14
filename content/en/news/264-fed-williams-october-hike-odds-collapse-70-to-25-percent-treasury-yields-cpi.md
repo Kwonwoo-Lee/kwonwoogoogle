@@ -49,7 +49,7 @@ Related reading: [S&P 500 Bull Market Turns 4 as Fed's Hammack Goes Hawkish](/en
 
 This article is an original synthesis and analysis based on the reporting below; it does not reproduce any source's text. Please check the source articles directly for the most current figures.
 
-- [Fed's Williams sees no urgency for next rate hike - Reuters (via Investing.com)](https://www.investing.com/news/economy-news/feds-williams-sees-no-urgency-for-next-rate-hike)
+- [Fed's Williams sees no urgency for next rate hike - Reuters (via Investing.com)](https://www.investing.com/news/economy-news/feds-williams-sees-no-urgency-for-next-fed-rate-hike-4923302)
 - [Fed rate hike bets for October fall sharply on soft data, dovish comments - Reuters (via Hellenic Shipping News)](https://www.hellenicshippingnews.com/fed-rate-hike-bets-for-oct-fall-sharply-on-soft-data-dovish-comments/)
 - [10-year Treasury yield falls as energy prices stabilize - CNBC](https://www.cnbc.com/2026/10/13/us-treasurys-bonds-yields.html)
 

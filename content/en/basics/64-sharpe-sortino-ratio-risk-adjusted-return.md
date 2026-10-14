@@ -5,7 +5,7 @@ description: "Why raw returns alone can't rank two investments fairly, how the S
 order: 64
 updated: 2026-09-06
 keywords: ["what is sharpe ratio", "sharpe ratio formula explained", "risk-adjusted return meaning", "sortino ratio vs sharpe ratio", "what is a good sharpe ratio", "treynor ratio explained", "risk-free rate sharpe ratio", "how to compare fund performance"]
-seo_audited: 2026-09-06
+seo_audited: 2026-10-14
 ---
 
 ## A 20% Return vs. a 30% Return — Which Fund Actually Did Better?

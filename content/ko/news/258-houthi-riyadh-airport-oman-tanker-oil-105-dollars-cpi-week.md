@@ -48,7 +48,6 @@ seo_audited: 2026-10-12
 이 기사는 아래 보도를 바탕으로 작성된 독자적인 분석·종합 기사이며, 원문을 그대로 옮기지 않았습니다.
 
 - [Oil Rises as Saudi Airport and Tanker Attacks Stoke Supply Fears - Bloomberg](https://www.bloomberg.com/news/articles/2026-10-11/latest-oil-market-news-and-analysis-for-oct-12)
-- [Oil Rises on Mideast Attacks, Dollar Edges Higher: Markets Wrap - Bloomberg](https://www.bloomberg.com/news/articles/2026-10-11/oil-rises-on-mideast-attacks-dollar-edges-higher-markets-wrap)
 - [Yemen fighting expands as Houthis attack Saudi airport again: What to know - Al Jazeera](https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know)
 - [Houthis claim new attack against airport in Saudi capital as witness reports evacuation - NBC News](https://www.nbcnews.com/world/saudi-arabia/houthis-claim-new-attack-airport-saudi-capital-witness-evacuation-rcna602262)
 

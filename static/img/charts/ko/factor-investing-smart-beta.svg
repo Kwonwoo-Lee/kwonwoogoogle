@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="640" height="420" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="320" y="24" font-size="14" fill="#20201a" text-anchor="middle" font-weight="700">팩터 투자: 유니버스에서 팩터 스크리닝을 거쳐 멀티팩터 포트폴리오까지</text>
+
+<defs>
+  <marker id="fiArrowKo" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+    <path d="M0,0 L6,3 L0,6 Z" fill="#767568"/>
+  </marker>
+</defs>
+
+<!-- universe box -->
+<rect x="190" y="44" width="260" height="46" rx="8" fill="#20201a" opacity="0.06" stroke="#767568" stroke-width="1.2"/>
+<text x="320" y="63" font-size="12.5" fill="#20201a" text-anchor="middle" font-weight="700">투자 유니버스</text>
+<text x="320" y="80" font-size="10.5" fill="#5a5950" text-anchor="middle">예: S&amp;P500 500개 종목</text>
+
+<path d="M 320,90 L 320,106" fill="none" stroke="#767568" stroke-width="1.4" marker-end="url(#fiArrowKo)"/>
+<path d="M 320,106 L 95,128" fill="none" stroke="#767568" stroke-width="1.2" marker-end="url(#fiArrowKo)"/>
+<path d="M 320,106 L 245,128" fill="none" stroke="#767568" stroke-width="1.2" marker-end="url(#fiArrowKo)"/>
+<path d="M 320,106 L 395,128" fill="none" stroke="#767568" stroke-width="1.2" marker-end="url(#fiArrowKo)"/>
+<path d="M 320,106 L 545,128" fill="none" stroke="#767568" stroke-width="1.2" marker-end="url(#fiArrowKo)"/>
+
+<!-- four factor screens -->
+<rect x="20" y="130" width="150" height="70" rx="8" fill="#1a5fb4" opacity="0.1" stroke="#1a5fb4" stroke-width="1.3"/>
+<text x="95" y="153" font-size="11.5" fill="#1a5fb4" text-anchor="middle" font-weight="700">밸류 팩터</text>
+<text x="95" y="170" font-size="9.5" fill="#5a5950" text-anchor="middle">저PER · 저PBR</text>
+<text x="95" y="184" font-size="9.5" fill="#5a5950" text-anchor="middle">상위 종목 선별</text>
+
+<rect x="170" y="130" width="150" height="70" rx="8" fill="#1f9d55" opacity="0.1" stroke="#1f9d55" stroke-width="1.3"/>
+<text x="245" y="153" font-size="11.5" fill="#188a48" text-anchor="middle" font-weight="700">모멘텀 팩터</text>
+<text x="245" y="170" font-size="9.5" fill="#5a5950" text-anchor="middle">최근 12개월</text>
+<text x="245" y="184" font-size="9.5" fill="#5a5950" text-anchor="middle">수익률 상위 선별</text>
+
+<rect x="320" y="130" width="150" height="70" rx="8" fill="#8a4fd1" opacity="0.1" stroke="#8a4fd1" stroke-width="1.3"/>
+<text x="395" y="153" font-size="11.5" fill="#6a3aa8" text-anchor="middle" font-weight="700">퀄리티 팩터</text>
+<text x="395" y="170" font-size="9.5" fill="#5a5950" text-anchor="middle">높은 ROE · 낮은 부채</text>
+<text x="395" y="184" font-size="9.5" fill="#5a5950" text-anchor="middle">상위 종목 선별</text>
+
+<rect x="470" y="130" width="150" height="70" rx="8" fill="#c98a1f" opacity="0.1" stroke="#c98a1f" stroke-width="1.3"/>
+<text x="545" y="153" font-size="11.5" fill="#a9710f" text-anchor="middle" font-weight="700">저변동성 팩터</text>
+<text x="545" y="170" font-size="9.5" fill="#5a5950" text-anchor="middle">낮은 과거 변동성</text>
+<text x="545" y="184" font-size="9.5" fill="#5a5950" text-anchor="middle">상위 종목 선별</text>
+
+<!-- convergence -->
+<path d="M 95,200 L 320,260" fill="none" stroke="#767568" stroke-width="1.2" marker-end="url(#fiArrowKo)"/>
+<path d="M 245,200 L 320,260" fill="none" stroke="#767568" stroke-width="1.2" marker-end="url(#fiArrowKo)"/>
+<path d="M 395,200 L 320,260" fill="none" stroke="#767568" stroke-width="1.2" marker-end="url(#fiArrowKo)"/>
+<path d="M 545,200 L 320,260" fill="none" stroke="#767568" stroke-width="1.2" marker-end="url(#fiArrowKo)"/>
+
+<rect x="140" y="262" width="360" height="62" rx="8" fill="#d0453b" opacity="0.08" stroke="#d0453b" stroke-width="1.4"/>
+<text x="320" y="286" font-size="12.5" fill="#b03a30" text-anchor="middle" font-weight="700">멀티팩터 포트폴리오</text>
+<text x="320" y="304" font-size="10.5" fill="#5a5950" text-anchor="middle">여러 팩터에서 동시에 상위권인 종목들로 구성</text>
+<text x="320" y="318" font-size="10.5" fill="#5a5950" text-anchor="middle">(스마트베타 ETF가 이 과정을 자동화한다)</text>
+
+<path d="M 320,324 L 320,340" fill="none" stroke="#767568" stroke-width="1.4" marker-end="url(#fiArrowKo)"/>
+<text x="320" y="366" font-size="11" fill="#20201a" text-anchor="middle" font-weight="700">수십~수백 종목에 분산 보유</text>
+<text x="320" y="384" font-size="10" fill="#767568" text-anchor="middle">정기 리밸런싱으로 팩터 점수를 다시 계산하고 종목을 교체</text>
+<text x="320" y="406" font-size="10" fill="#767568" text-anchor="middle">단일 종목 적중이 아니라, 팩터 특성의 평균 효과를 노린다</text>
+</svg>

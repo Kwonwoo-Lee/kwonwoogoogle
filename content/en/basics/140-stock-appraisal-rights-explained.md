@@ -1,0 +1,63 @@
+---
+slug: stock-appraisal-rights-explained
+title: "What Are Appraisal Rights? How Dissenting Shareholders Force a Buyback, and Why Exceeding the Cap Can Kill a Merger"
+description: "How appraisal rights let shareholders who oppose a merger, split, or share swap demand a buyback at a set price, how that price is calculated, and why exceeding the cap can collapse the whole deal."
+order: 140
+updated: 2026-10-14
+keywords: ["what are appraisal rights", "dissenting shareholder appraisal rights", "appraisal rights merger explained", "appraisal arbitrage", "stock buyback demand right Korea", "appraisal rights cap merger collapse"]
+seo_audited: "2026-10-14"
+---
+
+## The Number That Shows Up in Every Merger Headline
+
+Open almost any article about a [merger swap ratio](/en/basics/merger-swap-ratio-explained/) or a [spin-off](/en/basics/spin-off-vs-carve-out/), and somewhere in it you'll find a line like "the deal could collapse if the amount shareholders demand through appraisal rights exceeds the cap." So far in this course, that right has only come up as a side note — a safety valve mentioned in passing when covering merger ratios or subsidiary spin-offs. In practice, it's a standalone mechanism powerful enough to sink deals worth trillions of won on its own. This lesson walks through exactly when this right arises, who can exercise it and when, how its price gets set, and why it functions simultaneously as a minority-shareholder protection and as a target for professional arbitrage.
+
+## When the Right Actually Arises — Not Just Mergers
+
+Appraisal rights are a statutory right under Korea's Commercial Act: when a special shareholder resolution fundamentally restructures a company, any shareholder who opposed that resolution can demand the company buy back their shares at a fair price. The scope reaches well beyond mergers. It covers merger-splits, the transfer of all or a material part of a company's business, and comprehensive share swaps or transfers that fold one company fully into another as a subsidiary — essentially any major restructuring resolution that reshapes the company or a shareholder's position in it. Most of the time this sits quietly as one line item on a shareholder-meeting agenda. The moment enough dissenting shareholders show up, though, it can become the single variable deciding whether the whole transaction goes through.
+
+## The Procedure — From Advance Notice to a Buyback Within Two Months
+
+The mechanics are simple but timing-sensitive. A shareholder must first notify the company in writing, before the shareholder meeting, that they oppose the resolution. This is a separate step from actually voting against it at the meeting — skip the advance written notice, and voting no on the day is not enough to qualify for appraisal rights later. Once the resolution passes, the shareholder has 20 days from the resolution date to submit a written demand specifying the class and number of shares. The company then has two months from receiving that demand to complete the purchase. Price is set first by agreement between the company and the shareholder; failing that, for a listed company, a formula set out in the Capital Markets Act's enforcement decree supplies the reference price, and if even that is disputed, either side can petition a court to determine the final price. One detail that surprises people: a shareholder doesn't need to have held the stock as of the meeting date itself. As long as you held shares as of the record date used to determine voting eligibility, bought in after a merger is announced, and still file the advance dissent notice and the demand correctly, you qualify just the same — a detail that becomes the starting point for the arbitrage strategy covered below.
+
+## How the Price Is Set — Same Root Logic, a Different Formula
+
+The underlying philosophy mirrors the reference-price formula covered in [merger swap ratios](/en/basics/merger-swap-ratio-explained/): to stop management or a controlling shareholder from setting the buyback price arbitrarily, the law anchors it to a recent market price. For an actively traded listed stock, the price is calculated from a volume-weighted average of trading prices over a defined window before the board resolution date, under a formula set by the enforcement decree; for an unlisted or thinly traded stock, a separate formula blending asset value and earnings value applies instead. Crucially, this appraisal price is not the same number as the reference price used to set the merger swap ratio — the two are calculated under separate provisions with different reference windows, and in practice they frequently diverge. That gap between a fixed, legally determined appraisal price and the market price the stock actually trades at after the deal is announced is exactly what generates both the controversy and the opportunity this right creates.
+
+## A Real Example — How Exceeding the Cap Sank a Trillion-Won Merger
+
+Samsung Heavy Industries and Samsung Engineering's 2014 attempted merger shows how large the stakes can get. When the two companies agreed to merge, they built in a clause allowing either side to terminate the deal by board resolution if total appraisal demands exceeded roughly ₩950 billion for Samsung Heavy Industries and ₩410 billion for Samsung Engineering — a combined ceiling of about ₩1.36 trillion. The appraisal price set at the time of the merger resolution was ₩27,003 for Samsung Heavy Industries and ₩65,439 for Samsung Engineering. But the stocks' actual market prices subsequently fell well below those levels — trading around ₩22,800 and ₩54,300 shortly after the resolution. With the company obligated to buy back shares at a fixed price well above where the market was pricing them, a wave of shareholders — including the National Pension Service — filed appraisal demands. The actual total came to roughly ₩923.6 billion and ₩706.3 billion, or about ₩1.63 trillion combined — comfortably over the pre-agreed cap. In November 2014, the two companies terminated the merger agreement. The deal collapsed not because of a strategic disagreement or a regulatory block, but purely because of one number: how much, in total won, dissenting shareholders chose to demand.
+
+## The Other Side of This Right — Appraisal Arbitrage
+
+That same gap between a fixed appraisal price and a lower market price turns this protective right into an investment strategy. If a merger is announced and the stock trades below its appraisal price, an investor can buy shares on the open market, hold through the record date, and then file the advance dissent notice and demand to sell those same shares back to the company at the higher, fixed price. It looks close to risk-free on paper, but three things can derail it. First, as the Samsung case shows, if total demands exceed the agreed cap, the company can cancel the entire deal, and the buyback itself may never happen. Second, the time between filing a demand and actually receiving payment can run to several months, tying up capital during that window. Third, if the price ends up disputed in court, resolution can take far longer, and a court isn't guaranteed to confirm a figure as high as the enforcement-decree formula produced. This is structurally close to the merger arbitrage strategy covered under [event-driven hedge fund strategies](/en/basics/hedge-fund-strategies-explained/), except the bet here isn't on whether the deal closes — it's on the gap between a legally fixed price and the market price. Taxes matter too: proceeds from exercising appraisal rights are treated as a capital gain just like an ordinary sale, so the framework covered in [capital gains tax on Korean stocks](/en/basics/capital-gains-tax-stocks-korea/) applies in full — worth factoring in before assuming the pre-tax spread is the real return.
+
+## A Quirk of Korean Law — No Exception for Actively Traded Stock
+
+Many U.S. state corporate statutes carve out a "market-out exception": for a stock that trades actively on a public market, dissenting shareholders are often denied appraisal rights altogether, on the theory that they can simply sell into the market instead. Korean law has no such carve-out. Even shareholders of a large, heavily traded listed company can choose appraisal rights over simply selling on the exchange. That's part of why the scale of appraisal demands gets such heavy coverage in Korean M&A news — in situations where selling into the market would seem like the obvious move, a meaningful number of shareholders instead judge the fixed appraisal price to be the better deal and go through the formal demand process.
+
+## What to Check When You See the Disclosure
+
+When a merger, split, or share-swap disclosure crosses your screen, it's worth checking three numbers before getting into the strategic rationale. First, is the appraisal reference price above or below the current market price? If it's below, there's little incentive for a flood of demands and the deal is more likely to proceed smoothly; if it's above, watch for a potential rush of demands and cap-related risk. Second, what cap does the merger agreement set for total appraisal demands, and does exceeding it trigger automatic termination or leave it to board discretion? Third, where do major institutional holders — the National Pension Service among them — stand. A large institutional holder turning against the deal can push the total toward the cap very quickly. Reading all three together tells you something beyond whether the swap ratio looks fair: it tells you how likely the deal actually is to close. The same calculus applies to your own decision whether to exercise the right — doing so locks in a fixed price but ties up capital and exposes you to cap-related cancellation risk, while holding on instead leaves you exposed to however the combined company performs afterward.
+
+## Key Takeaways
+
+- Appraisal rights apply not just to mergers but to merger-splits, business transfers, and comprehensive share swaps — any major restructuring resolution that fundamentally changes the company or a shareholder's position.
+- Exercising the right requires precise timing: written dissent notice before the meeting, a demand within 20 days of the resolution, and a company buyback within two months.
+- The appraisal price follows the same "recent market price" philosophy as a merger's reference price but is calculated under a separate formula, so the two numbers often diverge.
+- Samsung Heavy Industries and Samsung Engineering's 2014 merger collapsed when actual appraisal demands (about ₩1.63 trillion) exceeded the pre-agreed cap (about ₩1.36 trillion).
+- When the appraisal price sits above the market price, that gap creates an arbitrage opportunity — but one exposed to deal cancellation, tied-up capital, and court-driven price disputes.
+- Unlike many U.S. jurisdictions, Korean law has no market-out exception, so appraisal demands remain a major, closely watched variable even in mergers of large, actively traded companies.
+
+## FAQ
+
+### Does voting against the resolution at the meeting qualify me for appraisal rights?
+No. You must notify the company in writing before the meeting that you oppose the resolution, and then separately file a demand within 20 days of the resolution passing. Advance written notice and the later demand are both required steps distinct from simply voting no on the day — skip the advance notice, and a no vote alone doesn't preserve the right.
+
+### Do I get paid immediately after filing a demand?
+No. The company has up to two months from receiving the demand to complete the purchase, so there's no obligation to pay immediately. If the price ends up disputed in court, final resolution can take considerably longer — sometimes well over a year.
+
+### Is this the same as the "appraisal right" (put option) clause in startup investment contracts?
+No, despite sharing a similar name in common usage. What this lesson covers is a statutory right under corporate and capital markets law designed to protect dissenting shareholders in public restructurings. A put-option clause in a venture investment contract is a private, negotiated right between an investor and a founder or company, with entirely different eligibility rules and pricing mechanics. The two shouldn't be confused.
+
+> ⚠️ This article is for informational and educational purposes only and is not investment advice. Figures from the historical case described here reflect reporting and disclosures available at the time; actual statutes and case law may have since changed, so consult current regulations and a qualified professional before relying on this for any specific transaction.

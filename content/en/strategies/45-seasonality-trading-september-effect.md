@@ -5,7 +5,7 @@ description: "The September Effect, Santa Claus Rally, and 'Sell in May' explain
 order: 45
 updated: 2026-09-06
 keywords: ["seasonality trading", "September effect stock market", "Santa Claus rally", "sell in May and go away", "Halloween indicator", "calendar effect investing", "best month to invest historically", "stock market seasonal patterns"]
-seo_audited: 2026-09-06
+seo_audited: 2026-10-15
 ---
 
 ## Why This Topic Right Now

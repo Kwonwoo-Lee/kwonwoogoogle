@@ -5,7 +5,7 @@ description: "The counterintuitive Modigliani-Miller answer to whether more debt
 order: 67
 updated: 2026-09-07
 keywords: ["what is capital structure theory", "Modigliani Miller theorem explained", "does debt affect firm value", "optimal capital structure", "capital structure and WACC", "interest tax shield explained", "trade-off theory finance", "leverage and firm value"]
-seo_audited: 2026-09-07
+seo_audited: 2026-10-15
 ---
 
 ## Is a Company With More Debt Automatically Riskier — or Just Cheaper to Fund?

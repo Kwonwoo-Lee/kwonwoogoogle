@@ -5,7 +5,7 @@ description: "How delta, gamma, theta, and vega measure an option's sensitivity 
 order: 66
 updated: 2026-09-07
 keywords: ["what are option greeks", "delta gamma theta vega explained", "option delta meaning", "option theta decay", "option vega volatility", "options greeks for beginners", "how do option greeks work", "IV crush explained"]
-seo_audited: 2026-09-07
+seo_audited: 2026-10-15
 ---
 
 ## Why an Option's Price Can Move Several Times a Day

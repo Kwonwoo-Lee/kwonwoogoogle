@@ -5,7 +5,7 @@ description: "Learn how Gartley, Bat, Butterfly, and Crab harmonic patterns use 
 order: 46
 updated: 2026-09-07
 keywords: ["harmonic pattern trading", "gartley pattern trading", "bat pattern forex", "butterfly harmonic pattern", "crab pattern trading", "XABCD pattern", "potential reversal zone PRZ", "fibonacci harmonic patterns"]
-seo_audited: 2026-09-07
+seo_audited: 2026-10-15
 ---
 
 ## What a Harmonic Pattern Actually Is

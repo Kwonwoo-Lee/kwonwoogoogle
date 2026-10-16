@@ -5,7 +5,7 @@ description: "The replicating-portfolio logic behind an option's price, what N(d
 order: 69
 updated: 2026-09-08
 keywords: ["what is the Black-Scholes model", "option pricing model explained", "Black-Scholes formula", "put-call parity explained", "how are option premiums calculated", "Black-Scholes model limitations", "implied volatility calculation", "N(d1) N(d2) meaning"]
-seo_audited: 2026-09-08
+seo_audited: 2026-10-16
 ---
 
 ## Who Actually Sets the Option Premium?

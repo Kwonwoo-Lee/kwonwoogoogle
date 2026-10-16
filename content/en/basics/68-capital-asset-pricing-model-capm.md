@@ -5,7 +5,7 @@ description: "How the Capital Asset Pricing Model turns a risk-free rate, beta, 
 order: 68
 updated: 2026-09-08
 keywords: ["what is CAPM", "capital asset pricing model explained", "CAPM formula", "how to calculate expected return", "risk-free rate equity risk premium", "security market line explained", "cost of equity calculation", "CAPM limitations"]
-seo_audited: 2026-09-08
+seo_audited: 2026-10-16
 ---
 
 ## "What Return Should I Reasonably Expect From This Stock?"

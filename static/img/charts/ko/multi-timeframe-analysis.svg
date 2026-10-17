@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="620" height="460" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="15" fill="#20201a" text-anchor="middle" font-weight="700">멀티 타임프레임 분석: 상위 시간대 추세 + 하위 시간대 진입</text>
+
+<!-- top panel: HTF daily -->
+<text x="44" y="52" font-size="12" fill="#1a5fb4" text-anchor="start" font-weight="700">상위 시간대(일봉) — 추세·방향 판단</text>
+<rect x="30" y="60" width="560" height="120" rx="6" fill="#f4f3ee" stroke="#e1e0d9"/>
+<path d="M 50,160 L 100,150 L 150,158 L 200,140 L 250,145 L 300,120 L 350,128 L 400,100 L 450,105 L 500,80 L 550,85 L 570,70" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+
+<!-- pullback zone box on HTF -->
+<rect x="335" y="95" width="60" height="55" fill="none" stroke="#20201a" stroke-width="1.5" stroke-dasharray="4,3"/>
+<text x="365" y="188" font-size="10.5" fill="#20201a" text-anchor="middle" font-weight="700">눌림목 구간(확대 대상)</text>
+
+<!-- magnifier connector lines -->
+<line x1="335" y1="150" x2="130" y2="230" stroke="#9a998d" stroke-width="1" stroke-dasharray="3,3"/>
+<line x1="395" y1="150" x2="510" y2="230" stroke="#9a998d" stroke-width="1" stroke-dasharray="3,3"/>
+
+<!-- bottom panel: LTF 15min -->
+<text x="44" y="252" font-size="12" fill="#1f9d55" text-anchor="start" font-weight="700">하위 시간대(15분봉) — 진입 타이밍 확대</text>
+<rect x="30" y="260" width="560" height="170" rx="6" fill="#f4f3ee" stroke="#e1e0d9"/>
+
+<!-- zoomed price path: pullback down then reversal up -->
+<path d="M 70,300 L 120,320 L 170,340 L 220,368 L 260,385 L 300,392 L 340,378 L 380,350 L 430,318 L 480,295 L 530,275" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+
+<!-- support line -->
+<line x1="70" y1="398" x2="530" y2="398" stroke="#9a998d" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="540" y="401" font-size="10.5" fill="#9a998d" text-anchor="start">지지선</text>
+
+<!-- reversal candle marker -->
+<circle cx="300" cy="392" r="7" fill="#1f9d55"/>
+<line x1="300" y1="392" x2="300" y2="415" stroke="#1f9d55" stroke-width="1" stroke-dasharray="3,2"/>
+<text x="300" y="429" font-size="11" fill="#1f9d55" text-anchor="middle" font-weight="700">진입(반전 캔들)</text>
+
+<!-- stop marker -->
+<line x1="230" y1="404" x2="370" y2="404" stroke="#d0453b" stroke-width="2"/>
+<text x="230" y="417" font-size="10" fill="#d0453b" text-anchor="start">손절(눌림목 저점)</text>
+
+<!-- target arrow -->
+<line x1="300" y1="392" x2="300" y2="300" stroke="#1f9d55" stroke-width="1" stroke-dasharray="2,2"/>
+<text x="400" y="292" font-size="10" fill="#1f9d55" text-anchor="start">목표(상위 시간대 다음 레벨)</text>
+
+<rect x="44" y="440" width="12" height="10" fill="#1a5fb4"/>
+<text x="60" y="449" font-size="10.5" fill="#20201a" text-anchor="start">가격</text>
+<circle cx="146" cy="445" r="5" fill="#1f9d55"/>
+<text x="158" y="449" font-size="10.5" fill="#1f9d55" text-anchor="start">하위 시간대 진입 트리거</text>
+<rect x="340" y="440" width="12" height="4" fill="#d0453b"/>
+<text x="358" y="449" font-size="10.5" fill="#d0453b" text-anchor="start">손절가</text>
+</svg>

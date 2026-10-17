@@ -5,7 +5,7 @@ description: "How MACD turns two EMAs into one number, and how signal-line cross
 order: 47
 updated: 2026-09-08
 keywords: ["MACD indicator", "MACD divergence", "MACD signal line crossover", "how to read MACD", "MACD settings 12 26 9", "MACD vs RSI", "MACD trading strategy", "bullish divergence MACD"]
-seo_audited: 2026-09-08
+seo_audited: 2026-10-17
 ---
 
 ## What MACD Actually Measures

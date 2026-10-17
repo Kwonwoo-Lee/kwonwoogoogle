@@ -5,7 +5,7 @@ description: "MACD의 계산 원리부터 시그널선 크로스, 제로라인 �
 order: 47
 updated: 2026-09-08
 keywords: ["MACD 지표", "MACD 보는법", "MACD 다이버전스", "MACD 골든크로스", "MACD 시그널선", "MACD 설정값 12 26 9", "이동평균수렴확산지수", "MACD 매매법"]
-seo_audited: 2026-09-08
+seo_audited: 2026-10-17
 ---
 
 ## MACD란: 두 이동평균선의 "거리"를 지표로 만들다

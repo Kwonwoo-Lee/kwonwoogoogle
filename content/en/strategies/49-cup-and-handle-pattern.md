@@ -5,7 +5,7 @@ description: "How to spot a cup and handle pattern, time the pivot-point breakou
 order: 49
 updated: 2026-09-10
 keywords: ["cup and handle pattern", "cup and handle trading strategy", "cup and handle breakout", "pivot buy point", "cup and handle price target", "cup and handle vs VCP", "handle depth rule", "william o'neil chart pattern"]
-seo_audited: 2026-09-10
+seo_audited: 2026-10-18
 ---
 
 ## What a Cup and Handle Pattern Signals

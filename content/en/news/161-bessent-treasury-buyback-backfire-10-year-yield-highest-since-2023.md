@@ -4,7 +4,7 @@ title: "Bessent's $6 Billion Bond Buyback Backfires - 10-Year Treasury Yield Hit
 description: "Treasury tripled its bond buyback to calm yields, but the 10-year yield jumped to 4.857% anyway as the size missed expectations."
 published: 2026-09-10
 keywords: ["Bessent bond buyback backfire", "10-year Treasury yield highest since 2023", "Treasury buyback $6 billion", "why did Treasury yields rise today", "Operation Twist bond buyback", "Dow drops third straight day", "30-year Treasury yield 5.3 percent", "Treasury yield today"]
-seo_audited: 2026-09-10
+seo_audited: 2026-10-18
 ---
 
 ## What Happened

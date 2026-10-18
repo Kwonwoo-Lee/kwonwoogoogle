@@ -5,7 +5,7 @@ description: "Learn how swing highs and lows define trend, why BOS confirms cont
 order: 48
 updated: 2026-09-09
 keywords: ["BOS vs CHoCH", "break of structure trading", "change of character trading", "market structure trading strategy", "smart money concepts market structure", "how to read market structure", "internal vs external structure", "swing high swing low trading"]
-seo_audited: 2026-09-09
+seo_audited: 2026-10-18
 ---
 
 ## Why Market Structure Starts With Swing Highs and Lows

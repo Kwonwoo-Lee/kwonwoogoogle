@@ -5,7 +5,7 @@ description: "How the cash conversion cycle (CCC) — built from inventory, rece
 order: 72
 updated: 2026-09-10
 keywords: ["what is cash conversion cycle", "CCC formula explained", "days inventory outstanding DIO DSO DPO", "working capital management explained", "negative cash conversion cycle", "days payable outstanding meaning"]
-seo_audited: 2026-09-10
+seo_audited: 2026-10-18
 ---
 
 ## Rising Sales, Shrinking Cash: How That Happens

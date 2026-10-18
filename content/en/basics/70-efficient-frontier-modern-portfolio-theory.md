@@ -5,7 +5,7 @@ description: "Why mixing low-correlation assets traces a curve instead of a stra
 order: 70
 updated: 2026-09-09
 keywords: ["what is the efficient frontier", "modern portfolio theory Markowitz", "minimum variance portfolio", "capital market line explained", "tangency portfolio", "portfolio optimization basics", "why diversification works math", "optimal two asset weights"]
-seo_audited: 2026-09-09
+seo_audited: 2026-10-18
 ---
 
 ## "So What's the Exact Right Mix?"

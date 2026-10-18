@@ -5,7 +5,7 @@ description: "Why IPO lock-up periods exist, and how the supply-and-demand mecha
 order: 73
 updated: 2026-09-10
 keywords: ["what is a lock-up period", "IPO lock-up expiration stock drop", "overhang meaning stocks", "lock-up period explained", "why do lock-up periods exist", "IPO lock-up expiration date", "insider selling after IPO"]
-seo_audited: 2026-09-10
+seo_audited: 2026-10-18
 ---
 
 ## Why a Stock That Popped on Day One Can Suddenly Wobble Months Later

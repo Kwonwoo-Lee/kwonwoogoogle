@@ -4,7 +4,7 @@ title: "Apple's Foldable iPhone Duo Debuts at $1,999 - $200 Cheaper Than Rumored
 description: "Apple's foldable iPhone Duo launched at $1,999, $200 below rumors - yet AAPL closed down 0.28% on September 9. Here's why."
 published: 2026-09-10
 keywords: ["iPhone Duo price", "Apple foldable iPhone launch", "AAPL stock September 9", "iPhone Duo $1999", "why did Apple stock fall today", "John Ternus Surprise and Shine", "iPhone Duo vs iPhone Ultra", "Apple foldable Samsung display"]
-seo_audited: 2026-09-10
+seo_audited: 2026-10-18
 ---
 
 ## What Happened

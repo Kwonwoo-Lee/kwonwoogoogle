@@ -5,7 +5,7 @@ description: "Why KOSPI 200 futures trade above or below the spot index, what ba
 order: 71
 updated: 2026-09-09
 keywords: ["what are stock index futures", "KOSPI 200 futures explained", "futures basis meaning", "program trading explained", "convergence at expiration futures", "index arbitrage explained", "hedging with futures", "open interest meaning"]
-seo_audited: 2026-09-09
+seo_audited: 2026-10-18
 ---
 
 ## "The Index Barely Moved, but Futures Jumped" — What's Going On

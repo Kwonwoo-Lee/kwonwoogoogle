@@ -4,7 +4,7 @@ title: "Amgen (AMGN) Stock Falls 10%, Worst Drop Since 2000 - It Was Novartis's 
 description: "Amgen shares fell 10% to their worst single-day drop since October 2000 - not because of its own trial, but because a rival's failed cholesterol drug raised doubts about the whole drug class."
 published: 2026-09-09
 keywords: ["Amgen stock drop reason", "Amgen olpasiran trial", "Novartis Ionis trial failure", "pelacarsen phase 3 failure", "Lp(a) cholesterol drug stocks", "Amgen worst drop since 2000", "BMO downgrades Amgen", "AMGN stock today"]
-seo_audited: 2026-09-09
+seo_audited: 2026-10-18
 ---
 
 ## What Happened

@@ -4,7 +4,7 @@ title: "August CPI Is In: Core Inflation Beats at 0.3%, 10-Year Yield Breaks 5%,
 description: "The actual August CPI report landed hotter than expected on core, sending the 10-year Treasury yield above 5% and pushing Fed rate-hike odds from 72% to near 90% in a single session."
 published: 2026-09-11
 keywords: ["August CPI actual report", "core CPI 0.3 percent", "10-year Treasury yield breaks 5 percent", "Fed hike odds 90 percent", "September 16 FOMC rate hike", "stock market after CPI today", "gasoline prices CPI August", "30-year yield highest since 2007"]
-seo_audited: 2026-09-11
+seo_audited: 2026-10-19
 ---
 
 ## What Happened

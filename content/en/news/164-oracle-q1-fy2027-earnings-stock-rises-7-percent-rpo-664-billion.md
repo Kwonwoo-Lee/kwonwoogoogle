@@ -4,7 +4,7 @@ title: "Oracle (ORCL) Stock Jumps 7% After Hours on Earnings Beat - Revenue Up 3
 description: "Oracle's Q1 revenue jumped 30% to $19.35B, beating estimates and lifting shares 7% after hours - a far smaller pop than last year's 36% earnings surge."
 published: 2026-09-10
 keywords: ["Oracle earnings today", "why did Oracle stock rise 7 percent", "Oracle RPO 664 billion", "Oracle Q1 revenue 19.35 billion", "ORCL stock after hours today", "Oracle cloud infrastructure revenue up 121 percent", "Oracle earnings reaction vs last year", "Oracle capex debt AI buildout risk"]
-seo_audited: 2026-09-10
+seo_audited: 2026-10-19
 ---
 
 ## What Happened

@@ -5,7 +5,7 @@ description: "Learn how SMT (Smart Money Technique) divergence between correlate
 order: 50
 updated: 2026-09-11
 keywords: ["SMT divergence", "SMT divergence trading", "ICT SMT strategy", "correlated asset divergence", "smart money divergence", "ES NQ divergence", "liquidity sweep confirmation", "intermarket divergence"]
-seo_audited: 2026-09-11
+seo_audited: 2026-10-19
 ---
 
 ## What SMT Divergence Is — and Why You'd Look at Two Charts at Once

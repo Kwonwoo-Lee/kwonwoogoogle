@@ -5,7 +5,7 @@ description: "How a CDS works like an insurance contract against bond default, w
 order: 74
 updated: 2026-09-11
 keywords: ["what is a credit default swap", "CDS explained", "CDS premium meaning", "Korea sovereign CDS premium", "CDS vs credit spread", "naked CDS meaning", "how does a CDS work", "credit default swap example"]
-seo_audited: 2026-09-11
+seo_audited: 2026-10-19
 ---
 
 ## What Does "Korea's CDS Premium Hit a Record Low" Actually Mean?

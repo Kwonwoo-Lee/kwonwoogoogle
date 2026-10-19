@@ -4,7 +4,7 @@ title: "August PPI Hits 5.4%, 2026's Highest, as Oil Tops $105 - Dow, S&P 500, N
 description: "August wholesale inflation matched forecasts month-over-month, but the annual rate hit 5.4%, 2026's highest. Combined with oil topping $105, yields spiked to 4.91%."
 published: 2026-09-10
 keywords: ["August PPI 5.4 percent", "producer price index 2026 highest", "why did oil hit 105 dollars", "10-year Treasury yield 4.91", "Dow Nasdaq S&P 500 fall today", "September 16 FOMC rate hike odds", "August CPI release September 11", "Iran attacks US Navy oil prices"]
-seo_audited: 2026-09-10
+seo_audited: 2026-10-19
 ---
 
 ## What Happened

@@ -5,7 +5,7 @@ description: "How the greenshoe option lets IPO underwriters oversell up to 15% 
 order: 75
 updated: 2026-09-11
 keywords: ["what is a greenshoe option", "greenshoe option explained", "IPO overallotment option", "IPO price stabilization", "greenshoe option example", "underwriter overallotment 15%", "how does IPO stabilization work", "does a stock fall below IPO price"]
-seo_audited: 2026-09-11
+seo_audited: 2026-10-19
 ---
 
 ## Why Some IPO Stocks Barely Dip Below Their Offer Price at First

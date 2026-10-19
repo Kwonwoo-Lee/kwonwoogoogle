@@ -4,7 +4,7 @@ title: "August CPI Lands Today: Fed Hike Odds Hit 72% as 10-Year Yield Tops 4.97
 description: "Fed hike odds jumped to 72% ahead of today's August CPI print, with the 10-year Treasury yield at 4.97% - the highest since 2023 - as markets await the last inflation data before the FOMC meets."
 published: 2026-09-11
 keywords: ["August CPI report today", "Fed rate hike odds 72 percent", "CPI core inflation 0.2 vs 0.3", "10-year Treasury yield 4.97", "September 16 FOMC rate hike", "first Fed hike since 2023", "CPI report September 11 2026", "stock market before CPI today"]
-seo_audited: 2026-09-11
+seo_audited: 2026-10-19
 ---
 
 ## What Happened

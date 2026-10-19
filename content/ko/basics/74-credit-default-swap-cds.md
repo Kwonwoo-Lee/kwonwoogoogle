@@ -5,7 +5,7 @@ description: "CDS가 채권 부도 위험을 사고파는 보험 계약과 같�
 order: 74
 updated: 2026-09-11
 keywords: ["CDS란", "신용부도스왑이란", "CDS 프리미엄이란", "한국 CDS 프리미엄", "외평채 CDS", "국가부도위험 지표", "CDS 신용스프레드 차이", "naked CDS 뜻"]
-seo_audited: 2026-09-11
+seo_audited: 2026-10-19
 ---
 
 ## "한국 CDS 프리미엄이 사상 최저치"라는 기사, 정확히 뭘 말하는 걸까

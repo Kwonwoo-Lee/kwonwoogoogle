@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 340" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="620" height="340" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="14.5" fill="#20201a" text-anchor="middle" font-weight="700">VWAP 표준편차 밴드: 밴드 페이드 vs 밴드 브레이크</text>
+
+<line x1="30" y1="180" x2="290" y2="180" stroke="#e1e0d9" stroke-width="1"/>
+<text x="30" y="52" font-size="12" fill="#5a5950" font-weight="700">밴드 페이드 (횡보장)</text>
+
+<path d="M 40,215 L 280,210" fill="none" stroke="#c7c5ba" stroke-width="1.6" stroke-dasharray="3,3"/>
+<text x="283" y="213" font-size="9" fill="#9a988c" font-weight="700">-2σ</text>
+<path d="M 40,195 L 280,191" fill="none" stroke="#c7c5ba" stroke-width="1.6" stroke-dasharray="3,3"/>
+<text x="283" y="194" font-size="9" fill="#9a988c" font-weight="700">-1σ</text>
+<path d="M 40,170 L 280,165" fill="none" stroke="#d0453b" stroke-width="2.3" stroke-dasharray="6,3"/>
+<text x="283" y="168" font-size="9.5" fill="#d0453b" font-weight="700">VWAP</text>
+<path d="M 40,145 L 280,140" fill="none" stroke="#c7c5ba" stroke-width="1.6" stroke-dasharray="3,3"/>
+<text x="283" y="143" font-size="9" fill="#9a988c" font-weight="700">+1σ</text>
+<path d="M 40,125 L 280,119" fill="none" stroke="#c7c5ba" stroke-width="1.6" stroke-dasharray="3,3"/>
+<text x="283" y="122" font-size="9" fill="#9a988c" font-weight="700">+2σ</text>
+
+<path d="M 40,175 L 70,155 L 100,185 L 130,150 L 160,127 L 190,150 L 220,168 L 250,165 L 280,167" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+<circle cx="160" cy="127" r="5.5" fill="#1f9d55"/>
+<text x="160" y="110" font-size="10" fill="#1f9d55" text-anchor="middle" font-weight="700">2σ 터치 (과매수)</text>
+<circle cx="250" cy="165" r="5" fill="#d0453b"/>
+<line x1="160" y1="127" x2="250" y2="165" stroke="#1f9d55" stroke-width="1.2" stroke-dasharray="3,2"/>
+<text x="250" y="200" font-size="9.5" fill="#1f9d55" text-anchor="middle" font-weight="700">VWAP 복귀 (목표①)</text>
+
+<line x1="40" y1="233" x2="62" y2="233" stroke="#1a5fb4" stroke-width="3"/>
+<text x="68" y="237" font-size="10.5" fill="#20201a">체결가</text>
+<line x1="118" y1="233" x2="140" y2="233" stroke="#d0453b" stroke-width="2.3" stroke-dasharray="6,3"/>
+<text x="146" y="237" font-size="10.5" fill="#20201a">VWAP ±1σ·2σ 밴드</text>
+
+<line x1="325" y1="30" x2="325" y2="315" stroke="#e1e0d9" stroke-width="1"/>
+
+<text x="475" y="52" font-size="12" fill="#5a5950" text-anchor="middle" font-weight="700">밴드 브레이크 (추세일)</text>
+
+<path d="M 345,240 L 600,110" fill="none" stroke="#c7c5ba" stroke-width="1.6" stroke-dasharray="3,3" opacity="0.9"/>
+<text x="596" y="105" font-size="9" fill="#9a988c" font-weight="700">+2σ</text>
+<path d="M 345,260 L 600,150" fill="none" stroke="#c7c5ba" stroke-width="1.6" stroke-dasharray="3,3" opacity="0.9"/>
+<text x="596" y="146" font-size="9" fill="#9a988c" font-weight="700">+1σ</text>
+<path d="M 345,280 L 600,190" fill="none" stroke="#d0453b" stroke-width="2.3" stroke-dasharray="6,3"/>
+<text x="596" y="187" font-size="9.5" fill="#d0453b" font-weight="700">VWAP</text>
+
+<path d="M 345,270 L 390,245 L 435,210 L 480,170 L 510,140 L 550,115 L 590,95" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+<circle cx="510" cy="140" r="5.5" fill="#1f9d55"/>
+<text x="505" y="262" font-size="9.5" fill="#1f9d55" text-anchor="middle" font-weight="700">2σ 종가 돌파</text>
+<text x="505" y="274" font-size="9.5" fill="#1f9d55" text-anchor="middle" font-weight="700">(거래량 증가)</text>
+<line x1="510" y1="140" x2="510" y2="255" stroke="#1f9d55" stroke-width="1.2" stroke-dasharray="3,2"/>
+
+<line x1="345" y1="300" x2="367" y2="300" stroke="#1a5fb4" stroke-width="3"/>
+<text x="373" y="304" font-size="10.5" fill="#20201a">체결가</text>
+<line x1="425" y1="300" x2="447" y2="300" stroke="#767568" stroke-width="2" stroke-dasharray="5,3"/>
+<text x="453" y="304" font-size="10.5" fill="#20201a">밴드가 추세 방향으로 계속 확장</text>
+</svg>

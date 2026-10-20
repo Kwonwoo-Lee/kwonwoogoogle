@@ -1,0 +1,66 @@
+---
+slug: nextrade-ats-multiple-markets-best-execution
+title: "What Is Nextrade (NXT)? How Korea's Multi-Market System and Best Execution Work"
+description: "How Nextrade, Korea's alternative trading system launched in 2025, can momentarily price the same stock differently than KRX, and how best execution and SOR pull those prices back together."
+order: 153
+updated: 2026-10-20
+keywords: ["what is nextrade korea", "nextrade NXT explained", "korea alternative trading system ATS", "best execution obligation korea", "smart order routing SOR korea", "nextrade 15% rule", "korea multiple stock markets"]
+seo_audited: "2026-10-20"
+---
+
+## Korea's Single-Exchange Era Is Over
+
+For decades, "the exchange" in Korea meant one thing: the Korea Exchange (KRX). No matter which brokerage app you used, your order eventually landed in a single matching engine. That assumption broke in March 2025, when Nextrade (NXT), Korea's first alternative trading system (ATS), went live. A stock like Samsung Electronics can now trade on both KRX and NXT at the same moment — and the two venues' prices aren't guaranteed to be identical. This lesson isn't about whether NXT is the better place to place an order right now; that's a trading-strategy call. It's about why the same stock can trade on two venues at once, how any price gap between them gets closed, and why this multi-market system wasn't designed to grow without limits.
+
+## What an Alternative Trading System Actually Is
+
+Legally, Nextrade isn't a licensed exchange the way KRX is — it's classified under Korea's Capital Markets Act as a "multilateral trading facility," the local term for an ATS. Instead of holding an exchange license, it operates under investment dealing and brokerage licenses to match buy and sell orders from multiple participants. In practice, though, trading on NXT looks almost identical to trading on KRX: the same ±30% daily price band (relative to the prior close), the same continuous-auction matching logic, and the same market surveillance and settlement rules apply. The differences show up in fees and hours. NXT's trading fees run roughly 20-30% below KRX's, and it runs its own pre-market and after-hours sessions around the regular trading day — a separate operator from the KRX Aftermarket covered in the [after-hours trading lesson](/en/basics/after-hours-trading-aftermarket-explained/), not a variant of it. Stock coverage started with KOSPI 200 and KOSDAQ 150 constituents and has expanded in stages since launch — not every listed stock was tradable on both venues from day one. None of this requires a new app or a separate account: you place orders through your existing brokerage's HTS or MTS, and the system decides behind the scenes whether KRX or NXT actually fills the order.
+
+## Why the Same Stock Can Briefly Carry Two Prices
+
+When all of a stock's orders landed in one place, "the current price" was unambiguous by definition — every bid and ask sat in the same order book, and the best matching pair on either side set the trade price. Now, orders for the same stock split across two separate order books: KRX's and NXT's. Market-microstructure theory calls this **fragmentation**. Because each book is an independently run matching engine, it's entirely possible for KRX's best bid to sit at, say, ₩950 at the exact moment NXT's best bid sits at ₩951. The "order book depth" concept from the [market microstructure lesson](/en/basics/market-microstructure-basics/) now applies separately to two disconnected books rather than one. If order flow happens to tilt toward one venue — a large order lands there, or a particular investor segment favors one platform — the best quotes on each side can drift a few ticks apart. That gap is a structural feature that simply couldn't exist back when one exchange held all the liquidity.
+
+## Best Execution and SOR: Pulling Fragmented Liquidity Back Together
+
+Left unchecked, that gap means an investor could pay more — or receive less — for the identical stock purely because of which venue happened to fill their order. To prevent that, the Capital Markets Act imposes a **best execution obligation** on brokerages: when the same instrument trades on multiple venues, the broker must set and disclose, in advance, a policy for filling client orders under the most favorable achievable terms — weighing price, likelihood of execution, and speed. The technical system that carries out that obligation is **Smart Order Routing (SOR)**. The moment an order is placed, SOR checks both KRX's and NXT's order books, compares which offers better terms, and automatically routes the order — or splits it across both — to capture the best available price. The investor never has to decide which venue to use; the routing logic handles that judgment call. Korea's clearing firm Koscom and Nextrade finished building out SOR infrastructure in early 2025, and major brokerages rolled it out shortly after; today, most brokerage apps apply SOR by default. Investors who want to trade on a specific venue only can still turn SOR off in the order window and route exclusively to KRX if they choose.
+
+## Who Actually Closes the Gap: Arbitrage
+
+SOR routing an individual order to whichever venue looks better right now is a different thing from keeping the two venues' prices from drifting apart in the first place. The force that actually pulls the two order books back into line is **arbitrage**. If NXT's best ask ever dips below KRX's best bid, anyone who spots it can buy on NXT and sell almost simultaneously on KRX for a near risk-free profit. Enough of that activity closes the gap within moments. This is structurally the same mechanism covered in the [ETF tracking-error lesson](/en/basics/etf-tracking-error-premium-discount/), where authorized participants arbitrage an ETF's market price back toward its NAV through creation and redemption — except here, no single designated intermediary holds that role; competition among whoever is watching the spread does the work instead. For liquid large-cap names, this arbitrage closes gaps fast enough that the divergence barely registers. For thinner names, or during sharp, fast-moving swings in the broader market, the gap between venues can persist longer and run wider before it closes.
+
+## A Worked Example
+
+Take a simplified, hypothetical case. Say Stock A shows a best bid of ₩10,000 and a best ask of ₩10,010 on KRX, while at that same instant NXT shows a best bid of ₩10,005 and a best ask of ₩10,015. An investor placing a buy order capped at ₩10,010 for 100 shares gets routed by SOR to KRX, since its ₩10,010 ask beats NXT's ₩10,015. An investor selling at a minimum of ₩10,005, conversely, gets routed to NXT, where the ₩10,005 bid beats KRX's ₩10,000. Somewhere in the background, an arbitrageur buying at NXT's ₩10,005 bid and almost simultaneously selling at KRX's ₩10,010 ask captures the spread — and a handful of such trades pulls both venues' quotes back toward each other. The takeaway: individual investors never need to run this comparison themselves — SOR does it — but a separate mechanism, arbitrage, is what keeps the two prices from drifting apart for long in the first place.
+
+## The 15% Rule: Why Growth Is Capped by Design
+
+Here's a detail that's easy to miss: Korean regulation caps how big the alternative trading system is allowed to get. Under the so-called **15% rule** in the Capital Markets Act's enforcement decree, an ATS's six-month trailing average daily trading volume — measured as of the last day of each month — can't exceed 15% of total market volume. Cross that line, and the ATS must take mandatory steps to bring volume back down, such as trimming the list of stocks eligible for trading on it. In August 2025, as Nextrade's share approached that ceiling, it preemptively suspended trading in a batch of stocks; reports later that year noted its share crossing the threshold again before an announced expansion of eligible names. Why cap it at all, given that competition between venues already lowers fees and extends trading hours? The concern is that if liquidity fragments too aggressively, too fast, price discovery itself can degrade — a young venue with a comparatively short operating and surveillance track record shouldn't absorb an outsized share of total liquidity before that track record is established. Think of it as a regulatory throttle on how fast the multi-market transition is allowed to happen, not a judgment on whether it should happen at all. Whether and how this cap gets eased is an active policy question, so current figures and rules are best checked against the latest notices from Korea's financial regulators.
+
+## What This Actually Changes for Investors
+
+For most retail investors, day-to-day trading doesn't change much. As long as SOR stays on by default, placing an order works exactly as it always did. Checking a trade confirmation closely, though, might show "NXT" rather than "KRX" as the executing venue — that's not an error, it's SOR having found better terms there at that instant. Nextrade's launch also introduced order types KRX didn't previously offer, like mid-price orders and stop-limit orders. Taxes and ownership are unaffected either way: shares transferred through either venue carry identical ownership rights, and capital gains or transaction tax treatment doesn't depend on which venue executed the trade. Where this actually matters for how you read the market is in treating any single quote with a bit more caution — with liquidity split across two books, the price on one screen isn't automatically "the" market price the way it unambiguously was before, even though the two normally sit close enough together that the distinction rarely matters in practice.
+
+## How This Compares to the US
+
+Multi-market trading itself isn't a new idea globally. US equity markets have run on a far more fragmented structure for decades — more than a dozen registered exchanges like the NYSE and Nasdaq, plus dozens of ATSs including dark pools, all trading the same stocks simultaneously. Reg NMS, the US framework governing this, includes an Order Protection Rule that bars one venue from executing a trade at a worse price than another venue is displaying — the same underlying goal Korea's best execution obligation and SOR are built to achieve. What differs is pace and scale. The US built regulation to catch up with an already sprawling, decades-old web of competing venues; Korea is deliberately throttling the addition of its very first ATS with the 15% rule while it watches how the system behaves. If a second or third ATS eventually launches, or the 15% cap gets relaxed, Korea's market structure could keep moving toward something closer to the fragmented US model. For now, this is best understood as the earliest stage of that structural shift, not its endpoint.
+
+## Takeaway
+
+- Nextrade (NXT), Korea's first alternative trading system, launched in March 2025 under the same price bands and matching rules as KRX, but with lower fees and its own separate pre-market and after-hours sessions.
+- Trading the same stock across both KRX and NXT splits liquidity between two independent order books, which can briefly put each venue's best quote at a slightly different price — a fragmentation effect that didn't exist under a single exchange.
+- Brokerages' best execution obligation, carried out through Smart Order Routing (SOR), automatically sends each investor's order to whichever venue offers better terms — but it's arbitrage, not SOR itself, that keeps the two venues' prices from drifting apart.
+- The Capital Markets Act's "15% rule" caps an ATS's six-month average daily volume at 15% of total market volume, deliberately throttling how fast the multi-market system is allowed to grow.
+- Taxes and ownership rights are identical regardless of which venue executes a trade, and with SOR on by default, most investors can keep placing orders exactly as before.
+
+## FAQ
+
+### Is a share bought on Nextrade different from one bought on KRX?
+No. Whichever venue executes the trade, ownership transfers for the same underlying listed stock, with identical tax treatment and shareholder rights. The executing venue just reflects which market happened to offer better terms at that moment.
+
+### Can I turn off SOR and trade on KRX only?
+Yes — most brokerage order windows let you disable SOR and route directly to KRX. Doing so means you could miss a better price available on NXT, so unless you have a specific reason, leaving SOR on is generally the simpler default.
+
+### Does every stock trade on both exchanges?
+No. Coverage has expanded in stages since Nextrade's launch, but which stocks are eligible can change — partly because of adjustments tied to the 15% rule, partly due to individual stock characteristics. Check Nextrade's official site or your brokerage's current notices for the latest eligible list.
+
+> ⚠️ This article is for informational and educational purposes only and does not recommend any particular venue or trading approach. Figures and rules described here reflect the time of writing and can change with regulatory amendments or market conditions — verify against current disclosures and your brokerage's guidance before acting.

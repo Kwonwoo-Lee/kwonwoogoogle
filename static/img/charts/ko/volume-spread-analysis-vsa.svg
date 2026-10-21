@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="640" height="430" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="320" y="24" font-size="14" fill="#20201a" text-anchor="middle" font-weight="700">VSA 핵심 바 패턴: 스토핑볼륨·테스트·노서플라이·노디맨드·업스러스트</text>
+
+<rect x="40" y="55" width="85" height="200" fill="#767568" opacity="0.06"/>
+<rect x="125" y="55" width="85" height="200" fill="#c98a1f" opacity="0.08"/>
+<rect x="210" y="55" width="120" height="200" fill="#1f9d55" opacity="0.05"/>
+<rect x="330" y="55" width="100" height="200" fill="#c98a1f" opacity="0.07"/>
+<rect x="430" y="55" width="180" height="200" fill="#d0453b" opacity="0.06"/>
+
+<line x1="125" y1="55" x2="125" y2="255" stroke="#c9c8bd" stroke-width="1" stroke-dasharray="3,2"/>
+<line x1="210" y1="55" x2="210" y2="255" stroke="#c9c8bd" stroke-width="1" stroke-dasharray="3,2"/>
+<line x1="330" y1="55" x2="330" y2="255" stroke="#c9c8bd" stroke-width="1" stroke-dasharray="3,2"/>
+<line x1="430" y1="55" x2="430" y2="255" stroke="#c9c8bd" stroke-width="1" stroke-dasharray="3,2"/>
+
+<text x="82" y="69" font-size="9" fill="#5a5950" text-anchor="middle" font-weight="700">하락</text>
+<text x="167" y="69" font-size="9" fill="#a8761a" text-anchor="middle" font-weight="700">스토핑볼륨+테스트</text>
+<text x="270" y="69" font-size="9" fill="#1f9d55" text-anchor="middle" font-weight="700">랠리 (노서플라이)</text>
+<text x="380" y="69" font-size="9" fill="#a8761a" text-anchor="middle" font-weight="700">경고 (노디맨드)</text>
+<text x="520" y="69" font-size="9" fill="#b03a30" text-anchor="middle" font-weight="700">업스러스트+분산</text>
+
+<line x1="100" y1="233" x2="300" y2="233" stroke="#8a4fd1" stroke-width="1.2" stroke-dasharray="5,3" opacity="0.7"/>
+<text x="105" y="246" font-size="8.5" fill="#6a3aa8">지지 영역</text>
+<line x1="330" y1="95" x2="460" y2="95" stroke="#8a4fd1" stroke-width="1.2" stroke-dasharray="5,3" opacity="0.7"/>
+<text x="335" y="88" font-size="8.5" fill="#6a3aa8">저항 영역</text>
+
+<path d="M 40,130 L 70,165 L 100,205 L 125,236 L 150,210 L 180,230 L 210,205 L 240,170 L 270,150 L 300,165 L 330,120 L 360,95 L 385,85 L 410,78 L 430,58 L 450,100 L 480,140 L 520,175 L 560,205 L 600,230" fill="none" stroke="#1a5fb4" stroke-width="2.6"/>
+
+<circle cx="125" cy="236" r="5" fill="#c98a1f"/>
+<text x="125" y="253" font-size="9" fill="#a8761a" text-anchor="middle" font-weight="700">스토핑볼륨</text>
+<circle cx="180" cy="230" r="4.5" fill="#5a5950"/>
+<text x="180" y="212" font-size="8.5" fill="#5a5950" text-anchor="middle" font-weight="700">테스트</text>
+
+<circle cx="300" cy="165" r="4.5" fill="#5a5950"/>
+<text x="300" y="147" font-size="8.5" fill="#5a5950" text-anchor="middle" font-weight="700">노서플라이</text>
+
+<circle cx="385" cy="85" r="4.5" fill="#5a5950"/>
+<text x="385" y="103" font-size="8.5" fill="#5a5950" text-anchor="middle" font-weight="700">노디맨드</text>
+
+<circle cx="430" cy="58" r="5" fill="#d0453b"/>
+<text x="430" y="46" font-size="9" fill="#b03a30" text-anchor="middle" font-weight="700">업스러스트</text>
+<line x1="430" y1="58" x2="450" y2="100" stroke="#d0453b" stroke-width="1.2" stroke-dasharray="3,2" opacity="0.8"/>
+
+<text x="42" y="273" font-size="10.5" fill="#5a5950" font-weight="700">거래량</text>
+<line x1="40" y1="340" x2="610" y2="340" stroke="#e1e0d9" stroke-width="1"/>
+<g fill="#9c9b8f">
+<rect x="40" y="312" width="20" height="28"/>
+<rect x="70" y="310" width="20" height="30"/>
+<rect x="100" y="304" width="20" height="36"/>
+<rect x="130" y="268" width="20" height="72" fill="#c98a1f" opacity="0.75"/>
+<rect x="160" y="324" width="20" height="16"/>
+<rect x="190" y="316" width="20" height="24"/>
+<rect x="220" y="312" width="20" height="28"/>
+<rect x="250" y="320" width="20" height="20" fill="#767568" opacity="0.55"/>
+<rect x="280" y="314" width="20" height="26"/>
+<rect x="310" y="310" width="20" height="30"/>
+<rect x="340" y="306" width="20" height="34"/>
+<rect x="370" y="320" width="20" height="20" fill="#767568" opacity="0.55"/>
+<rect x="400" y="314" width="20" height="26"/>
+<rect x="430" y="270" width="20" height="70" fill="#d0453b" opacity="0.75"/>
+<rect x="460" y="306" width="20" height="34"/>
+<rect x="490" y="312" width="20" height="28"/>
+<rect x="520" y="314" width="20" height="26"/>
+<rect x="550" y="316" width="20" height="24"/>
+<rect x="580" y="318" width="20" height="22"/>
+</g>
+
+<line x1="40" y1="384" x2="65" y2="384" stroke="#1a5fb4" stroke-width="2.6"/>
+<text x="72" y="388" font-size="10.5" fill="#20201a">가격(종가)</text>
+<circle cx="230" cy="384" r="4.5" fill="#c98a1f"/>
+<text x="242" y="388" font-size="10.5" fill="#20201a">스토핑볼륨 / 노서플라이(거래량 변화로 구분)</text>
+
+<circle cx="440" cy="412" r="4.5" fill="#d0453b"/>
+<text x="452" y="416" font-size="10.5" fill="#20201a">업스러스트(거래량 급증+종가 하락)</text>
+<line x1="40" y1="412" x2="65" y2="412" stroke="#8a4fd1" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="72" y="416" font-size="10.5" fill="#20201a">지지·저항 영역</text>
+</svg>

@@ -5,7 +5,7 @@ description: "Learn how the CFTC's weekly Commitment of Traders report and the C
 order: 51
 updated: 2026-09-12
 keywords: ["COT report trading", "commitment of traders report", "how to read COT report", "COT index calculation", "commercial vs speculator positioning", "gold futures positioning data", "large speculators net position", "CFTC COT report gold"]
-seo_audited: 2026-09-12
+seo_audited: 2026-10-21
 ---
 
 ## This Time, It's Data the Government Publishes Every Week

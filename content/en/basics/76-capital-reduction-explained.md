@@ -5,7 +5,7 @@ description: "Why companies drowning in accumulated losses cancel shares without
 order: 76
 updated: 2026-09-12
 keywords: ["what is a capital reduction", "reverse stock split for losses Korea", "capital reduction without compensation", "capital impairment explained", "paid vs unpaid capital reduction", "why does stock price crash on capital reduction", "delisting capital impairment rule", "fractional share cash-out reduction"]
-seo_audited: "2026-09-12"
+seo_audited: "2026-10-21"
 ---
 
 ## Why a "Capital Reduction" Announcement Can Crash a Stock Overnight

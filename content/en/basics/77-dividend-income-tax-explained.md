@@ -5,7 +5,7 @@ description: "How Korea's 15.4% dividend withholding works, why crossing the 20-
 order: 77
 updated: 2026-09-12
 keywords: ["Korea dividend tax explained", "comprehensive financial income taxation", "dividend tax 20 million won threshold", "dividend gross-up tax credit Korea", "Korea dividend withholding tax rate", "high dividend separate taxation 2026", "Korea 15.4% dividend tax", "financial income tax brackets Korea"]
-seo_audited: "2026-09-12"
+seo_audited: "2026-10-21"
 ---
 
 ## The Moment a Growing Dividend Portfolio Runs Into the Tax Code

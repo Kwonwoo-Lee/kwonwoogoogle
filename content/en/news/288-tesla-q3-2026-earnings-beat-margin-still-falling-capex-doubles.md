@@ -4,6 +4,7 @@ title: "Tesla Beats Q3 EPS ($0.48 vs. $0.45 Est.) - But Operating Margin Falls t
 description: "Tesla topped Q3 estimates with $0.48 adjusted EPS on $28.05B revenue, but operating margin fell to 2.6% from 10.8% two years ago as capex roughly doubled and free cash flow dropped 62%."
 published: 2026-10-22
 keywords: ["Tesla Q3 2026 earnings", "TSLA earnings October 21", "Tesla operating margin decline", "Tesla EPS $0.48", "Tesla free cash flow drop", "Tesla robotaxi Dallas launch", "Tesla capex doubled", "Tesla stock earnings reaction"]
+seo_audited: 2026-10-22
 ---
 
 ## What Happened

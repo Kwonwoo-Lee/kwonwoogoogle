@@ -4,7 +4,7 @@ title: "Bitcoin ETFs Bleed $462.6M in Four-Day Outflow Streak While Ethereum ETF
 description: "US spot Bitcoin ETFs shed $462.6 million over four straight sessions while Ethereum ETFs took in $216 million in one day, as traders position ahead of the September 16 FOMC decision."
 published: 2026-09-12
 keywords: ["Bitcoin ETF outflows this week", "Ethereum ETF inflows $216 million", "Bitcoin ETF four day outflow streak", "September FOMC rate hike odds 85 percent", "IBIT ARKB GBTC outflows", "Bitcoin price $77000", "Ethereum Bitcoin ETF divergence", "Fed rate hike bitcoin September 16"]
-seo_audited: 2026-09-12
+seo_audited: 2026-10-22
 ---
 
 ## What Happened

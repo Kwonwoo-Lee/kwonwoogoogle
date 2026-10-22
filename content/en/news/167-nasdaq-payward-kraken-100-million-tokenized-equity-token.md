@@ -4,7 +4,7 @@ title: "Nasdaq Invests $100 Million in Kraken Parent Payward, Targets Q2 2027 La
 description: "Nasdaq Ventures is putting $100 million into Kraken parent Payward at a $21 billion valuation, expanding a partnership to launch blockchain-based Nasdaq Equity Tokens by Q2 2027."
 published: 2026-09-12
 keywords: ["Nasdaq Payward investment", "Kraken tokenized stocks", "Nasdaq Equity Token NET", "NDAQ stock news", "tokenized securities 2027", "Nasdaq Ventures 100 million", "Payward valuation 21 billion", "24 hour stock trading tokens"]
-seo_audited: 2026-09-12
+seo_audited: 2026-10-22
 ---
 
 ## What Happened

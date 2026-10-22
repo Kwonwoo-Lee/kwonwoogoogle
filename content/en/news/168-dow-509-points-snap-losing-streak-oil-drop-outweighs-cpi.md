@@ -4,7 +4,7 @@ title: "Dow Jumps 509 Points to Snap 4-Day Losing Streak as Oil's Slide Outweigh
 description: "The Dow rallied 509 points (1%) on September 11, ending a four-day losing streak as a 3% drop in oil prices outweighed a hotter-than-expected core CPI print. The 2-year Treasury yield still hit its highest level since July 2024."
 published: 2026-09-12
 keywords: ["Dow Jones 509 points rally", "Nasdaq snaps losing streak", "oil price drop offsets CPI", "WTI 99 dollars Brent 104", "2-year Treasury yield 4.63 percent", "September 16 FOMC rate hike odds 90 percent", "S&P 500 sector rotation tech stocks", "stock market rebound after 4-day decline"]
-seo_audited: 2026-09-12
+seo_audited: 2026-10-22
 ---
 
 ## What Happened

@@ -4,6 +4,7 @@ title: "IBM Beats Q3 EPS ($2.95 vs. $2.86 Est.) - Stock Gives Back 4% Gain After
 description: "IBM topped Q3 estimates with $2.95 adjusted EPS on $17.1B revenue, but shares reversed a 4% regular-session gain after CEO Arvind Krishna warned that AI spending ROI is under scrutiny."
 published: 2026-10-22
 keywords: ["IBM Q3 2026 earnings", "IBM stock after hours", "IBM EPS $2.95", "Arvind Krishna AI comments", "IBM AI spending ROI warning", "IBM software revenue growth", "IBM free cash flow guidance", "IBM stock October 21"]
+seo_audited: 2026-10-22
 ---
 
 ## What Happened

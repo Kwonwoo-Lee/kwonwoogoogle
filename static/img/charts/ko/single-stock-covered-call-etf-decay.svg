@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="640" height="400" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="320" y="26" font-size="14" fill="#20201a" text-anchor="middle" font-weight="700">싱글스톡 커버드콜 ETF 가상 사례: NAV 디케이 vs 분배금 누적(12개월)</text>
+
+<line x1="80" y1="330" x2="600" y2="330" stroke="#8a8a7c" stroke-width="1.5"/>
+<line x1="80" y1="330" x2="80" y2="60" stroke="#8a8a7c" stroke-width="1.5"/>
+<text x="340" y="368" font-size="12" fill="#5a5a4e" text-anchor="middle">경과 기간 (0 → 12개월, 가상 시나리오)</text>
+<text x="45" y="195" font-size="12" fill="#5a5a4e" text-anchor="middle" transform="rotate(-90 45 195)">지수화된 값(시작=100)</text>
+
+<!-- gridlines -->
+<line x1="80" y1="105" x2="600" y2="105" stroke="#d8d7cc" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="605" y="109" font-size="10.5" fill="#9c9b8f">100</text>
+<line x1="80" y1="217.5" x2="600" y2="217.5" stroke="#d8d7cc" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="605" y="221.5" font-size="10.5" fill="#9c9b8f">50</text>
+<line x1="80" y1="330" x2="600" y2="330" stroke="#d8d7cc" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="605" y="334" font-size="10.5" fill="#9c9b8f">0</text>
+
+<!-- x axis labels -->
+<text x="100" y="346" font-size="11" fill="#5a5a4e" text-anchor="middle">0개월</text>
+<text x="215" y="346" font-size="11" fill="#5a5a4e" text-anchor="middle">3개월</text>
+<text x="330" y="346" font-size="11" fill="#5a5a4e" text-anchor="middle">6개월</text>
+<text x="445" y="346" font-size="11" fill="#5a5a4e" text-anchor="middle">9개월</text>
+<text x="560" y="346" font-size="11" fill="#5a5a4e" text-anchor="middle">12개월</text>
+
+<!-- NAV line (red) -->
+<path d="M 100,105 L 215,132 L 330,159 L 445,177 L 560,190.5"
+      fill="none" stroke="#d0453b" stroke-width="3"/>
+<circle cx="100" cy="105" r="4.5" fill="#d0453b"/>
+<circle cx="215" cy="132" r="4.5" fill="#d0453b"/>
+<circle cx="330" cy="159" r="4.5" fill="#d0453b"/>
+<circle cx="445" cy="177" r="4.5" fill="#d0453b"/>
+<circle cx="560" cy="190.5" r="5.5" fill="#d0453b"/>
+<text x="560" y="208" font-size="11" fill="#b03a30" text-anchor="end" font-weight="700">NAV 62 (-38%)</text>
+
+<!-- cumulative distribution line (green) -->
+<path d="M 100,330 L 215,303 L 330,278.25 L 445,251.25 L 560,226.5"
+      fill="none" stroke="#1f9d55" stroke-width="3"/>
+<circle cx="100" cy="330" r="4.5" fill="#1f9d55"/>
+<circle cx="215" cy="303" r="4.5" fill="#1f9d55"/>
+<circle cx="330" cy="278.25" r="4.5" fill="#1f9d55"/>
+<circle cx="445" cy="251.25" r="4.5" fill="#1f9d55"/>
+<circle cx="560" cy="226.5" r="5.5" fill="#1f9d55"/>
+<text x="560" y="245" font-size="11" fill="#177a42" text-anchor="end" font-weight="700">누적 분배금 46</text>
+
+<!-- total return line (blue dashed) -->
+<path d="M 100,105 L 215,105 L 330,108.75 L 445,98.25 L 560,87"
+      fill="none" stroke="#1a5fb4" stroke-width="2.5" stroke-dasharray="6,4"/>
+<circle cx="100" cy="105" r="4" fill="#1a5fb4"/>
+<circle cx="215" cy="105" r="4" fill="#1a5fb4"/>
+<circle cx="330" cy="108.75" r="4" fill="#1a5fb4"/>
+<circle cx="445" cy="98.25" r="4" fill="#1a5fb4"/>
+<circle cx="560" cy="87" r="5" fill="#1a5fb4"/>
+<text x="560" y="72" font-size="11" fill="#1a5fb4" text-anchor="end" font-weight="700">총수익(NAV+분배금) 108 (+8%)</text>
+
+<!-- legend -->
+<line x1="90" y1="385" x2="115" y2="385" stroke="#d0453b" stroke-width="3"/>
+<text x="122" y="389" font-size="11" fill="#20201a">NAV(순자산가치)</text>
+<line x1="265" y1="385" x2="290" y2="385" stroke="#1f9d55" stroke-width="3"/>
+<text x="297" y="389" font-size="11" fill="#20201a">누적 분배금</text>
+<line x1="415" y1="385" x2="440" y2="385" stroke="#1a5fb4" stroke-width="2.5" stroke-dasharray="6,4"/>
+<text x="447" y="389" font-size="11" fill="#20201a">총수익(NAV+분배금)</text>
+</svg>

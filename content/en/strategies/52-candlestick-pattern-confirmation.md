@@ -5,7 +5,7 @@ description: "How morning star, evening star, and three white soldiers patterns 
 order: 52
 updated: 2026-09-13
 keywords: ["candlestick patterns trading", "morning star pattern", "evening star pattern", "three white soldiers", "bullish engulfing pattern", "candlestick pattern confirmation", "how to trade candlestick patterns", "doji candlestick meaning"]
-seo_audited: 2026-09-13
+seo_audited: 2026-10-23
 ---
 
 ## Shapes Alone Aren't Enough

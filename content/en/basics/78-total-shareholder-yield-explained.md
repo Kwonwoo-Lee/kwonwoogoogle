@@ -5,7 +5,7 @@ description: "Why dividend yield alone undercounts what a company returns to sha
 order: 78
 updated: 2026-09-13
 keywords: ["total shareholder yield explained", "shareholder yield formula", "dividend yield vs buyback yield", "Korea value-up program shareholder returns", "buyback vs dividend total return", "how to calculate shareholder yield", "Korea discount value-up program"]
-seo_audited: "2026-09-13"
+seo_audited: "2026-10-23"
 ---
 
 ## The Company You'd Overlook by Checking Dividend Yield Alone

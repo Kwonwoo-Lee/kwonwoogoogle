@@ -5,7 +5,7 @@ description: "Why leveraged and inverse ETFs can post a loss even after the unde
 order: 79
 updated: 2026-09-13
 keywords: ["leveraged ETF decay explained", "why leveraged ETFs lose money long term", "inverse ETF volatility decay", "daily reset leveraged ETF", "TQQQ long term risk", "leveraged ETF compounding effect", "volatility drag leveraged funds"]
-seo_audited: "2026-09-13"
+seo_audited: "2026-10-23"
 ---
 
 ## The Index Is Flat. Why Is the Account Red?

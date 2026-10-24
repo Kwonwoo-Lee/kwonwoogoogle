@@ -5,6 +5,7 @@ description: "Learn how the carry trade turns interest-rate gaps into profit, wh
 order: 93
 updated: 2026-10-24
 keywords: ["carry trade strategy", "yen carry trade explained", "carry trade unwind", "interest rate differential trading", "AUD/JPY carry trade", "carry trade risk", "forex carry trade", "uncovered interest rate parity"]
+seo_audited: 2026-10-24
 ---
 
 ## The Carry Trade: Turning an Interest Rate Gap Into a Tradeable Asset

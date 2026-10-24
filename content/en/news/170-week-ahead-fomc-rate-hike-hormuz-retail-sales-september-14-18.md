@@ -4,7 +4,7 @@ title: "Week Ahead: FOMC Rate-Hike Odds Hit 85% Ahead of Sept. 16 Decision, Horm
 description: "With Fed rate-hike odds near 85% ahead of the Sept. 16 FOMC decision, Iran-Gulf Hormuz talks and August retail sales round out a heavy week for US markets."
 published: 2026-09-13
 keywords: ["September FOMC rate hike odds", "September 16 FOMC decision", "week ahead stock market September", "Strait of Hormuz Iran Gulf states talks", "August retail sales release date", "S&P 500 27th record high 2026", "Fed dot plot SEP September", "10-year Treasury yield 5 percent"]
-seo_audited: 2026-09-13
+seo_audited: 2026-10-24
 ---
 
 ## What Happened

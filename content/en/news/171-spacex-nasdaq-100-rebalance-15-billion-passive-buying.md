@@ -4,7 +4,7 @@ title: "SpaceX Set for Nasdaq 100 Weighting to More Than Double to 2.82%, Trigge
 description: "SpaceX's Nasdaq 100 weighting is set to jump from 1.28% to 2.82%, forcing index funds to buy up to $15.5 billion of SPCX stock by Sept. 21."
 published: 2026-09-13
 keywords: ["SpaceX Nasdaq 100 weighting", "SPCX stock passive buying", "Nasdaq 100 rebalance September 2026", "SpaceX index fund buying $15.5 billion", "SPCX free float lockup expiration", "Nasdaq 100 special rebalance rules", "SpaceX stock price forecast", "index fund forced buying explained"]
-seo_audited: 2026-09-13
+seo_audited: 2026-10-24
 ---
 
 ## What Happened

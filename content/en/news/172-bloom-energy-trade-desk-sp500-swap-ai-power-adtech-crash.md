@@ -4,7 +4,7 @@ title: "Bloom Energy Joins S&P 500 Up 223% YTD as Trade Desk Exits After 70% Cra
 description: "Bloom Energy enters the S&P 500 on Sept. 21 after a 223% YTD surge, while The Trade Desk exits after a 70% crash and 575 layoffs. Here's what the swap really reveals."
 published: 2026-09-13
 keywords: ["Bloom Energy S&P 500 inclusion", "Trade Desk S&P 500 removal", "BE stock 223% surge", "TTD stock crash 70%", "Bloom Energy vs Trade Desk", "S&P 500 September rebalance 2026", "AI data center power stocks", "why is Trade Desk stock down"]
-seo_audited: 2026-09-13
+seo_audited: 2026-10-24
 ---
 
 ## What Happened

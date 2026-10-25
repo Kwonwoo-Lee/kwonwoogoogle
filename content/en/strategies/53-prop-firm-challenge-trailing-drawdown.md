@@ -5,7 +5,7 @@ description: "How prop firm daily loss limits and trailing drawdown rules actual
 order: 53
 updated: 2026-09-14
 keywords: ["prop firm challenge", "trailing drawdown explained", "prop firm trading rules", "how to pass a prop firm challenge", "daily loss limit prop firm", "static vs trailing drawdown", "funded trader risk management", "prop firm consistency rule"]
-seo_audited: 2026-09-14
+seo_audited: 2026-10-25
 ---
 
 ## Prop Firm Rules Are a Different Kind of Risk Management

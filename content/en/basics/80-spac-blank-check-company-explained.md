@@ -5,7 +5,7 @@ description: "Why a SPAC's IPO proceeds sit in an escrow trust that puts a floor
 order: 80
 updated: 2026-09-14
 keywords: ["what is a SPAC", "SPAC blank check company", "SPAC merger explained", "SPAC investing risks", "SPAC vs traditional IPO", "SPAC trust account", "how SPAC mergers work", "SPAC sponsor incentives"]
-seo_audited: "2026-09-14"
+seo_audited: "2026-10-25"
 ---
 
 ## A Ticker With No Business and a Price Stuck Near Par

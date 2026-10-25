@@ -5,7 +5,7 @@ description: "How the Buffett Indicator compares total stock market value to GDP
 order: 81
 updated: 2026-09-14
 keywords: ["buffett indicator explained", "market cap to GDP ratio", "is the buffett indicator accurate", "buffett indicator overvalued", "buffett indicator current level", "buffett indicator vs CAPE ratio", "market cap to GDP korea", "stock market valuation indicator"]
-seo_audited: "2026-09-14"
+seo_audited: "2026-10-25"
 ---
 
 ## Measuring Not One Stock, But the Whole Market

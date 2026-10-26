@@ -5,7 +5,7 @@ description: "ETF 시장가격이 순자산가치(NAV)와 벌어지는 괴리율
 order: 82
 updated: 2026-09-15
 keywords: ["ETF 추적오차란", "ETF 괴리율이란", "ETF 추적오차 괴리율 차이", "ETF NAV 시장가격 차이", "iNAV란", "합성 ETF 스왑", "ETF 지정참가회사 AP", "ETF 복제방식"]
-seo_audited: "2026-09-15"
+seo_audited: 2026-10-26
 ---
 
 ## 같은 "안 맞는다"인데, 원인은 서로 다릅니다

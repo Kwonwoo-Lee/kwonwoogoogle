@@ -4,7 +4,7 @@ title: "Micron, SanDisk, SK Hynix Sink 6-7% as DeepSeek's Ultra-Efficient V4.1 F
 description: "Memory stocks fell harder than the broader chip sector Monday after DeepSeek's V4.1 Flash cut HBM needs roughly 4x, reviving fears of an AI memory demand shock."
 published: 2026-09-14
 keywords: ["Micron stock falls today", "SanDisk stock drop DeepSeek", "SK Hynix stock decline 7 percent", "DeepSeek V4.1 Flash memory demand", "HBM demand destruction risk", "memory stocks vs chip stocks AI slowdown", "Western Digital Seagate stock fall", "AI model efficiency memory chip stocks"]
-seo_audited: 2026-09-14
+seo_audited: 2026-10-26
 ---
 
 ## What Happened

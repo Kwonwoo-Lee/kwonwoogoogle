@@ -4,7 +4,7 @@ title: "Nasdaq 100 Futures Drop 1.2% as Anthropic's Amodei and OpenAI's Altman C
 description: "Amodei and Altman's calls to pace AI development sent Nasdaq 100 futures down 1.2% and oil up 2.3%, as OpenAI confirmed it will shelve its 2026 IPO."
 published: 2026-09-14
 keywords: ["Dario Amodei AI slowdown", "OpenAI IPO delayed 2026", "Nasdaq 100 futures fall", "Sam Altman AI safety concerns", "OpenAI not going public 2026", "September 16 FOMC rate hike odds", "WTI Brent oil rise 2.3%", "AI bubble concerns stock market"]
-seo_audited: 2026-09-14
+seo_audited: 2026-10-26
 ---
 
 ## What Happened

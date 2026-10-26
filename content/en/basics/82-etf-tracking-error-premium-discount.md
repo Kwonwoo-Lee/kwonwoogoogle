@@ -5,7 +5,7 @@ description: "Why an ETF's market price can diverge from its net asset value (pr
 order: 82
 updated: 2026-09-15
 keywords: ["ETF tracking error explained", "ETF premium discount to NAV", "tracking error vs tracking difference", "what is iNAV", "synthetic ETF swap risk", "authorized participant creation redemption", "ETF replication methods"]
-seo_audited: "2026-09-15"
+seo_audited: 2026-10-26
 ---
 
 ## Two Kinds of "Off," Two Different Causes

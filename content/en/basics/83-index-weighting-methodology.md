@@ -5,7 +5,7 @@ description: "The S&P 500 is cap-weighted, the Dow is price-weighted, and equal-
 order: 83
 updated: 2026-09-15
 keywords: ["how are stock indexes calculated", "Dow Jones vs S&P 500 difference", "price weighted vs market cap weighted index", "what is equal weight index", "Nasdaq 100 weighting rule", "Dow Jones divisor explained", "S&P 500 float adjusted market cap"]
-seo_audited: "2026-09-15"
+seo_audited: 2026-10-26
 ---
 
 ## Same Market, Different Numbers

@@ -4,7 +4,7 @@ title: "Hormuz Talks Collapse Before They Start as Brent Crude Tops $108, Saudi 
 description: "Iran-GCC talks on Strait of Hormuz shipping were postponed hours before they were due to start, and Saudi Arabia shut its main Hormuz-bypass pipeline, sending Brent crude above $108 a barrel."
 published: 2026-09-14
 keywords: ["Hormuz talks postponed", "Brent crude $108 a barrel", "Saudi pipeline shutdown", "Iran GCC talks canceled", "Bahrain Hormuz boycott", "September 16 FOMC rate hike", "oil price spike inflation", "Strait of Hormuz crisis 2026"]
-seo_audited: 2026-09-14
+seo_audited: 2026-10-26
 ---
 
 ## What Happened

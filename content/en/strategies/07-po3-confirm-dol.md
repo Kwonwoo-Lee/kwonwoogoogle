@@ -1,11 +1,11 @@
 ---
 slug: po3-confirm-dol
-title: "PO3 and Confirm DOL: A Practical Checklist Framework"
-description: "Turn the ICT concepts from the previous lesson into an actual trading checklist using the Accumulation-Manipulation-Distribution (PO3) cycle and the Confirm DOL model — HTF 4-step conditions plus LTF confirmation."
+title: "ICT PO3 Trading Strategy: Liquidity Sweeps, Kill Zones, and an Entry Checklist"
+description: "Learn how ICT's Power of Three (Accumulation-Manipulation-Distribution) cycle combines with liquidity sweeps, FVGs, and kill zone timing into a practical entry checklist, including how to prioritize your profit targets."
 order: 7
 updated: 2026-08-03
-keywords: ["power of three trading", "kill zone trading", "ICT trading strategy", "Confirm DOL", "smart money concepts", "premium discount zones"]
-seo_audited: 2026-09-15
+keywords: ["PO3 trading strategy", "ICT kill zone strategy", "liquidity sweep trading", "smart money concepts checklist", "FVG confirmation", "ICT entry checklist"]
+seo_audited: 2026-10-26
 ---
 
 ## This Lesson Builds Directly on the Previous One

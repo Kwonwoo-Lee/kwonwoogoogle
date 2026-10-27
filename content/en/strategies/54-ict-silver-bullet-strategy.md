@@ -5,7 +5,7 @@ description: "Learn the exact Silver Bullet killzone times, the sweep-to-FVG ent
 order: 54
 updated: 2026-09-15
 keywords: ["ICT Silver Bullet strategy", "silver bullet trading", "ICT killzone times", "silver bullet FVG entry", "ICT silver bullet 10am killzone", "smart money trading strategy", "futures trading strategy", "silver bullet stand down"]
-seo_audited: 2026-09-15
+seo_audited: 2026-10-27
 ---
 
 ## What the Silver Bullet Actually Adds to Lessons 5 and 7

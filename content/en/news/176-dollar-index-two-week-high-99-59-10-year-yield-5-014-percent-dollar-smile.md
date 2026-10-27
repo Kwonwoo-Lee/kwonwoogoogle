@@ -4,7 +4,7 @@ title: "Dollar Index Jumps to 99.59, a Two-Week High, as 10-Year Yield Re-Tests 
 description: "The dollar index climbed to a two-week high of 99.59 on September 14 as the 10-year Treasury yield hit 5.014%. Here's why the euro, pound and even gold fell together right before the Fed."
 published: 2026-09-15
 keywords: ["dollar index today", "10 year treasury yield 5 percent explained", "why is gold falling today", "euro dollar exchange rate one month low", "Fed rate hike odds September 16", "dollar smile theory", "30 year mortgage rate today", "dollar index two week high"]
-seo_audited: 2026-09-15
+seo_audited: 2026-10-27
 ---
 
 ## What Happened

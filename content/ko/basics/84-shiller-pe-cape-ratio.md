@@ -5,7 +5,7 @@ description: "일반 PER이 이익 급락·급등기에 왜 왜곡되는지, 실
 order: 84
 updated: 2026-09-16
 keywords: ["실러 PER이란", "CAPE 비율이란", "경기조정주가수익비율", "실러 PER 계산법", "CAPE PER 차이", "실러 PER 한계", "PE10 비율", "CAPE 버핏지수 차이"]
-seo_audited: "2026-09-16"
+seo_audited: "2026-10-28"
 ---
 
 ## 일반 PER이 경기 전환점에서 흔들리는 이유

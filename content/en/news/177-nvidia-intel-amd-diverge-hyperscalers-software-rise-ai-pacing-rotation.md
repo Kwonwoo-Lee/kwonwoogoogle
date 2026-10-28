@@ -4,7 +4,7 @@ title: "Nvidia -3% vs Intel -6%: Chipmakers Sank While Meta, Microsoft and Adobe
 description: "Intel fell 5.6% and AMD dropped about 4.4% Monday while Nvidia fell just 3.4% - and Meta, Microsoft and Adobe actually rose. Here's why chip stocks and software/hyperscaler stocks moved in opposite directions on the same news."
 published: 2026-09-15
 keywords: ["Intel stock drop today", "Nvidia stock fall 3 percent reason", "AMD stock price today", "chip stocks vs software stocks", "AI pacing selloff semiconductors", "Philadelphia semiconductor index drop", "Meta Microsoft Adobe stock rise reason", "hyperscaler software rotation September 2026"]
-seo_audited: 2026-09-15
+seo_audited: "2026-10-28"
 ---
 
 ## What Happened

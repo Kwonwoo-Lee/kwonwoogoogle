@@ -5,7 +5,7 @@ description: "Why major shareholders sell large stakes through off-exchange bloc
 order: 85
 updated: 2026-09-16
 keywords: ["what is a block deal", "block trade explained", "block deal stock price impact", "block deal discount meaning", "accelerated bookbuild explained", "why do block deals happen", "block deal vs open market sale", "block deal overhang"]
-seo_audited: "2026-09-16"
+seo_audited: "2026-10-28"
 ---
 
 ## What a Block Deal Actually Is

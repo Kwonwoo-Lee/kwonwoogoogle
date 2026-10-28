@@ -4,7 +4,7 @@ title: "Markets Price a 92% Fed Hike Tomorrow - So Why Is Warsh Still Short on V
 description: "Traders price a 92% chance the Fed hikes Wednesday, but July's 9-3 vote and Governor Waller's wavering stance show the actual FOMC vote count is far less settled than the odds suggest."
 published: 2026-09-15
 keywords: ["FOMC September 16 rate hike odds", "Warsh Fed vote count", "Christopher Waller swing vote", "Fed 9-3 split decision", "FOMC hawks doves 2026", "Fed dot plot September 2026", "CME FedWatch hike probability", "most divided Fed in decades"]
-seo_audited: 2026-09-15
+seo_audited: "2026-10-28"
 ---
 
 ## What Happened

@@ -5,7 +5,7 @@ description: "Why an ordinary PE ratio gets distorted at earnings peaks and trou
 order: 84
 updated: 2026-09-16
 keywords: ["shiller pe ratio explained", "what is cape ratio", "cyclically adjusted pe ratio", "shiller pe calculation", "cape vs pe ratio", "shiller pe ratio limitations", "pe10 ratio", "cape vs buffett indicator"]
-seo_audited: "2026-09-16"
+seo_audited: "2026-10-28"
 ---
 
 ## Why an Ordinary PE Ratio Breaks Down at Turning Points

@@ -4,7 +4,7 @@ title: "Trump Threatens to Halt Trade Unless the Fed Cuts Rates - His Own Pick I
 description: "Trump threatened to cut off trade with surplus countries unless the Fed lowers rates. His own appointee, Chair Kevin Warsh, is preparing to hike instead - and 85% of economists now agree."
 published: 2026-09-16
 keywords: ["Trump Fed rate cut threat", "Kevin Warsh rate hike defies Trump", "Fed independence 2026", "Trump Truth Social trade deficit", "FOMC September 16 rate hike", "Reuters poll economists Fed hike", "dollar index Fed independence", "Trump trade halt surplus countries"]
-seo_audited: 2026-09-16
+seo_audited: 2026-10-29
 ---
 
 ## What Happened

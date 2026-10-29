@@ -4,7 +4,7 @@ title: "10-Year Treasury Yield Hits 5.04%, Highest Since 2007, as Mortgage Rates
 description: "The 10-year Treasury yield hit 5.04% on Sept. 15, its highest since 2007, as mortgage rates jumped to 7.17% and the Dow fell 328 points."
 published: 2026-09-16
 keywords: ["10 year treasury yield 5.04 percent", "10 year yield highest since 2007", "30 year mortgage rate 7.17 percent", "why did the dow fall today", "FOMC rate hike September 16", "treasury yields term premium explained", "homebuilder stocks mortgage rates", "stock market back to back losses"]
-seo_audited: 2026-09-16
+seo_audited: 2026-10-29
 ---
 
 ## What Happened

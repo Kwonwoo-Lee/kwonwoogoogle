@@ -5,7 +5,7 @@ description: "ADX·DMI 지표로 추세의 방향이 아니라 강도를 측정�
 order: 55
 updated: 2026-09-16
 keywords: ["ADX 지표", "ADX 지표 사용법", "DMI 지표", "평균방향지수", "추세 강도 지표", "ADX 25 기준", "ADX DMI 매매법", "추세추종 필터"]
-seo_audited: 2026-09-16
+seo_audited: 2026-10-29
 ---
 
 ## 왜 "방향"이 아니라 "강도"를 재는 지표가 필요한가

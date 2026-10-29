@@ -5,7 +5,7 @@ description: "How the ADX indicator measures trend strength instead of direction
 order: 55
 updated: 2026-09-16
 keywords: ["ADX indicator", "how to use ADX indicator", "DMI indicator", "ADX 25 rule", "average directional index", "trend strength indicator", "ADX DMI trading strategy", "ADX trend filter"]
-seo_audited: 2026-09-16
+seo_audited: 2026-10-29
 ---
 
 ## The Missing Piece: Knowing Whether a Signal Is Even Worth Trusting

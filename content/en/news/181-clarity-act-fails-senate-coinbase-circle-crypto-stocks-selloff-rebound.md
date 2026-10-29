@@ -1,10 +1,10 @@
 ---
 slug: clarity-act-fails-senate-coinbase-circle-crypto-stocks-selloff-rebound
-title: "Clarity Act Fails in Senate 50-49 - Coinbase Sinks 10%, Circle 11%, Bitcoin ETFs Lose $450M"
-description: "The Senate's Clarity Act cloture vote failed 50-49 on September 15, sending Coinbase down 10% and Circle down 11%. Here's why crypto stocks bounced back the very next day."
+title: "Clarity Act Fails in Senate 49-50 - Coinbase Sinks 10%, Circle 11%, Bitcoin ETFs Lose $450M"
+description: "The Senate's Clarity Act cloture vote failed 49-50 on September 15, sending Coinbase down 10% and Circle down 11%. Here's why crypto stocks bounced back the very next day."
 published: 2026-09-16
 keywords: ["Clarity Act Senate vote fails", "Coinbase stock falls 10 percent", "Circle CRCL stock drop", "Bitcoin ETF outflows $450 million", "Clarity Act cloture vote fails", "Strategy MSTR stock decline", "Bitcoin $76,000 price", "why did crypto stocks rebound"]
-seo_audited: 2026-09-16
+seo_audited: 2026-10-29
 ---
 
 ## What Happened

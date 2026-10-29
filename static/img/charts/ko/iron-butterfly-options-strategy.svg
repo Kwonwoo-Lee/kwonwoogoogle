@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="640" height="400" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="320" y="26" font-size="14.5" fill="#20201a" text-anchor="middle" font-weight="700">아이언콘도르 vs 아이언 버터플라이: 손익 구조 비교</text>
+
+<line x1="320" y1="34" x2="320" y2="380" stroke="#e1e0d9" stroke-width="1"/>
+
+<!-- Left: Iron Condor (flat plateau) -->
+<text x="165" y="52" font-size="11.5" fill="#5a5950" text-anchor="middle" font-weight="700">아이언콘도르 (평평한 지붕)</text>
+
+<path d="M 45,230 L 90,230 L 140,110 L 205,110 L 255,230 L 300,230" fill="none" stroke="#1a5fb4" stroke-width="2.8"/>
+
+<line x1="45" y1="110" x2="300" y2="110" stroke="#1f9d55" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="300" y="104" font-size="9" fill="#177a42" text-anchor="end">최대 이익(두 숏 행사가 사이 전체)</text>
+
+<line x1="45" y1="230" x2="300" y2="230" stroke="#d0453b" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="300" y="243" font-size="9" fill="#a5342c" text-anchor="end">최대 손실(날개 폭 - 크레딧)</text>
+
+<line x1="90" y1="95" x2="90" y2="240" stroke="#c7c6bb" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="90" y="255" font-size="8" fill="#767568" text-anchor="middle">풋 날개</text>
+<line x1="140" y1="95" x2="140" y2="240" stroke="#c7c6bb" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="140" y="270" font-size="8" fill="#767568" text-anchor="middle">숏풋</text>
+<line x1="205" y1="95" x2="205" y2="240" stroke="#c7c6bb" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="205" y="270" font-size="8" fill="#767568" text-anchor="middle">숏콜</text>
+<line x1="255" y1="95" x2="255" y2="240" stroke="#c7c6bb" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="255" y="255" font-size="8" fill="#767568" text-anchor="middle">콜 날개</text>
+
+<text x="165" y="292" font-size="9" fill="#767568" text-anchor="middle">두 숏 행사가 사이 어디든 머물면 크레딧 전액이 이익</text>
+
+<!-- Right: Iron Butterfly (sharp peak) -->
+<text x="475" y="52" font-size="11.5" fill="#5a5950" text-anchor="middle" font-weight="700">아이언 버터플라이 (뾰족한 지붕)</text>
+
+<path d="M 350,230 L 400,230 L 482,110 L 565,230 L 615,230" fill="none" stroke="#1a5fb4" stroke-width="2.8"/>
+
+<line x1="350" y1="110" x2="615" y2="110" stroke="#1f9d55" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="615" y="104" font-size="9" fill="#177a42" text-anchor="end">최대 이익(중심 행사가 한 점)</text>
+
+<line x1="350" y1="230" x2="615" y2="230" stroke="#d0453b" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="615" y="243" font-size="9" fill="#a5342c" text-anchor="end">최대 손실(날개 폭 - 크레딧)</text>
+
+<line x1="400" y1="95" x2="400" y2="240" stroke="#c7c6bb" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="400" y="255" font-size="8" fill="#767568" text-anchor="middle">풋 날개</text>
+<line x1="482" y1="95" x2="482" y2="240" stroke="#c7c6bb" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="482" y="270" font-size="8" fill="#767568" text-anchor="middle">중심 행사가(숏풋=숏콜)</text>
+<line x1="565" y1="95" x2="565" y2="240" stroke="#c7c6bb" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="565" y="255" font-size="8" fill="#767568" text-anchor="middle">콜 날개</text>
+
+<text x="475" y="292" font-size="9" fill="#767568" text-anchor="middle">중심 행사가에서 멀어질수록 이익이 선형으로 줄어듦</text>
+
+<text x="320" y="375" font-size="9.5" fill="#767568" text-anchor="middle">두 구조 모두 최대 손실은 진입 시점에 이미 정해져 있다 — 다른 것은 '모양'이다</text>
+</svg>

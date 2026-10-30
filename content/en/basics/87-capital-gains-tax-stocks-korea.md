@@ -5,7 +5,7 @@ description: "Why most Korean retail investors owe zero tax on domestic stock ga
 order: 87
 updated: 2026-09-17
 keywords: ["Korea stock capital gains tax", "Korea overseas stock tax 22 percent", "Korea major shareholder threshold", "Korea overseas stock tax filing", "why Korea domestic stocks are tax free", "Korea overseas stock 2.5 million won deduction", "Korea daejoo-ju tax rule", "Korea financial investment income tax repeal"]
-seo_audited: "2026-09-17"
+seo_audited: 2026-10-30
 ---
 
 ## Same Activity, Completely Different Tax Bill

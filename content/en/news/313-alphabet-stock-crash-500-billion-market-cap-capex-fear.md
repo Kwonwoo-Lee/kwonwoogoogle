@@ -4,6 +4,7 @@ title: "Alphabet Stock Craters 12% in Regular Trading, Erasing $500 Billion - Ho
 description: "Alphabet shares plunged roughly 12% on October 29, wiping out about $500 billion in market value - beating a capex-shock record the stock had set only three months prior."
 published: 2026-10-30
 keywords: ["Alphabet stock drop reason", "Google stock worst day ever", "Alphabet $500 billion market cap loss", "Alphabet 2027 capex guidance", "GOOGL stock outlook", "Alphabet Q3 earnings miss", "Google Cloud revenue growth 103 percent", "Alphabet SpaceX investment writedown"]
+seo_audited: 2026-10-30
 ---
 
 ## What Happened
@@ -14,7 +15,7 @@ The selloff traces back to third-quarter earnings released after the close the p
 
 The real surprise came the next day. Overnight, that 9% after-hours decline deepened into a roughly 12% drop once the regular session opened. After-hours trading is thin and illiquid, which can either exaggerate or understate a stock's true reaction; in this case, the initial move actually understated the selling pressure that followed. By the time the earnings call transcript circulated and analysts published their notes, investor attention had shifted away from the EPS miss itself and toward a heavier number: 2027 capital expenditures.
 
-On the earnings call, management disclosed for the first time that 2027 capex would exceed $300 billion. Third-quarter capex alone had already reached $51.4 billion, and that spending pushed quarterly free cash flow to negative $9.1 billion. Seeing the company burn billions of dollars in a single quarter, on top of a guidance number that kept climbing, deepened investors' unease about when - or whether - that spending converts into returns. The Nasdaq Composite fell about 1.4% that day, the Dow slipped 133 points (0.25%) to 52,342.56, and the S&P 500 lost about 0.3%, as the broader market absorbed the shock.
+On the earnings call, CFO Anat Ashkenazi said 2027 capex would increase significantly, but declined to give a specific figure, saying more detail would come on the Q4 call. CNBC and other outlets have projected annual capex topping $200 billion in 2026 before exceeding $300 billion in 2027. Third-quarter capex alone had already reached $51.4 billion, and that spending pushed quarterly free cash flow to negative $9.1 billion. Seeing the company burn billions of dollars in a single quarter, on top of a guidance number that kept climbing, deepened investors' unease about when - or whether - that spending converts into returns. The Nasdaq Composite fell about 1.4% that day, the Dow slipped 133 points (0.25%) to 52,342.56, and the S&P 500 lost about 0.3%, as the broader market absorbed the shock.
 
 What makes the reaction more striking is that Google Cloud itself delivered a genuinely excellent quarter. Cloud revenue surged 103% year over year to $30.7 billion, comfortably beating the roughly $29.1 billion consensus. By contrast, Alphabet's traditional cash cows lagged: Search advertising revenue (about $63.4 billion) and YouTube ad revenue (about $11.2 billion) both missed estimates. In other words, this report delivered three contradictory signals at once - a cloud business that's accelerating, a core ad business that's cooling, and a spending bill that keeps climbing faster than either.
 
@@ -39,7 +40,7 @@ Shares fell about 9% in after-hours trading on the night of October 28, right af
 
 ### Why did the stock fall more in regular trading than in after-hours trading?
 
-After-hours trading has thin volume, so prices there tend to be rough estimates rather than settled market consensus. Over the following day, as the earnings call transcript and analyst notes circulated, investor focus shifted from the EPS miss itself toward the heavier disclosure that 2027 capex would top $300 billion - a shift that appears to have intensified selling once the regular session opened.
+After-hours trading has thin volume, so prices there tend to be rough estimates rather than settled market consensus. Over the following day, as the earnings call transcript and analyst notes circulated, investor focus shifted from the EPS miss itself toward the heavier prospect that 2027 capex would increase significantly and could top $300 billion - a shift that appears to have intensified selling once the regular session opened.
 
 ### Didn't something similar happen just three months ago?
 

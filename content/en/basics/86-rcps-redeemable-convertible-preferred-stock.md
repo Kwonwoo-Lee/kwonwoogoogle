@@ -5,7 +5,7 @@ description: "Why startup funding through RCPS often gets booked as a liability 
 order: 86
 updated: 2026-09-17
 keywords: ["what is RCPS", "redeemable convertible preferred stock explained", "why is RCPS a liability", "RCPS capital impairment", "RCPS debt vs equity classification", "startup negative equity accounting", "redemption right vs conversion right", "RCPS conversion at IPO"]
-seo_audited: "2026-09-17"
+seo_audited: 2026-10-30
 ---
 
 ## What RCPS Actually Is

@@ -5,7 +5,7 @@ description: "스타트업이 투자받은 RCPS가 K-IFRS에서는 왜 부채로
 order: 86
 updated: 2026-09-17
 keywords: ["상환전환우선주란", "RCPS 뜻", "RCPS 부채로 잡히는 이유", "상환전환우선주 자본잠식", "RCPS 자본 부채 차이", "스타트업 자본잠식 이유", "상환권 전환권 차이", "RCPS IPO 전환"]
-seo_audited: "2026-09-17"
+seo_audited: 2026-10-30
 ---
 
 ## 상환전환우선주란 무엇인가

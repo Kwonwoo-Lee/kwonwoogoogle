@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 380" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="620" height="380" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="24" font-size="14" fill="#20201a" text-anchor="middle" font-weight="700">Bitcoin ETF Net Flow vs. Price: Confirmation, Not Prediction</text>
+
+<text x="44" y="46" font-size="12" fill="#767568" text-anchor="start" font-weight="700">Bitcoin Price</text>
+<rect x="40" y="52" width="540" height="110" fill="none" stroke="#c7c6bb" stroke-width="1"/>
+<path d="M 60,148 L 120,144 L 180,130 L 240,108 L 300,120 L 360,100 L 420,78 L 480,86 L 540,60 L 580,100"
+      fill="none" stroke="#1a5fb4" stroke-width="2.8"/>
+<text x="100" y="160" font-size="9.5" fill="#767568" text-anchor="middle">Sideways drift</text>
+<text x="420" y="70" font-size="9.5" fill="#767568" text-anchor="middle">Uptrend</text>
+<text x="580" y="112" font-size="9.5" fill="#8a2a22" text-anchor="middle" font-weight="700">Sharp drop</text>
+
+<text x="44" y="186" font-size="12" fill="#767568" text-anchor="start" font-weight="700">Daily Net ETF Flow (bars) &amp; Cumulative Flow (line)</text>
+<rect x="40" y="192" width="540" height="150" fill="none" stroke="#c7c6bb" stroke-width="1"/>
+<line x1="40" y1="267" x2="580" y2="267" stroke="#c7c6bd" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="586" y="271" font-size="9.5" fill="#9a998d" text-anchor="start">0</text>
+
+<rect x="54" y="257" width="18" height="10" fill="#1f9d55"/>
+<rect x="84" y="261" width="18" height="6" fill="#1f9d55"/>
+<rect x="114" y="250" width="18" height="17" fill="#1f9d55"/>
+<rect x="144" y="263" width="18" height="4" fill="#1f9d55"/>
+<rect x="174" y="236" width="18" height="31" fill="#1f9d55"/>
+<rect x="204" y="248" width="18" height="19" fill="#1f9d55"/>
+<rect x="234" y="222" width="18" height="45" fill="#1f9d55"/>
+<rect x="264" y="257" width="18" height="10" fill="#1f9d55"/>
+<rect x="294" y="267" width="18" height="8" fill="#d0453b"/>
+<rect x="324" y="210" width="18" height="57" fill="#1f9d55"/>
+<rect x="354" y="230" width="18" height="37" fill="#1f9d55"/>
+<rect x="384" y="198" width="18" height="69" fill="#1f9d55"/>
+<rect x="414" y="246" width="18" height="21" fill="#1f9d55"/>
+<rect x="444" y="267" width="18" height="24" fill="#d0453b"/>
+<rect x="474" y="267" width="18" height="40" fill="#d0453b"/>
+<rect x="504" y="267" width="18" height="52" fill="#d0453b"/>
+<rect x="534" y="267" width="18" height="33" fill="#d0453b"/>
+<rect x="564" y="267" width="18" height="14" fill="#d0453b"/>
+
+<path d="M 63,264 L 93,260 L 123,245 L 153,243 L 183,220 L 213,208 L 243,175 L 273,167 L 303,172 L 333,148 L 363,135 L 393,112 L 423,100 L 453,118 L 483,140 L 513,168 L 543,190 L 573,198"
+      fill="none" stroke="#a5670b" stroke-width="2.4" stroke-dasharray="1,0"/>
+
+<text x="183" y="212" font-size="9.5" fill="#177a42" text-anchor="middle" font-weight="700">Inflows cluster with uptrend</text>
+<text x="513" y="330" font-size="9.5" fill="#8a2a22" text-anchor="middle" font-weight="700">Outflows cluster with the drop,</text>
+<text x="513" y="342" font-size="9.5" fill="#8a2a22" text-anchor="middle" font-weight="700">not before it</text>
+
+<text x="310" y="364" font-size="10" fill="#5a5950" text-anchor="middle">Net flow bars (green = inflow, red = outflow) and cumulative flow (orange line) tend to track a price move already underway rather than lead it</text>
+</svg>

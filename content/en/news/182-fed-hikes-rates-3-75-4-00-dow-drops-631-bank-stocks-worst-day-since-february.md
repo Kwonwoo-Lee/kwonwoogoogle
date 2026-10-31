@@ -4,7 +4,7 @@ title: "Fed Hikes Rates to 3.75%-4.00%, First Since 2023 - Dow Sinks 631 Points,
 description: "The Fed raised its benchmark rate a quarter point to 3.75%-4.00%. The Dow fell 631 points and bank stocks had their worst day since February - here's the counterintuitive reason why."
 published: 2026-09-17
 keywords: ["Fed rate hike September 2026", "Dow drops 631 points reason", "Fed funds rate 3.75 to 4.00 percent", "Warsh Fed press conference hike", "why bank stocks fall on rate hike", "Goldman Sachs stock drop 4 percent", "Fed dot plot September 2026", "bank net interest margin rate hike"]
-seo_audited: 2026-09-17
+seo_audited: 2026-10-31
 ---
 
 ## What Happened

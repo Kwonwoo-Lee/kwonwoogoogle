@@ -4,7 +4,7 @@ title: "Dow Futures Jump 349 Points a Day After 631-Point Fed Hike Selloff - Why
 description: "Dow futures rose 349 points and the S&P 500 closed up 0.59% on September 17, with Goldman Sachs and JPMorgan - yesterday's worst performers - leading the bounce. Here's the bond-market logic behind it."
 published: 2026-09-17
 keywords: ["Dow futures rebound September 17", "Goldman Sachs stock rebound reason", "JPMorgan stock rise after Fed hike", "bank stocks rebound Fed rate hike", "10-year Treasury yield falls September 17 2026", "Warsh Fed credibility markets", "S&P 500 close 7596", "stocks recover after Fed rate hike history"]
-seo_audited: 2026-09-17
+seo_audited: 2026-10-31
 ---
 
 ## What Happened

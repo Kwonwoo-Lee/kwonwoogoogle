@@ -4,7 +4,7 @@ title: "Generac Stock Soars 34% on Amazon's $8 Billion Generator Deal - Why Cate
 description: "Generac jumped as much as 45% after Amazon took a warrant stake tied to an $8B backup-generator supply deal. Caterpillar rose just 2% and Cummins was flat - here's why."
 published: 2026-09-17
 keywords: ["Generac stock Amazon deal", "GNRC stock surge reason", "Generac Amazon warrant $8 billion", "why did Generac stock jump", "Caterpillar Cummins stock Generac", "AI data center backup generator stocks", "GNRC stock price today", "Amazon data center power supply deal"]
-seo_audited: 2026-09-17
+seo_audited: 2026-10-31
 ---
 
 ## What Happened

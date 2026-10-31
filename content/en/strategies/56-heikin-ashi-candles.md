@@ -5,7 +5,7 @@ description: "The Heikin-Ashi formula, how it differs from real candlesticks, ho
 order: 56
 updated: 2026-09-17
 keywords: ["heikin ashi candles", "heikin ashi vs candlestick", "heikin ashi trading strategy", "heikin ashi formula", "how to read heikin ashi", "heikin ashi disadvantages", "average bar chart", "heiken ashi indicator"]
-seo_audited: 2026-09-17
+seo_audited: 2026-10-31
 ---
 
 ## What Heikin-Ashi Actually Is: Candles Built From Averages

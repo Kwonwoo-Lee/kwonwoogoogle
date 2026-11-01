@@ -5,6 +5,7 @@ description: "How reinvestment needs and cash flow shape shift as a company ages
 order: 176
 updated: 2026-11-01
 keywords: ["corporate life cycle valuation", "growth stock vs value stock metrics", "how to value unprofitable companies", "why growth stocks use PSR", "why mature companies use PER", "valuing companies by life cycle stage", "startup vs mature company valuation"]
+seo_audited: 2026-11-01
 ---
 
 ## Two Companies, Same Industry, Completely Different Yardsticks

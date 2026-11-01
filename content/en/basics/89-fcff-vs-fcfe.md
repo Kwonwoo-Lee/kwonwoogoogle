@@ -5,7 +5,7 @@ description: "DCF's free cash flow actually splits into FCFF and FCFE, each pair
 order: 89
 updated: 2026-09-18
 keywords: ["FCFF vs FCFE", "free cash flow to firm vs equity", "how to calculate FCFF", "how to calculate FCFE", "enterprise value vs equity value", "DCF free cash flow types", "WACC vs cost of equity discount rate"]
-seo_audited: 2026-09-18
+seo_audited: 2026-11-01
 ---
 
 ## One Layer Deeper Than the DCF Lesson

@@ -5,7 +5,7 @@ description: "DCF에서 쓰는 잉여현금흐름이 사실 FCFF와 FCFE 두 가
 order: 89
 updated: 2026-09-18
 keywords: ["FCFF FCFE 차이", "잉여현금흐름 계산법", "FCFF 계산법", "FCFE 계산법", "기업가치 자기자본가치 차이", "DCF FCFF FCFE 차이", "WACC 자기자본비용 할인율"]
-seo_audited: 2026-09-18
+seo_audited: 2026-11-01
 ---
 
 ## 지난 DCF 강의에서 한 걸음 더 들어가면

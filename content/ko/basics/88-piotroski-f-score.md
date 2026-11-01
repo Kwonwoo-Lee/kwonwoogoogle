@@ -5,7 +5,7 @@ description: "저PBR 종목 중 진짜 좋아지는 회사와 계속 나빠지�
 order: 88
 updated: 2026-09-18
 keywords: ["피오트로스키 F-스코어란", "F스코어 계산법", "저PBR 가치주 고르는법", "밸류트랩 걸러내기", "재무제표로 우량주 고르기", "Piotroski F-Score 뜻", "가치주 재무건전성 지표"]
-seo_audited: 2026-09-18
+seo_audited: 2026-11-01
 ---
 
 ## 저PBR 종목이 다 같은 저PBR이 아니다

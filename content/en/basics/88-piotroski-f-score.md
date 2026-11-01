@@ -5,7 +5,7 @@ description: "How the Piotroski F-Score's 9 yes/no tests separate improving comp
 order: 88
 updated: 2026-09-18
 keywords: ["what is the Piotroski F-Score", "Piotroski F-Score explained", "F-Score calculation", "how to pick value stocks", "avoiding value traps", "Piotroski F-Score vs Altman Z-Score", "financial statement quality screen"]
-seo_audited: 2026-09-18
+seo_audited: 2026-11-01
 ---
 
 ## Not All Cheap Stocks Are Cheap for the Same Reason

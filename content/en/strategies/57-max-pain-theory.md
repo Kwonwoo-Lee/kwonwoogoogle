@@ -5,7 +5,7 @@ description: "How Max Pain theory calculates the strike where options buyers col
 order: 57
 updated: 2026-09-18
 keywords: ["max pain theory", "max pain options", "how to calculate max pain", "options expiration pinning", "max pain vs gamma exposure", "open interest max pain strike", "max pain price explained", "options max pain calculator"]
-seo_audited: 2026-09-18
+seo_audited: 2026-11-02
 ---
 
 ## Why People Claim Price Gravitates to One Strike at Expiration

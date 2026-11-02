@@ -4,6 +4,7 @@ title: "Apple Reclaims World's Most Valuable Company Title From Nvidia as Nasdaq
 description: "Apple reclaimed the title of world's most valuable company from Nvidia Oct. 30 as the Nasdaq 100 hit a correction and BTIG flagged 7,306."
 published: 2026-11-02
 keywords: ["Apple overtakes Nvidia market cap", "Apple $5 trillion market cap", "Nasdaq 100 technical correction", "BTIG S&P 500 7306", "Nvidia market cap drop", "AI capex fears stock market", "Apple vs Nvidia AI spending", "midterm elections stock market seasonality"]
+seo_audited: 2026-11-02
 ---
 
 ## What Happened

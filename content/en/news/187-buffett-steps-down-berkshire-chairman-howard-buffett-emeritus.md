@@ -4,7 +4,7 @@ title: "Warren Buffett Steps Down as Berkshire Chairman After 56 Years - Why How
 description: "Warren Buffett, 96, gave up the Berkshire Hathaway chairmanship he held since 1970, becoming chairman emeritus as son Howard takes over a role built as a safeguard, not a management job."
 published: 2026-09-18
 keywords: ["Warren Buffett steps down chairman", "Howard Buffett Berkshire chairman", "Berkshire Hathaway succession plan", "Buffett chairman emeritus", "Greg Abel capital allocation", "why did BRK.B stock fall", "Buffett Father Time letter", "Berkshire Hathaway 365 billion cash"]
-seo_audited: 2026-09-18
+seo_audited: 2026-11-02
 ---
 
 ## What Happened

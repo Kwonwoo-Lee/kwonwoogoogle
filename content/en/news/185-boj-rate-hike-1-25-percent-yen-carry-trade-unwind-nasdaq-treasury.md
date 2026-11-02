@@ -4,7 +4,7 @@ title: "Bank of Japan Hikes Rate to 1.25%, Highest Since 1995 - Why the Yen Carr
 description: "The Bank of Japan raised rates to 1.25%, a 31-year high. Here's why a yen carry trade unwind threatens Nasdaq and Treasury yields."
 published: 2026-09-18
 keywords: ["Bank of Japan rate hike 1.25 percent", "yen carry trade unwind", "BOJ rate decision September 18", "yen carry trade Nasdaq stocks", "Bank of Japan highest rate since 1995", "Japan demand for US Treasuries", "Ueda BOJ press conference", "USD JPY today"]
-seo_audited: 2026-09-18
+seo_audited: 2026-11-02
 ---
 
 ## What Happened

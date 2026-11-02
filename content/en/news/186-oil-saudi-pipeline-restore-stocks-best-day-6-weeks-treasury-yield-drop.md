@@ -4,7 +4,7 @@ title: "Oil Slides on Saudi Pipeline Restoration News - Wall Street Posts Its Be
 description: "Saudi Arabia's pledge to restore half its damaged pipeline sent oil tumbling and stocks to their best day in six weeks."
 published: 2026-09-18
 keywords: ["oil prices fall September 17", "Saudi East-West pipeline restore", "Dow best day in 6 weeks", "Brent crude 104 dollars", "10-year Treasury yield 4.93 percent", "why did stocks rally today", "Saudi Aramco pipeline attack", "Nasdaq close 26418"]
-seo_audited: 2026-09-18
+seo_audited: 2026-11-02
 ---
 
 ## What Happened

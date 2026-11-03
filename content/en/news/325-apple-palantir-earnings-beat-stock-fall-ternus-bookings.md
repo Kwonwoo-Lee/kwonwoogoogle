@@ -4,6 +4,7 @@ title: "Apple Beat on EPS, Palantir's Revenue Jumped 96% - Both Stocks Fell Anyw
 description: "Apple and Palantir both topped Wall Street estimates on November 2, yet both stocks dropped after hours. Ternus's debut guidance and Palantir's booking slowdown explain why."
 published: 2026-11-03
 keywords: ["why Apple stock fell", "why Palantir stock dropped", "Apple John Ternus first earnings", "Apple Q4 2026 earnings", "Palantir Q3 2026 earnings", "Apple iPhone revenue growth", "Palantir bookings slowdown", "earnings beat stock falls"]
+seo_audited: 2026-11-03
 ---
 
 ## What Happened

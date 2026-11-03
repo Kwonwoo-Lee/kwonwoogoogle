@@ -14,7 +14,7 @@ A spin-off happens when a company separates one of its business units into an in
 
 That's what makes spin-offs structurally different from an IPO. An IPO prices shares through a process built around demand: investors actively bid for stock, and that bidding helps set the offering price. A spin-off skips that step entirely. Shares get distributed first, with no discovery process asking whether the recipients actually want them. That one difference is the foundation of the entire strategy covered in this lesson.
 
-2025 has been widely described as a banner year for corporate spin-offs. GE split into GE Aerospace, GE Vernova, and GE HealthCare; Johnson & Johnson spun off its consumer health business as Kenvue; 3M spun off Solventum; Kraft Heinz announced a split of its own. Coverage of the wave frames it as a renewed push by boards to unlock value trapped inside sprawling conglomerates, which is exactly the setup that makes this strategy worth revisiting now.
+The past few years have been widely described as a banner stretch for corporate spin-offs. GE separated GE HealthCare in January 2023 and GE Vernova in April 2024, leaving GE Aerospace as the remaining parent; Johnson & Johnson spun off its consumer health business as Kenvue in 2023; 3M spun off Solventum in 2024. Kraft Heinz added to the wave by announcing in September 2025 that it would split into two companies (expected to close in the second half of 2026). Coverage of the wave frames it as a renewed push by boards to unlock value trapped inside sprawling conglomerates, which is exactly the setup that makes this strategy worth revisiting now.
 
 ## Why It Works: Stock Nobody Asked For Tends to Get Sold
 
@@ -103,7 +103,7 @@ No. In a carve-out IPO (물적분할 in Korean markets), existing shareholders o
 
 ## Summary
 
-- A spin-off distributes shares of a newly independent business to existing shareholders pro rata, and 2025's wave of major spin-offs — GE, Kenvue, Solventum, and others — has put the strategy back in focus.
+- A spin-off distributes shares of a newly independent business to existing shareholders pro rata, and the 2023-2025 wave of major spin-offs — GE, Kenvue, Solventum, Kraft Heinz, and others — has put the strategy back in focus.
 - The core mechanism is forced, indiscriminate selling: index funds facing exclusion, institutions breaching mandates, and uninterested retail holders all tend to sell regardless of the new company's actual value, which Joel Greenblatt identified as the central source of the opportunity.
 - A true spin-off and a carve-out IPO are structurally different — only the former distributes stock to existing shareholders, so only the former carries the forced-selling edge this lesson describes.
 - Forced selling tends to play out over weeks or months rather than a single day, which is why many spinoff-focused investors wait before entering rather than buying on day one.

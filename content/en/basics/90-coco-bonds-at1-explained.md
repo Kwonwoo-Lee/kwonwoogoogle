@@ -5,7 +5,7 @@ description: "Why bank-issued AT1 CoCo bonds can absorb losses before shareholde
 order: 90
 updated: 2026-09-19
 keywords: ["what are CoCo bonds", "AT1 bonds explained", "contingent convertible bonds", "Credit Suisse AT1 writedown", "additional tier 1 capital", "Basel III AT1 requirement", "are AT1 bonds risky"]
-seo_audited: 2026-09-19
+seo_audited: 2026-11-03
 ---
 
 ## A Bond That Can Disappear Before the Stock Does

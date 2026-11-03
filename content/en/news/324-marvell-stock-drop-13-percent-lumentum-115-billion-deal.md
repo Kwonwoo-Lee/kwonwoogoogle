@@ -4,6 +4,7 @@ title: "Marvell Falls 13% on $115 Billion Lumentum Megadeal - Why the Buyer Gets
 description: "Marvell announced a $115B all-stock deal for Lumentum to build an AI optical-networking giant, but MRVL shares sank 13% on dilution and financing fears."
 published: 2026-11-02
 keywords: ["Marvell Lumentum deal", "MRVL stock drop today", "Marvell $115 billion acquisition", "Lumentum acquisition all-stock", "Marvell stock dilution", "AI optical networking M&A", "Marvell Technology news November", "chip stock acquisition reaction"]
+seo_audited: 2026-11-03
 ---
 
 ## What Happened

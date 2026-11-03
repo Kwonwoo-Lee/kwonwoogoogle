@@ -5,7 +5,7 @@ description: "How an interest rate swap lets two parties trade fixed and floatin
 order: 91
 updated: 2026-09-19
 keywords: ["what is an interest rate swap", "interest rate swap explained", "IRS swap meaning", "swap spread explained", "fixed vs floating rate swap", "how does an interest rate swap work", "swap spread vs treasury yield"]
-seo_audited: 2026-09-19
+seo_audited: 2026-11-03
 ---
 
 ## "The Swap Rate Fell Below the Treasury Yield" — What Does That Even Mean?

@@ -4,6 +4,7 @@ title: "AMD +5%, Intel +4%, Nvidia Rebound - Why Chip Stocks Bounced Back Ahead 
 description: "AMD, Intel, and Nvidia rebounded ahead of AMD's Q3 earnings after a brutal 37% three-day, Intel-led chip selloff. Here's why the bounce happened."
 published: 2026-11-03
 keywords: ["AMD stock today", "chip stocks rebound reason", "AMD Q3 earnings November 3", "Intel stock rebound", "AMD earnings preview", "semiconductor sector bounce back", "AMD data center revenue forecast", "Nvidia AMD Intel stock price"]
+seo_audited: 2026-11-04
 ---
 
 ## What Happened

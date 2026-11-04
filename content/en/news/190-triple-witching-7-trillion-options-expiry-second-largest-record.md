@@ -4,7 +4,7 @@ title: "$7 Trillion in Options Expired at Once - What September's Triple Witchin
 description: "About $7 trillion in US options expired simultaneously on September 18 in the second-largest triple witching on record, per Citadel Securities. Here's why the reset in dealer positioning can raise volatility in the days that follow."
 published: 2026-09-19
 keywords: ["triple witching September 2026", "$7 trillion options expiry", "Citadel Securities options expiration", "what is triple witching", "options expiration volatility stocks", "S&P 500 options expiry impact", "quadruple witching vs triple witching", "stock market after options expiration"]
-seo_audited: 2026-09-19
+seo_audited: 2026-11-04
 ---
 
 ## What Happened

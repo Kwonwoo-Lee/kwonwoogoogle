@@ -4,7 +4,7 @@ title: "Netflix Sinks 4.67% on Wells Fargo's First-Ever Underweight - Why Everco
 description: "Wells Fargo cut Netflix to underweight and slashed its target from $80 to $57, sending shares down 4.67%, while Disney barely moved and Evercore ISI raised its own target to $110."
 published: 2026-09-19
 keywords: ["Netflix stock falls today", "Wells Fargo Netflix underweight downgrade", "NFLX price target $57", "Netflix Disney stock comparison", "Evercore Netflix price target $110", "Netflix engagement decline", "NFLX stock today", "Netflix content slate second half 2026"]
-seo_audited: 2026-09-19
+seo_audited: 2026-11-04
 ---
 
 ## What Happened

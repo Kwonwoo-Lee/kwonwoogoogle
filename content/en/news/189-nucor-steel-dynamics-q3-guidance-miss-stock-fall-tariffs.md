@@ -4,7 +4,7 @@ title: "Nucor Falls 6.3%, Steel Dynamics Drops 4.1% on Weak Q3 Guidance - Why St
 description: "Nucor and Steel Dynamics both missed Q3 EPS guidance and sold off 6.3% and 4.1%, even though steel demand, pricing, and tariff protection all stayed favorable."
 published: 2026-09-19
 keywords: ["Nucor stock drop reason", "Steel Dynamics stock fall Q3 guidance", "NUE stock price today", "STLD stock price today", "Nucor Q3 2026 earnings guidance miss", "steel stocks selloff September 2026", "why did Nucor stock fall today", "steel tariffs demand 2026"]
-seo_audited: 2026-09-19
+seo_audited: 2026-11-04
 ---
 
 ## What Happened

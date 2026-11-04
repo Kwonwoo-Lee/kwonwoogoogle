@@ -4,6 +4,7 @@ title: "AMD Q3 Earnings Crush Estimates, Stock Surges 7%+ - Why This Beat Landed
 description: "AMD beat Q3 EPS and revenue estimates and guided Q4 well above consensus, sending shares up 7%+. Here's why the same kind of beat sank the stock last quarter."
 published: 2026-11-04
 keywords: ["AMD Q3 2026 earnings", "AMD stock surge reason", "AMD Q4 guidance", "AMD Helios MI450", "AMD data center revenue", "AMD stock reaction comparison", "AMD stock forecast November"]
+seo_audited: 2026-11-04
 ---
 
 ## What Happened

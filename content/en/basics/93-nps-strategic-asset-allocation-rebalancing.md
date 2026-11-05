@@ -5,7 +5,7 @@ description: "Why Korea's National Pension Service buys and sells stocks mechani
 order: 93
 updated: 2026-09-20
 keywords: ["what is NPS rebalancing", "National Pension Service stock selling", "Korea pension fund rebalancing impact", "strategic asset allocation explained", "NPS domestic equity weight", "Korea pension fund selling pressure", "institutional rebalancing Korea stocks"]
-seo_audited: 2026-09-20
+seo_audited: 2026-11-05
 ---
 
 ## Where That "74 Trillion Won Sell-Off" Headline Came From

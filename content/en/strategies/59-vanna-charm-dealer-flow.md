@@ -5,7 +5,7 @@ description: "How vanna and charm — delta's sensitivity to implied volatility 
 order: 59
 updated: 2026-09-20
 keywords: ["vanna and charm explained", "what is vanna exposure", "what is charm exposure", "options dealer hedging flow", "end of day options pin", "charm flow trading", "vanna charm vs gamma exposure", "OPEX volatility explained"]
-seo_audited: 2026-09-20
+seo_audited: 2026-11-05
 ---
 
 ## The Two Greeks Behind "Mysterious" Grinding Rallies

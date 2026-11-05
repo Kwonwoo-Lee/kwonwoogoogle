@@ -5,7 +5,7 @@ description: "How credit spreads and iron condors cap your max loss up front, ho
 order: 58
 updated: 2026-09-19
 keywords: ["iron condor strategy", "credit spread options", "defined risk options selling", "bull put spread explained", "bear call spread", "how to pick option strikes with delta", "IV rank trading", "iron condor 50 percent rule"]
-seo_audited: 2026-09-19
+seo_audited: 2026-11-05
 ---
 
 ## Why Cap the Loss Before You Even Enter

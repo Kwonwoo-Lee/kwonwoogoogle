@@ -5,7 +5,7 @@ description: "Why Korea's exchange flags struggling companies as 'administrative
 order: 92
 updated: 2026-09-20
 keywords: ["Korea stock delisting rules", "administrative issue designation Korea", "KOSPI KOSDAQ delisting requirements", "Korea penny stock delisting", "Korea Exchange market cap threshold", "what happens when a stock is delisted in Korea"]
-seo_audited: 2026-09-20
+seo_audited: 2026-11-05
 ---
 
 ## Why More Than 30 Stocks Got Flagged in a Single Month

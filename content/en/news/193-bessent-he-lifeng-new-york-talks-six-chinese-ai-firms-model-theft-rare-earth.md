@@ -4,7 +4,7 @@ title: "Bessent Opens New York Talks With China's He Lifeng as US Names Six Chin
 description: "Treasury Secretary Bessent and China's He Lifeng held all-day New York talks on AI model theft, rare earths, and the tariff truce ahead of Thursday's Trump-Xi summit."
 published: 2026-09-20
 keywords: ["Bessent He Lifeng New York talks", "six Chinese AI firms model theft", "Alibaba distillation attack Anthropic stock", "rare earth talks China September 2026", "Trump Xi summit September 24", "tariff truce expires November 10", "CISA NSA FBI Chinese AI advisory", "MP Materials stock rare earth volatility"]
-seo_audited: 2026-09-20
+seo_audited: 2026-11-07
 ---
 
 ## What Happened

@@ -4,6 +4,7 @@ title: "Goldman Trader Warns of a 'Stealth Bear Market' - Why 60% of S&P 500 Sto
 description: "A Goldman Sachs trader says 60% of S&P 500 constituents have fallen into bear-market territory even as the index itself hovers near record highs - here's the mechanism behind the gap."
 published: 2026-11-07
 keywords: ["stealth bear market S&P 500", "Goldman Sachs hidden bear market", "60 percent S&P 500 bear market", "Magnificent 7 lose 4 trillion", "Bobby Molavi Goldman note", "market breadth indicator bear market", "Nasdaq concentration risk", "AI rally narrow leadership"]
+seo_audited: 2026-11-07
 ---
 
 ## What Happened

@@ -4,6 +4,7 @@ title: "Meta Admits Election Backlash Could Slow Its Own AI Buildout - Why the D
 description: "Meta's own president warned election backlash could slow its AI data center buildout - a slower, structural risk that Friday's stock rebound didn't actually resolve."
 published: 2026-11-07
 keywords: ["Meta data center warning", "Dina Powell McCormick", "AI data center backlash", "data center war of attrition", "midterm election data center regulation", "Meta 23 states data centers", "CoreWeave earnings date", "AI infrastructure local opposition"]
+seo_audited: 2026-11-07
 ---
 
 ## What Happened

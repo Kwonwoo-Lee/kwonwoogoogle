@@ -4,7 +4,7 @@ title: "Houthi Missile Targets Riyadh for the First Time in Months - Oil Rebound
 description: "A Houthi ballistic missile aimed at Riyadh triggered Saudi Arabia's first capital air-raid alert in months, pushing Brent back above $104 and reviving oil's risk premium."
 published: 2026-09-21
 keywords: ["Houthi missile Riyadh attack", "Brent crude 104 dollars September 2026", "why did oil prices rise today", "Saudi Arabia Riyadh air raid alert", "Yanbu Aramco drone attack", "oil market Trump Xi summit week", "Houthi Saudi Arabia escalation stocks", "Saudi coalition intercept ballistic missile"]
-seo_audited: 2026-09-21
+seo_audited: 2026-11-08
 ---
 
 ## What Happened

@@ -5,7 +5,7 @@ description: "How a private company skips a formal IPO review by taking control 
 order: 94
 updated: 2026-09-21
 keywords: ["what is a backdoor listing", "reverse merger explained", "backdoor listing vs SPAC", "reverse merger risks", "shell company reverse merger", "backdoor listing Korea", "reverse takeover explained", "reverse merger fraud"]
-seo_audited: 2026-09-21
+seo_audited: 2026-11-08
 ---
 
 ## A Listed Company's Entire Business Changes Overnight — How?

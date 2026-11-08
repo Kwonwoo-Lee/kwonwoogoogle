@@ -5,6 +5,7 @@ description: "Why a central bank's reserve defense of a pegged currency collapse
 order: 189
 updated: 2026-11-07
 keywords: ["what is a currency crisis", "speculative attack explained", "fixed exchange rate collapse", "1997 Asian financial crisis explained", "why did the Korean won crash in 1997", "currency crisis and stock market", "foreign currency debt mismatch", "IMF bailout Korea explained"]
+seo_audited: 2026-11-08
 ---
 
 ## The Peg Itself Is What Makes a Currency a Target

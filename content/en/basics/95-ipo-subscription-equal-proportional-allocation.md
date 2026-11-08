@@ -5,7 +5,7 @@ description: "How Korea's two-track retail IPO allocation system works: why equa
 order: 95
 updated: 2026-09-21
 keywords: ["Korea IPO subscription process", "equal allocation vs proportional allocation", "IPO subscription deposit calculation", "how IPO shares are allocated Korea", "IPO competition ratio calculation", "IPO refund date Korea", "Korea retail IPO subscription limit"]
-seo_audited: 2026-09-21
+seo_audited: 2026-11-08
 ---
 
 ## Same Deposit, Different Number of Shares — Why?

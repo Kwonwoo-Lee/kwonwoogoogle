@@ -4,6 +4,7 @@ title: "Berkshire Hathaway's Net Profit Falls 28% in Q3 - So Why Did Buybacks Mo
 description: "Berkshire Hathaway's Q3 net earnings fell 28%, yet buybacks more than doubled to $9.6 billion. Here's what a slump in GEICO's underwriting and a $377 billion cash pile actually signal."
 published: 2026-11-08
 keywords: ["Berkshire Hathaway Q3 2026 earnings", "Greg Abel stock buyback", "Berkshire net earnings fall 28%", "GEICO underwriting loss reason", "Berkshire cash pile $377 billion", "Berkshire buyback $9.6 billion", "Warren Buffett Berkshire Q3", "Berkshire insurance operating earnings decline"]
+seo_audited: 2026-11-08
 ---
 
 ## What Happened

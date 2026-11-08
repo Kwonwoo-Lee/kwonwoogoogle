@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="640" height="380" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="320" y="22" font-size="13.5" fill="#20201a" text-anchor="middle" font-weight="700">자사주 매입 블랙아웃: 실적 발표를 앞두고 꺼지는 바닥 수요</text>
+
+<!-- legend box -->
+<rect x="432" y="32" width="178" height="70" rx="6" fill="#f3f2ec" stroke="#e1e0d9"/>
+<text x="442" y="46" font-size="9.5" fill="#5a5950" font-weight="700">매입 강도 구성</text>
+<circle cx="446" cy="59" r="4" fill="#1a5fb4"/>
+<text x="455" y="62.5" font-size="9" fill="#20201a">재량적 매입 (블랙아웃 시 중단)</text>
+<circle cx="446" cy="74" r="4" fill="#8a4fd1"/>
+<text x="455" y="77.5" font-size="9" fill="#20201a">10b5-1 플랜 매입 (계속 유지)</text>
+<circle cx="446" cy="89" r="4" fill="#d0453b"/>
+<text x="455" y="92.5" font-size="9" fill="#20201a">실적 발표일</text>
+
+<!-- baseline -->
+<line x1="40" y1="270" x2="612" y2="270" stroke="#e1e0d9" stroke-width="1"/>
+<text x="45" y="90" font-size="10.5" fill="#5a5950" font-weight="700">매입 강도</text>
+
+<!-- weekly bars across a quarter: weeks 1-6 normal, 7-11 blackout (low), 12 recovers -->
+<g>
+<rect x="46" y="150" width="34" height="120" fill="#1a5fb4" opacity="0.8"/>
+<text x="63" y="284" font-size="8.5" fill="#5a5950" text-anchor="middle">1주</text>
+
+<rect x="84" y="146" width="34" height="124" fill="#1a5fb4" opacity="0.8"/>
+<text x="101" y="284" font-size="8.5" fill="#5a5950" text-anchor="middle">2주</text>
+
+<rect x="122" y="152" width="34" height="118" fill="#1a5fb4" opacity="0.8"/>
+<text x="139" y="284" font-size="8.5" fill="#5a5950" text-anchor="middle">3주</text>
+
+<rect x="160" y="148" width="34" height="122" fill="#1a5fb4" opacity="0.8"/>
+<text x="177" y="284" font-size="8.5" fill="#5a5950" text-anchor="middle">4주</text>
+
+<rect x="198" y="154" width="34" height="116" fill="#1a5fb4" opacity="0.8"/>
+<text x="215" y="284" font-size="8.5" fill="#5a5950" text-anchor="middle">5주</text>
+
+<!-- blackout starts: week 6 -->
+<rect x="236" y="30" width="188" height="240" fill="#d0453b" opacity="0.08"/>
+<text x="330" y="44" font-size="9.5" fill="#b03a30" text-anchor="middle" font-weight="700">블랙아웃 구간 (재량적 매입 중단)</text>
+
+<rect x="236" y="228" width="34" height="42" fill="#8a4fd1" opacity="0.85"/>
+<text x="253" y="284" font-size="8.5" fill="#5a5950" text-anchor="middle">6주</text>
+
+<rect x="274" y="228" width="34" height="42" fill="#8a4fd1" opacity="0.85"/>
+<text x="291" y="284" font-size="8.5" fill="#5a5950" text-anchor="middle">7주</text>
+
+<rect x="312" y="228" width="34" height="42" fill="#8a4fd1" opacity="0.85"/>
+<text x="329" y="284" font-size="8.5" fill="#5a5950" text-anchor="middle">8주</text>
+
+<rect x="350" y="228" width="34" height="42" fill="#8a4fd1" opacity="0.85"/>
+<text x="367" y="284" font-size="8.5" fill="#5a5950" text-anchor="middle">9주</text>
+
+<circle cx="390" cy="200" r="5" fill="#d0453b"/>
+<text x="390" y="186" font-size="9" fill="#b03a30" text-anchor="middle" font-weight="700">실적 발표</text>
+<rect x="386" y="228" width="16" height="42" fill="#8a4fd1" opacity="0.85"/>
+<text x="394" y="284" font-size="8" fill="#5a5950" text-anchor="middle">10주</text>
+
+<!-- recovery -->
+<rect x="412" y="160" width="26" height="110" fill="#1a5fb4" opacity="0.5"/>
+<text x="425" y="284" font-size="8" fill="#5a5950" text-anchor="middle">+48h</text>
+
+<rect x="446" y="150" width="34" height="120" fill="#1a5fb4" opacity="0.8"/>
+<text x="463" y="284" font-size="8.5" fill="#5a5950" text-anchor="middle">11주</text>
+
+<rect x="484" y="146" width="34" height="124" fill="#1a5fb4" opacity="0.8"/>
+<text x="501" y="284" font-size="8.5" fill="#5a5950" text-anchor="middle">12주</text>
+
+<rect x="522" y="150" width="34" height="120" fill="#1a5fb4" opacity="0.8"/>
+<text x="539" y="284" font-size="8.5" fill="#5a5950" text-anchor="middle">1주</text>
+
+<rect x="560" y="146" width="34" height="124" fill="#1a5fb4" opacity="0.8"/>
+<text x="577" y="284" font-size="8.5" fill="#5a5950" text-anchor="middle">2주</text>
+<text x="577" y="296" font-size="8" fill="#8a4fd1" text-anchor="middle">(다음 분기)</text>
+</g>
+
+<!-- divider -->
+<line x1="40" y1="308" x2="612" y2="308" stroke="#e1e0d9" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="320" y="324" font-size="11" fill="#20201a" text-anchor="middle" font-weight="700">재량적 매입 vs 10b5-1 기계적 매입</text>
+
+<line x1="90" y1="350" x2="560" y2="350" stroke="#9c9b8f" stroke-width="1.6"/>
+<circle cx="150" cy="350" r="6" fill="#1a5fb4"/>
+<text x="150" y="340" font-size="9.5" fill="#1a5fb4" text-anchor="middle" font-weight="700">평소: 재량+기계 매입</text>
+<text x="150" y="366" font-size="8.5" fill="#20201a" text-anchor="middle">바닥 수요 전체 작동</text>
+
+<circle cx="500" cy="350" r="6" fill="#8a4fd1"/>
+<text x="500" y="340" font-size="9.5" fill="#8a4fd1" text-anchor="middle" font-weight="700">블랙아웃: 기계적 매입만</text>
+<text x="500" y="366" font-size="8.5" fill="#20201a" text-anchor="middle">재량적 수요 공백 발생</text>
+</svg>

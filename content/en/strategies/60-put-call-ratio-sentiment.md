@@ -5,7 +5,7 @@ description: "How the put-call ratio (PCR) measures options market sentiment, ho
 order: 60
 updated: 2026-09-21
 keywords: ["put call ratio", "PCR indicator", "how to calculate put call ratio", "CBOE put call ratio", "contrarian trading strategy", "options sentiment indicator", "put call ratio vs VIX", "put call ratio trading strategy"]
-seo_audited: 2026-09-21
+seo_audited: 2026-11-09
 ---
 
 ## "Be Fearful When Others Are Greedy" — But How Do You Actually Measure Fear?

@@ -4,7 +4,7 @@ title: "Dow's Worst Week Since March (-1.7%) Marks Third Straight Losing Week - 
 description: "The Dow fell 1.7% for its worst week since March and a third straight weekly decline, while the Nasdaq 100 gained 2.77% the same week. Here's what the 10-year yield's break above 5% explains."
 published: 2026-09-21
 keywords: ["Dow worst week since March", "Nasdaq 100 weekly gain", "Dow Jones third straight weekly decline", "10-year Treasury yield above 5 percent", "why did Dow and Nasdaq diverge", "Russell 2000 three month low", "semiconductor cybersecurity stocks rally", "stock market this week outlook"]
-seo_audited: 2026-09-21
+seo_audited: 2026-11-09
 ---
 
 ## What Happened

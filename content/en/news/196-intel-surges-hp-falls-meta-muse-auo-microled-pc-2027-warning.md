@@ -4,7 +4,7 @@ title: "Intel Jumps 12% While HP Slides 4% - Meta's 'Muse' AI Buzz and an AUO Ch
 description: "Intel surged as much as 6% in premarket trading and closed up more than 12% on Meta Muse-driven AI inference demand and a Micro LED packaging deal with AUO, while HP fell nearly 4% after warning global PC shipments will shrink in 2027."
 published: 2026-09-21
 keywords: ["why did Intel stock jump today", "why is HP stock falling", "Intel AUO Micro LED partnership", "Meta Muse Intel CPU demand", "HP 2027 PC shipment forecast", "Intel co-packaged optics CPO", "PC market decline 2027", "semiconductor hardware stocks today"]
-seo_audited: 2026-09-21
+seo_audited: 2026-11-09
 ---
 
 ## What Happened

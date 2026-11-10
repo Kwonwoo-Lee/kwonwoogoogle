@@ -4,7 +4,7 @@ title: "Greenland Stocks Rocket Up to 250% While MP Materials Rises Just 4% - Sa
 description: "Trump's Greenland security deal sent Greenland Energy up 138% and Greenland Mines up 249%, but established producer MP Materials gained only 4%. Here's why the same headline split so sharply."
 published: 2026-09-22
 keywords: ["why are Greenland stocks surging", "Greenland Energy stock GLND jump", "Greenland Mines GRML 249 percent", "Critical Metals Tanbreez rare earth", "MP Materials stock today", "Trump Greenland security deal stocks", "rare earth stocks comparison", "USA Rare Earth stock reaction"]
-seo_audited: 2026-09-22
+seo_audited: 2026-11-10
 ---
 
 ## What Happened

@@ -5,7 +5,7 @@ description: "깊은 내가격 LEAPS 콜옵션으로 주식 100주를 대체해 
 order: 61
 updated: 2026-09-22
 keywords: ["PMCC 전략", "가난한 자의 커버드콜", "PMCC 옵션이란", "LEAPS 콜옵션 전략", "다이애고널 스프레드 옵션", "PMCC와 커버드콜 차이", "LEAPS 델타 선택법", "롱콜 다이애고널 스프레드"]
-seo_audited: 2026-09-22
+seo_audited: 2026-11-10
 ---
 
 ## 주식 100주 없이도 커버드콜을 굴릴 수 있을까

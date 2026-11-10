@@ -5,7 +5,7 @@ description: "How the interest coverage ratio measures whether operating profit 
 order: 96
 updated: 2026-09-22
 keywords: ["interest coverage ratio explained", "interest coverage ratio formula", "interest coverage ratio below 1", "what is a zombie company", "zombie company definition finance", "times interest earned ratio", "operating profit interest expense ratio"]
-seo_audited: 2026-09-22
+seo_audited: 2026-11-10
 ---
 
 ## A Company Can Report a Profit and Still Be Financially Fragile

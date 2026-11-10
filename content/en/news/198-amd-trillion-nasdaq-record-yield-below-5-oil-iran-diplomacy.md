@@ -4,7 +4,7 @@ title: "AMD Tops $1 Trillion Market Cap, Nasdaq Closes at a Record - Why the 10-
 description: "AMD crossed $1 trillion in market cap for the first time on September 21 as the Nasdaq hit a record close. The 10-year yield fell below 5% and oil crashed on Iran diplomacy hopes."
 published: 2026-09-22
 keywords: ["AMD $1 trillion market cap", "Nasdaq record close September 2026", "10-year Treasury yield below 5%", "why did AMD stock jump today", "Intel Arm semiconductor rally", "oil prices drop Iran diplomacy", "Trump Pezeshkian meeting stocks", "stock market today September 21"]
-seo_audited: 2026-09-22
+seo_audited: 2026-11-10
 ---
 
 ## What Happened

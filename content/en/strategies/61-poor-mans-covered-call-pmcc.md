@@ -5,7 +5,7 @@ description: "How the poor man's covered call swaps 100 shares for a deep ITM LE
 order: 61
 updated: 2026-09-22
 keywords: ["poor man's covered call", "PMCC strategy", "PMCC vs covered call", "LEAPS call option strategy", "diagonal spread options", "how does PMCC work", "deep in the money LEAPS delta", "long call diagonal spread"]
-seo_audited: 2026-09-22
+seo_audited: 2026-11-10
 ---
 
 ## Covered Calls Without Buying 100 Shares

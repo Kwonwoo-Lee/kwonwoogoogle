@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 420" font-family="-apple-system, 'Segoe UI', Arial, sans-serif">
+<rect x="0" y="0" width="620" height="420" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="13.5" fill="#20201a" text-anchor="middle" font-weight="700">ICT Judas Swing: False Break of the Asian Range, Then Reversal</text>
+
+<text x="40" y="52" font-size="12" fill="#5a5950" font-weight="700">① Asian Range Forms, Then the Judas Swing Window (New York time)</text>
+
+<line x1="40" y1="110" x2="580" y2="110" stroke="#767568" stroke-width="2"/>
+<line x1="40.0" y1="104" x2="40.0" y2="116" stroke="#767568" stroke-width="1.3"/>
+<text x="40.0" y="132" font-size="10" fill="#767568" text-anchor="middle">6 PM</text>
+<line x1="130.0" y1="104" x2="130.0" y2="116" stroke="#767568" stroke-width="1.3"/>
+<text x="130.0" y="132" font-size="10" fill="#767568" text-anchor="middle">8 PM</text>
+<line x1="220.0" y1="104" x2="220.0" y2="116" stroke="#767568" stroke-width="1.3"/>
+<text x="220.0" y="132" font-size="10" fill="#767568" text-anchor="middle">10 PM</text>
+<line x1="310.0" y1="104" x2="310.0" y2="116" stroke="#767568" stroke-width="1.3"/>
+<text x="310.0" y="132" font-size="10" fill="#767568" text-anchor="middle">12 AM</text>
+<line x1="400.0" y1="104" x2="400.0" y2="116" stroke="#767568" stroke-width="1.3"/>
+<text x="400.0" y="132" font-size="10" fill="#767568" text-anchor="middle">2 AM</text>
+<line x1="490.0" y1="104" x2="490.0" y2="116" stroke="#767568" stroke-width="1.3"/>
+<text x="490.0" y="132" font-size="10" fill="#767568" text-anchor="middle">4 AM</text>
+<line x1="580.0" y1="104" x2="580.0" y2="116" stroke="#767568" stroke-width="1.3"/>
+<text x="580.0" y="132" font-size="10" fill="#767568" text-anchor="middle">6 AM</text>
+
+<rect x="40" y="98" width="270" height="24" fill="#767568" opacity="0.14" stroke="#767568" stroke-width="1.3" stroke-dasharray="4,3"/>
+<text x="175" y="80" font-size="10" fill="#5a5950" text-anchor="middle" font-weight="700">Asian range forms (low volume)</text>
+<text x="175" y="92" font-size="9.5" fill="#5a5950" text-anchor="middle">(6 PM – 12 AM)</text>
+
+<rect x="310" y="98" width="90" height="24" fill="#8a4fd1" opacity="0.18" stroke="#8a4fd1" stroke-width="1.5"/>
+<text x="355" y="60" font-size="10" fill="#6a3aa8" text-anchor="middle" font-weight="700">Midnight Open window</text>
+<text x="355" y="72" font-size="9.5" fill="#6a3aa8" text-anchor="middle">(12 – 5 AM)</text>
+
+<rect x="400" y="98" width="90" height="24" fill="#1a5fb4" opacity="0.18" stroke="#1a5fb4" stroke-width="1.5"/>
+<text x="445" y="80" font-size="10" fill="#1a5fb4" text-anchor="middle" font-weight="700">London Open window</text>
+<text x="445" y="92" font-size="9.5" fill="#1a5fb4" text-anchor="middle">(2 – 4 AM)</text>
+
+<text x="580" y="150" font-size="9.5" fill="#9b9a8f" text-anchor="end" font-style="italic">* All times New York (ET)</text>
+
+<line x1="20" y1="172" x2="600" y2="172" stroke="#e1e0d9" stroke-width="1"/>
+
+<text x="40" y="196" font-size="12" fill="#5a5950" font-weight="700">② Inside the Window: False Break → Structure Shift (MSS) → FVG Entry</text>
+
+<line x1="70" y1="238" x2="560" y2="238" stroke="#767568" stroke-width="1.3" stroke-dasharray="5,4"/>
+<text x="72" y="230" font-size="10" fill="#767568">Asian range high</text>
+
+<line x1="70" y1="330" x2="400" y2="330" stroke="#767568" stroke-width="1.3" stroke-dasharray="5,4"/>
+<text x="72" y="344" font-size="10" fill="#767568">Asian range low</text>
+
+<path d="M 80,300 L 130,290 L 180,298 L 220,260 L 250,215 L 290,232 L 330,300 L 370,355 L 410,340 L 450,375" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+
+<circle cx="250" cy="215" r="5.5" fill="#d0453b"/>
+<text x="250" y="200" font-size="10" fill="#d0453b" text-anchor="middle" font-weight="700">False break (Judas Swing)</text>
+
+<text x="305" y="278" font-size="10" fill="#1a5fb4" font-weight="700">Structure shift (MSS)</text>
+
+<rect x="345" y="288" width="55" height="38" fill="#1a5fb4" opacity="0.16" stroke="#1a5fb4" stroke-width="1.5" stroke-dasharray="4,3"/>
+<text x="372" y="282" font-size="10" fill="#1a5fb4" text-anchor="middle" font-weight="700">FVG (entry zone)</text>
+
+<line x1="410" y1="340" x2="560" y2="340" stroke="#1f9d55" stroke-width="1.3" stroke-dasharray="5,4"/>
+<text x="485" y="330" font-size="10" fill="#177a42" text-anchor="middle" font-weight="700">Target: opposite-side liquidity</text>
+
+<rect x="70" y="372" width="490" height="30" rx="6" fill="#fbeee9" stroke="#d0453b" stroke-width="1"/>
+<text x="315" y="391" font-size="10.5" fill="#a8362d" text-anchor="middle" font-weight="700">⚠ Never enter on the false break alone — wait for the structure shift (MSS)</text>
+</svg>

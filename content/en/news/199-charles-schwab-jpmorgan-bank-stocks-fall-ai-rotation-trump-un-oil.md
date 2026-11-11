@@ -4,7 +4,7 @@ title: "Charles Schwab Falls 5.5%, JPMorgan 3% as Wall Street Dumps Banks for AI
 description: "Bank and wealth-management stocks fell 3-5.5% Tuesday as traders rotated into AI chip stocks, while Trump's UN speech swung oil between $92 and $100 a barrel."
 published: 2026-09-22
 keywords: ["bank stocks fall today", "Charles Schwab stock drop", "JPMorgan stock today", "AI chip stocks rotation banks", "Trump UN speech oil prices", "why did oil prices swing today", "Dow Jones bank stocks September 2026", "semiconductor stocks sixth day rally"]
-seo_audited: 2026-09-22
+seo_audited: 2026-11-11
 ---
 
 ## What Happened

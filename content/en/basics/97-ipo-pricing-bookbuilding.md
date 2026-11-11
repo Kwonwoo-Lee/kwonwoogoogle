@@ -5,7 +5,7 @@ description: "How the indicative price range is calculated, how institutional bo
 order: 97
 updated: 2026-09-22
 keywords: ["how IPO price is determined", "IPO bookbuilding process explained", "indicative price range IPO", "IPO underpricing explained", "institutional demand forecast IPO", "IPO price band top vs bottom", "how is an IPO offering price set"]
-seo_audited: 2026-09-22
+seo_audited: 2026-11-11
 ---
 
 ## Who Actually Sets the Offering Price — And How?

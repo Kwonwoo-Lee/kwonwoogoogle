@@ -5,7 +5,7 @@ description: "똑같은 S&P500을 담은 ETF인데 H와 UH의 수익률이 왜 �
 order: 99
 updated: 2026-09-23
 keywords: ["환헤지 환노출 차이", "ETF H UH 차이", "환헤지 비용이란", "환헤지 ETF 손해", "해외ETF 환헤지 비용 계산", "환노출 ETF 위험", "금리차 헤지비용"]
-seo_audited: 2026-09-23
+seo_audited: 2026-11-12
 ---
 
 ## 같은 S&P500을 담았는데 왜 수익률이 갈릴까

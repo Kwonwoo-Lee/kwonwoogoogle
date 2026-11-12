@@ -5,7 +5,7 @@ description: "How the yen carry trade turns an interest-rate gap into profit, wh
 order: 98
 updated: 2026-09-23
 keywords: ["what is a carry trade", "yen carry trade explained", "yen carry trade unwind explained", "carry trade unwind risk", "BOJ rate hike yen carry trade", "interest rate differential currency trade", "carry trade margin call"]
-seo_audited: 2026-09-23
+seo_audited: 2026-11-12
 ---
 
 ## Why a 12% Nikkei Crash Traced Back to a 0.15-Point Rate Hike

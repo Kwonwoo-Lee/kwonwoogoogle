@@ -5,7 +5,7 @@ description: "Two ETFs track the same S&P 500, yet post different returns for ye
 order: 99
 updated: 2026-09-23
 keywords: ["currency hedged vs unhedged ETF", "what is a hedged ETF H share", "ETF currency hedging cost explained", "why do hedged ETFs cost more", "hedged ETF underperformance", "interest rate parity ETF hedging", "unhedged ETF currency risk"]
-seo_audited: 2026-09-23
+seo_audited: 2026-11-12
 ---
 
 ## Same S&P 500, Different Returns — Why?

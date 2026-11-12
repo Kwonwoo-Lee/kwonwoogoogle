@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="-apple-system, 'Segoe UI', sans-serif">
+<rect x="0" y="0" width="640" height="460" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="320" y="24" font-size="12.5" fill="#20201a" text-anchor="middle" font-weight="700">Intermarket Analysis: Bond → Stock → Commodity Lag and the Dollar Inverse</text>
+
+<defs>
+  <marker id="arrowSolidEn" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
+    <path d="M0,0 L6,3 L0,6 Z" fill="#20201a"/>
+  </marker>
+  <marker id="arrowDashEn" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
+    <path d="M0,0 L6,3 L0,6 Z" fill="#767568"/>
+  </marker>
+</defs>
+
+<!-- Bonds box -->
+<rect x="70" y="60" width="150" height="70" rx="8" fill="#1a5fb4" opacity="0.10" stroke="#1a5fb4" stroke-width="1.3"/>
+<text x="145" y="90" font-size="13.5" fill="#1a5fb4" text-anchor="middle" font-weight="700">Bonds (yields)</text>
+<text x="145" y="108" font-size="10" fill="#5a5950" text-anchor="middle">Turns first</text>
+
+<!-- Stocks box -->
+<rect x="245" y="60" width="150" height="70" rx="8" fill="#1f9d55" opacity="0.10" stroke="#1f9d55" stroke-width="1.3"/>
+<text x="320" y="90" font-size="13.5" fill="#1f9d55" text-anchor="middle" font-weight="700">Stocks</text>
+<text x="320" y="108" font-size="10" fill="#5a5950" text-anchor="middle">Reflects the yield move with a lag</text>
+
+<!-- Commodities box -->
+<rect x="420" y="60" width="150" height="70" rx="8" fill="#c98a1f" opacity="0.12" stroke="#c98a1f" stroke-width="1.3"/>
+<text x="495" y="90" font-size="13.5" fill="#c98a1f" text-anchor="middle" font-weight="700">Commodities</text>
+<text x="495" y="108" font-size="10" fill="#5a5950" text-anchor="middle">Slowest — physical supply/demand</text>
+
+<!-- Dollar box -->
+<rect x="245" y="185" width="150" height="70" rx="8" fill="#8a4fd1" opacity="0.10" stroke="#8a4fd1" stroke-width="1.3"/>
+<text x="320" y="215" font-size="13.5" fill="#8a4fd1" text-anchor="middle" font-weight="700">Dollar</text>
+<text x="320" y="233" font-size="10" fill="#5a5950" text-anchor="middle">Commodities' pricing currency</text>
+
+<!-- Bonds -> Stocks (solid, sequencing) -->
+<path d="M 222,95 L 243,95" stroke="#20201a" stroke-width="1.8" marker-end="url(#arrowSolidEn)"/>
+<text x="232" y="82" font-size="9.5" fill="#20201a" text-anchor="middle">leads</text>
+
+<!-- Stocks -> Commodities (solid, sequencing) -->
+<path d="M 397,95 L 418,95" stroke="#20201a" stroke-width="1.8" marker-end="url(#arrowSolidEn)"/>
+<text x="407" y="82" font-size="9.5" fill="#20201a" text-anchor="middle">lags</text>
+
+<!-- Commodities <-> Dollar (dashed inverse) -->
+<path d="M 460,132 L 400,183" stroke="#767568" stroke-width="1.8" stroke-dasharray="5,4" marker-end="url(#arrowDashEn)"/>
+<text x="465" y="165" font-size="9.5" fill="#767568" text-anchor="start">inverse</text>
+
+<!-- Stocks <-> Dollar relation note (bonds-stocks inverse via yields) -->
+<path d="M 320,132 L 320,183" stroke="#767568" stroke-width="1.8" stroke-dasharray="5,4"/>
+<text x="328" y="162" font-size="9.5" fill="#767568" text-anchor="start">yields↑ → valuation pressure</text>
+
+<!-- divider -->
+<line x1="40" y1="272" x2="600" y2="272" stroke="#e1e0d9" stroke-width="1"/>
+
+<!-- lower panel: copper/gold ratio vs 10Y yield, trending together -->
+<text x="320" y="296" font-size="12.5" fill="#20201a" text-anchor="middle" font-weight="700">Copper/Gold Ratio vs. 10-Year Treasury Yield (weekly, moving together)</text>
+
+<line x1="90" y1="432" x2="550" y2="432" stroke="#20201a" stroke-width="1.2"/>
+<text x="90" y="448" font-size="9.5" fill="#5a5950" text-anchor="middle">Wk 1</text>
+<text x="240" y="448" font-size="9.5" fill="#5a5950" text-anchor="middle">Wk 2</text>
+<text x="390" y="448" font-size="9.5" fill="#5a5950" text-anchor="middle">Wk 3</text>
+<text x="540" y="448" font-size="9.5" fill="#5a5950" text-anchor="middle">Wk 4</text>
+
+<!-- copper/gold ratio line -->
+<path d="M 90,412 L 240,369.5 L 390,329.9 L 540,292" fill="none" stroke="#0e8a8a" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="90" cy="412" r="3.5" fill="#0e8a8a"/>
+<circle cx="240" cy="369.5" r="3.5" fill="#0e8a8a"/>
+<circle cx="390" cy="329.9" r="3.5" fill="#0e8a8a"/>
+<circle cx="540" cy="292" r="4.5" fill="#0e8a8a"/>
+
+<!-- 10Y yield line -->
+<path d="M 90,412 L 240,373.1 L 390,330.9 L 540,292" fill="none" stroke="#d0453b" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="7,4"/>
+<circle cx="90" cy="412" r="3.5" fill="#d0453b"/>
+<circle cx="240" cy="373.1" r="3.5" fill="#d0453b"/>
+<circle cx="390" cy="330.9" r="3.5" fill="#d0453b"/>
+<circle cx="540" cy="292" r="4.5" fill="#d0453b"/>
+
+<!-- legend -->
+<line x1="300" y1="415" x2="325" y2="415" stroke="#0e8a8a" stroke-width="2.6"/>
+<text x="332" y="419" font-size="10.5" fill="#20201a">Copper/gold ratio</text>
+<line x1="460" y1="415" x2="485" y2="415" stroke="#d0453b" stroke-width="2.6" stroke-dasharray="7,4"/>
+<text x="492" y="419" font-size="10.5" fill="#20201a">10-year yield</text>
+</svg>

@@ -5,7 +5,7 @@ description: "How funding rate arbitrage works: why perpetual futures pay fundin
 order: 62
 updated: 2026-09-23
 keywords: ["funding rate arbitrage", "perpetual futures funding rate", "delta neutral strategy", "cash and carry crypto", "basis trade crypto", "what is funding rate", "spot futures arbitrage", "market neutral crypto strategy"]
-seo_audited: 2026-09-23
+seo_audited: 2026-11-13
 ---
 
 ## A Strategy That Doesn't Care Which Way Price Moves

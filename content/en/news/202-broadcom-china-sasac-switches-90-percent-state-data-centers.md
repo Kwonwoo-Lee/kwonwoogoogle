@@ -4,7 +4,7 @@ title: "China Reviews Broadcom's Grip on State Data Centers - Its Switches Fill 
 description: "China's SASAC found Broadcom switches make up to 90% of hardware in some state-run data centers, a finding that could steer Beijing's purchasing toward Huawei. AVGO dipped 0.3% premarket."
 published: 2026-09-23
 keywords: ["Broadcom China review", "why did Broadcom stock fall today", "AVGO stock China switches", "China SASAC Broadcom investigation", "Broadcom state data center China", "Huawei H3C Broadcom alternative", "China domestic chip policy AI", "Broadcom stock news today"]
-seo_audited: 2026-09-23
+seo_audited: 2026-11-13
 ---
 
 ## What Happened

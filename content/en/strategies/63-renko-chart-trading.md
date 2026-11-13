@@ -5,7 +5,7 @@ description: "How Renko charts use fixed-size price bricks instead of time to fi
 order: 63
 updated: 2026-09-24
 keywords: ["renko chart trading", "renko chart strategy", "renko brick size", "how to read renko charts", "renko vs heikin ashi", "renko chart scalping", "ATR renko brick size", "noise filtering chart"]
-seo_audited: 2026-09-24
+seo_audited: 2026-11-13
 ---
 
 ## What Makes Renko Different: Price Movement Instead of Time

@@ -5,7 +5,7 @@ description: "Repurchase agreements let dealers borrow cash overnight against Tr
 order: 101
 updated: 2026-09-24
 keywords: ["what is the repo market", "reverse repo explained", "what is a repurchase agreement", "Fed reverse repo facility", "what is SOFR", "2019 repo rate spike", "ON RRP explained"]
-seo_audited: 2026-09-24
+seo_audited: 2026-11-13
 ---
 
 ## What Exactly Trades in the 'Repo Market'?

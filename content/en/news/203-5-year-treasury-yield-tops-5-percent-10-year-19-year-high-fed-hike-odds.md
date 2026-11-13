@@ -4,7 +4,7 @@ title: "10-Year Treasury Yield Jumps to 5.1%, a 19-Year High - 5-Year Note Tops 
 description: "Hot September PMI data, hawkish Fed comments, and a weak 5-year auction pushed the 10-year Treasury yield to its highest since 2007, and stocks fell broadly."
 keywords: ["10-year treasury yield 19-year high", "5-year treasury yield tops 5 percent", "why are treasury yields rising today", "Fed October rate hike odds", "Fed governor Barr hawkish comments", "weak 5-year treasury auction tail", "September flash PMI services manufacturing", "why did stocks fall today treasury yields"]
 published: 2026-09-24
-seo_audited: 2026-09-24
+seo_audited: 2026-11-13
 ---
 
 ## What Happened

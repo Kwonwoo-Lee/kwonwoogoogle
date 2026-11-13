@@ -4,7 +4,7 @@ title: "AutoZone's Earnings Beat Was Really a Tariff Refund - Same Day, KB Home'
 description: "AutoZone's EPS beat leaned on a $96 million tariff refund while revenue missed. Hours later, KB Home's profit sank 41%. What the same-day reports reveal about US consumers."
 published: 2026-09-23
 keywords: ["AutoZone earnings tariff refund", "why did AutoZone stock jump", "KB Home earnings net income decline", "mortgage rate 7% homebuilder stocks", "auto tariffs repair costs rising", "AutoZone KB Home comparison", "US consumer spending slowdown signal", "September earnings season stocks"]
-seo_audited: 2026-09-23
+seo_audited: 2026-11-13
 ---
 
 ## What Happened

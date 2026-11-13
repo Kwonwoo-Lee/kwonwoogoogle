@@ -4,7 +4,7 @@ title: "Berkshire Pushes Lennar Stake Past 10% - Why Buy a Stock 7 of 19 Analyst
 description: "Berkshire Hathaway raised its stake in homebuilder Lennar past 10% even as the stock sits 32% below its year-ago level and Wall Street turns increasingly bearish."
 published: 2026-09-23
 keywords: ["Berkshire Hathaway Lennar stake", "why is Lennar stock up today", "Greg Abel homebuilder bet", "Berkshire homebuilder investments", "Lennar analyst sell rating", "Taylor Morrison Berkshire acquisition", "US homebuilder stocks outlook", "Lennar stock news"]
-seo_audited: 2026-09-23
+seo_audited: 2026-11-13
 ---
 
 ## What Happened

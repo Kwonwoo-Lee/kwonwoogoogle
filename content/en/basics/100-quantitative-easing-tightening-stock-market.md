@@ -5,7 +5,7 @@ description: "Why does a central bank simply buying or selling bonds shake up th
 order: 100
 updated: 2026-09-24
 keywords: ["what is quantitative easing", "what is quantitative tightening", "QE vs QT difference", "does QT hurt stocks", "central bank balance sheet reduction", "Fed asset purchases stock market", "what is tapering"]
-seo_audited: 2026-09-24
+seo_audited: 2026-11-13
 ---
 
 ## A Central Bank Just Buys and Sells Bonds — So Why Do Stocks React?

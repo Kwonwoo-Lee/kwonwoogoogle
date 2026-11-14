@@ -4,7 +4,7 @@ title: "McDonald's (MCD) Stock Sinks to 52-Week Low After Investor Day - Why Wen
 description: "McDonald's stock fell nearly 5% to a 52-week low after its Investor Day, even as Wendy's and Yum! Brands barely moved."
 published: 2026-09-24
 keywords: ["McDonald's stock drop investor day", "MCD 52-week low", "McDonald's $8.5 billion franchisee plan", "McDonald's 50000 restaurants delayed 2028", "Wendy's Yum Brands stock reaction", "ArchIQ McDonald's AI system", "McDonald's 2030 operating margin target", "why did McDonald's stock fall today"]
-seo_audited: 2026-09-24
+seo_audited: 2026-11-14
 ---
 
 ## What Happened

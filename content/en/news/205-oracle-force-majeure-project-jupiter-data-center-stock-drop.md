@@ -4,7 +4,7 @@ title: "Oracle (ORCL) Stock Drops 3.5% on Force Majeure Notice - $165 Billion Pr
 description: "Oracle stock fell about 3.5% after it sent a force majeure notice tied to permit delays at its $165 billion Project Jupiter AI data center, reviving fears about its debt-fueled AI buildout."
 published: 2026-09-24
 keywords: ["Oracle stock drop force majeure", "Oracle Project Jupiter data center", "why did Oracle stock fall today", "Oracle New Mexico data center delay", "Oracle debt AI spending concerns", "Blue Owl Capital stock Oracle", "Oracle Stargate OpenAI", "ORCL stock today"]
-seo_audited: 2026-09-24
+seo_audited: 2026-11-14
 ---
 
 ## What Happened

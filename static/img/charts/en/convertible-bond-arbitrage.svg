@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 420" font-family="'Segoe UI', Arial, sans-serif">
+<rect x="0" y="0" width="620" height="420" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="24" font-size="14" fill="#20201a" text-anchor="middle" font-weight="700">Convertible Bond Arbitrage: Hockey-Stick Payoff + Gamma Scalping Loop</text>
+
+<rect x="30" y="44" width="270" height="220" fill="none" stroke="#c7c6bb" stroke-width="1"/>
+<text x="38" y="38" font-size="11" fill="#767568" text-anchor="start" font-weight="700">Convertible Price vs. Stock Price</text>
+
+<line x1="55" y1="60" x2="55" y2="245" stroke="#e5e4da" stroke-width="1"/>
+<line x1="55" y1="245" x2="285" y2="245" stroke="#c7c6bb" stroke-width="1"/>
+<text x="42" y="68" font-size="9" fill="#767568" text-anchor="middle">Price</text>
+<text x="280" y="258" font-size="9" fill="#767568" text-anchor="middle">Stock price &#8594;</text>
+
+<!-- parity diagonal (dashed) -->
+<line x1="150" y1="245" x2="280" y2="95" stroke="#9a998d" stroke-width="2" stroke-dasharray="4,3"/>
+<text x="284" y="92" font-size="9" fill="#767568" text-anchor="start">Parity line</text>
+
+<!-- bond floor (flat, dashed red) -->
+<line x1="55" y1="200" x2="285" y2="200" stroke="#d0453b" stroke-width="1.6" stroke-dasharray="3,3"/>
+<text x="60" y="212" font-size="9" fill="#a5342c" text-anchor="start">Straight bond value (floor)</text>
+
+<!-- CB market price: hockey stick -->
+<path d="M 55,197 C 110,196 150,194 190,175 C 230,150 260,118 280,98" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+<text x="108" y="185" font-size="9" fill="#1a5fb4" text-anchor="start" font-weight="700">Convertible market price</text>
+
+<circle cx="165" cy="184" r="3.4" fill="#20201a"/>
+<text x="150" y="232" font-size="8.5" fill="#5a5950" text-anchor="middle">Busted convertible</text>
+<text x="150" y="243" font-size="8.5" fill="#5a5950" text-anchor="middle">(trades like a bond)</text>
+
+<text x="258" y="232" font-size="8.5" fill="#1f9d55" text-anchor="middle">Trades like stock</text>
+<text x="258" y="243" font-size="8.5" fill="#1f9d55" text-anchor="middle">(delta &#8594; 1)</text>
+
+<rect x="320" y="44" width="270" height="220" fill="none" stroke="#c7c6bb" stroke-width="1"/>
+<text x="328" y="38" font-size="11" fill="#767568" text-anchor="start" font-weight="700">Gamma Scalping (Delta-Hedge Rebalancing)</text>
+
+<rect x="345" y="64" width="100" height="36" rx="6" fill="#eef1f7" stroke="#1a5fb4"/>
+<text x="395" y="86" font-size="10" fill="#1a5fb4" text-anchor="middle" font-weight="700">Buy convertible</text>
+
+<rect x="345" y="200" width="100" height="36" rx="6" fill="#f4f0e8" stroke="#9a998d"/>
+<text x="395" y="220" font-size="10" fill="#5a5950" text-anchor="middle" font-weight="700">Short stock</text>
+<text x="395" y="232" font-size="9" fill="#5a5950" text-anchor="middle">at delta</text>
+
+<rect x="470" y="130" width="100" height="40" rx="6" fill="#fdecea" stroke="#d0453b"/>
+<text x="520" y="150" font-size="9" fill="#d0453b" text-anchor="middle" font-weight="700">Stock up &#8594; add short</text>
+<text x="520" y="162" font-size="9" fill="#d0453b" text-anchor="middle" font-weight="700">Stock down &#8594; buy back</text>
+
+<path d="M 395,100 L 395,200" fill="none" stroke="#9a998d" stroke-width="1.6" marker-end="url(#arrow3)"/>
+<path d="M 445,214 L 470,170" fill="none" stroke="#9a998d" stroke-width="1.6" marker-end="url(#arrow3)"/>
+<path d="M 520,130 L 445,92" fill="none" stroke="#9a998d" stroke-width="1.6" marker-end="url(#arrow3)"/>
+
+<defs>
+  <marker id="arrow3" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+    <path d="M0,0 L6,3 L0,6 Z" fill="#9a998d"/>
+  </marker>
+</defs>
+
+<text x="455" y="250" font-size="9" fill="#767568" text-anchor="middle">Repeated rebalancing &#8594; cumulative gamma profit</text>
+
+<rect x="30" y="288" width="560" height="100" fill="none" stroke="#c7c6bb" stroke-width="1"/>
+<text x="38" y="282" font-size="11" fill="#767568" text-anchor="start" font-weight="700">Three Sources of Profit</text>
+
+<rect x="48" y="310" width="165" height="54" rx="6" fill="#eef1f7" stroke="#1a5fb4"/>
+<text x="130" y="330" font-size="10" fill="#1a5fb4" text-anchor="middle" font-weight="700">Gamma</text>
+<text x="130" y="344" font-size="8.5" fill="#5a5950" text-anchor="middle">Realized vol &gt; implied vol</text>
+<text x="130" y="356" font-size="8.5" fill="#5a5950" text-anchor="middle">rebalancing gains</text>
+
+<rect x="228" y="310" width="165" height="54" rx="6" fill="#f4f0e8" stroke="#9a998d"/>
+<text x="310" y="330" font-size="10" fill="#5a5950" text-anchor="middle" font-weight="700">Vega</text>
+<text x="310" y="344" font-size="8.5" fill="#5a5950" text-anchor="middle">Implied vol rises</text>
+<text x="310" y="356" font-size="8.5" fill="#5a5950" text-anchor="middle">option value rises</text>
+
+<rect x="408" y="310" width="165" height="54" rx="6" fill="#fdecea" stroke="#d0453b"/>
+<text x="490" y="330" font-size="10" fill="#d0453b" text-anchor="middle" font-weight="700">Credit spread (carry)</text>
+<text x="490" y="344" font-size="8.5" fill="#a5342c" text-anchor="middle">Coupon - borrow/funding cost</text>
+<text x="490" y="356" font-size="8.5" fill="#a5342c" text-anchor="middle">sensitive to issuer credit</text>
+
+<text x="310" y="405" font-size="9.5" fill="#9a998d" text-anchor="middle">* Illustrative diagram only — not live market data</text>
+</svg>

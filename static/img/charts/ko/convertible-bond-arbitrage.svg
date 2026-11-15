@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 420" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="620" height="420" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="24" font-size="14" fill="#20201a" text-anchor="middle" font-weight="700">전환사채 차익거래: 하키스틱 페이오프 + 감마 스캘핑 순환</text>
+
+<rect x="30" y="44" width="270" height="220" fill="none" stroke="#c7c6bb" stroke-width="1"/>
+<text x="38" y="38" font-size="11" fill="#767568" text-anchor="start" font-weight="700">전환사채 가격 vs 주가 (하키스틱)</text>
+
+<line x1="55" y1="60" x2="55" y2="245" stroke="#e5e4da" stroke-width="1"/>
+<line x1="55" y1="245" x2="285" y2="245" stroke="#c7c6bb" stroke-width="1"/>
+<text x="42" y="68" font-size="9" fill="#767568" text-anchor="middle">가격</text>
+<text x="280" y="258" font-size="9" fill="#767568" text-anchor="middle">주가 &#8594;</text>
+
+<!-- parity diagonal (dashed) -->
+<line x1="150" y1="245" x2="280" y2="95" stroke="#9a998d" stroke-width="2" stroke-dasharray="4,3"/>
+<text x="284" y="92" font-size="9" fill="#767568" text-anchor="start">패리티선</text>
+
+<!-- bond floor (flat, dashed red) -->
+<line x1="55" y1="200" x2="285" y2="200" stroke="#d0453b" stroke-width="1.6" stroke-dasharray="3,3"/>
+<text x="60" y="212" font-size="9" fill="#a5342c" text-anchor="start">스트레이트본드 가치(바닥)</text>
+
+<!-- CB market price: hockey stick -->
+<path d="M 55,197 C 110,196 150,194 190,175 C 230,150 260,118 280,98" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+<text x="110" y="185" font-size="9" fill="#1a5fb4" text-anchor="start" font-weight="700">전환사채 시장가</text>
+
+<circle cx="165" cy="184" r="3.4" fill="#20201a"/>
+<text x="150" y="232" font-size="8.5" fill="#5a5950" text-anchor="middle">버스티드 컨버터블</text>
+<text x="150" y="243" font-size="8.5" fill="#5a5950" text-anchor="middle">(채권처럼 거동)</text>
+
+<text x="258" y="232" font-size="8.5" fill="#1f9d55" text-anchor="middle">주식처럼 거동</text>
+<text x="258" y="243" font-size="8.5" fill="#1f9d55" text-anchor="middle">(델타 → 1)</text>
+
+<rect x="320" y="44" width="270" height="220" fill="none" stroke="#c7c6bb" stroke-width="1"/>
+<text x="328" y="38" font-size="11" fill="#767568" text-anchor="start" font-weight="700">감마 스캘핑(델타헤지 재조정) 순환</text>
+
+<rect x="345" y="64" width="100" height="36" rx="6" fill="#eef1f7" stroke="#1a5fb4"/>
+<text x="395" y="86" font-size="10" fill="#1a5fb4" text-anchor="middle" font-weight="700">전환사채 매수</text>
+
+<rect x="345" y="200" width="100" height="36" rx="6" fill="#f4f0e8" stroke="#9a998d"/>
+<text x="395" y="222" font-size="10" fill="#5a5950" text-anchor="middle" font-weight="700">주식 델타만큼</text>
+<text x="395" y="233" font-size="9" fill="#5a5950" text-anchor="middle">공매도(숏)</text>
+
+<rect x="470" y="130" width="100" height="40" rx="6" fill="#fdecea" stroke="#d0453b"/>
+<text x="520" y="150" font-size="9.5" fill="#d0453b" text-anchor="middle" font-weight="700">주가↑ → 숏 추가</text>
+<text x="520" y="162" font-size="9.5" fill="#d0453b" text-anchor="middle" font-weight="700">주가↓ → 숏 환매</text>
+
+<path d="M 395,100 L 395,200" fill="none" stroke="#9a998d" stroke-width="1.6" marker-end="url(#arrow2)"/>
+<path d="M 445,214 L 470,170" fill="none" stroke="#9a998d" stroke-width="1.6" marker-end="url(#arrow2)"/>
+<path d="M 520,130 L 445,92" fill="none" stroke="#9a998d" stroke-width="1.6" marker-end="url(#arrow2)"/>
+
+<defs>
+  <marker id="arrow2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+    <path d="M0,0 L6,3 L0,6 Z" fill="#9a998d"/>
+  </marker>
+</defs>
+
+<text x="455" y="250" font-size="9" fill="#767568" text-anchor="middle">반복 리밸런싱 → 감마 수익 누적</text>
+
+<rect x="30" y="288" width="560" height="100" fill="none" stroke="#c7c6bb" stroke-width="1"/>
+<text x="38" y="282" font-size="11" fill="#767568" text-anchor="start" font-weight="700">세 가지 수익원</text>
+
+<rect x="48" y="310" width="165" height="54" rx="6" fill="#eef1f7" stroke="#1a5fb4"/>
+<text x="130" y="330" font-size="10" fill="#1a5fb4" text-anchor="middle" font-weight="700">감마</text>
+<text x="130" y="344" font-size="8.5" fill="#5a5950" text-anchor="middle">실현변동성 &gt; 내재변동성</text>
+<text x="130" y="356" font-size="8.5" fill="#5a5950" text-anchor="middle">리밸런싱 이익</text>
+
+<rect x="228" y="310" width="165" height="54" rx="6" fill="#f4f0e8" stroke="#9a998d"/>
+<text x="310" y="330" font-size="10" fill="#5a5950" text-anchor="middle" font-weight="700">베가</text>
+<text x="310" y="344" font-size="8.5" fill="#5a5950" text-anchor="middle">내재변동성 상승 시</text>
+<text x="310" y="356" font-size="8.5" fill="#5a5950" text-anchor="middle">옵션가치 상승</text>
+
+<rect x="408" y="310" width="165" height="54" rx="6" fill="#fdecea" stroke="#d0453b"/>
+<text x="490" y="330" font-size="10" fill="#d0453b" text-anchor="middle" font-weight="700">신용 스프레드(캐리)</text>
+<text x="490" y="344" font-size="8.5" fill="#a5342c" text-anchor="middle">쿠폰 - 대차·조달비용</text>
+<text x="490" y="356" font-size="8.5" fill="#a5342c" text-anchor="middle">발행사 신용에 민감</text>
+
+<text x="310" y="405" font-size="9.5" fill="#9a998d" text-anchor="middle">* 구조를 보여주기 위한 설명용 예시이며 실제 시장 수치가 아닙니다</text>
+</svg>

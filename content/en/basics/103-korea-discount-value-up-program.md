@@ -5,7 +5,7 @@ description: "Why Korean stocks trade at lower multiples than global peers, the 
 order: 103
 updated: 2026-09-25
 keywords: ["what is the korea discount", "korea discount causes", "korea value up program explained", "kospi value up index", "why korean stocks trade below book value", "japan pbr reform comparison", "korea discount 2026"]
-seo_audited: 2026-09-25
+seo_audited: 2026-11-15
 ---
 
 ## Same Fundamentals, Cheaper Price — Why?

@@ -5,7 +5,7 @@ description: "How individual analyst estimates roll up into a consensus and pric
 order: 102
 updated: 2026-09-25
 keywords: ["what is analyst consensus", "what is a price target", "earnings surprise explained", "why are sell ratings rare", "how analysts calculate price targets", "consensus estimate vs guidance", "beat or miss consensus"]
-seo_audited: 2026-09-25
+seo_audited: 2026-11-15
 ---
 
 ## What Exactly Does "Beat Consensus" Mean?

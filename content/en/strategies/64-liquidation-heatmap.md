@@ -5,7 +5,7 @@ description: "How liquidation heatmaps estimate liquidation clusters from open i
 order: 64
 updated: 2026-09-25
 keywords: ["liquidation heatmap", "how to read liquidation heatmap", "bitcoin liquidation map", "liquidation cascade", "open interest liquidation", "long liquidation short liquidation", "coinglass liquidation heatmap", "liquidity magnet crypto"]
-seo_audited: 2026-09-25
+seo_audited: 2026-11-16
 ---
 
 ## The Map Every Crypto Trader Keeps Open

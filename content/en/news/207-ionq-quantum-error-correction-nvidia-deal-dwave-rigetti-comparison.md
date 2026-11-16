@@ -4,7 +4,7 @@ title: "IonQ Surges Over 11% on a Quantum Error-Correction Breakthrough, Then an
 description: "IonQ jumped as much as 11% after a CPU-based error-correction breakthrough and a new NVIDIA quantum research deal. D-Wave and Rigetti moved, but far less - here's why."
 published: 2026-09-25
 keywords: ["IonQ stock jump", "IonQ NVIDIA quantum deal", "quantum error correction breakthrough", "why is IonQ stock up today", "D-Wave Rigetti stock today", "quantum computing stocks September 2026", "IonQ Superion 256", "IonQ stock news today"]
-seo_audited: 2026-09-25
+seo_audited: 2026-11-16
 ---
 
 ## What Happened

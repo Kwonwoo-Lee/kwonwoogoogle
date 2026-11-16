@@ -4,7 +4,7 @@ title: "30-Year Treasury Yield Hits 5.5%, a 22-Year High - 10-Year Extends Surge
 description: "The 30-year Treasury yield jumped to 5.5%, its highest since 2004, while the 10-year pushed to 5.22% and October Fed hike odds surged to 73% amid a worldwide bond selloff."
 keywords: ["30-year treasury yield 22-year high", "10-year treasury yield 5.22 percent", "why are bond yields rising right now", "global bond market selloff 2026", "Fed October rate hike odds 73 percent", "term premium explained treasury yields", "30-year mortgage rate rising bond yields", "Japan bond yield highest since 1996"]
 published: 2026-09-25
-seo_audited: 2026-09-25
+seo_audited: 2026-11-16
 ---
 
 ## What Happened

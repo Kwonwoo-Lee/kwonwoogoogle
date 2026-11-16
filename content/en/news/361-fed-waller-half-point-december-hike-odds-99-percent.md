@@ -4,6 +4,7 @@ title: "Fed's Waller Puts a 50-Basis-Point December Hike on the Table - Why the 
 description: "Fed Governor Waller floated a half-point December hike if inflation stays hot, pushing CME-implied odds of any hike to roughly 99%, just before Nvidia's earnings week."
 published: 2026-11-15
 keywords: ["Fed December rate hike odds", "Waller half point rate hike", "CME FedWatch December 2026", "Fed hike odds 99 percent", "Schmid hawkish Fed comments", "December FOMC meeting December 8 9", "half point rate hike stock market", "Fed credibility risk Waller quote"]
+seo_audited: 2026-11-16
 ---
 
 ## What Happened

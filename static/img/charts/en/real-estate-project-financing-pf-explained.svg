@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="620" height="460" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="13" fill="#20201a" text-anchor="middle" font-weight="700">The Three Stages of Real Estate PF and How Trouble Spreads</text>
+
+<rect x="20" y="50" width="175" height="62" rx="6" fill="#eef1f7" stroke="#1a5fb4" stroke-width="1.3"/>
+<text x="107" y="74" font-size="9.5" fill="#1a5fb4" text-anchor="middle" font-weight="700">① Bridge Loan</text>
+<text x="107" y="90" font-size="8.5" fill="#1a5fb4" text-anchor="middle">Land purchase, pre-permit</text>
+<text x="107" y="102" font-size="8.5" fill="#1a5fb4" text-anchor="middle">(high-rate short-term debt)</text>
+
+<rect x="222" y="50" width="175" height="62" rx="6" fill="#eef1f7" stroke="#1a5fb4" stroke-width="1.3"/>
+<text x="309" y="74" font-size="9.5" fill="#1a5fb4" text-anchor="middle" font-weight="700">② Main PF</text>
+<text x="309" y="90" font-size="8.5" fill="#1a5fb4" text-anchor="middle">Builder's completion guarantee</text>
+<text x="309" y="102" font-size="8.5" fill="#1a5fb4" text-anchor="middle">+ construction costs</text>
+
+<rect x="424" y="50" width="175" height="62" rx="6" fill="#eafaf0" stroke="#1f9d55" stroke-width="1.3"/>
+<text x="511" y="74" font-size="9.5" fill="#177a42" text-anchor="middle" font-weight="700">③ Completion</text>
+<text x="511" y="90" font-size="8.5" fill="#177a42" text-anchor="middle">Buyer payments repay</text>
+<text x="511" y="102" font-size="8.5" fill="#177a42" text-anchor="middle">the main PF loan</text>
+
+<path d="M 195,81 L 222,81" fill="none" stroke="#9a998d" stroke-width="1.6" marker-end="url(#arrowE)"/>
+<path d="M 397,81 L 424,81" fill="none" stroke="#9a998d" stroke-width="1.6" marker-end="url(#arrowE)"/>
+
+<line x1="20" y1="140" x2="600" y2="140" stroke="#e1e0d9" stroke-width="1"/>
+<text x="40" y="162" font-size="11.5" fill="#a5342c" font-weight="700">Weak sales or a rate spike breaks the chain</text>
+
+<rect x="20" y="178" width="180" height="54" rx="6" fill="#fdecea" stroke="#d0453b" stroke-width="1.3"/>
+<text x="110" y="200" font-size="9" fill="#a5342c" text-anchor="middle" font-weight="700">Bridge loan default</text>
+<text x="110" y="214" font-size="9" fill="#a5342c" text-anchor="middle" font-weight="700">(fails to roll into main PF)</text>
+
+<rect x="222" y="178" width="180" height="54" rx="6" fill="#fdecea" stroke="#d0453b" stroke-width="1.3"/>
+<text x="312" y="200" font-size="9" fill="#a5342c" text-anchor="middle" font-weight="700">Builder's guarantee becomes</text>
+<text x="312" y="214" font-size="9" fill="#a5342c" text-anchor="middle" font-weight="700">a real liability</text>
+
+<rect x="424" y="178" width="175" height="54" rx="6" fill="#fdecea" stroke="#d0453b" stroke-width="1.3"/>
+<text x="511" y="200" font-size="9" fill="#a5342c" text-anchor="middle" font-weight="700">Lender losses</text>
+<text x="511" y="214" font-size="9" fill="#a5342c" text-anchor="middle" font-weight="700">(savings banks, brokerages)</text>
+
+<path d="M 110,178 L 110,160" fill="none" stroke="#c0453b" stroke-width="1.4" marker-end="url(#arrowF)"/>
+<path d="M 200,205 L 222,205" fill="none" stroke="#9a998d" stroke-width="1.6" marker-end="url(#arrowE)"/>
+<path d="M 402,205 L 424,205" fill="none" stroke="#9a998d" stroke-width="1.6" marker-end="url(#arrowE)"/>
+
+<rect x="120" y="262" width="380" height="54" rx="6" fill="#f4f0e8" stroke="#9a998d" stroke-width="1.3"/>
+<text x="310" y="284" font-size="9.3" fill="#5a5950" text-anchor="middle" font-weight="700">Confidence erodes across construction and finance</text>
+<text x="310" y="298" font-size="9.3" fill="#5a5950" text-anchor="middle" font-weight="700">(2011 savings-bank crisis · 2022 Legoland · 2024 Taeyoung)</text>
+
+<path d="M 312,232 L 312,262" fill="none" stroke="#9a998d" stroke-width="1.6" marker-end="url(#arrowE)"/>
+<path d="M 511,232 L 400,262" fill="none" stroke="#9a998d" stroke-width="1.6" marker-end="url(#arrowE)"/>
+
+<rect x="30" y="340" width="560" height="42" rx="6" fill="#fbeee9" stroke="#d0453b" stroke-width="1"/>
+<text x="310" y="358" font-size="9.5" fill="#a5342c" text-anchor="middle" font-weight="700">⚠ The thinner the developer's own equity (often as little as ~5% of</text>
+<text x="310" y="372" font-size="9.5" fill="#a5342c" text-anchor="middle" font-weight="700">project cost), the easier it is for a small shock to break the whole chain</text>
+
+<text x="310" y="408" font-size="9" fill="#9b9a8f" text-anchor="middle" font-style="italic">* Illustrative diagram, not figures from any specific project</text>
+
+<defs>
+  <marker id="arrowE" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+    <path d="M0,0 L6,3 L0,6 Z" fill="#9a998d"/>
+  </marker>
+  <marker id="arrowF" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+    <path d="M0,0 L6,3 L0,6 Z" fill="#c0453b"/>
+  </marker>
+</defs>
+</svg>

@@ -4,7 +4,7 @@ title: "Costco Crushes Q4 Estimates on Every Metric - So Why Did the Stock Barel
 description: "Costco beat on revenue, EPS, comp sales and membership fees, yet COST stock stayed flat. Here's how a one-time tariff refund and a 45x valuation explain the muted reaction."
 published: 2026-09-25
 keywords: ["Costco stock", "COST Q4 2026 earnings", "Costco tariff refund EPS", "why didn't Costco stock move", "Costco comparable sales", "Costco stock price target", "COST valuation P/E ratio", "Costco earnings beat stock flat"]
-seo_audited: 2026-09-25
+seo_audited: 2026-11-17
 ---
 
 ## What Happened

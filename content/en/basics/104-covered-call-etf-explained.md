@@ -5,7 +5,7 @@ description: "How covered call ETFs generate monthly income by selling call opti
 order: 104
 updated: 2026-09-26
 keywords: ["covered call ETF explained", "how covered call ETFs work", "covered call ETF risks", "covered call ETF NAV erosion", "monthly dividend ETF covered call", "covered call ETF pros and cons", "QYLD strategy explained", "option premium income ETF"]
-seo_audited: "2026-09-26"
+seo_audited: 2026-11-17
 ---
 
 ## An 8% Yield, Paid Monthly — How Is That Even Possible?

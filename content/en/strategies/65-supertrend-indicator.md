@@ -5,7 +5,7 @@ description: "How the Supertrend indicator plots a stop-and-reverse trend line f
 order: 65
 updated: 2026-09-26
 keywords: ["supertrend indicator", "supertrend strategy", "supertrend settings", "supertrend ATR multiplier", "how to use supertrend", "supertrend vs chandelier exit", "trend following indicator", "stop and reverse indicator"]
-seo_audited: 2026-09-26
+seo_audited: 2026-11-17
 ---
 
 ## One Line That Tells You Both Direction and Where to Put Your Stop

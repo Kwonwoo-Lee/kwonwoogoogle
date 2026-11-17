@@ -4,7 +4,7 @@ title: "Microsoft Jumps 3.6% on Copilot Super App, Tesla Falls 1.6% on EU FSD De
 description: "Microsoft surged past $516 on its new Copilot super app while Tesla slid after Europe pushed back its FSD approval vote to December. Here's why two AI stocks split on the same day."
 published: 2026-09-26
 keywords: ["Microsoft stock surge reason", "Copilot super app launch", "why did Tesla stock fall today", "Tesla FSD Europe vote delayed", "MSFT record high market cap", "Tesla Semi truck Nevada factory", "Magnificent Seven Microsoft Tesla", "Microsoft market cap $3.7 trillion"]
-seo_audited: 2026-09-26
+seo_audited: 2026-11-17
 ---
 
 ## What Happened

@@ -5,7 +5,7 @@ description: "How Korea's three market-wide trading halts — VI (volatility int
 order: 105
 updated: 2026-09-26
 keywords: ["what is a circuit breaker stock market", "circuit breaker trading halt explained", "sidecar trading halt Korea", "KOSPI circuit breaker levels", "volatility interruption VI explained", "static vs dynamic VI", "program trading halt Korea"]
-seo_audited: "2026-09-26"
+seo_audited: 2026-11-17
 ---
 
 ## Why the Market Keeps Stopping in 2026

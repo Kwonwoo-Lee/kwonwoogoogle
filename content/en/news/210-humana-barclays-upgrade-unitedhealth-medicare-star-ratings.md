@@ -4,7 +4,7 @@ title: "Humana Jumps 7% on Barclays' $515 Price Target, UnitedHealth Barely Move
 description: "Barclays upgraded Humana to Overweight and raised its target to $515 on September 25, sending shares up 7%. UnitedHealth rose just 0.7% on the same day. Here's the Medicare Star Ratings story behind the gap."
 published: 2026-09-26
 keywords: ["why did Humana stock jump today", "Barclays Humana price target $515", "Medicare Advantage star ratings explained", "UnitedHealth stock no reaction", "CMS star ratings 2027", "Humana vs UnitedHealth stock", "HUM stock up 60 percent", "Medicare quality bonus payments"]
-seo_audited: 2026-09-26
+seo_audited: 2026-11-17
 ---
 
 ## What Happened

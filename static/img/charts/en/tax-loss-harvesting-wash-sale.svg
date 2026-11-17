@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="'Segoe UI', Arial, sans-serif">
+<rect x="0" y="0" width="640" height="380" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="320" y="22" font-size="13.5" fill="#20201a" text-anchor="middle" font-weight="700">The Wash Sale Window: 61 Days Around a Loss Sale</text>
+
+<!-- legend box -->
+<rect x="412" y="30" width="198" height="82" rx="6" fill="#f3f2ec" stroke="#e1e0d9"/>
+<text x="422" y="44" font-size="9.5" fill="#5a5950" font-weight="700">Timeline key</text>
+<circle cx="426" cy="57" r="4" fill="#d0453b"/>
+<text x="435" y="60.5" font-size="9" fill="#20201a">Sale date (loss realized)</text>
+<rect x="422" y="66" width="8" height="8" fill="#e8a33d" opacity="0.5"/>
+<text x="435" y="73.5" font-size="9" fill="#20201a">Wash sale window (61 days)</text>
+<circle cx="426" cy="87" r="4" fill="#1a5fb4"/>
+<text x="435" y="90.5" font-size="9" fill="#20201a">Safe to rebuy same security</text>
+<circle cx="426" cy="102" r="4" fill="#8a4fd1"/>
+<text x="435" y="105.5" font-size="9" fill="#20201a">Immediate replacement swap</text>
+
+<!-- main timeline -->
+<line x1="40" y1="170" x2="612" y2="170" stroke="#9c9b8f" stroke-width="1.6"/>
+
+<!-- wash sale window shading: Nov 15 - Jan 15 -->
+<rect x="150" y="130" width="300" height="80" fill="#e8a33d" opacity="0.14"/>
+<text x="300" y="122" font-size="9.5" fill="#b8762a" text-anchor="middle" font-weight="700">Wash sale window (30 days before and after)</text>
+
+<!-- date ticks -->
+<g font-size="9" fill="#5a5950" text-anchor="middle">
+<line x1="80" y1="164" x2="80" y2="176" stroke="#9c9b8f"/>
+<text x="80" y="190">Nov 15</text>
+<line x1="150" y1="164" x2="150" y2="176" stroke="#9c9b8f"/>
+<text x="150" y="190">Dec 1</text>
+<line x1="300" y1="164" x2="300" y2="176" stroke="#9c9b8f"/>
+<text x="300" y="190">Dec 31</text>
+<line x1="450" y1="164" x2="450" y2="176" stroke="#9c9b8f"/>
+<text x="450" y="190">Jan 15</text>
+<line x1="540" y1="164" x2="540" y2="176" stroke="#9c9b8f"/>
+<text x="540" y="190">Jan 31</text>
+</g>
+
+<!-- sell date marker at Dec 15 (x=225) -->
+<circle cx="225" cy="170" r="7" fill="#d0453b"/>
+<text x="225" y="148" font-size="10" fill="#b03a30" text-anchor="middle" font-weight="700">Dec 15 sale</text>
+<line x1="225" y1="177" x2="225" y2="210" stroke="#d0453b" stroke-width="1" stroke-dasharray="3,3"/>
+
+<!-- safe rebuy marker at Jan 15 (x=450) -->
+<circle cx="450" cy="170" r="6" fill="#1a5fb4"/>
+<text x="450" y="148" font-size="9.5" fill="#1a5fb4" text-anchor="middle" font-weight="700">Safe to rebuy</text>
+
+<!-- year-end marker -->
+<line x1="300" y1="130" x2="300" y2="210" stroke="#5a5950" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="300" y="222" font-size="9" fill="#5a5950" text-anchor="middle">Tax year closes</text>
+
+<!-- divider -->
+<line x1="40" y1="238" x2="612" y2="238" stroke="#e1e0d9" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="320" y="254" font-size="11" fill="#20201a" text-anchor="middle" font-weight="700">Technique A vs. Technique B: Repurchase Paths</text>
+
+<!-- Path A: cash wait then rebuy -->
+<text x="46" y="282" font-size="9.5" fill="#5a5950" font-weight="700">Tech. A</text>
+<rect x="100" y="272" width="125" height="16" fill="#1a5fb4" opacity="0.8"/>
+<text x="162" y="283" font-size="8.5" fill="#fff" text-anchor="middle">Holding</text>
+<rect x="225" y="272" width="225" height="16" fill="#c9c7ba" opacity="0.9"/>
+<text x="337" y="283" font-size="8.5" fill="#5a5950" text-anchor="middle">In cash (market exposure gap)</text>
+<rect x="450" y="272" width="110" height="16" fill="#1a5fb4" opacity="0.8"/>
+<text x="505" y="283" font-size="8.5" fill="#fff" text-anchor="middle">Rebuy same security</text>
+
+<!-- Path B: swap to replacement -->
+<text x="46" y="312" font-size="9.5" fill="#5a5950" font-weight="700">Tech. B</text>
+<rect x="100" y="302" width="125" height="16" fill="#8a4fd1" opacity="0.8"/>
+<text x="162" y="313" font-size="8.5" fill="#fff" text-anchor="middle">Holding</text>
+<rect x="225" y="302" width="335" height="16" fill="#8a4fd1" opacity="0.55"/>
+<text x="392" y="313" font-size="8.5" fill="#3f2566" text-anchor="middle">Immediate swap to replacement — exposure stays intact</text>
+
+<line x1="40" y1="338" x2="612" y2="338" stroke="#e1e0d9" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="320" y="356" font-size="9.5" fill="#5a5950" text-anchor="middle">A loss only offsets taxable gains once it's sold — repurchase timing only decides whether the deduction is allowed</text>
+</svg>

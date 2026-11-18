@@ -5,7 +5,7 @@ description: "Why your sale proceeds don't land for two days, how Korea's electr
 order: 106
 updated: 2026-09-27
 keywords: ["what is T+2 settlement", "stock settlement cycle explained", "beneficial shareholder meaning", "T+1 settlement transition", "what does KSD do", "when do you actually own stock", "how stock settlement works"]
-seo_audited: 2026-09-27
+seo_audited: 2026-11-18
 ---
 
 ## You Sold on Monday. Why Isn't the Cash Available Until Wednesday?

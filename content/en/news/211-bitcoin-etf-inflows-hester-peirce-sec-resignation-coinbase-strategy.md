@@ -4,7 +4,7 @@ title: "Bitcoin ETFs Just Had Their Best Week of 2026 With $2.39B Inflows - So W
 description: "US Bitcoin ETFs pulled in $2.39 billion in a single week, the biggest of 2026, right as SEC Commissioner Hester Peirce announced her resignation. Here's what both signals mean for Coinbase and Strategy."
 published: 2026-09-26
 keywords: ["Bitcoin ETF inflows record 2026", "Hester Peirce SEC resignation", "Coinbase stock price today", "Strategy MSTR stock price", "Bitcoin price $84,000", "crypto mom SEC commissioner leaving", "CLARITY Act Senate vote fails", "IBIT Bitcoin ETF inflows"]
-seo_audited: 2026-09-26
+seo_audited: 2026-11-18
 ---
 
 ## What Happened

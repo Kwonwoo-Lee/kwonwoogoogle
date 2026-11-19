@@ -4,6 +4,7 @@ title: "Dividend Capture Strategy Explained: Buying Before the Ex-Dividend Date 
 description: "How the dividend capture strategy works, why the ex-dividend price drop tends to cancel the payout, and what taxes and costs do to the math."
 order: 119
 updated: 2026-11-19
+seo_audited: 2026-11-19
 keywords: ["dividend capture strategy", "ex-dividend date explained", "dividend capture strategy risk", "qualified dividend holding period", "buy before ex-dividend date", "dividend arbitrage with options", "ex-dividend price drop", "T+1 settlement dividend date"]
 ---
 

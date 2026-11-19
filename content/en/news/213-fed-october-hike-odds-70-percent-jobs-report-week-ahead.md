@@ -4,7 +4,7 @@ title: "Fed's October Hike Odds Rocket From 53% to Over 70% in Days - September 
 description: "CME FedWatch odds of an October Fed rate hike jumped from 53% to the low-70s in under a week. Here's why Friday's jobs report and this week's PCE data matter so much."
 published: 2026-09-27
 keywords: ["Fed October rate hike odds", "CME FedWatch 70 percent", "September jobs report October 2", "FOMC October 27 28 meeting", "Fed rate hike forecast 2026", "PCE inflation data release date", "stock market week ahead", "Dow Nasdaq weekly gain"]
-seo_audited: 2026-09-27
+seo_audited: 2026-11-19
 ---
 
 ## What Happened

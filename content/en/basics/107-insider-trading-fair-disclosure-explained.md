@@ -5,7 +5,7 @@ description: "Why trading on material non-public information is a crime, why eve
 order: 107
 updated: 2026-09-27
 keywords: ["what is insider trading", "material non-public information", "what is fair disclosure", "insider pre-disclosure rule Korea", "tippee liability insider trading", "who counts as a corporate insider", "insider trading regulation explained"]
-seo_audited: 2026-09-27
+seo_audited: 2026-11-19
 ---
 
 ## Three Days Before Earnings, an Executive Sells a Big Chunk of Stock

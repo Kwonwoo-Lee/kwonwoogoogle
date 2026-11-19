@@ -4,7 +4,7 @@ title: "Nike Stock Hits Fresh 12-Year Low at $35.75 as BofA Slashes Rating to Un
 description: "BofA downgraded Nike to Underperform from Neutral and cut its price target from $47 to $30, warning the dividend payout ratio could hit 107% ahead of October 1 earnings."
 published: 2026-09-27
 keywords: ["Nike stock BofA downgrade", "NKE price target $30", "Nike Underperform rating", "Nike dividend payout ratio 107%", "Nike earnings October 1", "Nike stock 12 year low", "Nike China inventory problem", "Nike turnaround stalled"]
-seo_audited: 2026-09-27
+seo_audited: 2026-11-19
 ---
 
 ## What Happened

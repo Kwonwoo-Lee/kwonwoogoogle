@@ -5,7 +5,7 @@ description: "How ascending, descending, and symmetrical triangles differ from f
 order: 66
 updated: 2026-09-27
 keywords: ["triangle pattern trading", "ascending triangle breakout", "descending triangle pattern", "symmetrical triangle trading", "bull flag pattern", "flag vs pennant pattern", "continuation chart patterns", "measured move price target"]
-seo_audited: 2026-09-27
+seo_audited: 2026-11-19
 ---
 
 ## Continuation Patterns: A Pause, Not an End

@@ -5,7 +5,7 @@ description: "ETN이 ETF와 달리 발행 증권사의 신용에 기대는 채�
 order: 109
 updated: 2026-09-28
 keywords: ["ETN이란 무엇인가", "ETN ETF 차이", "ETN 위험성", "지표가치 괴리율이란", "레버리지 원유 ETN", "ETN 신용위험", "ETN 만기 조기상환"]
-seo_audited: 2026-09-28
+seo_audited: 2026-11-20
 ---
 
 ## 이름은 ETF와 붙어 있는데, 왜 하루아침에 상장폐지될 수 있을까

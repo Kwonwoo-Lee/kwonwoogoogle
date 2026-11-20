@@ -4,7 +4,7 @@ title: "Akamai (AKAM) Stock Jumps 16% on $11.6 Billion Anthropic Deal - Could Gr
 description: "Akamai (AKAM) stock spiked 16% on an $11.6B, seven-year Anthropic cloud deal that could grow to $20B - here's what Wall Street is saying."
 published: 2026-09-27
 keywords: ["Akamai stock", "AKAM Anthropic deal", "Akamai $11.6 billion deal", "AI cloud infrastructure deal 2026", "Akamai price target raised", "Akamai customer concentration risk", "Anthropic cloud deal $20 billion", "AKAM stock surge"]
-seo_audited: 2026-09-27
+seo_audited: 2026-11-20
 ---
 
 ## What Happened

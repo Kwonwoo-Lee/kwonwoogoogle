@@ -5,7 +5,7 @@ description: "Why an ETN is an unsecured bond backed by the issuer's credit rath
 order: 109
 updated: 2026-09-28
 keywords: ["what is an ETN", "ETN vs ETF difference", "ETN risk explained", "indicative value tracking gap", "leveraged oil ETN Korea", "ETN issuer credit risk", "ETN maturity early redemption"]
-seo_audited: 2026-09-28
+seo_audited: 2026-11-20
 ---
 
 ## Same Three-Letter Cousin of ETF — Except It Can Be Delisted Overnight

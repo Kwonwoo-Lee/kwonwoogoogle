@@ -5,7 +5,7 @@ description: "How conversion ratio and parity set an ELW's price, why it needs a
 order: 108
 updated: 2026-09-28
 keywords: ["what is an ELW", "equity linked warrant explained", "ELW vs options difference", "ELW conversion ratio parity", "ELW gearing leverage", "liquidity provider ELW", "ELW risk warrant"]
-seo_audited: 2026-09-28
+seo_audited: 2026-11-20
 ---
 
 ## A Stock That Moves 50% in a Day — Except It Isn't Actually a Stock

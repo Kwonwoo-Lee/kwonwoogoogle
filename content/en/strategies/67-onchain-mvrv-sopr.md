@@ -5,7 +5,7 @@ description: "How the MVRV Z-Score and SOPR on-chain metrics measure holders' ag
 order: 67
 updated: 2026-09-28
 keywords: ["on-chain analysis", "MVRV Z-score explained", "SOPR indicator meaning", "bitcoin cycle top signal", "exchange netflow bitcoin", "on-chain trading strategy", "realized cap bitcoin", "bitcoin bottom signal"]
-seo_audited: 2026-09-28
+seo_audited: 2026-11-21
 ---
 
 ## Reading the Blockchain Ledger Instead of the Price Chart

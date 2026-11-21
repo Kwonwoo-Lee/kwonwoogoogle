@@ -4,7 +4,7 @@ title: "Trump Rejects Iran's Hormuz Reopening Offer - Brent Oil Spikes Toward $1
 description: "Trump's rejection of Iran's Strait of Hormuz proposal sent Brent crude toward $106 and pulled S&P 500 and Nasdaq futures lower - here's why energy and airline stocks moved in opposite directions."
 published: 2026-09-28
 keywords: ["Trump rejects Iran proposal", "Strait of Hormuz reopening", "Brent oil price $106", "why is oil rising today", "S&P 500 futures drop", "airline stocks oil prices", "Exxon Chevron stock today", "Iran war stock market impact"]
-seo_audited: 2026-09-28
+seo_audited: 2026-11-21
 ---
 
 ## What Happened

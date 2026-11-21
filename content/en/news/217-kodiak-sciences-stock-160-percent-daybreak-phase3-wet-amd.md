@@ -4,7 +4,7 @@ title: "Kodiak Sciences (KOD) Stock Soars 160% on Phase 3 DAYBREAK Win - A Comeb
 description: "Kodiak Sciences stock more than doubled after its Phase 3 DAYBREAK trial hit in wet AMD. Here's how Zenkuda's 20-day half-life and the 2023 setback set up today's rally."
 published: 2026-09-28
 keywords: ["Kodiak Sciences stock", "KOD stock surge", "DAYBREAK Phase 3 results", "Zenkuda wet AMD", "tarcocimab tedromer", "Kodiak Sciences BLA", "Eylea Vabysmo competition", "wet AMD drug stock"]
-seo_audited: 2026-09-28
+seo_audited: 2026-11-21
 ---
 
 ## What Happened

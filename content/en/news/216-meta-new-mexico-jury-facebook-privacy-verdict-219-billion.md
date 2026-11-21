@@ -4,7 +4,7 @@ title: "Meta (META) Found Liable for 43.9 Million Privacy Violations in New Mexi
 description: "A New Mexico jury found Meta's Facebook liable for 43.9 million consumer-protection violations, opening the door to fines as high as $219.5 billion. Here's why META stock barely moved."
 published: 2026-09-28
 keywords: ["Meta stock New Mexico verdict", "Meta privacy violations jury", "Meta $219 billion fine", "Cambridge Analytica Meta lawsuit 2026", "why did Meta stock drop today", "New Mexico consumer protection lawsuit Meta", "Meta appeal jury verdict", "META stock news"]
-seo_audited: 2026-09-28
+seo_audited: 2026-11-21
 ---
 
 ## What Happened

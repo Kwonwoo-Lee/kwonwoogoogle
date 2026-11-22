@@ -5,7 +5,7 @@ description: "MSCI·서스틴얼리틱스 등급이 같은 회사를 놓고도 �
 order: 110
 updated: 2026-09-29
 keywords: ["ESG 투자란", "ESG 점수 산정 방식", "ESG 등급 기관마다 다른 이유", "그린워싱이란", "ESG 공시 의무화 2028", "MSCI ESG 등급", "지속가능경영보고서란"]
-seo_audited: 2026-09-29
+seo_audited: 2026-11-22
 ---
 
 ## 같은 회사인데 왜 어떤 곳에선 AAA, 어떤 곳에선 위험 등급일까

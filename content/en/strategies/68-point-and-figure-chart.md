@@ -5,7 +5,7 @@ description: "How Point and Figure charts plot X/O columns by box size and rever
 order: 68
 updated: 2026-09-29
 keywords: ["point and figure chart trading", "point and figure chart strategy", "P&F chart box size", "three box reversal", "point and figure price target", "double top breakout", "vertical count method", "how to read point and figure charts"]
-seo_audited: 2026-09-29
+seo_audited: 2026-11-22
 ---
 
 ## What Point and Figure Actually Plots

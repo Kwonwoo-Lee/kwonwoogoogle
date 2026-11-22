@@ -5,7 +5,7 @@ description: "Why MSCI and Sustainalytics can rate the same company in opposite 
 order: 110
 updated: 2026-09-29
 keywords: ["what is ESG investing", "how are ESG scores calculated", "why do ESG ratings differ", "what is greenwashing", "ESG disclosure mandate Korea", "MSCI ESG rating explained", "ESG rating vs stock performance"]
-seo_audited: 2026-09-29
+seo_audited: 2026-11-22
 ---
 
 ## Same Company, Opposite Grades: AAA From One Rater, "High Risk" From Another

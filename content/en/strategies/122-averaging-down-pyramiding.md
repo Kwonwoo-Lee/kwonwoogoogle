@@ -61,9 +61,9 @@ These are simplified, illustrative numbers meant to show the mechanics — not a
 |---|---|---|---|---|
 | 1st buy | $100 | 10 | $1,000 | $100 |
 | 2nd buy (averaging down) | $80 | 10 | $800 | $90 |
-| 3rd buy (averaging down) | $65 | 15 | $975 | $78.57 |
+| 3rd buy (averaging down) | $65 | 15 | $975 | $79.29 |
 
-If the price is now $65, the position's loss against the $78.57 average cost is about -17.3%. Had the trader never averaged down and just held the original 10 shares at $100, the loss at the same $65 price would be -35%. **The percentage loss looks far better after averaging down** — but the actual dollar loss tells a different story: -$135 for the single entry versus -$482.78 across the full averaged position. Capital at risk nearly tripled, from $1,000 to $2,775, which is exactly why a smaller percentage loss can still sit on top of a larger dollar loss.
+If the price is now $65, the position's loss against the $79.29 average cost is about -18.0%. Had the trader never averaged down and just held the original 10 shares at $100, the loss at the same $65 price would be -35%. **The percentage loss looks far better after averaging down** — but the actual dollar loss tells a different story: -$350 for the single entry versus -$500 across the full averaged position. Capital at risk nearly tripled, from $1,000 to $2,775, which is exactly why a smaller percentage loss can still sit on top of a larger dollar loss.
 
 ### Scenario B: Pyramiding — Higher Average Cost, a Stop That Rises With It
 

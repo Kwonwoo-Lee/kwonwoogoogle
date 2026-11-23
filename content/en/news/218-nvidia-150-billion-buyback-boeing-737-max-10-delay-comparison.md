@@ -4,7 +4,7 @@ title: "Nvidia's Record $150B Buyback (Now $235B Total) vs. Boeing's 7% Plunge: 
 description: "Nvidia authorized a record $150 billion buyback boost to $235 billion total, while Boeing shares fell 7% the same day on a 737 MAX 10 certification delay. Here's why."
 published: 2026-09-29
 keywords: ["Nvidia $150 billion buyback", "Nvidia $235 billion buyback total", "why did Boeing stock drop today", "737 MAX 10 certification delay", "Jensen Huang buyback statement", "Boeing software glitch FAA", "NVDA stock news today", "Boeing FAA certification postponed"]
-seo_audited: 2026-09-29
+seo_audited: 2026-11-23
 ---
 
 ## What Happened

@@ -4,7 +4,7 @@ title: "OpenAI Scraps GPT-6.1 Astra, Leaked Anthropic IPO Filing Warns of 'Exist
 description: "OpenAI canceled its GPT-6.1 Astra model over safety failures as a leaked Anthropic IPO filing warned of AI's existential risk, hammering chip stocks like Arm and AMD."
 published: 2026-09-29
 keywords: ["GPT-6.1 Astra cancelled", "why did OpenAI cancel GPT-6.1", "Anthropic IPO prospectus leaked", "Anthropic existential risk warning", "chip stocks fall September 2026", "Arm Intel AMD stock drop", "AMD market cap below $1 trillion", "AI safety risk stock market"]
-seo_audited: 2026-09-29
+seo_audited: 2026-11-23
 ---
 
 ## What Happened

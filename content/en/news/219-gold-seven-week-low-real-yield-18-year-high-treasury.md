@@ -4,7 +4,7 @@ title: "Gold Sinks to a Seven-Week Low Near $4,124 Even as Iran Tensions Simmer 
 description: "Gold fell to a seven-week low near $4,124/oz as the 10-year real yield hit an 18-year high, overpowering safe-haven demand from ongoing Iran tensions."
 published: 2026-09-29
 keywords: ["gold price seven week low", "why is gold falling today", "10-year Treasury yield 5.25 percent", "real yield 18-year high", "30-year Treasury yield 5.58 percent", "gold silver platinum selloff", "Treasury yields rising September 2026", "Fed October hike odds 70 percent"]
-seo_audited: 2026-09-29
+seo_audited: 2026-11-23
 ---
 
 ## What Happened

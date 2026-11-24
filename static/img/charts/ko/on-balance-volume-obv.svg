@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 330" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif">
+<rect x="0" y="0" width="620" height="330" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="14.5" fill="#20201a" text-anchor="middle" font-weight="700">가격은 신고점, OBV는 못 미치는 약세 다이버전스</text>
+
+<text x="40" y="46" font-size="12" fill="#1a5fb4" font-weight="700">가격</text>
+<path d="M 40,130 L 95,105 L 150,118 L 205,70 L 260,92 L 315,50 L 365,68" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+<line x1="95" y1="105" x2="315" y2="50" stroke="#1a5fb4" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.6"/>
+<circle cx="95" cy="105" r="5" fill="#1a5fb4"/>
+<circle cx="315" cy="50" r="5" fill="#1a5fb4"/>
+<text x="320" y="42" font-size="11" fill="#1a5fb4" font-weight="700">신고점</text>
+
+<text x="40" y="156" font-size="12" fill="#d0453b" font-weight="700">OBV(온밸런스 볼륨)</text>
+<path d="M 40,220 L 95,175 L 150,205 L 205,188 L 260,165 L 315,183 L 365,198" fill="none" stroke="#d0453b" stroke-width="3"/>
+<line x1="95" y1="175" x2="315" y2="183" stroke="#d0453b" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.6"/>
+<circle cx="95" cy="175" r="5" fill="#d0453b"/>
+<circle cx="315" cy="183" r="5" fill="#d0453b"/>
+<text x="320" y="196" font-size="11" fill="#d0453b" font-weight="700">직전보다 낮은 고점</text>
+
+<rect x="285" y="35" width="90" height="200" fill="#d0453b" opacity="0.06" stroke="#d0453b" stroke-width="1.2" stroke-dasharray="4,3"/>
+<text x="330" y="248" font-size="12" fill="#b03a30" text-anchor="middle" font-weight="700">다이버전스 구간</text>
+
+<line x1="40" y1="265" x2="580" y2="265" stroke="#e1e0d9"/>
+
+<rect x="40" y="275" width="540" height="45" rx="6" fill="#1a5fb4" opacity="0.04" stroke="#767568" stroke-width="1"/>
+<text x="60" y="292" font-size="11.5" fill="#20201a" font-weight="700">OBV 계산:</text>
+<text x="130" y="292" font-size="11" fill="#1f9d55" font-weight="700">상승 종가 → 거래량 더하기(+)</text>
+<text x="330" y="292" font-size="11" fill="#b03a30" font-weight="700">하락 종가 → 거래량 빼기(−)</text>
+<text x="60" y="309" font-size="10.5" fill="#5a5950">누적값의 절대 크기가 아니라, 가격과 비교한 "선의 모양"이 신호가 된다</text>
+
+<line x1="40" y1="328" x2="60" y2="328" stroke="#1a5fb4" stroke-width="3"/>
+<text x="68" y="331" font-size="11.5" fill="#20201a" text-anchor="start" font-weight="400">가격 흐름</text>
+<line x1="160" y1="328" x2="180" y2="328" stroke="#d0453b" stroke-width="3"/>
+<text x="188" y="331" font-size="11.5" fill="#20201a" text-anchor="start" font-weight="400">OBV 흐름</text>
+</svg>

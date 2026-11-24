@@ -5,7 +5,7 @@ description: "How to trade the volatility spike around FOMC and CPI releases usi
 order: 69
 updated: 2026-09-30
 keywords: ["how to trade FOMC", "CPI release trading strategy", "news trading strategy", "straddle breakout trading", "trading economic data releases", "FOMC trading strategy", "NFP trading strategy", "fade the news trading"]
-seo_audited: 2026-09-30
+seo_audited: 2026-11-24
 ---
 
 ## Why Scheduled Data Releases Move Markets Like a Light Switch

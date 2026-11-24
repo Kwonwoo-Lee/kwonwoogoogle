@@ -5,7 +5,7 @@ description: "How Korea's securities transaction tax is charged on the sale amou
 order: 113
 updated: 2026-09-30
 keywords: ["Korea securities transaction tax", "Korea stock transaction tax rate 2026", "KOSPI KOSDAQ transaction tax difference", "Korea farm fishery tax stocks", "financial transaction tax Korea", "Korea capital gains tax abolished", "how is stock tax calculated Korea"]
-seo_audited: 2026-09-30
+seo_audited: 2026-11-24
 ---
 
 ## You Sold at a Loss, and Money Still Came Out

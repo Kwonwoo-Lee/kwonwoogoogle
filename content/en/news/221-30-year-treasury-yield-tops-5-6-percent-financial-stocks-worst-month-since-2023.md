@@ -4,7 +4,7 @@ title: "30-Year Treasury Yield Tops 5.6%, Highest Since 2002 - Financial Stocks 
 description: "The 30-year Treasury yield broke above 5.6%, its highest level since 2002, as S&P 500 financials fell 6.3% in September - their worst month since 2023 - even as the Nasdaq gained."
 keywords: ["30-year Treasury yield 5.6 percent", "Treasury yield highest since 2002", "why are bank stocks falling September 2026", "financial sector worst month since 2023", "JPMorgan Morgan Stanley Bank of America stock", "KBE bank ETF decline", "Nasdaq financials divergence", "10-year Treasury yield 2007 high"]
 published: 2026-09-30
-seo_audited: 2026-09-30
+seo_audited: "2026-11-25"
 ---
 
 ## What Happened

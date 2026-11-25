@@ -4,7 +4,7 @@ title: "PCE Inflation Cools, Fed October Hike Odds Plunge From 70% to 37% - Nasd
 description: "August core PCE came in at 3.0%, below the 3.3% forecast, and Fed October rate-hike odds collapsed from 70% to 37% in days. The Nasdaq rose 1.05% as stocks rallied into quarter-end."
 published: 2026-09-30
 keywords: ["August PCE inflation report", "Fed October rate hike odds", "core PCE 3.0 percent", "why is the Nasdaq up today", "S&P 500 erases September losses", "CME FedWatch 37 percent", "why are Treasury yields falling", "December rate hike odds"]
-seo_audited: 2026-09-30
+seo_audited: "2026-11-25"
 ---
 
 ## What Happened

@@ -4,7 +4,7 @@ title: "AMD Buys Fei-Fei Li's World Labs for $8.2 Billion - AMD's Second-Biggest
 description: "AMD is acquiring Fei-Fei Li's spatial-intelligence startup World Labs in an all-stock deal worth about $8.2 billion, its biggest acquisition since Xilinx, as it challenges Nvidia's head start in physical AI."
 published: 2026-09-30
 keywords: ["AMD World Labs acquisition", "AMD $8.2 billion deal", "Fei-Fei Li joins AMD", "AMD stock news today", "what is a world model", "physical AI stocks", "AMD vs Nvidia AI race", "AMD biggest acquisition since Xilinx"]
-seo_audited: 2026-09-30
+seo_audited: "2026-11-25"
 ---
 
 ## What Happened

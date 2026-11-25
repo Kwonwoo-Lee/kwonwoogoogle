@@ -5,7 +5,7 @@ description: "Why buying past 5% of a Korean listed company triggers a mandatory
 order: 115
 updated: 2026-10-01
 keywords: ["Korea 5% rule stocks", "beneficial ownership report Korea", "Korea large shareholding disclosure", "cooling-off period stock ownership", "DART ownership filing explained", "Korea Schedule 13D 13G equivalent", "shareholder activism disclosure Korea"]
-seo_audited: 2026-10-01
+seo_audited: "2026-11-25"
 ---
 
 ## A Filing Appears Out of Nowhere: "6.02% Stake Acquired"

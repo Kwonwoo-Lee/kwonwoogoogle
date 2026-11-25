@@ -5,7 +5,7 @@ description: "How Korean court receivership differs from liquidation, why plan a
 order: 114
 updated: 2026-10-01
 keywords: ["what is corporate rehabilitation Korea", "court receivership shareholders", "debt-to-equity swap dilution", "Korean bankruptcy law shareholders", "corporate rehabilitation plan approval", "court receivership vs delisting", "Chapter 11 Korea equivalent"]
-seo_audited: 2026-10-01
+seo_audited: "2026-11-25"
 ---
 
 ## A Company "Enters Court Receivership" — What Does That Actually Mean for Shareholders?

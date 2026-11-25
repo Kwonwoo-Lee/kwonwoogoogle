@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 400" font-family="'Segoe UI', Arial, sans-serif">
+<rect x="0" y="0" width="620" height="400" rx="12" fill="#fdfdfb" stroke="#e1e0d9"/>
+<text x="310" y="26" font-size="15" fill="#20201a" text-anchor="middle" font-weight="700">Commodity Futures Curve and Roll Yield: Contango vs Backwardation</text>
+
+<!-- Contango panel -->
+<text x="150" y="52" font-size="12" fill="#b8860b" text-anchor="middle" font-weight="700">Contango (default for storable commodities)</text>
+<line x1="60" y1="150" x2="60" y2="60" stroke="#8a8a7c" stroke-width="1.5"/>
+<line x1="60" y1="150" x2="270" y2="150" stroke="#8a8a7c" stroke-width="1.5"/>
+<path d="M 60,135 L 130,118 L 200,98 L 270,75" fill="none" stroke="#b8860b" stroke-width="3"/>
+<circle cx="60" cy="135" r="4" fill="#b8860b"/>
+<circle cx="130" cy="118" r="4" fill="#b8860b"/>
+<circle cx="200" cy="98" r="4" fill="#b8860b"/>
+<circle cx="270" cy="75" r="4" fill="#b8860b"/>
+<text x="60" y="165" font-size="10.5" fill="#5a5a4e" text-anchor="middle">Spot</text>
+<text x="130" y="165" font-size="10.5" fill="#5a5a4e" text-anchor="middle">Front month</text>
+<text x="200" y="165" font-size="10.5" fill="#5a5a4e" text-anchor="middle">Next month</text>
+<text x="270" y="165" font-size="10.5" fill="#5a5a4e" text-anchor="middle">Deferred</text>
+<path d="M 130,115 L 100,135" fill="none" stroke="#d0453b" stroke-width="1.5" stroke-dasharray="4,3"/>
+<text x="92" y="130" font-size="10" fill="#d0453b" text-anchor="end">Roll cost</text>
+
+<!-- Backwardation panel -->
+<text x="470" y="52" font-size="12" fill="#1f9d55" text-anchor="middle" font-weight="700">Backwardation (supply shocks, inventory draws)</text>
+<line x1="380" y1="150" x2="380" y2="60" stroke="#8a8a7c" stroke-width="1.5"/>
+<line x1="380" y1="150" x2="590" y2="150" stroke="#8a8a7c" stroke-width="1.5"/>
+<path d="M 380,75 L 450,98 L 520,118 L 590,135" fill="none" stroke="#1f9d55" stroke-width="3"/>
+<circle cx="380" cy="75" r="4" fill="#1f9d55"/>
+<circle cx="450" cy="98" r="4" fill="#1f9d55"/>
+<circle cx="520" cy="118" r="4" fill="#1f9d55"/>
+<circle cx="590" cy="135" r="4" fill="#1f9d55"/>
+<text x="380" y="165" font-size="10.5" fill="#5a5a4e" text-anchor="middle">Spot</text>
+<text x="450" y="165" font-size="10.5" fill="#5a5a4e" text-anchor="middle">Front month</text>
+<text x="520" y="165" font-size="10.5" fill="#5a5a4e" text-anchor="middle">Next month</text>
+<text x="590" y="165" font-size="10.5" fill="#5a5a4e" text-anchor="middle">Deferred</text>
+<path d="M 450,95 L 480,75" fill="none" stroke="#1f9d55" stroke-width="1.5" stroke-dasharray="4,3"/>
+<text x="488" y="78" font-size="10" fill="#1f9d55" text-anchor="start">Roll yield</text>
+
+<line x1="40" y1="195" x2="580" y2="195" stroke="#e1e0d9" stroke-width="1"/>
+
+<!-- Cumulative ETF vs spot drift -->
+<text x="310" y="220" font-size="12.5" fill="#20201a" text-anchor="middle" font-weight="700">Sustained contango: ETF value gradually lags spot price</text>
+<line x1="60" y1="330" x2="580" y2="330" stroke="#8a8a7c" stroke-width="1.5"/>
+<line x1="60" y1="330" x2="60" y2="250" stroke="#8a8a7c" stroke-width="1.5"/>
+
+<path d="M 60,295 L 150,290 L 240,284 L 330,280 L 420,276 L 510,270 L 580,266" fill="none" stroke="#20201a" stroke-width="2.5"/>
+<path d="M 60,295 L 150,304 L 240,314 L 330,320 L 420,326 L 510,329 L 580,331" fill="none" stroke="#b8860b" stroke-width="2.5" stroke-dasharray="6,4"/>
+
+<rect x="60" y="250" width="520" height="80" fill="#b8860b" opacity="0.06"/>
+<text x="310" y="345" font-size="10.5" fill="#8a8a7c" text-anchor="middle">Time →</text>
+
+<line x1="50" y1="378" x2="80" y2="378" stroke="#20201a" stroke-width="3"/>
+<text x="88" y="383" font-size="12.5" fill="#20201a" text-anchor="start">Spot price (assumed flat)</text>
+<line x1="320" y1="378" x2="350" y2="378" stroke="#b8860b" stroke-width="3" stroke-dasharray="6,4"/>
+<text x="358" y="383" font-size="12.5" fill="#20201a" text-anchor="start">Futures-based ETF value (contango roll cost accrues)</text>
+</svg>

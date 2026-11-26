@@ -4,7 +4,7 @@ title: "Boeing Beats Northrop Grumman for Navy's $20B F/A-XX Fighter Contract - 
 description: "Boeing won the Navy's sixth-generation F/A-XX fighter contract over Northrop Grumman, a deal worth $20B+. Just days after a 737 MAX 10 plunge, here's how Boeing's stock staged a sharp reversal."
 published: 2026-10-01
 keywords: ["Boeing F/A-XX contract", "Boeing Navy fighter jet win", "why did Northrop Grumman stock drop", "why is Boeing stock up today", "F/A-XX $20 billion contract", "Boeing vs Northrop Grumman stock", "Boeing second sixth-gen fighter win", "BA stock news today"]
-seo_audited: 2026-10-01
+seo_audited: 2026-11-26
 ---
 
 ## What Happened

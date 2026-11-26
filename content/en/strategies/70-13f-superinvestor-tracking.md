@@ -5,7 +5,7 @@ description: "Learn to read 13F filings to screen for new buys and overlapping b
 order: 70
 updated: 2026-10-01
 keywords: ["13F filing", "how to read 13F filings", "clone superinvestor portfolio", "Warren Buffett portfolio tracker", "13F tracker", "institutional holdings tracking", "13F new buys screener", "whale watching stocks"]
-seo_audited: 2026-10-01
+seo_audited: 2026-11-26
 ---
 
 ## Why "What Buffett Bought" Is Still News Every Quarter

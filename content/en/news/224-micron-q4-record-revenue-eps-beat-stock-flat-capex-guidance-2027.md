@@ -4,7 +4,7 @@ title: "Micron (MU) Posts Record $54.2B Q4 Revenue, Crushes EPS Estimates - Stoc
 description: "Micron's Q4 revenue of $54.23B and EPS of $33.42 both blew past estimates, but shares were nearly flat. Here's why a $25 billion first-half FY2027 capex plan overshadowed a blowout quarter."
 published: 2026-10-01
 keywords: ["Micron Q4 earnings 2026", "why didn't Micron stock go up", "Micron capex guidance 2027", "Micron HBM revenue", "MU stock price target", "Micron stock today", "memory chip cycle 2027", "Micron fiscal Q1 2027 guidance"]
-seo_audited: 2026-10-01
+seo_audited: 2026-11-26
 ---
 
 ## What Happened

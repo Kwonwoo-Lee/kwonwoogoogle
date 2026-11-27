@@ -5,7 +5,7 @@ description: "How Korea's ±30% daily price limit works, why two straight limit-
 order: 116
 updated: 2026-10-02
 keywords: ["Korea stock price limit", "limit up limit down Korea 30%", "what is daily price limit stock", "KOSPI KOSDAQ price band", "Korea IPO first day price limit", "circuit breaker vs price limit difference"]
-seo_audited: "2026-10-02"
+seo_audited: "2026-11-27"
 ---
 
 ## Two Straight Limit-Up Days Isn't a 60% Gain

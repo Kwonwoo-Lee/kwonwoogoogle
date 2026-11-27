@@ -5,7 +5,7 @@ description: "Why executives and major shareholders who buy and sell their own c
 order: 117
 updated: 2026-10-02
 keywords: ["short-swing profit rule Korea", "what is short swing profit", "insider must return stock profit", "section 16b vs Korea insider rule", "six month stock trading rule executives", "short swing profit calculation"]
-seo_audited: "2026-10-02"
+seo_audited: "2026-11-27"
 ---
 
 ## A Notice to Return Profit — Even on a Trade That Lost Money Overall

@@ -4,7 +4,7 @@ title: "US Sends Third Aircraft Carrier Near Iran, Oil Jumps 4.4% to $102 - Why 
 description: "The US is deploying a third aircraft carrier and 10,000 more troops near Iran, sending Brent crude up 4.4% to $102. Here's why the S&P 500 closed higher the same day."
 published: 2026-10-02
 keywords: ["US third aircraft carrier Iran", "Brent crude $102 jump", "USS Theodore Roosevelt deployment", "why did oil spike October 2026", "why did S&P 500 rise today", "Occidental Petroleum stock today", "Trump Iran strikes midterms", "Iran escalation stock market impact"]
-seo_audited: 2026-10-02
+seo_audited: 2026-11-28
 ---
 
 ## What Happened

@@ -4,7 +4,7 @@ title: "September Jobs Shock: Payrolls Up Just 29,000, Fed October Hike Odds Col
 description: "US payrolls rose just 29,000 in September versus 90,000 expected, sending Fed October hike odds from 69% to 17% and the Nasdaq 100 to an intraday record."
 published: 2026-10-02
 keywords: ["September jobs report 2026", "nonfarm payrolls 29000", "unemployment rate 4.2% today", "Fed October rate hike odds", "Nasdaq 100 record high today", "why are tech stocks up today", "Intel stock surge October 2026", "CME FedWatch October probability"]
-seo_audited: 2026-10-02
+seo_audited: 2026-11-28
 ---
 
 ## What Happened

@@ -4,7 +4,7 @@ title: "Google Sends AI Chips Into Orbit on a SpaceX Rocket - What Project Sunca
 description: "Google launched a TPU-equipped satellite aboard a SpaceX Falcon 9 on October 1, the first real-world test of its Project Suncatcher space data center concept. Here's what it means and how GOOGL reacted."
 published: 2026-10-02
 keywords: ["Project Suncatcher", "Google space data center", "Alphabet stock news", "Google AI chips in space", "SpaceX Falcon 9 Google launch", "TPU satellite", "space AI infrastructure stocks", "Planet Labs Google partnership"]
-seo_audited: 2026-10-02
+seo_audited: 2026-11-28
 ---
 
 ## What Happened

@@ -4,7 +4,7 @@ title: "Seagate Plunges 11%, Western Digital Falls 7% After Toshiba Says It Will
 description: "Seagate dropped 11% and Western Digital fell 7% after a report that Toshiba plans to double HDD production capacity by fiscal 2027, rattling the AI storage pricing-power story."
 published: 2026-10-02
 keywords: ["Seagate stock drop reason", "Western Digital stock falls Toshiba", "Toshiba HDD capacity expansion plan", "AI storage demand hard drive stocks", "Seagate vs Western Digital stock", "hard drive oversupply fears 2027", "STX WDC stock today", "nearline HDD pricing outlook"]
-seo_audited: 2026-10-02
+seo_audited: 2026-11-28
 ---
 
 ## What Happened

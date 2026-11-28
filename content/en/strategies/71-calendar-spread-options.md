@@ -5,7 +5,7 @@ description: "How selling a near-term option and buying a longer-dated one at th
 order: 71
 updated: 2026-10-02
 keywords: ["calendar spread strategy", "what is a calendar spread", "options calendar spread explained", "earnings calendar spread", "time spread options", "double calendar spread", "front month back month options", "how to trade calendar spreads"]
-seo_audited: 2026-10-02
+seo_audited: 2026-11-28
 ---
 
 ## What a Calendar Spread Is: Trading the Same Strike Across Two Expirations

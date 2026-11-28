@@ -5,6 +5,7 @@ description: "How the separation of ownership and control creates the agency pro
 order: 230
 updated: 2026-11-28
 keywords: ["agency problem explained", "principal agent problem finance", "agency cost meaning", "shareholder management conflict of interest", "Jensen Meckling agency theory", "controlling shareholder minority shareholder conflict", "how to reduce agency problem"]
+seo_audited: 2026-11-28
 ---
 
 ## It's My Money — So Why Can't I Decide How It's Spent?
